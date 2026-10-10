@@ -1,0 +1,112 @@
+{
+  "events": 3000,
+  "parameters": {
+    "shared_threshold": 0.45,
+    "edge_threshold": 0.55,
+    "triplet_threshold": 0.3,
+    "min_branch_exclusive": 2,
+    "min_local_edge": 0.55,
+    "local_rms_limit": 0.9,
+    "triplet_model_file": "D:\\pycharm\\root操作\\AI工程化5\\models\\triplet_classifier_focal_v1.joblib",
+    "classifier_threshold": 0.5,
+    "min_shared_split": 0.35,
+    "max_fake_probability": 0.2,
+    "split_margin": 0.05
+  },
+  "metrics": {
+    "baseline": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "algorithm_matched_tracks": 87251,
+      "algorithm_lost_tracks": 1419,
+      "fake_tracks": 1150,
+      "clone_tracks": 127,
+      "visible_5_6_tracks": 5537,
+      "matched_5_6_tracks": 4441,
+      "algorithm_efficiency_given_visible": 0.9839968422239765,
+      "end_to_end_efficiency_from_source": 0.972719570113046,
+      "algorithm_efficiency_5_6_visible": 0.8020588766480043,
+      "mean_fake_tracks": 0.38333333333333336,
+      "mean_clone_tracks": 0.042333333333333334
+    },
+    "hybrid_merged": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "algorithm_matched_tracks": 87372,
+      "algorithm_lost_tracks": 1298,
+      "fake_tracks": 5025,
+      "clone_tracks": 129,
+      "visible_5_6_tracks": 5537,
+      "matched_5_6_tracks": 4525,
+      "algorithm_efficiency_given_visible": 0.9853614525769708,
+      "end_to_end_efficiency_from_source": 0.9740685411045954,
+      "algorithm_efficiency_5_6_visible": 0.8172295466859311,
+      "mean_fake_tracks": 1.675,
+      "mean_clone_tracks": 0.043
+    },
+    "edge_graph_shared_split": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "algorithm_matched_tracks": 87251,
+      "algorithm_lost_tracks": 1419,
+      "fake_tracks": 1150,
+      "clone_tracks": 127,
+      "visible_5_6_tracks": 5537,
+      "matched_5_6_tracks": 4441,
+      "algorithm_efficiency_given_visible": 0.9839968422239765,
+      "end_to_end_efficiency_from_source": 0.972719570113046,
+      "algorithm_efficiency_5_6_visible": 0.8020588766480043,
+      "mean_fake_tracks": 0.38333333333333336,
+      "mean_clone_tracks": 0.042333333333333334
+    },
+    "edge_graph_local_in": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "algorithm_matched_tracks": 87273,
+      "algorithm_lost_tracks": 1397,
+      "fake_tracks": 1240,
+      "clone_tracks": 140,
+      "visible_5_6_tracks": 5537,
+      "matched_5_6_tracks": 4460,
+      "algorithm_efficiency_given_visible": 0.9842449531972483,
+      "end_to_end_efficiency_from_source": 0.972964837566055,
+      "algorithm_efficiency_5_6_visible": 0.8054903377280116,
+      "mean_fake_tracks": 0.41333333333333333,
+      "mean_clone_tracks": 0.04666666666666667
+    }
+  },
+  "delta": {
+    "hybrid_merged": {
+      "algorithm_matched_tracks": 121,
+      "algorithm_efficiency_given_visible": 0.0013646103529942888,
+      "end_to_end_efficiency_from_source": 0.001348970991549403,
+      "algorithm_efficiency_5_6_visible": 0.015170670037926715,
+      "mean_fake_tracks": 1.2916666666666667,
+      "mean_clone_tracks": 0.0006666666666666626
+    },
+    "edge_graph_shared_split": {
+      "algorithm_matched_tracks": 0,
+      "algorithm_efficiency_given_visible": 0.0,
+      "end_to_end_efficiency_from_source": 0.0,
+      "algorithm_efficiency_5_6_visible": 0.0,
+      "mean_fake_tracks": 0.0,
+      "mean_clone_tracks": 0.0
+    },
+    "edge_graph_local_in": {
+      "algorithm_matched_tracks": 22,
+      "algorithm_efficiency_given_visible": 0.00024811097327170906,
+      "end_to_end_efficiency_from_source": 0.00024526745300901265,
+      "algorithm_efficiency_5_6_visible": 0.0034314610800072476,
+      "mean_fake_tracks": 0.02999999999999997,
+      "mean_clone_tracks": 0.004333333333333335
+    }
+  },
+  "diagnostics": {
+    "residual_nodes": 149334,
+    "shared_split_candidates": 0,
+    "shared_split_accepted": 0,
+    "local_in_candidates": 139,
+    "local_in_accepted": 125
+  },
+  "contract": "local edge graph uses observable edge/node scores; truth is offline only"
+}

@@ -1,0 +1,16 @@
+{
+  "purpose": "threshold calibration only; not an independent test set",
+  "source_pool": "validation event IDs",
+  "original_test_untouched": true,
+  "seed": 23260823,
+  "noise_rate_hz": 100000.0,
+  "sigma_t_ns": 3.0,
+  "summary": {
+    "graphs": 3000,
+    "mean_tracks": 29.824666666666666,
+    "mean_nodes": 318.006,
+    "mean_noise_nodes": 42.843,
+    "shared_nodes": 0
+  },
+  "dataset": "D:\\pycharm\\root操作\\AI工程化4\\dataset_calibration_threshold_calibration_v1.pt"
+}

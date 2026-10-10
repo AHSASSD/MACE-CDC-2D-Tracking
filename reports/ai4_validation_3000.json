@@ -1,0 +1,74 @@
+{
+  "audit_dir": "D:\\pycharm\\root操作\\AI工程化5\\data\\audit_validation_3000",
+  "model_file": "D:\\pycharm\\root操作\\AI工程化4\\best_interaction_network_time_clean_physics_v2.pth",
+  "events": 3000,
+  "features": "time",
+  "pipeline": "strongest",
+  "thresholds": {
+    "strict": 0.7,
+    "relaxed": 0.575,
+    "rerun": 0.55,
+    "rerun_rms": 0.2
+  },
+  "conventions": {
+    "exclusive_winner": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "physically_unreconstructable_tracks": 1028,
+      "algorithm_matched_tracks": 87251,
+      "algorithm_lost_tracks": 1419,
+      "fake_tracks": 1150,
+      "clone_tracks": 127,
+      "source_hits": 907322,
+      "visible_hits": 827532,
+      "visible_track_bins": {
+        "7_10": 66901,
+        "11_20": 16179,
+        "5_6": 5537,
+        "21_plus": 53
+      },
+      "matched_track_bins": {
+        "7_10": 66620,
+        "11_20": 16155,
+        "5_6": 4441,
+        "21_plus": 35
+      },
+      "physics_track_survival": 0.9885393208321256,
+      "algorithm_efficiency_given_visible": 0.9839968422239765,
+      "end_to_end_efficiency_from_source": 0.972719570113046,
+      "algorithm_efficiency_5_6_visible": 0.8020588766480043,
+      "mean_fake_tracks": 0.38333333333333336,
+      "mean_clone_tracks": 0.042333333333333334
+    },
+    "shared_credit": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 89698,
+      "physically_unreconstructable_tracks": 0,
+      "algorithm_matched_tracks": 87423,
+      "algorithm_lost_tracks": 2275,
+      "fake_tracks": 954,
+      "clone_tracks": 151,
+      "source_hits": 907322,
+      "visible_hits": 896872,
+      "visible_track_bins": {
+        "7_10": 65696,
+        "11_20": 23944,
+        "21_plus": 53,
+        "5_6": 5
+      },
+      "matched_track_bins": {
+        "7_10": 64213,
+        "11_20": 23171,
+        "21_plus": 34,
+        "5_6": 5
+      },
+      "physics_track_survival": 1.0,
+      "algorithm_efficiency_given_visible": 0.9746371156547526,
+      "end_to_end_efficiency_from_source": 0.9746371156547526,
+      "algorithm_efficiency_5_6_visible": 1.0,
+      "mean_fake_tracks": 0.318,
+      "mean_clone_tracks": 0.050333333333333334
+    }
+  },
+  "elapsed_seconds": 1936.6870611999911
+}

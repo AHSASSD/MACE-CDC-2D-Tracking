@@ -1,0 +1,78 @@
+{
+  "source_hits": "(81883, 21)",
+  "source_split": "D:\\pycharm\\root操作\\AI工程化4\\event_split.json",
+  "seed": 20260823,
+  "track_distribution": {
+    "name": "truncated_poisson",
+    "mean": 30.0,
+    "min": 5,
+    "max": 60
+  },
+  "detector": {
+    "dead_time": "non-paralyzable per CellID, ordered by t_obs",
+    "dead_time_ns": 100.0,
+    "event_window_ns": 300.0
+  },
+  "noise": {
+    "rate_hz": 100000.0,
+    "per_cell_mean": 0.03,
+    "all_cells_compete": true,
+    "distance_mm": "uniform(0,6)"
+  },
+  "timing": {
+    "sigma_t_ns": 3.0,
+    "internal_time": "t_window=t-t0",
+    "measurement": "t_obs=t_window+Normal(0,sigma)",
+    "model_inputs_exclude": [
+      "t0",
+      "tHit",
+      "t_window"
+    ]
+  },
+  "distance": {
+    "measurement": "d_obs=abs(d_truth+Normal(0,0.075 mm))",
+    "sigma_mm": 0.075
+  },
+  "features": {
+    "time": {
+      "node": 7,
+      "edge": 6
+    },
+    "no-time": {
+      "node": 6,
+      "edge": 4
+    },
+    "excluded_truth_inputs": [
+      "is_noise",
+      "shared_hit",
+      "t0",
+      "tHit",
+      "t_window",
+      "t_rel",
+      "dt_rel"
+    ]
+  },
+  "summary": {
+    "train": {
+      "graphs": 4000,
+      "mean_tracks": 29.94175,
+      "mean_nodes": 317.71175,
+      "mean_noise_nodes": 42.646,
+      "shared_nodes": 0
+    },
+    "validation": {
+      "graphs": 1000,
+      "mean_tracks": 30.056,
+      "mean_nodes": 319.154,
+      "mean_noise_nodes": 42.685,
+      "shared_nodes": 0
+    },
+    "test": {
+      "graphs": 1000,
+      "mean_tracks": 29.794,
+      "mean_nodes": 318.389,
+      "mean_noise_nodes": 42.474,
+      "shared_nodes": 0
+    }
+  }
+}

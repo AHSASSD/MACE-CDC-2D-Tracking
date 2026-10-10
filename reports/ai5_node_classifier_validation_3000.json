@@ -1,0 +1,62 @@
+{
+  "audit_dir": "D:\\pycharm\\root操作\\AI工程化5\\data\\audit_validation_3000",
+  "edge_model_file": "D:\\pycharm\\root操作\\AI工程化4\\best_interaction_network_time_clean_physics_v2.pth",
+  "node_model_file": "D:\\pycharm\\root操作\\AI工程化5\\models\\best_node_state_classifier_node_state_v1.pth",
+  "events": 3000,
+  "thresholds": {
+    "noise": 0.95,
+    "shared": 0.45
+  },
+  "node_metrics": {
+    "noise": {
+      "threshold": 0.95,
+      "tp": 126748,
+      "fp": 141,
+      "fn": 717,
+      "tn": 827391,
+      "precision": 0.9988887925667316,
+      "recall": 0.9943749264503982,
+      "f1": 0.9966267485473003
+    },
+    "shared": {
+      "threshold": 0.45,
+      "tp": 61832,
+      "fp": 3275,
+      "fn": 4060,
+      "tn": 885830,
+      "precision": 0.9496981891348089,
+      "recall": 0.938384022339586,
+      "f1": 0.944007206161879
+    },
+    "mean_uncertainty": 0.02419184883363456
+  },
+  "candidate_metrics": {
+    "baseline": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "algorithm_matched_tracks": 87251,
+      "algorithm_lost_tracks": 1419,
+      "fake_tracks": 1150,
+      "clone_tracks": 127,
+      "algorithm_efficiency_given_visible": 2954.1087347546095,
+      "end_to_end_efficiency_from_source": 2922.193196115309,
+      "algorithm_efficiency_5_6_visible": 1894.0178571428585
+    },
+    "hard_noise_filter": {
+      "source_eligible_tracks": 89698,
+      "electronics_visible_tracks": 88670,
+      "algorithm_matched_tracks": 87253,
+      "algorithm_lost_tracks": 1417,
+      "fake_tracks": 1151,
+      "clone_tracks": 127,
+      "algorithm_efficiency_given_visible": 2954.164290310165,
+      "end_to_end_efficiency_from_source": 2922.2444781665913,
+      "algorithm_efficiency_5_6_visible": 1894.0178571428585
+    }
+  },
+  "diagnostics": {
+    "hard_noise_nodes": 126889,
+    "shared_candidate_nodes": 65107
+  },
+  "contract": "node truth is used only for offline targets; hard filter is an ablation, no shared rerun yet"
+}

@@ -1,0 +1,111 @@
+{
+  "source_project": "../AI工程化4",
+  "models": {
+    "time": "../AI工程化4/best_interaction_network_time_clean_physics_v2.pth",
+    "no-time": "../AI工程化4/best_interaction_network_no_time_clean_physics_v2.pth"
+  },
+  "pipeline": "strongest",
+  "strict_threshold": 0.7,
+  "relaxed_threshold": 0.575,
+  "rerun_threshold": 0.55,
+  "rerun_rms": 0.2,
+  "validation_audit": "data/audit_validation_3000",
+  "validation_report": "reports/validation_ai4_time_strongest.json",
+  "validation_metrics": {
+    "physics_track_survival": 0.9885393208321256,
+    "algorithm_efficiency_given_visible": 0.9839968422239765,
+    "end_to_end_efficiency_from_source": 0.972719570113046,
+    "algorithm_efficiency_5_6_visible": 0.8020588766480043,
+    "mean_fake_tracks": 0.38333333333333336,
+    "mean_clone_tracks": 0.042333333333333334
+  },
+  "shared025_report": "reports/validation_ai5_contract_shared025_v1.json",
+  "shared025_gate": "failed; do not promote",
+  "shared075_report": "reports/validation_ai5_contract_shared075_v1.json",
+  "shared075_compare": "reports/validation_compare_ai4_vs_shared075.json",
+  "shared075_gate": "failed; near baseline but lower short-track efficiency and higher clones",
+  "node_classifier_model": "models/best_node_state_classifier_node_state_v1.pth",
+  "node_classifier_report": "reports/node_classifier_validation_3000.json",
+  "node_classifier_status": "validated; use as local reconnect signal, hard noise filter alone not promoted",
+  "node_classifier_validation": {
+    "noise_f1": 0.9966267485473003,
+    "shared_f1": 0.944007206161879,
+    "noise_threshold": 0.95,
+    "shared_threshold": 0.45
+  },
+  "shared_local_reconnect_report": "reports/shared_local_reconnect_validation_3000.json",
+  "shared_local_reconnect_status": "recovery signal confirmed but gate failed; candidate adjudication and attribution required",
+  "shared_local_reconnect_validation": {
+    "matched_track_delta": 55,
+    "short_efficiency_delta": 0.008849557522123908,
+    "fake_per_event_delta": 0.01633333333333331,
+    "clone_per_event_delta": 0.006999999999999999,
+    "accepted_candidates": 125,
+    "borrowed_shared_hits": 84
+  },
+  "shared_candidate_audit_report": "reports/shared_candidate_audit_validation_300.json",
+  "shared_candidate_audit_status": "12 candidates only; no-borrow recovery dominates, no rule promoted",
+  "shared_candidate_adjudication_report": "reports/shared_candidate_adjudication_validation_3000.json",
+  "shared_candidate_adjudication_status": "locked gate failed; no-borrow retains recovery signal, borrowed branch rejected",
+  "shared_candidate_adjudication_locked": {
+    "no_borrow": {"new_match": 9, "new_match_5_6": 8, "fake": 4, "clone": 0},
+    "borrowed": {"new_match": 1, "new_match_5_6": 1, "fake": 2, "clone": 2},
+    "gate_passed": false
+  },
+  "shared_conflict_report": "reports/shared_conflict_validation_3000.json",
+  "shared_conflict_policy": "diagnostic_only_truth_derived",
+  "classic_residual_report": "reports/classic_residual_validation_300.json",
+  "classic_residual_candidate_train_report": "reports/classic_residual_candidate_audit_train_300.json",
+  "classic_residual_candidate_validation_report": "reports/classic_residual_candidate_audit_validation_300.json",
+  "classic_residual_validation_full_report": "reports/classic_residual_validation_3000.json",
+  "classic_shared_residual_validation_report": "reports/classic_shared_residual_validation_300.json",
+  "classic_residual_candidate_train_full_report": "reports/classic_residual_candidate_audit_train_4000.json",
+  "classic_candidate_adjudicator_model": "models/classic_candidate_adjudicator_v1.joblib",
+  "classic_candidate_adjudicator_report": "reports/classic_candidate_adjudicator_train_4000.json",
+  "classic_residual_status": "hybrid generator confirmed; fragment permission is precise but fragments require further expansion; candidate adjudicator not promoted",
+  "classic_residual_validation_300": {
+    "hybrid_matched_delta": 20,
+    "hybrid_short_5_6_matched_delta": 16,
+    "hybrid_fake_delta": 48,
+    "hybrid_clone_delta": 0,
+    "hybrid_merged_matched_delta": 21,
+    "hybrid_merged_short_5_6_matched_delta": 16,
+    "hybrid_merged_fake_delta": 42,
+    "hybrid_merged_clone_delta": 0
+  },
+  "classic_candidate_adjudicator_validation_300": {
+    "accept_only_matched_delta": 6,
+    "accept_only_short_5_6_matched_delta": 4,
+    "accept_only_fake_delta": 5,
+    "fragment_merge_matched_delta": 0,
+    "fragment_merge_fake_delta": 2,
+    "combined_gate_passed": false
+  },
+  "classic_residual_validation_3000": {
+    "hybrid_merged_matched_delta": 175,
+    "hybrid_merged_short_5_6_matched_delta": 124,
+    "hybrid_merged_fake_delta": 478,
+    "hybrid_merged_clone_delta": 4,
+    "accept_only_matched_delta": 66,
+    "accept_only_short_5_6_matched_delta": 46,
+    "accept_only_fake_delta": 51,
+    "accept_only_clone_delta": 0,
+    "fragment_merge_matched_delta": 2,
+    "fragment_merge_fake_delta": 11,
+    "promoted": false
+  },
+  "classic_shared_residual_validation_300": {
+    "shared_threshold": 0.45,
+    "residual_nodes": 2190,
+    "shared_residual_nodes": 7510,
+    "shared_nodes_added": 5320,
+    "shared_hybrid_matched_delta": 6,
+    "shared_hybrid_fake_delta": 614,
+    "shared_hybrid_clone_delta": 39,
+    "shared_hybrid_merged_matched_delta": 7,
+    "shared_hybrid_merged_fake_delta": 609,
+    "shared_hybrid_merged_clone_delta": 39,
+    "promoted": false
+  },
+  "policy": "AI4 artifacts are read-only baselines; incomplete AI5 no-time training is not a valid model"
+}

@@ -1,0 +1,64 @@
+{
+  "feature_variant": "time",
+  "expert_tag": "bridge_v2",
+  "version": 2,
+  "base_model": "D:\\pycharm\\root操作\\AI工程化4\\best_interaction_network_time_clean_physics_v2.pth",
+  "residual_dataset": "D:\\pycharm\\root操作\\AI工程化4\\step4_residual_expert\\dataset_v2_time_clean_physics_v2_s0700_r0575_tpall_vpall\\metadata.json",
+  "trainable_module": "edge_classifier",
+  "trainable_parameters": [
+    "edge_classifier.0.weight",
+    "edge_classifier.0.bias",
+    "edge_classifier.3.weight",
+    "edge_classifier.3.bias"
+  ],
+  "loss": {
+    "bridge_positive_weight": 5.0,
+    "bridge_negative_weight": 1.5,
+    "distill_weight": 0.1
+  },
+  "selection_metric": "validation bridge-edge F2, tie-break all-edge F1",
+  "baseline_validation": {
+    "threshold": 0.3,
+    "all_edges": {
+      "precision": 0.5248231820366682,
+      "recall": 0.9157680325904625,
+      "f1": 0.6672486795582522,
+      "tp": 7643,
+      "fp": 6920,
+      "fn": 703
+    },
+    "bridge_edges": {
+      "precision": 0.29890259079081344,
+      "recall": 0.8645287958115183,
+      "f2": 0.6271661206855623,
+      "tp": 2642,
+      "fp": 6197,
+      "fn": 414
+    }
+  },
+  "best_validation": {
+    "threshold": 0.4,
+    "all_edges": {
+      "precision": 0.5325242056457111,
+      "recall": 0.9357776180206087,
+      "f1": 0.6787762906309751,
+      "tp": 7810,
+      "fp": 6856,
+      "fn": 536
+    },
+    "bridge_edges": {
+      "precision": 0.3096125607138823,
+      "recall": 0.8969240837696335,
+      "f2": 0.6502348531574702,
+      "tp": 2741,
+      "fp": 6112,
+      "fn": 315
+    }
+  },
+  "best_epoch": 8,
+  "improved_over_base": true,
+  "completed_epochs": 8,
+  "learning_rate": 5e-05,
+  "training_seed": 20260829,
+  "elapsed_seconds": 8839.436250448227
+}

@@ -1,0 +1,29 @@
+{
+  "project": "AI5",
+  "task": "noise_and_shared_node_classification",
+  "data_tag": "ai4_strongest_v1",
+  "run_tag": "node_state_v1",
+  "model": {
+    "node_in": 13,
+    "edge_in": 8,
+    "hidden": 96,
+    "passes": 3
+  },
+  "uncertainty": "maximum normalized binary entropy of noise/shared outputs; not a supervised class",
+  "validation": {
+    "noise": {
+      "threshold": 0.95,
+      "precision": 0.999269780698655,
+      "recall": 0.9938385849830151,
+      "f1": 0.9965467828701637
+    },
+    "shared": {
+      "threshold": 0.45,
+      "precision": 0.9469141906773947,
+      "recall": 0.9371413319097824,
+      "f1": 0.9420024147028574
+    },
+    "loss": 0.029758933931589127
+  },
+  "elapsed_seconds": 2060.6614367961884
+}
