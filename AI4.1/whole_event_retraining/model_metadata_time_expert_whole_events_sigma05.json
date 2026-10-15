@@ -124,6 +124,29 @@
   "archived_cloud_checkpoint": "AI4.1\\whole_event_retraining\\time_expert_assessment\\cloud_epoch33_training_state.pth",
   "checkpoint_portability": "Archive retains Linux paths and dataset mtimes; not directly resumable on Windows without explicit migration.",
   "deployment_validated": false,
-  "measurement_status": "ideal_time_simulation_reference_only",
-  "measurement_update": "docs/MEASUREMENT_UPDATE_20261015.md"
+  "measurement_status": "conditional_simulation_known_noisy_d_timing_response_pending",
+  "measurement_update": "docs/MEASUREMENT_UPDATE_20261015.md",
+  "timing_measurement_feedback": {
+    "time_unit": "ns",
+    "event_definition": "CDC and TTC hit collections in a shared exposure window; no input truth association",
+    "ttc_reference_resolution_ns_approx": 0.1,
+    "ttc_reference_resolution_definition": "Reported approximate/design timing scale; sigma or FWHM not specified",
+    "reported_extrapolated_time_error_ns_within": 5,
+    "extrapolated_time_error_definition": "Unknown; do not assume Gaussian sigma or infer it from TTC resolving time",
+    "ttc_reference_association_before_tracking": false,
+    "current_model_time_input": "CSV signalTime, not TTC-extrapolated CDC hit time",
+    "drift_distance_input": "Explicitly supplied known noisy d for current simulation; real coarse-track/flight-time/d iteration is future work.",
+    "source": "User experimental feedback 2026-10-15; public design report linked in measurement update",
+    "public_design_report": "https://arxiv.org/html/2410.18817v2",
+    "public_report_5ns_context": "TTC resolving time used in pile-up/rate estimate, not a CDC extrapolation sigma specification"
+  },
+  "current_simulation_scope": {
+    "drift_distance_known": true,
+    "existing_distance_sigma_mm": 0.5,
+    "initial_distance_reconstruction_in_scope": false,
+    "ttc_association_iteration_in_scope": false,
+    "time_unit": "ns",
+    "time_error_distribution_confirmed": false,
+    "note": "Explicit user-approved simplification for simulation; preserve existing weights, features and noisy d."
+  }
 }

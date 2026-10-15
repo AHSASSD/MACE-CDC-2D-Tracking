@@ -28,7 +28,7 @@
 
 AI4.1的新完整事件结果及口径单独记录于[训练与表现](AI4.1/docs/TRAINING_AND_RESULTS.md)、[回收原理](AI4.1/docs/TRACKING_AND_RECOVERY.md)、[time模型风险](AI4.1/docs/TIME_MODEL_AUDIT.md)。原始数据和优化器断点不随仓库发布。
 
-[最新实验反馈](AI4.1/docs/MEASUREMENT_UPDATE_20261015.md)确认当前理想精确时间不可直接测得；time模型与时间回收成绩保留为模拟对照，需按可测时间零点/漂移时间重建输入后验收。
+[最新测量与范围约定](AI4.1/docs/MEASUREMENT_UPDATE_20261015.md)：AI4.1本阶段明确假设d已知且带误差，TTC关联及迭代求d留作后续工作；“5ns以内”尚未定义为高斯σ。已有模拟比较在这一明确假设下继续有效。
 
 ## 依赖
 

@@ -28,7 +28,7 @@ The tested configurations and locked validation metrics are summarized in [`repo
 
 AI4.1's newer whole-event results and data contracts are documented separately in [training/results](AI4.1/docs/TRAINING_AND_RESULTS.md), [recovery principles](AI4.1/docs/TRACKING_AND_RECOVERY.md), and [time-model risks](AI4.1/docs/TIME_MODEL_AUDIT.md). Its raw data and optimizer checkpoints are not distributed.
 
-[New experimental feedback](AI4.1/docs/MEASUREMENT_UPDATE_20261015.md) rules out directly measuring the ideal timing used by the current time model. Its scores and timing-recovery gains are retained as simulation references pending a model of measurable reference/drift times.
+[Updated measurement and scope](AI4.1/docs/MEASUREMENT_UPDATE_20261015.md): AI4.1 explicitly assumes known noisy drift distance for now. TTC matching and iterative distance reconstruction are future work; the reported 5ns timing bound is not yet defined as a Gaussian sigma. Existing simulation comparisons remain valid under this stated assumption.
 
 ## Requirements
 

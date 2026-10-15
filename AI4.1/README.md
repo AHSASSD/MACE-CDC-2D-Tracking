@@ -4,7 +4,7 @@
 
 AI4.1 is a separate research snapshot of the local AI4 working copy, covering whole-event retraining, two-pass tracking, fragment recovery and time-separated circle voting as of **2026-10-15**. The existing frozen AI4 and experimental AI5 directories are preserved.
 
-**Measurement update: experimental feedback says the exact simulated time cannot be measured directly. Available quantities are an approximate time reference and drift time, with distance derived from drift time. Current time-model and timing-recovery scores are ideal-time simulation references, not accepted results using measurable inputs.** See the [latest update](docs/MEASUREMENT_UPDATE_20261015.md).
+**Current simulation contract: the user explicitly supplies known noisy d, retaining sigma_d=0.5mm. Times are in ns; the TTC reference is approximately 100ps and the reported extrapolation error is within about 5ns, with its statistical definition unresolved. Initial distance reconstruction and TTC iteration are outside the current scope. Existing models and timing recovery remain comparable under the same supplied-d assumption.** See the [latest update](docs/MEASUREMENT_UPDATE_20261015.md).
 
 ## Reading order
 
@@ -52,4 +52,4 @@ python STEP4_两级寻迹.py --features time --dataset-root whole_event_retraini
 
 Source, small inference weights and summary evidence are included. Raw experimental data, graph shards, optimizer checkpoints, prediction caches, IDE state and SSH/cluster account configuration are excluded. Full reconstruction requires external data.
 
-No direct label leakage or exact cross-split measurement duplicates were found. The time model strongly depends on simulated inter-track absolute timing, however. New feedback rules out directly obtaining the ideal precision used here; inputs must be rebuilt from measured reference/drift times and correlated distance. The 98% result applies to the present filtered simulation and matching definition, not demonstrated experimental performance.
+No direct label leakage or exact cross-split measurement duplicates were found. The time model strongly depends on simulated inter-track timing. Known noisy distance is an explicit simulation assumption, so the unimplemented initial distance-reconstruction stage does not invalidate the current comparisons. Actual TTC association follows tracking; updating distance after a coarse track is future work. The reported 5ns is not yet a Gaussian sigma, and current scores are not full experimental end-to-end efficiencies.
