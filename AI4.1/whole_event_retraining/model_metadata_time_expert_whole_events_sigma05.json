@@ -1,0 +1,129 @@
+{
+  "feature_variant": "time",
+  "run_tag": "expert_whole_events_sigma05",
+  "best_epoch": 33,
+  "evaluated_epoch": 33,
+  "training_completed_100_epochs": false,
+  "selection": "minimum validation loss among completed epochs 1..33; staged local acceptance, not proof of convergence",
+  "weight_sha256": "354747c584cdba0aa5ab019044cdcc29cc0b23562b0c1673fbd12b97591b39c8",
+  "model": {
+    "node_in": 7,
+    "edge_in": 6,
+    "hidden": 256,
+    "n_passes": 8
+  },
+  "edge_threshold": 0.7,
+  "edge_threshold_source": "frozen tracking comparison; not a newly optimized edge threshold",
+  "two_pass_thresholds": {
+    "strict": 0.7,
+    "relaxed": 0.575
+  },
+  "validation_tracking": {
+    "clean": {
+      "truth_tracks": 45165,
+      "matched_tracks": 44628,
+      "fake_tracks": 805,
+      "clone_tracks": 235,
+      "output_tracks": 45668,
+      "events": 1500,
+      "efficiency": 0.9881102623713052,
+      "fake_rate": 0.01762722256284488,
+      "clone_rate": 0.005145835158097574,
+      "mixed_candidates": 111,
+      "incomplete_candidates": 694,
+      "by_hit_count": {
+        "5_6": {
+          "truth": 107,
+          "matched": 99,
+          "efficiency": 0.9252336448598131
+        },
+        "7_10": {
+          "truth": 32965,
+          "matched": 32816,
+          "efficiency": 0.9954800546033672
+        },
+        "11_20": {
+          "truth": 11624,
+          "matched": 11538,
+          "efficiency": 0.9926015141087405
+        },
+        "21_plus": {
+          "truth": 469,
+          "matched": 175,
+          "efficiency": 0.373134328358209
+        }
+      },
+      "edge": {
+        "0.5": {
+          "precision": 0.9926703665975974,
+          "recall": 0.9940597447643583,
+          "f1": 0.9933645698646913
+        },
+        "0.7": {
+          "precision": 0.9970756730531661,
+          "recall": 0.9807682407072785,
+          "f1": 0.9888547290398793
+        }
+      },
+      "newly_recovered_vs_no_time": 2432,
+      "newly_lost_vs_no_time": 158,
+      "both_missed": 379
+    },
+    "jitter3": {
+      "truth_tracks": 45165,
+      "matched_tracks": 44634,
+      "fake_tracks": 817,
+      "clone_tracks": 232,
+      "output_tracks": 45683,
+      "events": 1500,
+      "efficiency": 0.9882431086017934,
+      "fake_rate": 0.017884114440820435,
+      "clone_rate": 0.005078475581726244,
+      "mixed_candidates": 115,
+      "incomplete_candidates": 702,
+      "by_hit_count": {
+        "5_6": {
+          "truth": 107,
+          "matched": 100,
+          "efficiency": 0.9345794392523364
+        },
+        "7_10": {
+          "truth": 32965,
+          "matched": 32822,
+          "efficiency": 0.9956620658273927
+        },
+        "11_20": {
+          "truth": 11624,
+          "matched": 11538,
+          "efficiency": 0.9926015141087405
+        },
+        "21_plus": {
+          "truth": 469,
+          "matched": 174,
+          "efficiency": 0.37100213219616207
+        }
+      },
+      "edge": {
+        "0.5": {
+          "precision": 0.992671687623723,
+          "recall": 0.9940693347762095,
+          "f1": 0.9933700195864291
+        },
+        "0.7": {
+          "precision": 0.9970858849267097,
+          "recall": 0.9806748642760954,
+          "f1": 0.9888122870941286
+        }
+      },
+      "newly_recovered_vs_no_time": 2436,
+      "newly_lost_vs_no_time": 156,
+      "both_missed": 375
+    }
+  },
+  "test_not_used_for_selection": true,
+  "archived_cloud_checkpoint": "AI4.1\\whole_event_retraining\\time_expert_assessment\\cloud_epoch33_training_state.pth",
+  "checkpoint_portability": "Archive retains Linux paths and dataset mtimes; not directly resumable on Windows without explicit migration.",
+  "deployment_validated": false,
+  "measurement_status": "ideal_time_simulation_reference_only",
+  "measurement_update": "docs/MEASUREMENT_UPDATE_20261015.md"
+}

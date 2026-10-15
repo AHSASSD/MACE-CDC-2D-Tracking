@@ -1,0 +1,41 @@
+{
+  "feature_variant": "time",
+  "run_tag": "clean_physics_v2",
+  "training_seed": 20260823,
+  "dataset_metadata": "D:\\pycharm\\root操作\\AI工程化4\\dataset_metadata_noise100k_sigma3.json",
+  "dataset_summary": {
+    "train": {
+      "graphs": 4000,
+      "mean_tracks": 29.94175,
+      "mean_nodes": 317.71175,
+      "mean_noise_nodes": 42.646,
+      "shared_nodes": 0
+    },
+    "validation": {
+      "graphs": 1000,
+      "mean_tracks": 30.056,
+      "mean_nodes": 319.154,
+      "mean_noise_nodes": 42.685,
+      "shared_nodes": 0
+    },
+    "test": {
+      "graphs": 1000,
+      "mean_tracks": 29.794,
+      "mean_nodes": 318.389,
+      "mean_noise_nodes": 42.474,
+      "shared_nodes": 0
+    }
+  },
+  "selection_dataset": "validation",
+  "edge_threshold": 0.5,
+  "validation_edge_precision": 0.9863051494912786,
+  "validation_edge_recall": 0.9862401747708385,
+  "validation_edge_f1": 0.9862726610609401,
+  "model": {
+    "node_in": 7,
+    "edge_in": 6,
+    "hidden": 256,
+    "n_passes": 8
+  },
+  "elapsed_seconds": 15685.789381980896
+}

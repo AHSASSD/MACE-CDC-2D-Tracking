@@ -1,0 +1,60 @@
+{
+  "models": [
+    {
+      "path": "best_interaction_network_no_time_clean_physics_v2.pth",
+      "bytes": 698035,
+      "sha256": "2fae5e50a16082a231148b81899b10da691b6d6f3a0aca296ecbc7a4d4b88a71"
+    },
+    {
+      "path": "best_interaction_network_residual_time_clean_physics_v2_bridge_v2.pth",
+      "bytes": 704179,
+      "sha256": "e6bb60bc4d11fd7d108d755851b2c1e45b317a689fbdf85815fb948f7c2fb9c2"
+    },
+    {
+      "path": "best_interaction_network_residual_time_clean_physics_v2_residual_v1.pth",
+      "bytes": 704179,
+      "sha256": "4ffa7230fc274603d466a76c7321ca7bbf1103bf15b5c637003f2cdaf59be7bd"
+    },
+    {
+      "path": "best_interaction_network_time_clean_physics_v2.pth",
+      "bytes": 704179,
+      "sha256": "4d68528f13fdffe7153a0436c258713ec86541a0f16c164860d73ca6339cf216"
+    },
+    {
+      "path": "whole_event_retraining/best_interaction_network_no_time_finetune_stage2_last62.pth",
+      "bytes": 697907,
+      "sha256": "635f6faae7192f004a1758b2165b38944c0c91ffc309eb3e710823cc2d395844"
+    },
+    {
+      "path": "whole_event_retraining/best_interaction_network_no_time_finetune_stage2_lr3e4.pth",
+      "bytes": 697331,
+      "sha256": "9a596fb48163ae8c3fef49406f6afec097f1b1a16a6998e571ffd524d297c319"
+    },
+    {
+      "path": "whole_event_retraining/best_interaction_network_no_time_finetune_whole_events_sigma05.pth",
+      "bytes": 698035,
+      "sha256": "c53af9db2e6134f691b4e7515d6804b2541c60936976af33f7bdad98bc967a90"
+    },
+    {
+      "path": "whole_event_retraining/best_interaction_network_no_time_scratch_whole_events_sigma05.pth",
+      "bytes": 696998,
+      "sha256": "fd017deedbd922efd93aae9c987e9f4dda97f39657dd6b1652c5b9026dd74046"
+    },
+    {
+      "path": "whole_event_retraining/best_interaction_network_time_expert_whole_events_sigma05.pth",
+      "bytes": 703142,
+      "sha256": "354747c584cdba0aa5ab019044cdcc29cc0b23562b0c1673fbd12b97591b39c8"
+    },
+    {
+      "path": "whole_event_retraining/no_time_scratch_assessment/last_epoch_91.pth",
+      "bytes": 698615,
+      "sha256": "7ba47897afb8b41c1e5b3b039155f28427cf0e77f73f04c57de1e44c6ecbc122"
+    },
+    {
+      "path": "whole_event_retraining/stage2_no_time_assessment/last_epoch_62.pth",
+      "bytes": 697907,
+      "sha256": "635f6faae7192f004a1758b2165b38944c0c91ffc309eb3e710823cc2d395844"
+    }
+  ],
+  "note": "Inference weights only; last62 has an identical CLI alias. Optimizer checkpoints and datasets are excluded."
+}

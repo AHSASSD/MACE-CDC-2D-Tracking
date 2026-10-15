@@ -1,0 +1,19 @@
+{
+  "feature_variant": "no-time",
+  "run_tag": "finetune_whole_events_sigma05",
+  "best_epoch": 77,
+  "edge_threshold": 0.7,
+  "two_pass_thresholds": {
+    "strict": 0.7,
+    "relaxed": 0.575
+  },
+  "edge_threshold_source": "Frozen tracking comparison; not newly optimized",
+  "model": {
+    "node_in": 6,
+    "edge_in": 4,
+    "hidden": 256,
+    "n_passes": 8
+  },
+  "selection_dataset": "validation",
+  "publication_note": "Reconstructed inference metadata, not a claim that full planned training completed."
+}

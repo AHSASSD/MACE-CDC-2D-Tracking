@@ -1,0 +1,18 @@
+{
+  "feature_variant": "no-time",
+  "run_tag": "finetune_stage2_last62",
+  "evaluated_epoch": 62,
+  "loss_best_epoch_in_training": 34,
+  "selection": "Last saved stage2 epoch; selected for tracking comparison, not minimum validation loss",
+  "edge_threshold": 0.7,
+  "two_pass_thresholds": {
+    "strict": 0.7,
+    "relaxed": 0.575
+  },
+  "model": {
+    "node_in": 6,
+    "edge_in": 4,
+    "hidden": 256,
+    "n_passes": 8
+  }
+}

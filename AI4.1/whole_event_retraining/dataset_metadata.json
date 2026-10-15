@@ -1,0 +1,158 @@
+{
+  "profile": "whole-events-v1",
+  "source_group_disjoint": true,
+  "event_mixing": false,
+  "source_audit": "AI4.1\\whole_event_retraining\\data_audit.json",
+  "distance": {
+    "already_measured": true,
+    "declared_sigma_mm": 0.5,
+    "added_sigma_mm": 0
+  },
+  "timing": {
+    "basis": "observed_event_min",
+    "scale_ns": 10000.0,
+    "added_sigma_ns": 0
+  },
+  "noise": {
+    "added": false
+  },
+  "detector": {
+    "added_dead_time_ns": 0
+  },
+  "features": {
+    "time": {
+      "node": 7,
+      "edge": 6
+    },
+    "no-time": {
+      "node": 6,
+      "edge": 4
+    },
+    "excluded_truth_inputs": [
+      "EvtID",
+      "TrkID",
+      "Good",
+      "CreatProc",
+      "x0",
+      "d_true",
+      "d_error_mm",
+      "is_noise",
+      "shared_hit",
+      "t0",
+      "tHit",
+      "t_window",
+      "t_rel",
+      "dt_rel"
+    ]
+  },
+  "summary": {
+    "events": 10000,
+    "partitions": {
+      "train": 7000,
+      "validation": 1500,
+      "test": 1500
+    },
+    "files": [
+      {
+        "file": "CDCSimHit_01_evt00000_00999.csv",
+        "counts": {
+          "train": 713,
+          "validation": 129,
+          "test": 158
+        },
+        "nodes": 308853,
+        "edges": 11678652
+      },
+      {
+        "file": "CDCSimHit_02_evt01000_01999.csv",
+        "counts": {
+          "train": 715,
+          "validation": 133,
+          "test": 152
+        },
+        "nodes": 310941,
+        "edges": 11910950
+      },
+      {
+        "file": "CDCSimHit_03_evt02000_02999.csv",
+        "counts": {
+          "train": 705,
+          "validation": 148,
+          "test": 147
+        },
+        "nodes": 306475,
+        "edges": 11420322
+      },
+      {
+        "file": "CDCSimHit_04_evt03000_03999.csv",
+        "counts": {
+          "train": 712,
+          "validation": 138,
+          "test": 150
+        },
+        "nodes": 306473,
+        "edges": 11632880
+      },
+      {
+        "file": "CDCSimHit_05_evt04000_04999.csv",
+        "counts": {
+          "train": 712,
+          "validation": 141,
+          "test": 147
+        },
+        "nodes": 313725,
+        "edges": 11998856
+      },
+      {
+        "file": "CDCSimHit_06_evt05000_05999.csv",
+        "counts": {
+          "train": 676,
+          "validation": 170,
+          "test": 154
+        },
+        "nodes": 304785,
+        "edges": 11333976
+      },
+      {
+        "file": "CDCSimHit_07_evt06000_06999.csv",
+        "counts": {
+          "train": 694,
+          "validation": 155,
+          "test": 151
+        },
+        "nodes": 314868,
+        "edges": 12149652
+      },
+      {
+        "file": "CDCSimHit_08_evt07000_07999.csv",
+        "counts": {
+          "train": 677,
+          "validation": 171,
+          "test": 152
+        },
+        "nodes": 309244,
+        "edges": 11660114
+      },
+      {
+        "file": "CDCSimHit_09_evt08000_08999.csv",
+        "counts": {
+          "train": 695,
+          "validation": 150,
+          "test": 155
+        },
+        "nodes": 307752,
+        "edges": 11570786
+      },
+      {
+        "file": "CDCSimHit_10_evt09000_09999.csv",
+        "counts": {
+          "train": 701,
+          "validation": 165,
+          "test": 134
+        },
+        "nodes": 309369,
+        "edges": 11643742
+      }
+    ]
+  }
+}

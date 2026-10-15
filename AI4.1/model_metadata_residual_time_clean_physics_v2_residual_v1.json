@@ -1,0 +1,15 @@
+{
+  "feature_variant": "time",
+  "expert_tag": "residual_v1",
+  "base_model": "D:\\pycharm\\root操作\\AI工程化4\\best_interaction_network_time_clean_physics_v2.pth",
+  "residual_dataset": "D:\\pycharm\\root操作\\AI工程化4\\step4_residual_expert\\dataset_time_clean_physics_v2_residual_v1_s0700_r0575\\metadata.json",
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "training_seed": 20260828,
+  "best_validation_loss": 0.009756056105986378,
+  "validation_edge_threshold": 0.45,
+  "validation_edge_precision": 0.6359877763796513,
+  "validation_edge_recall": 0.8478312964294272,
+  "validation_edge_f1": 0.7267871815940838,
+  "elapsed_seconds": 3791.6740691661835
+}

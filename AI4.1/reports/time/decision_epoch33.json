@@ -1,0 +1,11 @@
+{
+  "weight_sha256": "354747c584cdba0aa5ab019044cdcc29cc0b23562b0c1673fbd12b97591b39c8",
+  "epoch": 33,
+  "continue_cloud_training_now": false,
+  "reason": "Validation tracking 98.81%, large gain over no-time; 3 ns stress checked; prioritize local acceptance and long-track/clone reconstruction. Training loss still decreasing, so this is a staged engineering decision, not proof of full convergence.",
+  "thresholds": [
+    0.7,
+    0.575
+  ],
+  "test_evaluation_not_yet_used_for_decision": true
+}

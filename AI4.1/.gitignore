@@ -1,0 +1,19 @@
+# Raw inputs and generated training / inference caches stay external.
+whole data/
+*.pkl
+*.npy
+*.npz
+training_state*.pth
+*.tmp
+.idea/
+.vscode/
+backups/
+event_visualizations/
+dual_expert_validation/
+time_audit_reproduction/
+# Retain curated evidence only under reports/.
+whole_event_retraining/*assessment/*.json
+whole_event_retraining/recovery_validation/
+whole_event_retraining/step4_*.json
+real_data_evaluation/*.json
+real_data_evaluation/*.png

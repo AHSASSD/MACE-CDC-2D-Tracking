@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "train": 7000,
+    "validation": 1500,
+    "test": 1500
+  },
+  "event_ids_disjoint_and_complete": true,
+  "cross_split_exact_measured_event_duplicates": [],
+  "cross_split_exact_measured_track_signatures": 0,
+  "duplicate_check_limit": "Exact sorted geometry+d signatures; not a proof against regenerated or near-duplicate trajectories.",
+  "validation_event_span_ns": {
+    "0": 3386.7046236991882,
+    "0.1": 6135.02311706543,
+    "0.5": 8969.94262933731,
+    "0.9": 13036.000728607183,
+    "0.99": 18143.77580881118,
+    "1": 23718.390464782715
+  },
+  "validation_track_span_ns": {
+    "0": 16.751885414123535,
+    "0.1": 104.08005118370056,
+    "0.5": 140.71473851799965,
+    "0.9": 176.57649517059326,
+    "0.99": 204.67704804614183,
+    "1": 250.45646354556084
+  },
+  "validation_neighbor_track_median_gap_ns": {
+    "0": 0.0034086406230926514,
+    "0.1": 19.170928746461875,
+    "0.5": 133.26309621334076,
+    "0.9": 669.1690236330031,
+    "0.99": 3302.692267298695,
+    "1": 15815.107524394989
+  },
+  "neighbor_median_gap_gt_3ns_fraction": 0.9831005266773529,
+  "neighbor_median_gap_gt_100ns_fraction": 0.5918479505381269
+}

@@ -7,6 +7,7 @@ This repository contains the complete reproducible releases of the CDC track-fin
 ## Versions
 
 - `AI工程化4/`: frozen, mature baseline with complete STEP1/STEP2/STEP3/STEP4 training and evaluation flow.
+- [`AI4.1/`](AI4.1/): whole-event AI4 working-copy snapshot, time/no-time retraining, two-pass tracking, optional fragment/Hough recovery, and an explicit timing-information audit. Start with its README; the 98% time-model result is a filtered simulation result, not demonstrated detector performance.
 - `AI工程化5/`: independent development line with separate data contracts, node-state classification, residual recovery, and training scripts.
 - `AI工程化5/iterations/v2_edge_graph/`: experimental shared-hit edge-graph and triplet-classifier branch. It is not promoted to the default pipeline.
 - `工程化2/`: small classic CA/Hough components reused by the AI5 residual experiment.
@@ -24,6 +25,10 @@ Original datasets, audit graphs, TensorBoard runs, caches, and temporary reports
 ## Results
 
 The tested configurations and locked validation metrics are summarized in [`reports/RESULTS.md`](reports/RESULTS.md). AI4 is the stable reference. AI5 edge-graph results are included as experimental evidence and are not a production recommendation.
+
+AI4.1's newer whole-event results and data contracts are documented separately in [training/results](AI4.1/docs/TRAINING_AND_RESULTS.md), [recovery principles](AI4.1/docs/TRACKING_AND_RECOVERY.md), and [time-model risks](AI4.1/docs/TIME_MODEL_AUDIT.md). Its raw data and optimizer checkpoints are not distributed.
+
+[New experimental feedback](AI4.1/docs/MEASUREMENT_UPDATE_20261015.md) rules out directly measuring the ideal timing used by the current time model. Its scores and timing-recovery gains are retained as simulation references pending a model of measurable reference/drift times.
 
 ## Requirements
 
