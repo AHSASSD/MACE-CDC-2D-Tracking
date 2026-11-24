@@ -1,0 +1,66 @@
+{
+  "joint": {
+    "AA": {
+      "precision": 0.5538518064911206,
+      "recall": 0.696952572743712,
+      "f1": 0.6172163255278591,
+      "edges": 400628
+    },
+    "AS": {
+      "precision": 0.4197608668000324,
+      "recall": 0.4741723324908073,
+      "f1": 0.4453106551067412,
+      "edges": 1590806
+    },
+    "SS": {
+      "precision": 0.42973008540023133,
+      "recall": 0.35913405880990973,
+      "f1": 0.3912732271969073,
+      "edges": 1022536
+    },
+    "candidates": {
+      "truth_tracks": 961,
+      "matched_tracks": 12,
+      "axial_efficiency": 0.012486992715920915,
+      "fake_candidates": 95,
+      "stereo_purity": 0.9724137931034482,
+      "stereo_completeness_matched": 0.9657534246575342
+    },
+    "threshold": 0.3
+  },
+  "axial_baseline": {
+    "AA": {
+      "precision": 0.90494200706001,
+      "recall": 0.8884029869219027,
+      "f1": 0.8965962319142292,
+      "edges": 398138
+    },
+    "AS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "edges": 0
+    },
+    "SS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "edges": 0
+    },
+    "candidates": {
+      "truth_tracks": 961,
+      "matched_tracks": 640,
+      "axial_efficiency": 0.6659729448491155,
+      "fake_candidates": 138,
+      "stereo_purity": 0.0,
+      "stereo_completeness_matched": 0.0
+    },
+    "threshold": 0.5
+  },
+  "limitations": [
+    "Small pilot, not full-data convergence.",
+    "Connected-component candidate decoder with >=5 axial hits and 70% purity/completeness matching is exploratory, not the official two-pass benchmark.",
+    "No three-dimensional fit or momentum result claimed.",
+    "All-pair edge recall is conditional on geometric candidate graph."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "event_id": 1522,
+  "partition": "train",
+  "focus_truth": 750,
+  "category": "broadly_low_scores",
+  "image": "event_01522_T750_baseline.png",
+  "hits": 649,
+  "axial_hits": 275,
+  "stereo_hits": 374,
+  "edge_counts": {
+    "AA": 5181,
+    "AS": 20540,
+    "SS": 13225
+  },
+  "metrics": {
+    "truth_tracks": 29,
+    "stereo_eligible_tracks": 29,
+    "truth_stereo_all": 374,
+    "output_candidates": 28,
+    "axial_completeness_sum": 25.42222222222222,
+    "correct_stereo_matched": 330,
+    "attached_stereo_matched": 330,
+    "truth_stereo_matched": 346,
+    "fake_candidates": 1,
+    "matched_tracks": 27,
+    "joint_matched_tracks": 27
+  },
+  "seed": {
+    "truth_tracks": 29,
+    "output_candidates": 27,
+    "matched_tracks": 27
+  },
+  "seconds": 10.29200553894043
+}

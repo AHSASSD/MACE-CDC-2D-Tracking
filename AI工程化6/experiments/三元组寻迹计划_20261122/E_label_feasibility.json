@@ -1,0 +1,52 @@
+{
+  "scope": "Label-feasibility audit on already inspected examples; not model performance.",
+  "edge_threshold": 0.4,
+  "grouping": "CellID only, independent HitIDs retained",
+  "labels": "0 no supporting truth path;1 one;2 two;3 three or more",
+  "events": [
+    {
+      "event_id": 1500,
+      "retained_bundles": 5425,
+      "class_counts": {
+        "1": 5110,
+        "0": 240,
+        "2": 73,
+        "3": 2
+      },
+      "internal_same_cell_pairs": 0
+    },
+    {
+      "event_id": 1501,
+      "retained_bundles": 5674,
+      "class_counts": {
+        "1": 5300,
+        "2": 123,
+        "0": 248,
+        "3": 3
+      },
+      "internal_same_cell_pairs": 0
+    },
+    {
+      "event_id": 1503,
+      "retained_bundles": 5751,
+      "class_counts": {
+        "1": 5381,
+        "0": 280,
+        "2": 87,
+        "3": 3
+      },
+      "internal_same_cell_pairs": 0
+    },
+    {
+      "event_id": 1504,
+      "retained_bundles": 5363,
+      "class_counts": {
+        "1": 4794,
+        "2": 108,
+        "0": 458,
+        "3": 3
+      },
+      "internal_same_cell_pairs": 0
+    }
+  ]
+}

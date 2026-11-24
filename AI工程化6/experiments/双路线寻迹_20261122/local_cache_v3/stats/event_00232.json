@@ -1,0 +1,20 @@
+{
+  "event_id": 232,
+  "split": "validation",
+  "nodes": 508,
+  "edges": 4090,
+  "triplets": 67533,
+  "bundles": 3895,
+  "E_class_counts": [
+    39,
+    3839,
+    17,
+    0
+  ],
+  "T_positive": 58885,
+  "triplet_pruning": {
+    "reference_reconstructible": 22,
+    "lost_by_bounded_triplets": 0,
+    "lost_truth_ids": []
+  }
+}

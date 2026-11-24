@@ -1,0 +1,96 @@
+{
+  "event_id": 5891,
+  "n_hits": 1206,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 682,
+        "output_candidates": 23,
+        "axial_completeness_sum": 20.358333333333334,
+        "correct_stereo_matched": 249,
+        "attached_stereo_matched": 250,
+        "truth_stereo_matched": 291,
+        "fake_candidates": 2,
+        "matched_tracks": 21,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        89,
+        589,
+        935,
+        1000,
+        1069,
+        1143,
+        1293,
+        1383,
+        1463,
+        1654,
+        2437,
+        2472,
+        2527,
+        2572,
+        3087,
+        3820,
+        4359,
+        4622,
+        5393,
+        5861,
+        6009
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 23,
+        "fake_candidates": 2,
+        "matched_tracks": 21
+      },
+      "decode_seconds": 3.0009869000059552
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 682,
+        "output_candidates": 23,
+        "axial_completeness_sum": 20.35833333333333,
+        "correct_stereo_matched": 249,
+        "attached_stereo_matched": 250,
+        "truth_stereo_matched": 291,
+        "fake_candidates": 2,
+        "matched_tracks": 21,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        89,
+        589,
+        935,
+        1000,
+        1069,
+        1143,
+        1293,
+        1383,
+        1463,
+        1654,
+        2437,
+        2472,
+        2527,
+        2572,
+        3087,
+        3820,
+        4359,
+        4622,
+        5393,
+        5861,
+        6009
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 23,
+        "fake_candidates": 2,
+        "matched_tracks": 21
+      },
+      "decode_seconds": 3.8211777999968035
+    }
+  }
+}

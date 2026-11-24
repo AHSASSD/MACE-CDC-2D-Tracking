@@ -1,0 +1,24 @@
+2026-11-21T21:53:02+08:00
+gpu20
+Sat Nov 21 21:53:02 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.172.08             Driver Version: 570.172.08     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-SXM2-32GB           On  |   00000000:88:00.0 Off |                    0 |
+| N/A   30C    P0             39W /  300W |       0MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+{"micro_batch": 4, "edges": 1926716, "event_ids": [299, 1347, 6519, 1614], "loss": 0.11981213092803955, "terms": {"focal": 0.03683885559439659, "true_low_margin": 0.46471327543258667, "false_high_margin": 2.2898108959198, "positive_coefficient": 0.08}, "peak_allocated_bytes": 8320232448, "optimizer_updates": 0, "gpu": "Tesla V100-SXM2-32GB", "torch": "2.5.0a0+872d972e41.nv24.08", "total_memory": 34072559616, "oom_fallbacks": []}
+{"attempt": 1, "returncode": 143, "reason": "process_exit", "checkpoint_updates": 0, "consecutive_no_progress": 1, "unix": 1795269873.2149482}

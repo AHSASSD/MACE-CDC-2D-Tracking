@@ -1,0 +1,108 @@
+{
+  "event_id": 1243,
+  "n_hits": 699,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 30,
+        "stereo_eligible_tracks": 30,
+        "truth_stereo_all": 402,
+        "output_candidates": 29,
+        "axial_completeness_sum": 25.153282828282826,
+        "correct_stereo_matched": 313,
+        "attached_stereo_matched": 313,
+        "truth_stereo_matched": 356,
+        "fake_candidates": 2,
+        "matched_tracks": 27,
+        "joint_matched_tracks": 24
+      },
+      "found": [
+        91,
+        317,
+        558,
+        746,
+        811,
+        1214,
+        1311,
+        1602,
+        1721,
+        1988,
+        2056,
+        2432,
+        2483,
+        2874,
+        2978,
+        3244,
+        3284,
+        3756,
+        3900,
+        4106,
+        4373,
+        4558,
+        4928,
+        5110,
+        5183,
+        5925,
+        6374
+      ],
+      "seeds": {
+        "truth_tracks": 30,
+        "output_candidates": 28,
+        "fake_candidates": 1,
+        "matched_tracks": 27
+      },
+      "decode_seconds": 2.1677967999858083
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 30,
+        "stereo_eligible_tracks": 30,
+        "truth_stereo_all": 402,
+        "output_candidates": 29,
+        "axial_completeness_sum": 25.15328282828283,
+        "correct_stereo_matched": 313,
+        "attached_stereo_matched": 313,
+        "truth_stereo_matched": 356,
+        "fake_candidates": 2,
+        "matched_tracks": 27,
+        "joint_matched_tracks": 24
+      },
+      "found": [
+        91,
+        317,
+        558,
+        746,
+        811,
+        1214,
+        1311,
+        1602,
+        1721,
+        1988,
+        2056,
+        2432,
+        2483,
+        2874,
+        2978,
+        3244,
+        3284,
+        3756,
+        3900,
+        4106,
+        4373,
+        4558,
+        4928,
+        5110,
+        5183,
+        5925,
+        6374
+      ],
+      "seeds": {
+        "truth_tracks": 30,
+        "output_candidates": 28,
+        "fake_candidates": 1,
+        "matched_tracks": 27
+      },
+      "decode_seconds": 2.704015699986485
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "event_ids": [
+    232,
+    9099,
+    6978,
+    7727,
+    2009,
+    3426,
+    7235,
+    7964,
+    4414,
+    7931,
+    4901,
+    4880,
+    999,
+    9367,
+    5747,
+    9045,
+    6081,
+    817,
+    9555,
+    7870
+  ],
+  "split": "validation",
+  "phase": "pilot",
+  "profiles": {
+    "precision": {
+      "residual_mm": 1.0,
+      "recovery_as": 0.65,
+      "margin": 0.12,
+      "trim_existing": true
+    },
+    "balanced": {
+      "residual_mm": 1.5,
+      "recovery_as": 0.6,
+      "margin": 0.1,
+      "trim_existing": true
+    },
+    "recovery": {
+      "residual_mm": 2.0,
+      "recovery_as": 0.55,
+      "margin": 0.1,
+      "trim_existing": true
+    },
+    "protect_existing": {
+      "residual_mm": 1.5,
+      "recovery_as": 0.6,
+      "margin": 0.1,
+      "trim_existing": false
+    },
+    "guarded_recovery": {
+      "residual_mm": 1.0,
+      "recovery_as": 0.7,
+      "margin": 0.1,
+      "trim_existing": true,
+      "guarded": true,
+      "recovery_ss": 0.7
+    },
+    "guarded_tight": {
+      "residual_mm": 1.0,
+      "recovery_as": 0.75,
+      "margin": 0.1,
+      "trim_existing": true,
+      "guarded": true,
+      "recovery_ss": 0.75
+    },
+    "guarded_loose": {
+      "residual_mm": 1.5,
+      "recovery_as": 0.7,
+      "margin": 0.1,
+      "trim_existing": true,
+      "guarded": true,
+      "recovery_ss": 0.75
+    },
+    "guarded_keep": {
+      "residual_mm": 1.0,
+      "recovery_as": 0.75,
+      "margin": 0.1,
+      "trim_existing": false,
+      "guarded": true,
+      "recovery_ss": 0.75
+    }
+  },
+  "search": {
+    "max_pool": 48,
+    "pair_seeds": 512,
+    "retained_seeds": 5,
+    "seed_tolerance_mm": 2.0,
+    "min_distinct_support": 3,
+    "min_phase_separation": 0.08,
+    "parameter_bound": 2500.0,
+    "refine_evaluations": 8,
+    "near_best_fraction": 0.9
+  },
+  "refine": false,
+  "weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "confidence_sha256": "a873d40156d4477265f74abc518f444dbeec0f8a4efec46aa39b865009f2e021",
+  "dataset_metadata_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "source_sha256": {
+    "coarse_3d_membership.py": "1c1bb16d4941af586ff5825f5080ad33c4b6a7dc0eb0eaa80c63c6240c6f625b",
+    "STEP17_保护直丝的三维辅助寻迹.py": "0a7d2e5be032410fa0fb89ac71b1c1a57e163bbd9bba95fd672043a993722b0e",
+    "三维拟合草稿_暂未启用.py": "5447fdace3d2df44da7ad2c6f4a879f86ed1cca3891e3c5e16509a86c6f0a9bc",
+    "STEP5_两级寻迹.py": "97e2036631ea9f793b6a625d75e71cbf3b1d1678f68a607417a55b1527ff4c1c",
+    "hybrid_joint_tracker.py": "6fe20dedd3de1bf440b6cfa7ba2b17480dddbb6670eaa93d8d59fbd47ce4b11e",
+    "joint_candidate_tracking.py": "e5ea7a720690eb07c5fba99a2461163fea7945271fc4d53b40609ca6d8d8961f",
+    "hybrid_candidate_tracking.py": "b9157a54e0729bd995f5b061b95626412e6c2fcf7cc7a95bd63b889421f021b3",
+    "STEP12_候选可靠性校准.py": "78f4ab63beed63e542730e2aff3b50f5c855abddf0d369a125b6738b2c148552",
+    "two_stage_core.py": "857b2877b1a3e55121a4adde4145f228ad8f3f10c7c9a47ee590dfbb11dc765b",
+    "common.py": "7f033bfa54bdbb96c4604cada5d3451eb5e66364f1fd1c19448f001324d206ca"
+  },
+  "purpose": "Rough 3D stereo membership; exact A protection; precision fit delegated to downstream GenFit",
+  "test_used_for_selection": false
+}

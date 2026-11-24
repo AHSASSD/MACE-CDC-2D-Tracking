@@ -1,0 +1,234 @@
+{
+  "contract": {
+    "dataset_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+    "builder_sha256": "d818fa5a38cde6835677452c4594b4e652e2ab01bb3ad1ed14fbb224b525b0bd",
+    "format": 1
+  },
+  "index": {
+    "5418": {
+      "shard": "train_0120",
+      "node_start": 0,
+      "node_end": 639,
+      "edge_start": 0,
+      "edge_end": 63956
+    },
+    "5420": {
+      "shard": "train_0120",
+      "node_start": 639,
+      "node_end": 1341,
+      "edge_start": 63956,
+      "edge_end": 142776
+    },
+    "5421": {
+      "shard": "train_0120",
+      "node_start": 1341,
+      "node_end": 2076,
+      "edge_start": 142776,
+      "edge_end": 226410
+    },
+    "5424": {
+      "shard": "train_0120",
+      "node_start": 2076,
+      "node_end": 2743,
+      "edge_start": 226410,
+      "edge_end": 294504
+    },
+    "5425": {
+      "shard": "train_0120",
+      "node_start": 2743,
+      "node_end": 3292,
+      "edge_start": 294504,
+      "edge_end": 339082
+    },
+    "5427": {
+      "shard": "train_0120",
+      "node_start": 3292,
+      "node_end": 3899,
+      "edge_start": 339082,
+      "edge_end": 397224
+    },
+    "5428": {
+      "shard": "train_0120",
+      "node_start": 3899,
+      "node_end": 4451,
+      "edge_start": 397224,
+      "edge_end": 447390
+    },
+    "5430": {
+      "shard": "train_0120",
+      "node_start": 4451,
+      "node_end": 5000,
+      "edge_start": 447390,
+      "edge_end": 491610
+    },
+    "5432": {
+      "shard": "train_0120",
+      "node_start": 5000,
+      "node_end": 5730,
+      "edge_start": 491610,
+      "edge_end": 570356
+    },
+    "5433": {
+      "shard": "train_0120",
+      "node_start": 5730,
+      "node_end": 6490,
+      "edge_start": 570356,
+      "edge_end": 658976
+    },
+    "5434": {
+      "shard": "train_0120",
+      "node_start": 6490,
+      "node_end": 7146,
+      "edge_start": 658976,
+      "edge_end": 725686
+    },
+    "5436": {
+      "shard": "train_0120",
+      "node_start": 7146,
+      "node_end": 8118,
+      "edge_start": 725686,
+      "edge_end": 870978
+    },
+    "5437": {
+      "shard": "train_0120",
+      "node_start": 8118,
+      "node_end": 8794,
+      "edge_start": 870978,
+      "edge_end": 943048
+    },
+    "5438": {
+      "shard": "train_0120",
+      "node_start": 8794,
+      "node_end": 9594,
+      "edge_start": 943048,
+      "edge_end": 1045630
+    },
+    "5439": {
+      "shard": "train_0120",
+      "node_start": 9594,
+      "node_end": 10180,
+      "edge_start": 1045630,
+      "edge_end": 1104810
+    },
+    "5440": {
+      "shard": "train_0120",
+      "node_start": 10180,
+      "node_end": 10962,
+      "edge_start": 1104810,
+      "edge_end": 1205266
+    },
+    "5441": {
+      "shard": "train_0120",
+      "node_start": 10962,
+      "node_end": 11413,
+      "edge_start": 1205266,
+      "edge_end": 1234702
+    },
+    "5442": {
+      "shard": "train_0120",
+      "node_start": 11413,
+      "node_end": 12510,
+      "edge_start": 1234702,
+      "edge_end": 1406456
+    },
+    "5443": {
+      "shard": "train_0120",
+      "node_start": 12510,
+      "node_end": 13288,
+      "edge_start": 1406456,
+      "edge_end": 1512090
+    },
+    "5444": {
+      "shard": "train_0120",
+      "node_start": 13288,
+      "node_end": 13890,
+      "edge_start": 1512090,
+      "edge_end": 1566320
+    },
+    "5446": {
+      "shard": "train_0120",
+      "node_start": 13890,
+      "node_end": 14813,
+      "edge_start": 1566320,
+      "edge_end": 1697150
+    },
+    "5447": {
+      "shard": "train_0120",
+      "node_start": 14813,
+      "node_end": 15542,
+      "edge_start": 1697150,
+      "edge_end": 1776876
+    },
+    "5449": {
+      "shard": "train_0120",
+      "node_start": 15542,
+      "node_end": 16571,
+      "edge_start": 1776876,
+      "edge_end": 1934004
+    },
+    "5452": {
+      "shard": "train_0120",
+      "node_start": 16571,
+      "node_end": 17226,
+      "edge_start": 1934004,
+      "edge_end": 1996328
+    },
+    "5453": {
+      "shard": "train_0120",
+      "node_start": 17226,
+      "node_end": 17964,
+      "edge_start": 1996328,
+      "edge_end": 2076636
+    },
+    "5454": {
+      "shard": "train_0120",
+      "node_start": 17964,
+      "node_end": 18652,
+      "edge_start": 2076636,
+      "edge_end": 2146522
+    },
+    "5457": {
+      "shard": "train_0120",
+      "node_start": 18652,
+      "node_end": 19203,
+      "edge_start": 2146522,
+      "edge_end": 2195528
+    },
+    "5458": {
+      "shard": "train_0120",
+      "node_start": 19203,
+      "node_end": 19780,
+      "edge_start": 2195528,
+      "edge_end": 2245610
+    },
+    "5461": {
+      "shard": "train_0120",
+      "node_start": 19780,
+      "node_end": 20202,
+      "edge_start": 2245610,
+      "edge_end": 2273418
+    },
+    "5462": {
+      "shard": "train_0120",
+      "node_start": 20202,
+      "node_end": 20780,
+      "edge_start": 2273418,
+      "edge_end": 2323036
+    },
+    "5464": {
+      "shard": "train_0120",
+      "node_start": 20780,
+      "node_end": 21089,
+      "edge_start": 2323036,
+      "edge_end": 2338362
+    },
+    "5468": {
+      "shard": "train_0120",
+      "node_start": 21089,
+      "node_end": 21912,
+      "edge_start": 2338362,
+      "edge_end": 2453582
+    }
+  },
+  "bytes": 143908484
+}

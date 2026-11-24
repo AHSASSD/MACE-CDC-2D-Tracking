@@ -1,0 +1,33 @@
+{
+  "event_id": 1588,
+  "partition": "train",
+  "focus_truth": 449,
+  "category": "matched",
+  "image": "event_01588_T449_baseline.png",
+  "hits": 470,
+  "axial_hits": 205,
+  "stereo_hits": 265,
+  "edge_counts": {
+    "AA": 3021,
+    "AS": 10477,
+    "SS": 6171
+  },
+  "metrics": {
+    "truth_tracks": 21,
+    "stereo_eligible_tracks": 21,
+    "truth_stereo_all": 265,
+    "output_candidates": 21,
+    "axial_completeness_sum": 19.689996114996116,
+    "correct_stereo_matched": 240,
+    "attached_stereo_matched": 240,
+    "truth_stereo_matched": 265,
+    "matched_tracks": 21,
+    "joint_matched_tracks": 21
+  },
+  "seed": {
+    "truth_tracks": 21,
+    "output_candidates": 21,
+    "matched_tracks": 21
+  },
+  "seconds": 4.525330066680908
+}

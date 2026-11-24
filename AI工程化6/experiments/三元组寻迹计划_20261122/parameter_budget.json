@@ -1,0 +1,75 @@
+{
+  "status": "CPU parameter counts only",
+  "models": [
+    {
+      "name": "T-small",
+      "route": "T",
+      "backbone_parameters": 181519,
+      "additional_parameters": 59233,
+      "combined_parameters": 240752,
+      "input_dimension": 262,
+      "output_dimension": 1,
+      "hidden": [
+        128,
+        64
+      ],
+      "trained": false
+    },
+    {
+      "name": "T-wide",
+      "route": "T",
+      "backbone_parameters": 181519,
+      "additional_parameters": 117985,
+      "combined_parameters": 299504,
+      "input_dimension": 262,
+      "output_dimension": 1,
+      "hidden": [
+        256,
+        128
+      ],
+      "trained": false
+    },
+    {
+      "name": "E-small",
+      "route": "E",
+      "backbone_parameters": 181519,
+      "additional_parameters": 93316,
+      "combined_parameters": 274835,
+      "input_dimension": 515,
+      "output_dimension": 4,
+      "hidden": [
+        128,
+        64
+      ],
+      "trained": false
+    },
+    {
+      "name": "E-wide",
+      "route": "E",
+      "backbone_parameters": 181519,
+      "additional_parameters": 184644,
+      "combined_parameters": 366163,
+      "input_dimension": 515,
+      "output_dimension": 4,
+      "hidden": [
+        256,
+        128
+      ],
+      "trained": false
+    }
+  ],
+  "ordered_feature_dimensions": {
+    "T": {
+      "node_context": 96,
+      "edge_context": 128,
+      "raw_observables_and_scores": 38
+    },
+    "E": {
+      "endpoint_families": 258,
+      "current_bundle": 129,
+      "neighbor_context": 128
+    }
+  },
+  "endpoint_exchange": "Shared scorer for both endpoint orders; average probabilities at inference.",
+  "no_forward_or_training_performed": true
+}

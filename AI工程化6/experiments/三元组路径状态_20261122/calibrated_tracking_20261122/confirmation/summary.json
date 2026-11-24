@@ -1,0 +1,617 @@
+{
+  "events": 200,
+  "scope": "Locked reserved confirmation, historically used original validation",
+  "methods": {
+    "baseline": {
+      "tracks": {
+        "truth_tracks": 6088,
+        "stereo_eligible_tracks": 6088,
+        "truth_stereo_all": 84440,
+        "output_candidates": 5974,
+        "axial_completeness_sum": 5312.889273342828,
+        "correct_stereo_matched": 64222,
+        "attached_stereo_matched": 64870,
+        "truth_stereo_matched": 77007,
+        "matched_tracks": 5776,
+        "joint_matched_tracks": 5325,
+        "fake_candidates": 196,
+        "clone_candidates": 2,
+        "track_efficiency": 0.9487516425755584,
+        "fake_fraction": 0.032808838299296955,
+        "clone_fraction": 0.00033478406427854036,
+        "stereo_purity_matched": 0.9900107908123941,
+        "stereo_completeness_matched": 0.8339761320399445,
+        "stereo_recall_all_eligible_tracks": 0.7605637138796779,
+        "joint_track_efficiency": 0.8746714848883048
+      },
+      "seeds": {
+        "truth_tracks": 6088,
+        "output_candidates": 5839,
+        "fake_candidates": 193,
+        "matched_tracks": 5645,
+        "clone_candidates": 1,
+        "f1": 0.9465917665800285,
+        "efficiency": 0.9272339027595269,
+        "fake_fraction": 0.03305360506936119,
+        "clone_fraction": 0.00017126220243192326
+      },
+      "mean_seconds": 2.975231000000058
+    },
+    "T25_old": {
+      "tracks": {
+        "truth_tracks": 6088,
+        "stereo_eligible_tracks": 6088,
+        "truth_stereo_all": 84440,
+        "output_candidates": 5976,
+        "axial_completeness_sum": 5321.885580350666,
+        "correct_stereo_matched": 64479,
+        "attached_stereo_matched": 65126,
+        "truth_stereo_matched": 77203,
+        "matched_tracks": 5786,
+        "joint_matched_tracks": 5339,
+        "fake_candidates": 190,
+        "track_efficiency": 0.9503942181340341,
+        "fake_fraction": 0.03179384203480589,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9900654116635446,
+        "stereo_completeness_matched": 0.8351877517713042,
+        "stereo_recall_all_eligible_tracks": 0.7636072951207958,
+        "joint_track_efficiency": 0.8769710906701709
+      },
+      "seeds": {
+        "truth_tracks": 6088,
+        "output_candidates": 5849,
+        "fake_candidates": 194,
+        "matched_tracks": 5655,
+        "f1": 0.9474742397587333,
+        "efficiency": 0.9288764783180026,
+        "fake_fraction": 0.033168062916737906,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 3.790884808499686
+    },
+    "T10_cal_old": {
+      "tracks": {
+        "truth_tracks": 6088,
+        "stereo_eligible_tracks": 6088,
+        "truth_stereo_all": 84440,
+        "output_candidates": 5978,
+        "axial_completeness_sum": 5320.6665801685685,
+        "correct_stereo_matched": 64454,
+        "attached_stereo_matched": 65096,
+        "truth_stereo_matched": 77176,
+        "matched_tracks": 5784,
+        "joint_matched_tracks": 5337,
+        "fake_candidates": 194,
+        "track_efficiency": 0.9500657030223391,
+        "fake_fraction": 0.03245232519237203,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9901376428659211,
+        "stereo_completeness_matched": 0.8351560070488234,
+        "stereo_recall_all_eligible_tracks": 0.7633112269066793,
+        "joint_track_efficiency": 0.8766425755584757
+      },
+      "seeds": {
+        "truth_tracks": 6088,
+        "output_candidates": 5851,
+        "fake_candidates": 197,
+        "matched_tracks": 5654,
+        "f1": 0.9471480023452551,
+        "efficiency": 0.9287122207621551,
+        "fake_fraction": 0.03366945821227141,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 3.789920823999928
+    },
+    "T10_cal_path": {
+      "tracks": {
+        "truth_tracks": 6088,
+        "stereo_eligible_tracks": 6088,
+        "truth_stereo_all": 84440,
+        "output_candidates": 5958,
+        "axial_completeness_sum": 5375.338970367125,
+        "correct_stereo_matched": 64077,
+        "attached_stereo_matched": 64726,
+        "truth_stereo_matched": 76742,
+        "fake_candidates": 205,
+        "matched_tracks": 5751,
+        "joint_matched_tracks": 5307,
+        "clone_candidates": 2,
+        "track_efficiency": 0.9446452036793692,
+        "fake_fraction": 0.03440751930177912,
+        "clone_fraction": 0.0003356831151393085,
+        "stereo_purity_matched": 0.9899731174489386,
+        "stereo_completeness_matched": 0.8349665111672878,
+        "stereo_recall_all_eligible_tracks": 0.758846518237802,
+        "joint_track_efficiency": 0.8717148488830486
+      },
+      "seeds": {
+        "truth_tracks": 6088,
+        "output_candidates": 5825,
+        "fake_candidates": 205,
+        "matched_tracks": 5619,
+        "clone_candidates": 1,
+        "f1": 0.9433392092671871,
+        "efficiency": 0.9229632063074902,
+        "fake_fraction": 0.0351931330472103,
+        "clone_fraction": 0.00017167381974248928
+      },
+      "mean_seconds": 7.02850165699936
+    }
+  },
+  "paired": {
+    "baseline": {
+      "gained": [
+        [
+          449,
+          1109
+        ],
+        [
+          5631,
+          250
+        ],
+        [
+          5631,
+          1926
+        ],
+        [
+          5796,
+          4376
+        ],
+        [
+          7189,
+          557
+        ],
+        [
+          7300,
+          1693
+        ],
+        [
+          7486,
+          6842
+        ],
+        [
+          7486,
+          942
+        ]
+      ],
+      "lost": [
+        [
+          322,
+          1208
+        ],
+        [
+          749,
+          2623
+        ],
+        [
+          1800,
+          3384
+        ],
+        [
+          2150,
+          2251
+        ],
+        [
+          3113,
+          3982
+        ],
+        [
+          3138,
+          1872
+        ],
+        [
+          3728,
+          1931
+        ],
+        [
+          4410,
+          3874
+        ],
+        [
+          4410,
+          5141
+        ],
+        [
+          4554,
+          4297
+        ],
+        [
+          4573,
+          6191
+        ],
+        [
+          5187,
+          1525
+        ],
+        [
+          5358,
+          1981
+        ],
+        [
+          5564,
+          2424
+        ],
+        [
+          5794,
+          5282
+        ],
+        [
+          7615,
+          1058
+        ],
+        [
+          9105,
+          3179
+        ],
+        [
+          9342,
+          4825
+        ]
+      ],
+      "net": -10
+    },
+    "T10_cal_old": {
+      "gained": [
+        [
+          449,
+          1109
+        ],
+        [
+          7486,
+          6842
+        ],
+        [
+          7486,
+          942
+        ]
+      ],
+      "lost": [
+        [
+          327,
+          3784
+        ],
+        [
+          2452,
+          237
+        ],
+        [
+          5627,
+          4068
+        ],
+        [
+          5794,
+          2842
+        ],
+        [
+          5794,
+          1565
+        ]
+      ],
+      "net": -2
+    },
+    "T10_cal_path": {
+      "gained": [
+        [
+          449,
+          1109
+        ],
+        [
+          1147,
+          3950
+        ],
+        [
+          1291,
+          1417
+        ],
+        [
+          1291,
+          2450
+        ],
+        [
+          1498,
+          4156
+        ],
+        [
+          1498,
+          3935
+        ],
+        [
+          2774,
+          5509
+        ],
+        [
+          3113,
+          4096
+        ],
+        [
+          5419,
+          4878
+        ],
+        [
+          5583,
+          4156
+        ],
+        [
+          5631,
+          250
+        ],
+        [
+          5631,
+          1926
+        ],
+        [
+          5796,
+          4376
+        ],
+        [
+          5929,
+          1567
+        ],
+        [
+          7189,
+          557
+        ],
+        [
+          7486,
+          6842
+        ],
+        [
+          7486,
+          942
+        ],
+        [
+          8246,
+          1492
+        ],
+        [
+          8246,
+          895
+        ],
+        [
+          8869,
+          3164
+        ],
+        [
+          9105,
+          2295
+        ],
+        [
+          9517,
+          2314
+        ]
+      ],
+      "lost": [
+        [
+          172,
+          1608
+        ],
+        [
+          322,
+          1208
+        ],
+        [
+          327,
+          3784
+        ],
+        [
+          669,
+          3434
+        ],
+        [
+          669,
+          3244
+        ],
+        [
+          749,
+          2623
+        ],
+        [
+          1498,
+          2996
+        ],
+        [
+          1634,
+          661
+        ],
+        [
+          1800,
+          3384
+        ],
+        [
+          1800,
+          2718
+        ],
+        [
+          1932,
+          281
+        ],
+        [
+          1932,
+          4793
+        ],
+        [
+          2150,
+          2251
+        ],
+        [
+          2895,
+          2976
+        ],
+        [
+          2895,
+          6206
+        ],
+        [
+          3113,
+          4824
+        ],
+        [
+          3113,
+          3982
+        ],
+        [
+          3138,
+          1872
+        ],
+        [
+          3138,
+          658
+        ],
+        [
+          3138,
+          3023
+        ],
+        [
+          3304,
+          2616
+        ],
+        [
+          3304,
+          2504
+        ],
+        [
+          3519,
+          3867
+        ],
+        [
+          3554,
+          6001
+        ],
+        [
+          3728,
+          1931
+        ],
+        [
+          4410,
+          3874
+        ],
+        [
+          4410,
+          5141
+        ],
+        [
+          4554,
+          4297
+        ],
+        [
+          4573,
+          6191
+        ],
+        [
+          4803,
+          5417
+        ],
+        [
+          5187,
+          1525
+        ],
+        [
+          5187,
+          1549
+        ],
+        [
+          5358,
+          1981
+        ],
+        [
+          5467,
+          1799
+        ],
+        [
+          5583,
+          951
+        ],
+        [
+          5627,
+          4068
+        ],
+        [
+          5794,
+          5282
+        ],
+        [
+          6779,
+          1886
+        ],
+        [
+          7300,
+          6104
+        ],
+        [
+          7567,
+          4817
+        ],
+        [
+          7567,
+          83
+        ],
+        [
+          7567,
+          1511
+        ],
+        [
+          7635,
+          2977
+        ],
+        [
+          7646,
+          3900
+        ],
+        [
+          7778,
+          820
+        ],
+        [
+          8246,
+          628
+        ],
+        [
+          8647,
+          6550
+        ],
+        [
+          8657,
+          3957
+        ],
+        [
+          8960,
+          898
+        ],
+        [
+          9005,
+          4598
+        ],
+        [
+          9105,
+          3179
+        ],
+        [
+          9126,
+          2386
+        ],
+        [
+          9227,
+          3759
+        ],
+        [
+          9342,
+          4825
+        ],
+        [
+          9467,
+          2267
+        ],
+        [
+          9677,
+          3960
+        ],
+        [
+          9843,
+          5819
+        ]
+      ],
+      "net": -35
+    }
+  }
+}

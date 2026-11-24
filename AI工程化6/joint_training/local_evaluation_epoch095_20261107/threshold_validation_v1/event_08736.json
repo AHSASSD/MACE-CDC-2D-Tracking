@@ -1,0 +1,68 @@
+{
+  "event_id": 8736,
+  "methods": {
+    "baseline": {
+      "truth_tracks": 26,
+      "stereo_eligible_tracks": 26,
+      "truth_stereo_all": 356,
+      "output_candidates": 23,
+      "axial_completeness_sum": 20.024242424242427,
+      "correct_stereo_matched": 235,
+      "attached_stereo_matched": 241,
+      "truth_stereo_matched": 315,
+      "matched_tracks": 23,
+      "joint_matched_tracks": 18
+    },
+    "threshold_065_055": {
+      "truth_tracks": 26,
+      "stereo_eligible_tracks": 26,
+      "truth_stereo_all": 356,
+      "output_candidates": 24,
+      "axial_completeness_sum": 20.56161616161616,
+      "correct_stereo_matched": 238,
+      "attached_stereo_matched": 244,
+      "truth_stereo_matched": 313,
+      "fake_candidates": 1,
+      "matched_tracks": 23,
+      "joint_matched_tracks": 18
+    },
+    "threshold_075_0575": {
+      "truth_tracks": 26,
+      "stereo_eligible_tracks": 26,
+      "truth_stereo_all": 356,
+      "output_candidates": 23,
+      "axial_completeness_sum": 19.28787878787879,
+      "correct_stereo_matched": 225,
+      "attached_stereo_matched": 231,
+      "truth_stereo_matched": 297,
+      "fake_candidates": 1,
+      "matched_tracks": 22,
+      "joint_matched_tracks": 17
+    },
+    "threshold_075_060": {
+      "truth_tracks": 26,
+      "stereo_eligible_tracks": 26,
+      "truth_stereo_all": 356,
+      "output_candidates": 23,
+      "axial_completeness_sum": 19.28787878787879,
+      "correct_stereo_matched": 225,
+      "attached_stereo_matched": 231,
+      "truth_stereo_matched": 297,
+      "fake_candidates": 1,
+      "matched_tracks": 22,
+      "joint_matched_tracks": 17
+    },
+    "threshold_070_055": {
+      "truth_tracks": 26,
+      "stereo_eligible_tracks": 26,
+      "truth_stereo_all": 356,
+      "output_candidates": 24,
+      "axial_completeness_sum": 20.62424242424243,
+      "correct_stereo_matched": 238,
+      "attached_stereo_matched": 244,
+      "truth_stereo_matched": 330,
+      "matched_tracks": 24,
+      "joint_matched_tracks": 18
+    }
+  }
+}

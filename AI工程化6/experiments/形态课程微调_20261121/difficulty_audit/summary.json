@@ -1,0 +1,27 @@
+{
+  "train_events": 7000,
+  "clean_events": 5818,
+  "hard_events": 1182,
+  "invalid_events": 0,
+  "hit_percentiles": {
+    "0.5": 711.0,
+    "0.9": 915.1000000000004,
+    "0.95": 990.0499999999993,
+    "0.99": 1142.0100000000002
+  },
+  "blob_tracks": 26,
+  "loop_tracks": 1101,
+  "total_eligible_axial_tracks": 210720,
+  "tracks_in_events_with_shape_hard": 31694,
+  "shape_hard_events": 1022,
+  "high_occupancy_events": 350,
+  "rules": {
+    "min_hits": 8,
+    "min_unique_cells": 5,
+    "blob_extent_mm": 80.0,
+    "blob_minor_major": 0.2,
+    "loop_coverage_degrees": 210.0,
+    "loop_max_radial_cv": 0.4,
+    "high_occupancy_quantile": 0.95
+  }
+}

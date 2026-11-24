@@ -1,0 +1,7 @@
+{
+  "deadline_unix": 1793895656.5527177,
+  "executed_unix": 1793895657.1136913,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Stop-Process : 由于以下错误而无法停止进程“Endfield (10444)”: 拒绝访问。\n所在位置 行:1 字符: 98\n+ ... ld,MaaEnd -ErrorAction SilentlyContinue | Stop-Process -Force; Start- ...\n+                                               ~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : CloseError: (System.Diagnostics.Process (Endfield):Process) [Stop-Process]，ProcessComman\n    dException\n    + FullyQualifiedErrorId : CouldNotStopProcess,Microsoft.PowerShell.Commands.StopProcessCommand\n \n"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "optimization_updates": 0,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "gpu_memory_bytes": 34072559616,
+  "peak_allocated_bytes": 7023782912,
+  "graphs": 4,
+  "edges": 411842,
+  "weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "arms": {
+    "control": {
+      "loss": 0.01096351072192192,
+      "terms": {
+        "base": 0.01096351072192192,
+        "positive_aux": 0.0,
+        "hard_negative_aux": 0.0
+      }
+    },
+    "balanced": {
+      "loss": 0.01745649054646492,
+      "terms": {
+        "base": 0.010960564017295837,
+        "positive_aux": 0.03529265522956848,
+        "hard_negative_aux": 0.059333182871341705
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": 1798,
+  "partition": "validation",
+  "focus_truth": 3390,
+  "category": "pure_connected_at_existing_relaxed_cut",
+  "image": "event_01798_T3390_baseline.png",
+  "hits": 1089,
+  "axial_hits": 490,
+  "stereo_hits": 599,
+  "edge_counts": {
+    "AA": 16499,
+    "AS": 57626,
+    "SS": 34048
+  },
+  "metrics": {
+    "truth_tracks": 39,
+    "stereo_eligible_tracks": 39,
+    "truth_stereo_all": 599,
+    "output_candidates": 39,
+    "axial_completeness_sum": 29.248249576510457,
+    "correct_stereo_matched": 331,
+    "attached_stereo_matched": 331,
+    "truth_stereo_matched": 463,
+    "fake_candidates": 4,
+    "matched_tracks": 35,
+    "joint_matched_tracks": 31
+  },
+  "seed": {
+    "truth_tracks": 39,
+    "output_candidates": 36,
+    "fake_candidates": 2,
+    "matched_tracks": 34
+  },
+  "seconds": 11.63964295387268
+}

@@ -1,0 +1,24 @@
+{
+  "arguments": {
+    "train": 256,
+    "validation": 64,
+    "test": 64,
+    "epochs": 24,
+    "run": "memory_safe_gpu",
+    "close_apps": false,
+    "reuse": "pilot_v1",
+    "aggregation": "sum",
+    "skip_test": false,
+    "initialize": "cpu_extension/last.pt",
+    "device": "cuda",
+    "memory_safe": true
+  },
+  "seed": 20261105,
+  "architecture": {
+    "hidden": 64,
+    "passes": 3,
+    "aggregation": "sum"
+  },
+  "initialization_sha256": "2e5d3364287a233eead28faa111daeb86cab44edd83ffdcc8d96c1c91925f3a4",
+  "source_script_sha256": "bb57a582613d5a40bc30592951fac722ea09f38ee2e2b4a0f4215199e589e1c5"
+}

@@ -1,0 +1,274 @@
+{
+  "events": 16,
+  "scope": "Development-only calibration/decoder check",
+  "methods": {
+    "baseline": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 476,
+        "axial_completeness_sum": 426.8893995316155,
+        "correct_stereo_matched": 5376,
+        "attached_stereo_matched": 5423,
+        "truth_stereo_matched": 6240,
+        "matched_tracks": 457,
+        "joint_matched_tracks": 431,
+        "fake_candidates": 19,
+        "track_efficiency": 0.9307535641547862,
+        "fake_fraction": 0.03991596638655462,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913332104001475,
+        "stereo_completeness_matched": 0.8615384615384616,
+        "stereo_recall_all_eligible_tracks": 0.7924528301886793,
+        "joint_track_efficiency": 0.8778004073319755
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 454,
+        "fake_candidates": 13,
+        "f1": 0.9478079331941545,
+        "efficiency": 0.924643584521385,
+        "fake_fraction": 0.027837259100642397,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 2.6190481562471177
+    },
+    "T25_old": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 475,
+        "axial_completeness_sum": 430.53616024216933,
+        "correct_stereo_matched": 5467,
+        "attached_stereo_matched": 5514,
+        "truth_stereo_matched": 6308,
+        "matched_tracks": 462,
+        "joint_matched_tracks": 437,
+        "fake_candidates": 13,
+        "track_efficiency": 0.9409368635437881,
+        "fake_fraction": 0.02736842105263158,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9914762422923468,
+        "stereo_completeness_matched": 0.8666772352568167,
+        "stereo_recall_all_eligible_tracks": 0.8058667452830188,
+        "joint_track_efficiency": 0.890020366598778
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 459,
+        "fake_candidates": 8,
+        "f1": 0.9582463465553236,
+        "efficiency": 0.9348268839103869,
+        "fake_fraction": 0.017130620985010708,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 3.3011256062472967
+    },
+    "T25_path": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 475,
+        "axial_completeness_sum": 430.69257038037466,
+        "correct_stereo_matched": 5388,
+        "attached_stereo_matched": 5435,
+        "truth_stereo_matched": 6244,
+        "matched_tracks": 457,
+        "joint_matched_tracks": 431,
+        "fake_candidates": 18,
+        "track_efficiency": 0.9307535641547862,
+        "fake_fraction": 0.037894736842105266,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913523459061637,
+        "stereo_completeness_matched": 0.8629083920563742,
+        "stereo_recall_all_eligible_tracks": 0.7942216981132075,
+        "joint_track_efficiency": 0.8778004073319755
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 454,
+        "fake_candidates": 13,
+        "f1": 0.9478079331941545,
+        "efficiency": 0.924643584521385,
+        "fake_fraction": 0.027837259100642397,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 6.032669874999556
+    },
+    "T10_cal_old": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 475,
+        "axial_completeness_sum": 430.56393801994716,
+        "correct_stereo_matched": 5467,
+        "attached_stereo_matched": 5514,
+        "truth_stereo_matched": 6308,
+        "matched_tracks": 462,
+        "joint_matched_tracks": 437,
+        "fake_candidates": 13,
+        "track_efficiency": 0.9409368635437881,
+        "fake_fraction": 0.02736842105263158,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9914762422923468,
+        "stereo_completeness_matched": 0.8666772352568167,
+        "stereo_recall_all_eligible_tracks": 0.8058667452830188,
+        "joint_track_efficiency": 0.890020366598778
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 459,
+        "fake_candidates": 8,
+        "f1": 0.9582463465553236,
+        "efficiency": 0.9348268839103869,
+        "fake_fraction": 0.017130620985010708,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 3.3245446562486904
+    },
+    "T10_cal_path": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 475,
+        "axial_completeness_sum": 430.7945905823949,
+        "correct_stereo_matched": 5388,
+        "attached_stereo_matched": 5435,
+        "truth_stereo_matched": 6244,
+        "matched_tracks": 457,
+        "joint_matched_tracks": 431,
+        "fake_candidates": 18,
+        "track_efficiency": 0.9307535641547862,
+        "fake_fraction": 0.037894736842105266,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913523459061637,
+        "stereo_completeness_matched": 0.8629083920563742,
+        "stereo_recall_all_eligible_tracks": 0.7942216981132075,
+        "joint_track_efficiency": 0.8778004073319755
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 454,
+        "fake_candidates": 13,
+        "f1": 0.9478079331941545,
+        "efficiency": 0.924643584521385,
+        "fake_fraction": 0.027837259100642397,
+        "clone_fraction": 0.0
+      },
+      "mean_seconds": 6.146672156248314
+    }
+  },
+  "paired": {
+    "baseline": {
+      "gained": [],
+      "lost": [
+        [
+          2009,
+          3210
+        ],
+        [
+          2009,
+          4935
+        ],
+        [
+          7931,
+          5099
+        ],
+        [
+          7931,
+          3589
+        ],
+        [
+          999,
+          5170
+        ]
+      ],
+      "net": -5
+    },
+    "T25_path": {
+      "gained": [
+        [
+          9367,
+          1860
+        ]
+      ],
+      "lost": [
+        [
+          2009,
+          3210
+        ],
+        [
+          7235,
+          299
+        ],
+        [
+          7964,
+          2376
+        ],
+        [
+          7931,
+          5099
+        ],
+        [
+          7931,
+          3589
+        ],
+        [
+          4901,
+          2379
+        ]
+      ],
+      "net": -5
+    },
+    "T10_cal_old": {
+      "gained": [],
+      "lost": [],
+      "net": 0
+    },
+    "T10_cal_path": {
+      "gained": [
+        [
+          9367,
+          1860
+        ]
+      ],
+      "lost": [
+        [
+          2009,
+          3210
+        ],
+        [
+          7235,
+          299
+        ],
+        [
+          7964,
+          2376
+        ],
+        [
+          7931,
+          5099
+        ],
+        [
+          7931,
+          3589
+        ],
+        [
+          4901,
+          2379
+        ]
+      ],
+      "net": -5
+    }
+  }
+}

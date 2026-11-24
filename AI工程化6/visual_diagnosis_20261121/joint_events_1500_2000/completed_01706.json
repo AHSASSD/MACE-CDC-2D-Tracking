@@ -1,0 +1,33 @@
+{
+  "event_id": 1706,
+  "partition": "train",
+  "focus_truth": 935,
+  "category": "matched",
+  "image": "event_01706_T935_baseline.png",
+  "hits": 721,
+  "axial_hits": 314,
+  "stereo_hits": 407,
+  "edge_counts": {
+    "AA": 5595,
+    "AS": 21263,
+    "SS": 13102
+  },
+  "metrics": {
+    "truth_tracks": 32,
+    "stereo_eligible_tracks": 32,
+    "truth_stereo_all": 407,
+    "output_candidates": 32,
+    "axial_completeness_sum": 28.655555555555555,
+    "correct_stereo_matched": 363,
+    "attached_stereo_matched": 363,
+    "truth_stereo_matched": 407,
+    "matched_tracks": 32,
+    "joint_matched_tracks": 32
+  },
+  "seed": {
+    "truth_tracks": 32,
+    "output_candidates": 32,
+    "matched_tracks": 32
+  },
+  "seconds": 6.542427062988281
+}

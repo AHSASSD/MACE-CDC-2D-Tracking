@@ -1,0 +1,20 @@
+{
+  "event_id": 232,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "routes": {
+    "E": {
+      "epoch": 35,
+      "sha256": "79cbfd57e7adfc3a9c3fd20fcf518d14a2802a36b4cf3e38f07cc198b6d8d8e9",
+      "max_probability_difference_vs_cloud": 0.0004145503044128418,
+      "inference_seconds": 0.22405649999564048,
+      "best_equals_epoch_state": true
+    },
+    "T": {
+      "epoch": 25,
+      "sha256": "46a9d457a19e3e81112534f52e5a76e0437baa26b06c84f98fcd29f0e3b3eed2",
+      "max_probability_difference_vs_cloud": 0.00048828125,
+      "inference_seconds": 0.029712899995502084,
+      "best_equals_epoch_state": true
+    }
+  }
+}

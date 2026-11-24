@@ -1,0 +1,35 @@
+{
+  "event_id": 1898,
+  "partition": "test",
+  "focus_truth": 723,
+  "category": "broadly_low_scores",
+  "image": "event_01898_T723_baseline.png",
+  "hits": 622,
+  "axial_hits": 262,
+  "stereo_hits": 360,
+  "edge_counts": {
+    "AA": 4201,
+    "AS": 16142,
+    "SS": 10067
+  },
+  "metrics": {
+    "truth_tracks": 27,
+    "stereo_eligible_tracks": 27,
+    "truth_stereo_all": 360,
+    "output_candidates": 27,
+    "axial_completeness_sum": 23.41388888888889,
+    "correct_stereo_matched": 277,
+    "attached_stereo_matched": 279,
+    "truth_stereo_matched": 336,
+    "fake_candidates": 2,
+    "matched_tracks": 25,
+    "joint_matched_tracks": 24
+  },
+  "seed": {
+    "truth_tracks": 27,
+    "output_candidates": 26,
+    "fake_candidates": 1,
+    "matched_tracks": 25
+  },
+  "seconds": 6.025374412536621
+}

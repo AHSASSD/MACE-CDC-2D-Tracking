@@ -1,0 +1,78 @@
+{
+  "joint": {
+    "AA": {
+      "precision": 0.6612665067033575,
+      "recall": 0.8098286207463423,
+      "f1": 0.7280461107878183,
+      "edges": 400628
+    },
+    "AS": {
+      "precision": 0.5323667290006916,
+      "recall": 0.5429263736766137,
+      "f1": 0.5375947021751994,
+      "edges": 1590806
+    },
+    "SS": {
+      "precision": 0.5513543975654657,
+      "recall": 0.4247337346608011,
+      "f1": 0.4798312870898658,
+      "edges": 1022536
+    },
+    "candidates": {
+      "truth_tracks": 961,
+      "matched_tracks": 16,
+      "axial_efficiency": 0.01664932362122789,
+      "fake_candidates": 113,
+      "fake_fraction": 0.875968992248062,
+      "clone_candidates": 0,
+      "clone_fraction": 0.0,
+      "output_candidates": 129,
+      "axial_completeness_matched": 1.0,
+      "stereo_purity": 0.9671361502347418,
+      "stereo_completeness_matched": 1.0,
+      "shared_output_hits": 0
+    },
+    "threshold": 0.3
+  },
+  "axial_baseline": {
+    "AA": {
+      "precision": 0.90494200706001,
+      "recall": 0.8884029869219027,
+      "f1": 0.8965962319142292,
+      "edges": 398138
+    },
+    "AS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "edges": 0
+    },
+    "SS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "edges": 0
+    },
+    "candidates": {
+      "truth_tracks": 961,
+      "matched_tracks": 640,
+      "axial_efficiency": 0.6659729448491155,
+      "fake_candidates": 138,
+      "fake_fraction": 0.17737789203084833,
+      "clone_candidates": 0,
+      "clone_fraction": 0.0,
+      "output_candidates": 778,
+      "axial_completeness_matched": 0.990602351577962,
+      "stereo_purity": 0.0,
+      "stereo_completeness_matched": 0.0,
+      "shared_output_hits": 0
+    },
+    "threshold": 0.5
+  },
+  "limitations": [
+    "Small pilot, not full-data convergence.",
+    "Connected-component candidate decoder with >=5 axial hits and 70% purity/completeness matching is exploratory, not the official two-pass benchmark.",
+    "No three-dimensional fit or momentum result claimed.",
+    "All-pair edge recall is conditional on geometric candidate graph."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "event_id": 2320,
+  "n_hits": 855,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 29,
+        "stereo_eligible_tracks": 29,
+        "truth_stereo_all": 493,
+        "output_candidates": 24,
+        "axial_completeness_sum": 21.3989898989899,
+        "correct_stereo_matched": 248,
+        "attached_stereo_matched": 249,
+        "truth_stereo_matched": 310,
+        "fake_candidates": 1,
+        "matched_tracks": 23,
+        "joint_matched_tracks": 21
+      },
+      "found": [
+        78,
+        155,
+        355,
+        926,
+        971,
+        1448,
+        1601,
+        1669,
+        2053,
+        2254,
+        2427,
+        2624,
+        2991,
+        3430,
+        3839,
+        3921,
+        3982,
+        4281,
+        4317,
+        4407,
+        4791,
+        4882,
+        5012
+      ],
+      "seeds": {
+        "truth_tracks": 29,
+        "output_candidates": 24,
+        "fake_candidates": 1,
+        "matched_tracks": 23
+      },
+      "decode_seconds": 3.005720899993321
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 29,
+        "stereo_eligible_tracks": 29,
+        "truth_stereo_all": 493,
+        "output_candidates": 24,
+        "axial_completeness_sum": 21.4989898989899,
+        "correct_stereo_matched": 248,
+        "attached_stereo_matched": 249,
+        "truth_stereo_matched": 310,
+        "fake_candidates": 1,
+        "matched_tracks": 23,
+        "joint_matched_tracks": 21
+      },
+      "found": [
+        78,
+        155,
+        355,
+        926,
+        971,
+        1448,
+        1601,
+        1669,
+        2053,
+        2254,
+        2427,
+        2624,
+        2991,
+        3430,
+        3839,
+        3921,
+        3982,
+        4281,
+        4317,
+        4407,
+        4791,
+        4882,
+        5012
+      ],
+      "seeds": {
+        "truth_tracks": 29,
+        "output_candidates": 24,
+        "fake_candidates": 1,
+        "matched_tracks": 23
+      },
+      "decode_seconds": 4.16573170000629
+    }
+  }
+}

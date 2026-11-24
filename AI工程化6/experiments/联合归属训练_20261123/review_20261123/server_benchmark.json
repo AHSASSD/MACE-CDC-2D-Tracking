@@ -1,0 +1,473 @@
+{
+  "gpu": "Tesla V100-SXM2-32GB",
+  "rows": [
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "legacy",
+      "microbatch": 1,
+      "io_seconds": 0.0688270814716816,
+      "sample_seconds": 3.51096248999238,
+      "gpu_step_seconds": 1.5226338570937514,
+      "total_step_including_io_sample": 5.102423428557813,
+      "peak_allocated_GiB": 0.37782955169677734,
+      "stage_seconds": [
+        {
+          "transfer": 0.02331877127289772,
+          "forward": 0.3137937877327204,
+          "objective": 0.15240943804383278,
+          "backward_update": 0.9022194966673851
+        },
+        {
+          "transfer": 0.015739956870675087,
+          "forward": 0.5643275231122971,
+          "objective": 0.1534546297043562,
+          "backward_update": 0.9200041107833385
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "vectorized",
+      "microbatch": 1,
+      "io_seconds": 0.0688270814716816,
+      "sample_seconds": 0.549479091539979,
+      "gpu_step_seconds": 1.0580374030396342,
+      "total_step_including_io_sample": 1.6763435760512948,
+      "peak_allocated_GiB": 0.37782955169677734,
+      "stage_seconds": [
+        {
+          "transfer": 0.019285118207335472,
+          "forward": 0.31248984672129154,
+          "objective": 0.016070708632469177,
+          "backward_update": 0.715614041313529
+        },
+        {
+          "transfer": 0.011542605236172676,
+          "forward": 0.31039171665906906,
+          "objective": 0.016101373359560966,
+          "backward_update": 0.7145793959498405
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "chunk16384",
+      "microbatch": 1,
+      "io_seconds": 0.0688270814716816,
+      "sample_seconds": 0.5500893536955118,
+      "gpu_step_seconds": 0.3729277243837714,
+      "total_step_including_io_sample": 0.9918441595509648,
+      "peak_allocated_GiB": 0.3694329261779785,
+      "stage_seconds": [
+        {
+          "transfer": 0.010701851919293404,
+          "forward": 0.10502787493169308,
+          "objective": 0.01613229140639305,
+          "backward_update": 0.2436818778514862
+        },
+        {
+          "transfer": 0.010817093774676323,
+          "forward": 0.10524023324251175,
+          "objective": 0.016388311982154846,
+          "backward_update": 0.23786591365933418
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "partial16384",
+      "microbatch": 1,
+      "io_seconds": 0.0688270814716816,
+      "sample_seconds": 0.5471902061253786,
+      "gpu_step_seconds": 0.3401746693998575,
+      "total_step_including_io_sample": 0.9561919569969177,
+      "peak_allocated_GiB": 1.015204906463623,
+      "stage_seconds": [
+        {
+          "transfer": 0.010338194668293,
+          "forward": 0.09682389162480831,
+          "objective": 0.016067204996943474,
+          "backward_update": 0.21456867456436157
+        },
+        {
+          "transfer": 0.011117726564407349,
+          "forward": 0.09618263132870197,
+          "objective": 0.016169819980859756,
+          "backward_update": 0.2190811950713396
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "micro2",
+      "microbatch": 2,
+      "io_seconds": 0.0688270814716816,
+      "sample_seconds": 1.1136489063501358,
+      "gpu_step_seconds": 0.5667605940252542,
+      "total_step_including_io_sample": 0.9090318316593766,
+      "peak_allocated_GiB": 1.998769760131836,
+      "stage_seconds": [
+        {
+          "transfer": 0.01935599371790886,
+          "forward": 0.15988639369606972,
+          "objective": 0.032879630103707314,
+          "backward_update": 0.3567378558218479
+        },
+        {
+          "transfer": 0.01932706870138645,
+          "forward": 0.15762894041836262,
+          "objective": 0.031341901049017906,
+          "backward_update": 0.3563634045422077
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "micro4",
+      "microbatch": 4,
+      "io_seconds": 0.0688270814716816,
+      "sample_seconds": 2.1900842282921076,
+      "gpu_step_seconds": 1.0732135036960244,
+      "total_step_including_io_sample": 0.8846515144687146,
+      "peak_allocated_GiB": 3.9546122550964355,
+      "stage_seconds": [
+        {
+          "transfer": 0.05121033452451229,
+          "forward": 0.2892708610743284,
+          "objective": 0.06429312005639076,
+          "backward_update": 0.6752357129007578
+        },
+        {
+          "transfer": 0.05151467211544514,
+          "forward": 0.2887276615947485,
+          "objective": 0.061590470373630524,
+          "backward_update": 0.6645841747522354
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "legacy",
+      "microbatch": 1,
+      "io_seconds": 0.09360942244529724,
+      "sample_seconds": 4.915493166074157,
+      "gpu_step_seconds": 2.103923188522458,
+      "total_step_including_io_sample": 7.113025777041912,
+      "peak_allocated_GiB": 0.5744094848632812,
+      "stage_seconds": [
+        {
+          "transfer": 0.015187183395028114,
+          "forward": 0.4661359488964081,
+          "objective": 0.24081464298069477,
+          "backward_update": 1.3790629524737597
+        },
+        {
+          "transfer": 0.01721881330013275,
+          "forward": 0.46595278568565845,
+          "objective": 0.24075909703969955,
+          "backward_update": 1.3827149532735348
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "vectorized",
+      "microbatch": 1,
+      "io_seconds": 0.09360942244529724,
+      "sample_seconds": 0.7748604416847229,
+      "gpu_step_seconds": 1.5768478186801076,
+      "total_step_including_io_sample": 2.4453176828101277,
+      "peak_allocated_GiB": 0.5744094848632812,
+      "stage_seconds": [
+        {
+          "transfer": 0.015196014195680618,
+          "forward": 0.4640811402350664,
+          "objective": 0.016885502263903618,
+          "backward_update": 1.0693510435521603
+        },
+        {
+          "transfer": 0.023900462314486504,
+          "forward": 0.4732050094753504,
+          "objective": 0.016604552045464516,
+          "backward_update": 1.0744719132781029
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "chunk16384",
+      "microbatch": 1,
+      "io_seconds": 0.09360942244529724,
+      "sample_seconds": 0.7804392036050558,
+      "gpu_step_seconds": 0.5034518418833613,
+      "total_step_including_io_sample": 1.3775004679337144,
+      "peak_allocated_GiB": 0.5534811019897461,
+      "stage_seconds": [
+        {
+          "transfer": 0.014990217983722687,
+          "forward": 0.14223864115774632,
+          "objective": 0.016991645097732544,
+          "backward_update": 0.329364899545908
+        },
+        {
+          "transfer": 0.015297871083021164,
+          "forward": 0.14224306121468544,
+          "objective": 0.016193028539419174,
+          "backward_update": 0.3295843191444874
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "partial16384",
+      "microbatch": 1,
+      "io_seconds": 0.09360942244529724,
+      "sample_seconds": 0.7719123139977455,
+      "gpu_step_seconds": 0.4605761729180813,
+      "total_step_including_io_sample": 1.326097909361124,
+      "peak_allocated_GiB": 1.556300163269043,
+      "stage_seconds": [
+        {
+          "transfer": 0.015350177884101868,
+          "forward": 0.13240284472703934,
+          "objective": 0.016952253878116608,
+          "backward_update": 0.2961518485099077
+        },
+        {
+          "transfer": 0.015383504331111908,
+          "forward": 0.13361443392932415,
+          "objective": 0.01639125496149063,
+          "backward_update": 0.29490602761507034
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "micro2",
+      "microbatch": 2,
+      "io_seconds": 0.09360942244529724,
+      "sample_seconds": 1.5648453552275896,
+      "gpu_step_seconds": 0.810040520504117,
+      "total_step_including_io_sample": 1.2810523603111506,
+      "peak_allocated_GiB": 3.07867431640625,
+      "stage_seconds": [
+        {
+          "transfer": 0.028919335454702377,
+          "forward": 0.23196930810809135,
+          "objective": 0.03248697333037853,
+          "backward_update": 0.518029822036624
+        },
+        {
+          "transfer": 0.029054690152406693,
+          "forward": 0.22804223746061325,
+          "objective": 0.03177232667803764,
+          "backward_update": 0.5198063477873802
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "micro4",
+      "microbatch": 4,
+      "io_seconds": 0.09360942244529724,
+      "sample_seconds": 3.1275756545364857,
+      "gpu_step_seconds": 1.548524002544582,
+      "total_step_including_io_sample": 1.2626343367155641,
+      "peak_allocated_GiB": 6.118151664733887,
+      "stage_seconds": [
+        {
+          "transfer": 0.07266368716955185,
+          "forward": 0.42881488986313343,
+          "objective": 0.06297008879482746,
+          "backward_update": 1.002270594239235
+        },
+        {
+          "transfer": 0.05372127518057823,
+          "forward": 0.4263954143971205,
+          "objective": 0.06090257689356804,
+          "backward_update": 0.9893094785511494
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "legacy",
+      "microbatch": 1,
+      "io_seconds": 0.13150722719728947,
+      "sample_seconds": 9.065865455195308,
+      "gpu_step_seconds": 5.099435176700354,
+      "total_step_including_io_sample": 14.29680785909295,
+      "peak_allocated_GiB": 1.6727962493896484,
+      "stage_seconds": [
+        {
+          "transfer": 0.057048555463552475,
+          "forward": 1.3157169315963984,
+          "objective": 0.2239331416785717,
+          "backward_update": 3.3784935027360916
+        },
+        {
+          "transfer": 0.046086160466074944,
+          "forward": 1.5829145424067974,
+          "objective": 0.22480094991624355,
+          "backward_update": 3.369876569136977
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "vectorized",
+      "microbatch": 1,
+      "io_seconds": 0.13150722719728947,
+      "sample_seconds": 1.3875521812587976,
+      "gpu_step_seconds": 4.658424791879952,
+      "total_step_including_io_sample": 6.177484200336039,
+      "peak_allocated_GiB": 1.6727962493896484,
+      "stage_seconds": [
+        {
+          "transfer": 0.04916566610336304,
+          "forward": 1.509783724322915,
+          "objective": 0.017051175236701965,
+          "backward_update": 3.0857047215104103
+        },
+        {
+          "transfer": 0.04133219085633755,
+          "forward": 1.506100969389081,
+          "objective": 0.016381777822971344,
+          "backward_update": 3.0913293585181236
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "chunk16384",
+      "microbatch": 1,
+      "io_seconds": 0.13150722719728947,
+      "sample_seconds": 1.4043110813945532,
+      "gpu_step_seconds": 1.257887426763773,
+      "total_step_including_io_sample": 2.7937057353556156,
+      "peak_allocated_GiB": 1.5876727104187012,
+      "stage_seconds": [
+        {
+          "transfer": 0.04395629093050957,
+          "forward": 0.3580055423080921,
+          "objective": 0.016734877601265907,
+          "backward_update": 0.8326685018837452
+        },
+        {
+          "transfer": 0.04155150428414345,
+          "forward": 0.36951752193272114,
+          "objective": 0.01619548350572586,
+          "backward_update": 0.8371451310813427
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "partial16384",
+      "microbatch": 1,
+      "io_seconds": 0.13150722719728947,
+      "sample_seconds": 1.361865196377039,
+      "gpu_step_seconds": 1.152860808186233,
+      "total_step_including_io_sample": 2.6462332317605615,
+      "peak_allocated_GiB": 4.5949249267578125,
+      "stage_seconds": [
+        {
+          "transfer": 0.04206597059965134,
+          "forward": 0.3367575276643038,
+          "objective": 0.016866791993379593,
+          "backward_update": 0.7535399626940489
+        },
+        {
+          "transfer": 0.04177146032452583,
+          "forward": 0.33164146170020103,
+          "objective": 0.01612500101327896,
+          "backward_update": 0.7669534403830767
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "micro2",
+      "microbatch": 2,
+      "io_seconds": 0.13150722719728947,
+      "sample_seconds": 2.772787142544985,
+      "gpu_step_seconds": 2.3161033978685737,
+      "total_step_including_io_sample": 2.6759524974040687,
+      "peak_allocated_GiB": 9.158504009246826,
+      "stage_seconds": [
+        {
+          "transfer": 0.11156951822340488,
+          "forward": 0.6261082217097282,
+          "objective": 0.03226010501384735,
+          "backward_update": 1.4587090723216534
+        },
+        {
+          "transfer": 0.10706502757966518,
+          "forward": 0.8217051215469837,
+          "objective": 0.03156348131597042,
+          "backward_update": 1.4432262480258942
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "micro4",
+      "microbatch": 4,
+      "io_seconds": 0.13150722719728947,
+      "sample_seconds": 5.578288579359651,
+      "gpu_step_seconds": 4.582198455929756,
+      "total_step_including_io_sample": 2.671628986019641,
+      "peak_allocated_GiB": 18.281736373901367,
+      "stage_seconds": [
+        {
+          "transfer": 0.2267763763666153,
+          "forward": 1.4323207698762417,
+          "objective": 0.12311563082039356,
+          "backward_update": 2.853260014206171
+        },
+        {
+          "transfer": 0.21153420954942703,
+          "forward": 1.2289333157241344,
+          "objective": 0.06260312348604202,
+          "backward_update": 3.0258534718304873
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "events": 200,
+  "scope": "Development validation PR audit; checkpoints7and10 selected retrospectively, not blind confirmation. Weak means either original edge score<0.7.",
+  "models": {
+    "T25": {
+      "all": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 15893079,
+          "fp": 405681,
+          "precision": 0.9751097015969313,
+          "recall": 0.7709022586843699
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 13837460,
+          "fp": 74718,
+          "precision": 0.994629309659494,
+          "recall": 0.6711933646371872
+        },
+        "matched_precision": {
+          "threshold": 0.4998,
+          "tp": 15893079,
+          "fp": 405681,
+          "precision": 0.9751097015969313,
+          "recall": 0.7709022586843699
+        },
+        "precision_target": 0.9751097015969313
+      },
+      "weak": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 839847,
+          "fp": 221546,
+          "precision": 0.7912686441308733,
+          "recall": 0.15338592628646205
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 13105,
+          "fp": 1962,
+          "precision": 0.8697816419990708,
+          "recall": 0.002393439000179896
+        },
+        "matched_precision": {
+          "threshold": 0.4998,
+          "tp": 839847,
+          "fp": 221546,
+          "precision": 0.7912686441308733,
+          "recall": 0.15338592628646205
+        },
+        "precision_target": 0.7912686441308733
+      },
+      "axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 1406410,
+          "fp": 24540,
+          "precision": 0.9828505538278766,
+          "recall": 0.808965975814022
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 1262824,
+          "fp": 3203,
+          "precision": 0.9974700381587438,
+          "recall": 0.7263754164442563
+        },
+        "matched_precision": {
+          "threshold": 0.4998,
+          "tp": 1406410,
+          "fp": 24540,
+          "precision": 0.9828505538278766,
+          "recall": 0.808965975814022
+        },
+        "precision_target": 0.9828505538278766
+      },
+      "weak_axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 49360,
+          "fp": 14303,
+          "precision": 0.7753326107786312,
+          "recall": 0.1324162204504727
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 328,
+          "fp": 54,
+          "precision": 0.8586387434554974,
+          "recall": 0.0008799132963483598
+        },
+        "matched_precision": {
+          "threshold": 0.4998,
+          "tp": 49360,
+          "fp": 14303,
+          "precision": 0.7753326107786312,
+          "recall": 0.1324162204504727
+        },
+        "precision_target": 0.7753326107786312
+      },
+      "path_axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 605298,
+          "fp": 10357,
+          "precision": 0.9831772664885366,
+          "recall": 0.8062308947420999
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 539404,
+          "fp": 1382,
+          "precision": 0.9974444604705004,
+          "recall": 0.7184629216476308
+        },
+        "matched_precision": {
+          "threshold": 0.4998,
+          "tp": 605298,
+          "fp": 10357,
+          "precision": 0.9831772664885366,
+          "recall": 0.8062308947420999
+        },
+        "precision_target": 0.9831772664885366
+      },
+      "at_global_precision_match": {
+        "all": {
+          "threshold": 0.4998,
+          "tp": 15893079,
+          "fp": 405681,
+          "precision": 0.9751097015969313,
+          "recall": 0.7709022586843699
+        },
+        "weak": {
+          "threshold": 0.4998,
+          "tp": 839847,
+          "fp": 221546,
+          "precision": 0.7912686441308733,
+          "recall": 0.15338592628646205
+        },
+        "axial": {
+          "threshold": 0.4998,
+          "tp": 1406410,
+          "fp": 24540,
+          "precision": 0.9828505538278766,
+          "recall": 0.808965975814022
+        },
+        "weak_axial": {
+          "threshold": 0.4998,
+          "tp": 49360,
+          "fp": 14303,
+          "precision": 0.7753326107786312,
+          "recall": 0.1324162204504727
+        },
+        "path_axial": {
+          "threshold": 0.4998,
+          "tp": 605298,
+          "fp": 10357,
+          "precision": 0.9831772664885366,
+          "recall": 0.8062308947420999
+        }
+      }
+    },
+    "focused7": {
+      "all": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 19389833,
+          "fp": 3411603,
+          "precision": 0.8503777130528095,
+          "recall": 0.9405141731953093
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 15386846,
+          "fp": 250898,
+          "precision": 0.9839556140578846,
+          "recall": 0.7463471574909155
+        },
+        "matched_precision": {
+          "threshold": 0.8526,
+          "tp": 15952899,
+          "fp": 405894,
+          "precision": 0.9751880227349291,
+          "recall": 0.7738038596337202
+        },
+        "precision_target": 0.9751097015969313
+      },
+      "weak": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 4249229,
+          "fp": 3200662,
+          "precision": 0.5703746538036597,
+          "recall": 0.7760603135669912
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 419375,
+          "fp": 80254,
+          "precision": 0.8393728146284544,
+          "recall": 0.07659278753914109
+        },
+        "matched_precision": {
+          "threshold": 0.8326,
+          "tp": 1032574,
+          "fp": 272325,
+          "precision": 0.7913056872600868,
+          "recall": 0.18858472965827974
+        },
+        "precision_target": 0.7912686441308733
+      },
+      "axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 1652722,
+          "fp": 231568,
+          "precision": 0.8771059656422313,
+          "recall": 0.9506444532386018
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 1375287,
+          "fp": 14724,
+          "precision": 0.9894072780719001,
+          "recall": 0.7910640495867769
+        },
+        "matched_precision": {
+          "threshold": 0.8575,
+          "tp": 1417040,
+          "fp": 24655,
+          "precision": 0.9828986019927932,
+          "recall": 0.8150803438311031
+        },
+        "precision_target": 0.9828505538278766
+      },
+      "weak_axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 286958,
+          "fp": 219937,
+          "precision": 0.5661093520354314,
+          "recall": 0.7698114624802824
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 25547,
+          "fp": 5410,
+          "precision": 0.8252414639661466,
+          "recall": 0.068533978603084
+        },
+        "matched_precision": {
+          "threshold": 0.813,
+          "tp": 85033,
+          "fp": 24634,
+          "precision": 0.7753745429345199,
+          "recall": 0.22811483941582342
+        },
+        "precision_target": 0.7753326107786312
+      },
+      "path_axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 713481,
+          "fp": 101115,
+          "precision": 0.8758709838987669,
+          "recall": 0.950325996470314
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 591201,
+          "fp": 6386,
+          "precision": 0.9893136898895056,
+          "recall": 0.7874542972261996
+        },
+        "matched_precision": {
+          "threshold": 0.8614,
+          "tp": 608915,
+          "fp": 10396,
+          "precision": 0.9832136035045397,
+          "recall": 0.8110485831307649
+        },
+        "precision_target": 0.9831772664885366
+      },
+      "at_global_precision_match": {
+        "all": {
+          "threshold": 0.8526,
+          "tp": 15952899,
+          "fp": 405894,
+          "precision": 0.9751880227349291,
+          "recall": 0.7738038596337202
+        },
+        "weak": {
+          "threshold": 0.8526,
+          "tp": 852491,
+          "fp": 208369,
+          "precision": 0.8035848274041815,
+          "recall": 0.15569517029396107
+        },
+        "axial": {
+          "threshold": 0.8526,
+          "tp": 1421053,
+          "fp": 25905,
+          "precision": 0.9820969233384798,
+          "recall": 0.8173886184174198
+        },
+        "weak_axial": {
+          "threshold": 0.8526,
+          "tp": 61101,
+          "fp": 15007,
+          "precision": 0.8028196773006779,
+          "recall": 0.16391336073225957
+        },
+        "path_axial": {
+          "threshold": 0.8526,
+          "tp": 612170,
+          "fp": 11364,
+          "precision": 0.9817748510907184,
+          "recall": 0.8153841030934701
+        }
+      }
+    },
+    "focused10": {
+      "all": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 19420276,
+          "fp": 3452901,
+          "precision": 0.8490414777098958,
+          "recall": 0.9419908271187641
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 15333864,
+          "fp": 239328,
+          "precision": 0.9846320523114337,
+          "recall": 0.7437772373722515
+        },
+        "matched_precision": {
+          "threshold": 0.8497,
+          "tp": 15955836,
+          "fp": 406551,
+          "precision": 0.9751533196226199,
+          "recall": 0.773946320382437
+        },
+        "precision_target": 0.9751097015969313
+      },
+      "weak": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 4279640,
+          "fp": 3241939,
+          "precision": 0.5689815928277826,
+          "recall": 0.7816144435505449
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 378753,
+          "fp": 70828,
+          "precision": 0.8424577551097577,
+          "recall": 0.06917376586303976
+        },
+        "matched_precision": {
+          "threshold": 0.8292,
+          "tp": 1036724,
+          "fp": 273212,
+          "precision": 0.7914310317450624,
+          "recall": 0.1893426672279666
+        },
+        "precision_target": 0.7912686441308733
+      },
+      "axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 1654719,
+          "fp": 234253,
+          "precision": 0.8759891623592091,
+          "recall": 0.9517931261388946
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 1370979,
+          "fp": 13635,
+          "precision": 0.9901524901524902,
+          "recall": 0.7885860912219993
+        },
+        "matched_precision": {
+          "threshold": 0.8541,
+          "tp": 1417882,
+          "fp": 24692,
+          "precision": 0.9828833737472047,
+          "recall": 0.8155646615987778
+        },
+        "precision_target": 0.9828505538278766
+      },
+      "weak_axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 288955,
+          "fp": 222622,
+          "precision": 0.5648318825904995,
+          "recall": 0.7751687394705498
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 22010,
+          "fp": 4411,
+          "precision": 0.8330494682260323,
+          "recall": 0.05904540137996159
+        },
+        "matched_precision": {
+          "threshold": 0.8077,
+          "tp": 86750,
+          "fp": 25107,
+          "precision": 0.775543774640836,
+          "recall": 0.23272097090920796
+        },
+        "precision_target": 0.7753326107786312
+      },
+      "path_axial": {
+        "at05": {
+          "threshold": 0.5,
+          "tp": 714258,
+          "fp": 102251,
+          "precision": 0.8747705169202055,
+          "recall": 0.9513609270420565
+        },
+        "at09": {
+          "threshold": 0.9,
+          "tp": 589150,
+          "fp": 5850,
+          "precision": 0.9901680672268908,
+          "recall": 0.7847224534647531
+        },
+        "matched_precision": {
+          "threshold": 0.8575,
+          "tp": 609220,
+          "fp": 10374,
+          "precision": 0.9832567778254793,
+          "recall": 0.8114548300089907
+        },
+        "precision_target": 0.9831772664885366
+      },
+      "at_global_precision_match": {
+        "all": {
+          "threshold": 0.8497,
+          "tp": 15955836,
+          "fp": 406551,
+          "precision": 0.9751533196226199,
+          "recall": 0.773946320382437
+        },
+        "weak": {
+          "threshold": 0.8497,
+          "tp": 850347,
+          "fp": 207847,
+          "precision": 0.8035832749004436,
+          "recall": 0.15530359965554932
+        },
+        "axial": {
+          "threshold": 0.8497,
+          "tp": 1421247,
+          "fp": 25772,
+          "precision": 0.9821895911525695,
+          "recall": 0.8175002070717297
+        },
+        "weak_axial": {
+          "threshold": 0.8497,
+          "tp": 60551,
+          "fp": 14798,
+          "precision": 0.8036072144288577,
+          "recall": 0.16243789636338274
+        },
+        "path_axial": {
+          "threshold": 0.8497,
+          "tp": 612169,
+          "fp": 11216,
+          "precision": 0.9820079084353971,
+          "recall": 0.8153827711364923
+        }
+      }
+    }
+  },
+  "seconds": 18.380016326904297
+}

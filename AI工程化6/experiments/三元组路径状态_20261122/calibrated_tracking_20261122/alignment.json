@@ -1,0 +1,41 @@
+{
+  "method": "Piecewise linear logit score transport at teacher precision targets; not posterior probability calibration",
+  "groups": {
+    "AA": [
+      {
+        "old_score": 0.2,
+        "new_score": 0.4058,
+        "teacher_precision": 0.8499558347537189
+      },
+      {
+        "old_score": 0.5,
+        "new_score": 0.8541,
+        "teacher_precision": 0.9828505538278766
+      },
+      {
+        "old_score": 0.9,
+        "new_score": 0.9654,
+        "teacher_precision": 0.9974700381587438
+      }
+    ],
+    "other": [
+      {
+        "old_score": 0.2,
+        "new_score": 0.4048,
+        "teacher_precision": 0.8147301643929306
+      },
+      {
+        "old_score": 0.5,
+        "new_score": 0.8497,
+        "teacher_precision": 0.974364684509689
+      },
+      {
+        "old_score": 0.9,
+        "new_score": 0.962,
+        "teacher_precision": 0.9943449196518371
+      }
+    ]
+  },
+  "source": "Development200 only",
+  "source_hist_sha256": "3812bf7a55a27e5edfc91f5f1e85426d764171f92df21b10559a123980433142"
+}

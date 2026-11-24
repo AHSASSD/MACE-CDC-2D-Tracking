@@ -1,0 +1,76 @@
+{
+  "event_id": 8038,
+  "model": "control_012",
+  "tracks": [
+    {
+      "truth_id": 1879,
+      "old_category": "broadly_low_scores",
+      "new_category": "broadly_low_scores",
+      "recovered": false,
+      "old_connected": false,
+      "new_connected": false,
+      "old_median": 0.41650390625,
+      "new_median": 0.4578857421875,
+      "old_below": 0.8888888888888888,
+      "new_below": 0.8611111111111112,
+      "old_true_mean": 0.4484659731388092,
+      "new_true_mean": 0.45556640625,
+      "old_false_acceptance": 0.024793388429752067,
+      "new_false_acceptance": 0.005509641873278237,
+      "old_largest": 4,
+      "new_largest": 4,
+      "old_match_connectivity": 0.570556640625,
+      "new_match_connectivity": 0.5576171875
+    },
+    {
+      "truth_id": 3505,
+      "old_category": "mixed_fragmentation",
+      "new_category": "pure_connected_at_existing_relaxed_cut",
+      "recovered": true,
+      "old_connected": false,
+      "new_connected": true,
+      "old_median": 0.4549560546875,
+      "new_median": 0.4879150390625,
+      "old_below": 0.6363636363636364,
+      "new_below": 0.5636363636363636,
+      "old_true_mean": 0.5830466747283936,
+      "new_true_mean": 0.6142350435256958,
+      "old_false_acceptance": 0.0,
+      "new_false_acceptance": 0.0,
+      "old_largest": 5,
+      "new_largest": 10,
+      "old_match_connectivity": 0.5545654296875,
+      "new_match_connectivity": 0.857666015625
+    }
+  ],
+  "counts": {
+    "truth_tracks": 31,
+    "stereo_eligible_tracks": 31,
+    "truth_stereo_all": 428,
+    "output_candidates": 31,
+    "axial_completeness_sum": 24.38411033411034,
+    "correct_stereo_matched": 316,
+    "attached_stereo_matched": 318,
+    "truth_stereo_matched": 388,
+    "fake_candidates": 3,
+    "matched_tracks": 28,
+    "joint_matched_tracks": 25
+  },
+  "seed": {
+    "truth_tracks": 31,
+    "output_candidates": 29,
+    "fake_candidates": 2,
+    "matched_tracks": 27
+  },
+  "recovered_old": [
+    3505
+  ],
+  "lost_old": [
+    3999,
+    5122
+  ],
+  "all_old_missed": [
+    1879,
+    3505
+  ]
+}

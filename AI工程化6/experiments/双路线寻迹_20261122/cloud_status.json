@@ -1,0 +1,404 @@
+{
+  "unix": 1795319941.5059116,
+  "launch": {
+    "job_id": "1858533",
+    "root": "/seu_nvme/home/zhangyongchao/213230965/ai6_et_20261122",
+    "source_archive_sha256": "fb5b605d320547352850bde167157b42739fb7444ea807f3c534aac2e837d108",
+    "time_limit": "06:00:00",
+    "routes": [
+      "E-small",
+      "T-small"
+    ],
+    "formal_max_epochs": 60
+  },
+  "pipeline": {
+    "step": 5,
+    "attempts": 6,
+    "stage": "full"
+  },
+  "pipeline_status": null,
+  "cache_progress": {
+    "phase": "feature_cache",
+    "completed": 7000,
+    "total": 7200,
+    "event_id": 9999,
+    "triplets": 124876,
+    "bundles": 5586,
+    "seconds": 2071.557554244995,
+    "unix": 1795297092.4097848
+  },
+  "cache_events": 7200,
+  "pruning_reference": 216677,
+  "pruning_lost": 3,
+  "cache_gate_pilot": {
+    "mode": "pilot",
+    "events": 1200,
+    "reference_tracks": 35804,
+    "lost_by_triplet_pruning": 0,
+    "pruning_loss_fraction": 0.0,
+    "max_triplets": 1694866,
+    "passed": true
+  },
+  "cache_gate_full": {
+    "mode": "full",
+    "events": 7200,
+    "reference_tracks": 216677,
+    "lost_by_triplet_pruning": 3,
+    "pruning_loss_fraction": 1.3845493522616614e-05,
+    "max_triplets": 2865709,
+    "passed": true
+  },
+  "pilot_progress": {
+    "phase": "member_validation",
+    "epoch": 10,
+    "events": 16,
+    "total": 16,
+    "unix": 1795295001.351899
+  },
+  "pilot_checkpoint": {
+    "epoch": 11,
+    "cursor": 0,
+    "phase": "train",
+    "updates": 2500,
+    "unix": 1795295002.075081
+  },
+  "pilot_status": {
+    "status": "completed",
+    "completed_epoch": 10,
+    "unix": 1795295002.0765023
+  },
+  "full_progress": {
+    "phase": "member_validation",
+    "epoch": 50,
+    "events": 45,
+    "total": 200,
+    "unix": 1795315589.4680011
+  },
+  "full_checkpoint": {
+    "epoch": 50,
+    "cursor": 7000,
+    "phase": "validation",
+    "updates": 87500,
+    "unix": 1795315313.1781712
+  },
+  "full_status": {
+    "status": "running",
+    "completed_epoch": 49,
+    "unix": 1795315174.8478854
+  },
+  "pilot_history": [
+    {
+      "epoch": 9,
+      "validation": {
+        "E": {
+          "confusion": [
+            [
+              60896,
+              11636,
+              634,
+              2
+            ],
+            [
+              97392,
+              1022184,
+              5283,
+              26
+            ],
+            [
+              66,
+              84,
+              14898,
+              112
+            ],
+            [
+              0,
+              0,
+              41,
+              209
+            ]
+          ],
+          "macro_f1": 0.7495439134656088,
+          "class_f1": [
+            0.5260493603199696,
+            0.9469975991169123,
+            0.8272989782318969,
+            0.6978297161936561
+          ]
+        },
+        "T": {
+          "tp": 15524986,
+          "fp": 290924,
+          "fn": 5091219,
+          "precision": 0.9816056110587377,
+          "recall": 0.7530477117393817,
+          "f1": 0.8522692684737079
+        },
+        "classification_events": 200,
+        "member_events": 0,
+        "seconds": 9.290148496627808
+      },
+      "updates": 2250,
+      "train_seconds": 31.118805408477783
+    },
+    {
+      "epoch": 10,
+      "validation": {
+        "E": {
+          "confusion": [
+            [
+              55957,
+              16465,
+              744,
+              2
+            ],
+            [
+              73502,
+              1045366,
+              5997,
+              20
+            ],
+            [
+              36,
+              73,
+              14958,
+              93
+            ],
+            [
+              0,
+              0,
+              50,
+              200
+            ]
+          ],
+          "macro_f1": 0.7566974492071126,
+          "class_f1": [
+            0.5522172276143154,
+            0.9560739513505876,
+            0.8105340160936357,
+            0.7079646017699115
+          ]
+        },
+        "T": {
+          "tp": 15905397,
+          "fp": 400032,
+          "fn": 4710808,
+          "precision": 0.9754663308766669,
+          "recall": 0.7714997498327165,
+          "f1": 0.8615760071723803
+        },
+        "classification_events": 200,
+        "member_events": 16,
+        "seconds": 115.25408005714417,
+        "members": {
+          "raw_baseline": {
+            "tracks": {
+              "truth_tracks": 491,
+              "stereo_eligible_tracks": 491,
+              "truth_stereo_all": 6784,
+              "output_candidates": 476,
+              "axial_completeness_sum": 426.8893995316156,
+              "correct_stereo_matched": 5376,
+              "attached_stereo_matched": 5423,
+              "truth_stereo_matched": 6240,
+              "matched_tracks": 457,
+              "joint_matched_tracks": 431,
+              "fake_candidates": 19,
+              "track_efficiency": 0.9307535641547862,
+              "fake_fraction": 0.03991596638655462,
+              "clone_fraction": 0.0,
+              "stereo_purity_matched": 0.9913332104001475,
+              "stereo_completeness_matched": 0.8615384615384616,
+              "stereo_recall_all_eligible_tracks": 0.7924528301886793,
+              "joint_track_efficiency": 0.8778004073319755
+            },
+            "seeds": {
+              "truth_tracks": 491,
+              "output_candidates": 467,
+              "matched_tracks": 454,
+              "fake_candidates": 13,
+              "f1": 0.9478079331941545,
+              "efficiency": 0.924643584521385,
+              "fake_fraction": 0.027837259100642397,
+              "clone_fraction": 0.0
+            }
+          },
+          "E": {
+            "tracks": {
+              "truth_tracks": 491,
+              "stereo_eligible_tracks": 491,
+              "truth_stereo_all": 6784,
+              "output_candidates": 477,
+              "axial_completeness_sum": 427.869911503304,
+              "correct_stereo_matched": 5265,
+              "attached_stereo_matched": 5311,
+              "truth_stereo_matched": 6098,
+              "matched_tracks": 447,
+              "joint_matched_tracks": 422,
+              "fake_candidates": 30,
+              "track_efficiency": 0.9103869653767821,
+              "fake_fraction": 0.06289308176100629,
+              "clone_fraction": 0.0,
+              "stereo_purity_matched": 0.9913387309357936,
+              "stereo_completeness_matched": 0.8633978353558543,
+              "stereo_recall_all_eligible_tracks": 0.7760908018867925,
+              "joint_track_efficiency": 0.8594704684317719
+            },
+            "seeds": {
+              "truth_tracks": 491,
+              "output_candidates": 466,
+              "matched_tracks": 444,
+              "fake_candidates": 22,
+              "f1": 0.9278996865203761,
+              "efficiency": 0.9042769857433809,
+              "fake_fraction": 0.04721030042918455,
+              "clone_fraction": 0.0
+            }
+          },
+          "T": {
+            "tracks": {
+              "truth_tracks": 491,
+              "stereo_eligible_tracks": 491,
+              "truth_stereo_all": 6784,
+              "output_candidates": 475,
+              "axial_completeness_sum": 430.56393801994716,
+              "correct_stereo_matched": 5467,
+              "attached_stereo_matched": 5514,
+              "truth_stereo_matched": 6308,
+              "matched_tracks": 462,
+              "joint_matched_tracks": 437,
+              "fake_candidates": 13,
+              "track_efficiency": 0.9409368635437881,
+              "fake_fraction": 0.02736842105263158,
+              "clone_fraction": 0.0,
+              "stereo_purity_matched": 0.9914762422923468,
+              "stereo_completeness_matched": 0.8666772352568167,
+              "stereo_recall_all_eligible_tracks": 0.8058667452830188,
+              "joint_track_efficiency": 0.890020366598778
+            },
+            "seeds": {
+              "truth_tracks": 491,
+              "output_candidates": 467,
+              "matched_tracks": 459,
+              "fake_candidates": 8,
+              "f1": 0.9582463465553236,
+              "efficiency": 0.9348268839103869,
+              "fake_fraction": 0.017130620985010708,
+              "clone_fraction": 0.0
+            }
+          }
+        }
+      },
+      "updates": 2500,
+      "train_seconds": 136.9901373386383
+    }
+  ],
+  "full_history": [
+    {
+      "epoch": 48,
+      "validation": {
+        "E": {
+          "confusion": [
+            [
+              60714,
+              11992,
+              462,
+              0
+            ],
+            [
+              83192,
+              1038111,
+              3563,
+              19
+            ],
+            [
+              36,
+              58,
+              15017,
+              49
+            ],
+            [
+              0,
+              0,
+              23,
+              227
+            ]
+          ],
+          "macro_f1": 0.8061075850792695,
+          "class_f1": [
+            0.5592925245267376,
+            0.9545646390926904,
+            0.87754565376187,
+            0.8330275229357799
+          ]
+        },
+        "T": {
+          "tp": 15866050,
+          "fp": 398874,
+          "fn": 4750155,
+          "precision": 0.9754764301388682,
+          "recall": 0.769591202648596,
+          "f1": 0.8603885201019741
+        },
+        "classification_events": 200,
+        "member_events": 0,
+        "seconds": 11.760886430740356
+      },
+      "updates": 84000,
+      "train_seconds": 149.6157124042511
+    },
+    {
+      "epoch": 49,
+      "validation": {
+        "E": {
+          "confusion": [
+            [
+              60348,
+              12374,
+              446,
+              0
+            ],
+            [
+              81516,
+              1039976,
+              3377,
+              16
+            ],
+            [
+              47,
+              66,
+              15000,
+              47
+            ],
+            [
+              0,
+              0,
+              28,
+              222
+            ]
+          ],
+          "macro_f1": 0.8071084487886879,
+          "class_f1": [
+            0.5611705466363522,
+            0.9552891400867404,
+            0.8820675663755844,
+            0.8299065420560747
+          ]
+        },
+        "T": {
+          "tp": 15908012,
+          "fp": 403440,
+          "fn": 4708193,
+          "precision": 0.9752664569653272,
+          "recall": 0.7716265917999943,
+          "f1": 0.8615771100776851
+        },
+        "classification_events": 200,
+        "member_events": 0,
+        "seconds": 12.705693244934082
+      },
+      "updates": 85750,
+      "train_seconds": 150.79775261878967
+    }
+  ],
+  "slurm": "slurm_load_jobs error: Invalid job id specified\n"
+}

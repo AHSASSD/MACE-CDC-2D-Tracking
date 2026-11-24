@@ -1,0 +1,35 @@
+{
+  "event_id": 1888,
+  "partition": "train",
+  "focus_truth": 4920,
+  "category": "mixed_fragmentation",
+  "image": "event_01888_T4920_baseline.png",
+  "hits": 750,
+  "axial_hits": 319,
+  "stereo_hits": 431,
+  "edge_counts": {
+    "AA": 6979,
+    "AS": 25782,
+    "SS": 16366
+  },
+  "metrics": {
+    "truth_tracks": 33,
+    "stereo_eligible_tracks": 33,
+    "truth_stereo_all": 431,
+    "output_candidates": 32,
+    "axial_completeness_sum": 26.36612831612832,
+    "correct_stereo_matched": 271,
+    "attached_stereo_matched": 274,
+    "truth_stereo_matched": 403,
+    "fake_candidates": 1,
+    "matched_tracks": 31,
+    "joint_matched_tracks": 22
+  },
+  "seed": {
+    "truth_tracks": 33,
+    "output_candidates": 31,
+    "fake_candidates": 2,
+    "matched_tracks": 29
+  },
+  "seconds": 8.308411836624146
+}

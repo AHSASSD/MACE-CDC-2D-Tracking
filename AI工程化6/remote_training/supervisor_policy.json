@@ -1,0 +1,16 @@
+{
+  "auto_cancel_no_progress": true,
+  "authorized_job_ids": [
+    "1527110"
+  ],
+  "max_no_progress_failures": 3,
+  "consented_unix": 1793952270.6986334,
+  "scope": "current allocation 1527110 only",
+  "job_overrides": {
+    "1528054": {
+      "auto_cancel_no_progress": false,
+      "user_decision": "automatic recovery only; cancellation by user",
+      "unix": 1793968919.1519034
+    }
+  }
+}

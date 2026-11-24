@@ -1,0 +1,104 @@
+{
+  "event_id": 2967,
+  "n_hits": 618,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 356,
+        "output_candidates": 27,
+        "axial_completeness_sum": 25.56626984126984,
+        "correct_stereo_matched": 337,
+        "attached_stereo_matched": 341,
+        "truth_stereo_matched": 356,
+        "matched_tracks": 27,
+        "joint_matched_tracks": 27
+      },
+      "found": [
+        273,
+        531,
+        578,
+        664,
+        754,
+        1105,
+        1182,
+        1247,
+        1466,
+        1551,
+        1804,
+        1830,
+        2211,
+        2257,
+        2348,
+        2694,
+        2756,
+        2934,
+        3029,
+        3373,
+        3466,
+        3609,
+        3814,
+        3921,
+        4131,
+        4255,
+        4315
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 27,
+        "matched_tracks": 27
+      },
+      "decode_seconds": 3.6775211000058334
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 356,
+        "output_candidates": 27,
+        "axial_completeness_sum": 25.56626984126984,
+        "correct_stereo_matched": 337,
+        "attached_stereo_matched": 341,
+        "truth_stereo_matched": 356,
+        "matched_tracks": 27,
+        "joint_matched_tracks": 27
+      },
+      "found": [
+        273,
+        531,
+        578,
+        664,
+        754,
+        1105,
+        1182,
+        1247,
+        1466,
+        1551,
+        1804,
+        1830,
+        2211,
+        2257,
+        2348,
+        2694,
+        2756,
+        2934,
+        3029,
+        3373,
+        3466,
+        3609,
+        3814,
+        3921,
+        4131,
+        4255,
+        4315
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 27,
+        "matched_tracks": 27
+      },
+      "decode_seconds": 3.96406479999132
+    }
+  }
+}

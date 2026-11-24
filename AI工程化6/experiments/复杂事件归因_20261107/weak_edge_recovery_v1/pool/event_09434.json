@@ -1,0 +1,27 @@
+{
+  "event_id": 9434,
+  "candidates": [
+    {
+      "indices": [
+        198,
+        200,
+        201,
+        309,
+        405
+      ],
+      "fit": [
+        -204.3021625196625,
+        22.10500040300473,
+        41.0590408608194
+      ],
+      "rms": 0.47322023169242994,
+      "stage": "weak_AA"
+    }
+  ],
+  "diagnostic_labels": [
+    "fake"
+  ],
+  "arrays_sha256": "dab3f1059f4725ac3ed676bdb88eb4aa0e613c4afbcc63b3ab748b0c51edcdac",
+  "positives": 0,
+  "candidates_count": 1
+}

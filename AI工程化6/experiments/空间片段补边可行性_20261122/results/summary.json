@@ -1,0 +1,118 @@
+{
+  "events": 20,
+  "representative_missed": 16,
+  "total_missed": 50,
+  "scope": "Feasibility only: proposal precision and oracle-pure connectivity; NOT tracking efficiency; no training/deployment change",
+  "source_sha256": "8bff620e8177e3d1930ecc571f734a8198855f25e11b65349922e22f01acf51b",
+  "max_aux_edges": 128,
+  "aggregate": {
+    "kmeans": {
+      "proposals": {
+        "edges": 2560,
+        "true_edges": 332,
+        "false_edges": 2228,
+        "restored_representative": 1,
+        "restored_total": 6
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 373,
+        "true_edges": 111,
+        "false_edges": 262,
+        "restored_representative": 0,
+        "restored_total": 3
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 624,
+        "below_T_cache04": 1936,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 6968
+    },
+    "radius": {
+      "proposals": {
+        "edges": 2560,
+        "true_edges": 336,
+        "false_edges": 2224,
+        "restored_representative": 1,
+        "restored_total": 6
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 377,
+        "true_edges": 113,
+        "false_edges": 264,
+        "restored_representative": 0,
+        "restored_total": 3
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 628,
+        "below_T_cache04": 1932,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 6973
+    },
+    "geometry": {
+      "proposals": {
+        "edges": 845,
+        "true_edges": 387,
+        "false_edges": 458,
+        "restored_representative": 0,
+        "restored_total": 1
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 396,
+        "true_edges": 194,
+        "false_edges": 202,
+        "restored_representative": 0,
+        "restored_total": 1
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 710,
+        "below_T_cache04": 135,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 1259
+    }
+  }
+}

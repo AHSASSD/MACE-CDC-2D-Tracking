@@ -1,0 +1,28 @@
+{
+  "event_id": 668,
+  "candidates": [
+    {
+      "indices": [
+        168,
+        169,
+        170,
+        478,
+        479,
+        480
+      ],
+      "fit": [
+        -366.94137909996164,
+        -202.45011292475198,
+        187.0225705870207
+      ],
+      "rms": 0.10145135071475163,
+      "stage": "weak_AA"
+    }
+  ],
+  "diagnostic_labels": [
+    "fake"
+  ],
+  "arrays_sha256": "0c6bcb6daf2cebbb5e8b5e0a231c6ff44a9659d421eae24e3d49d17c41e20660",
+  "positives": 0,
+  "candidates_count": 1
+}

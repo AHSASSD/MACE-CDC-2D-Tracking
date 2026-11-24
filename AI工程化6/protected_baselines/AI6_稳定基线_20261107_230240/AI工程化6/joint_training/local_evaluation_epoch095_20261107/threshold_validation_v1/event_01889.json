@@ -1,0 +1,67 @@
+{
+  "event_id": 1889,
+  "methods": {
+    "baseline": {
+      "truth_tracks": 29,
+      "stereo_eligible_tracks": 29,
+      "truth_stereo_all": 373,
+      "output_candidates": 27,
+      "axial_completeness_sum": 24.687626262626267,
+      "correct_stereo_matched": 294,
+      "attached_stereo_matched": 295,
+      "truth_stereo_matched": 347,
+      "matched_tracks": 27,
+      "joint_matched_tracks": 25
+    },
+    "threshold_065_055": {
+      "truth_tracks": 29,
+      "stereo_eligible_tracks": 29,
+      "truth_stereo_all": 373,
+      "output_candidates": 29,
+      "axial_completeness_sum": 24.028535353535357,
+      "correct_stereo_matched": 289,
+      "attached_stereo_matched": 290,
+      "truth_stereo_matched": 335,
+      "fake_candidates": 3,
+      "matched_tracks": 26,
+      "joint_matched_tracks": 25
+    },
+    "threshold_075_0575": {
+      "truth_tracks": 29,
+      "stereo_eligible_tracks": 29,
+      "truth_stereo_all": 373,
+      "output_candidates": 27,
+      "axial_completeness_sum": 24.376515151515157,
+      "correct_stereo_matched": 290,
+      "attached_stereo_matched": 291,
+      "truth_stereo_matched": 347,
+      "matched_tracks": 27,
+      "joint_matched_tracks": 25
+    },
+    "threshold_075_060": {
+      "truth_tracks": 29,
+      "stereo_eligible_tracks": 29,
+      "truth_stereo_all": 373,
+      "output_candidates": 27,
+      "axial_completeness_sum": 24.376515151515157,
+      "correct_stereo_matched": 290,
+      "attached_stereo_matched": 291,
+      "truth_stereo_matched": 347,
+      "matched_tracks": 27,
+      "joint_matched_tracks": 25
+    },
+    "threshold_070_055": {
+      "truth_tracks": 29,
+      "stereo_eligible_tracks": 29,
+      "truth_stereo_all": 373,
+      "output_candidates": 29,
+      "axial_completeness_sum": 23.937626262626267,
+      "correct_stereo_matched": 289,
+      "attached_stereo_matched": 290,
+      "truth_stereo_matched": 335,
+      "fake_candidates": 3,
+      "matched_tracks": 26,
+      "joint_matched_tracks": 25
+    }
+  }
+}

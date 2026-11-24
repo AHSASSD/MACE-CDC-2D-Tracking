@@ -1,0 +1,704 @@
+{
+  "status": "preliminary_validation_completed",
+  "calibration_event_ids": [
+    34,
+    39,
+    43,
+    66,
+    92,
+    96,
+    145,
+    208
+  ],
+  "validation_event_ids": [
+    232,
+    9099,
+    6978,
+    7727,
+    2009,
+    3426,
+    7235,
+    7964,
+    4414,
+    7931,
+    4901,
+    4880,
+    999,
+    9367,
+    5747,
+    9045
+  ],
+  "selected_decoder": {
+    "beta_threshold": 0.5,
+    "radius": 0.5,
+    "metrics": {
+      "truth": 243,
+      "outputs": 89,
+      "correct": 7,
+      "fakes": 82,
+      "clones": 0,
+      "efficiency": 0.02880658436213992,
+      "fake_fraction": 0.9213483146067416,
+      "clone_fraction": 0.0
+    }
+  },
+  "calibration_grid": [
+    {
+      "beta_threshold": 0.3,
+      "radius": 0.5,
+      "metrics": {
+        "truth": 243,
+        "outputs": 90,
+        "correct": 7,
+        "fakes": 83,
+        "clones": 0,
+        "efficiency": 0.02880658436213992,
+        "fake_fraction": 0.9222222222222223,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.3,
+      "radius": 0.75,
+      "metrics": {
+        "truth": 243,
+        "outputs": 59,
+        "correct": 2,
+        "fakes": 57,
+        "clones": 0,
+        "efficiency": 0.00823045267489712,
+        "fake_fraction": 0.9661016949152542,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.3,
+      "radius": 1.0,
+      "metrics": {
+        "truth": 243,
+        "outputs": 49,
+        "correct": 0,
+        "fakes": 49,
+        "clones": 0,
+        "efficiency": 0.0,
+        "fake_fraction": 1.0,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.5,
+      "radius": 0.5,
+      "metrics": {
+        "truth": 243,
+        "outputs": 89,
+        "correct": 7,
+        "fakes": 82,
+        "clones": 0,
+        "efficiency": 0.02880658436213992,
+        "fake_fraction": 0.9213483146067416,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.5,
+      "radius": 0.75,
+      "metrics": {
+        "truth": 243,
+        "outputs": 59,
+        "correct": 2,
+        "fakes": 57,
+        "clones": 0,
+        "efficiency": 0.00823045267489712,
+        "fake_fraction": 0.9661016949152542,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.5,
+      "radius": 1.0,
+      "metrics": {
+        "truth": 243,
+        "outputs": 49,
+        "correct": 0,
+        "fakes": 49,
+        "clones": 0,
+        "efficiency": 0.0,
+        "fake_fraction": 1.0,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.7,
+      "radius": 0.5,
+      "metrics": {
+        "truth": 243,
+        "outputs": 89,
+        "correct": 7,
+        "fakes": 82,
+        "clones": 0,
+        "efficiency": 0.02880658436213992,
+        "fake_fraction": 0.9213483146067416,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.7,
+      "radius": 0.75,
+      "metrics": {
+        "truth": 243,
+        "outputs": 59,
+        "correct": 2,
+        "fakes": 57,
+        "clones": 0,
+        "efficiency": 0.00823045267489712,
+        "fake_fraction": 0.9661016949152542,
+        "clone_fraction": 0.0
+      }
+    },
+    {
+      "beta_threshold": 0.7,
+      "radius": 1.0,
+      "metrics": {
+        "truth": 243,
+        "outputs": 49,
+        "correct": 0,
+        "fakes": 49,
+        "clones": 0,
+        "efficiency": 0.0,
+        "fake_fraction": 1.0,
+        "clone_fraction": 0.0
+      }
+    }
+  ],
+  "validation_raw_oc": {
+    "truth": 491,
+    "outputs": 175,
+    "correct": 8,
+    "fakes": 167,
+    "clones": 0,
+    "efficiency": 0.016293279022403257,
+    "fake_fraction": 0.9542857142857143,
+    "clone_fraction": 0.0
+  },
+  "validation_events": [
+    {
+      "event_id": 232,
+      "truth": 22,
+      "outputs": 11,
+      "correct": 4,
+      "fakes": 7,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 22,
+        "outputs": 19,
+        "correct": 10,
+        "fakes": 8,
+        "clones": 1
+      },
+      "truth_center_oracle_hit_accuracy": 0.4409448818897638,
+      "assigned_fraction": 0.9783464566929134,
+      "beta_quantiles": [
+        0.032536592334508896,
+        0.04608661308884621,
+        0.6542674541473389,
+        0.9295678734779358
+      ],
+      "embedding_std": [
+        0.8391517400741577,
+        0.6246889233589172,
+        0.5629422664642334
+      ]
+    },
+    {
+      "event_id": 9099,
+      "truth": 28,
+      "outputs": 11,
+      "correct": 0,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 28,
+        "outputs": 22,
+        "correct": 7,
+        "fakes": 15,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.46,
+      "assigned_fraction": 0.9984615384615385,
+      "beta_quantiles": [
+        0.031242864206433296,
+        0.04071256145834923,
+        0.7251530468463903,
+        0.9354631900787354
+      ],
+      "embedding_std": [
+        0.7919976711273193,
+        0.7421185374259949,
+        0.4485779106616974
+      ]
+    },
+    {
+      "event_id": 6978,
+      "truth": 31,
+      "outputs": 9,
+      "correct": 1,
+      "fakes": 8,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 31,
+        "outputs": 25,
+        "correct": 8,
+        "fakes": 17,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.3806275579809004,
+      "assigned_fraction": 0.946793997271487,
+      "beta_quantiles": [
+        0.03159571439027786,
+        0.04179558530449867,
+        0.717673754692079,
+        0.9319931864738464
+      ],
+      "embedding_std": [
+        0.7884581685066223,
+        0.7183037996292114,
+        0.4324966371059418
+      ]
+    },
+    {
+      "event_id": 7727,
+      "truth": 25,
+      "outputs": 10,
+      "correct": 1,
+      "fakes": 9,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 25,
+        "outputs": 20,
+        "correct": 5,
+        "fakes": 15,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.5478547854785478,
+      "assigned_fraction": 0.9867986798679867,
+      "beta_quantiles": [
+        0.030957035720348358,
+        0.04442449100315571,
+        0.697910726070404,
+        0.9389025568962097
+      ],
+      "embedding_std": [
+        0.8029100298881531,
+        0.6694625616073608,
+        0.4979865550994873
+      ]
+    },
+    {
+      "event_id": 2009,
+      "truth": 30,
+      "outputs": 12,
+      "correct": 1,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 30,
+        "outputs": 22,
+        "correct": 8,
+        "fakes": 14,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.37733142037302725,
+      "assigned_fraction": 0.9985652797704447,
+      "beta_quantiles": [
+        0.032261550426483154,
+        0.04209841787815094,
+        0.6557141184806821,
+        0.9340727925300598
+      ],
+      "embedding_std": [
+        0.8121216893196106,
+        0.6957180500030518,
+        0.39715248346328735
+      ]
+    },
+    {
+      "event_id": 3426,
+      "truth": 29,
+      "outputs": 11,
+      "correct": 0,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 29,
+        "outputs": 23,
+        "correct": 9,
+        "fakes": 14,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.4568081991215227,
+      "assigned_fraction": 0.9502196193265008,
+      "beta_quantiles": [
+        0.031084731221199036,
+        0.04229200631380081,
+        0.7152102828025819,
+        0.9413016438484192
+      ],
+      "embedding_std": [
+        0.7071787118911743,
+        0.7520432472229004,
+        0.5390289425849915
+      ]
+    },
+    {
+      "event_id": 7235,
+      "truth": 38,
+      "outputs": 11,
+      "correct": 0,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 38,
+        "outputs": 26,
+        "correct": 6,
+        "fakes": 20,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.3744394618834081,
+      "assigned_fraction": 0.9697309417040358,
+      "beta_quantiles": [
+        0.031032081693410873,
+        0.04526985064148903,
+        0.6167175889015192,
+        0.9358775019645691
+      ],
+      "embedding_std": [
+        0.7896161675453186,
+        0.6788079142570496,
+        0.5111039876937866
+      ]
+    },
+    {
+      "event_id": 7964,
+      "truth": 27,
+      "outputs": 12,
+      "correct": 1,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 27,
+        "outputs": 21,
+        "correct": 5,
+        "fakes": 16,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.3791606367583213,
+      "assigned_fraction": 0.9855282199710564,
+      "beta_quantiles": [
+        0.03106413222849369,
+        0.04479892551898956,
+        0.6726332306861877,
+        0.9306900501251221
+      ],
+      "embedding_std": [
+        0.7700412273406982,
+        0.7268276810646057,
+        0.44416698813438416
+      ]
+    },
+    {
+      "event_id": 4414,
+      "truth": 32,
+      "outputs": 11,
+      "correct": 0,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 32,
+        "outputs": 27,
+        "correct": 6,
+        "fakes": 21,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.36293436293436293,
+      "assigned_fraction": 0.9806949806949807,
+      "beta_quantiles": [
+        0.0301421619951725,
+        0.042851779609918594,
+        0.5942647933959956,
+        0.9368373155593872
+      ],
+      "embedding_std": [
+        0.7830834984779358,
+        0.6995852589607239,
+        0.5087152123451233
+      ]
+    },
+    {
+      "event_id": 7931,
+      "truth": 38,
+      "outputs": 12,
+      "correct": 0,
+      "fakes": 12,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 38,
+        "outputs": 24,
+        "correct": 5,
+        "fakes": 19,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.32798165137614677,
+      "assigned_fraction": 0.9908256880733946,
+      "beta_quantiles": [
+        0.030832523480057716,
+        0.04095864295959473,
+        0.6570485651493067,
+        0.9335092306137085
+      ],
+      "embedding_std": [
+        0.8039615750312805,
+        0.7312962412834167,
+        0.4857766628265381
+      ]
+    },
+    {
+      "event_id": 4901,
+      "truth": 29,
+      "outputs": 12,
+      "correct": 0,
+      "fakes": 12,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 29,
+        "outputs": 22,
+        "correct": 7,
+        "fakes": 15,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.35071707953063885,
+      "assigned_fraction": 0.9804432855280313,
+      "beta_quantiles": [
+        0.030963150784373283,
+        0.04323391988873482,
+        0.6269828319549554,
+        0.9332684874534607
+      ],
+      "embedding_std": [
+        0.824419379234314,
+        0.7280957102775574,
+        0.47775864601135254
+      ]
+    },
+    {
+      "event_id": 4880,
+      "truth": 28,
+      "outputs": 12,
+      "correct": 0,
+      "fakes": 12,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 28,
+        "outputs": 22,
+        "correct": 10,
+        "fakes": 12,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.5416058394160584,
+      "assigned_fraction": 0.9985401459854014,
+      "beta_quantiles": [
+        0.03020511567592621,
+        0.04081982001662254,
+        0.6453468203544621,
+        0.9363951683044434
+      ],
+      "embedding_std": [
+        0.8448216915130615,
+        0.692169189453125,
+        0.4599176347255707
+      ]
+    },
+    {
+      "event_id": 999,
+      "truth": 36,
+      "outputs": 10,
+      "correct": 0,
+      "fakes": 10,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 36,
+        "outputs": 25,
+        "correct": 6,
+        "fakes": 19,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.39323220536756126,
+      "assigned_fraction": 0.9941656942823804,
+      "beta_quantiles": [
+        0.030789483338594437,
+        0.04154418036341667,
+        0.664258873462677,
+        0.9385879039764404
+      ],
+      "embedding_std": [
+        0.8116768002510071,
+        0.6792072057723999,
+        0.5473628044128418
+      ]
+    },
+    {
+      "event_id": 9367,
+      "truth": 25,
+      "outputs": 9,
+      "correct": 0,
+      "fakes": 9,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 25,
+        "outputs": 22,
+        "correct": 6,
+        "fakes": 16,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.4581497797356828,
+      "assigned_fraction": 0.9162995594713657,
+      "beta_quantiles": [
+        0.0306008979678154,
+        0.0406724251806736,
+        0.6652086973190308,
+        0.9348815679550171
+      ],
+      "embedding_std": [
+        0.7879322171211243,
+        0.7494043707847595,
+        0.4609185755252838
+      ]
+    },
+    {
+      "event_id": 5747,
+      "truth": 39,
+      "outputs": 11,
+      "correct": 0,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 39,
+        "outputs": 25,
+        "correct": 4,
+        "fakes": 21,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.2508108108108108,
+      "assigned_fraction": 0.972972972972973,
+      "beta_quantiles": [
+        0.031391244381666183,
+        0.04167000576853752,
+        0.6821213722229007,
+        0.9370781183242798
+      ],
+      "embedding_std": [
+        0.8106254935264587,
+        0.7277398109436035,
+        0.50272536277771
+      ]
+    },
+    {
+      "event_id": 9045,
+      "truth": 34,
+      "outputs": 11,
+      "correct": 0,
+      "fakes": 11,
+      "clones": 0,
+      "truth_center_oracle_counts": {
+        "truth": 34,
+        "outputs": 24,
+        "correct": 11,
+        "fakes": 13,
+        "clones": 0
+      },
+      "truth_center_oracle_hit_accuracy": 0.45108005082592123,
+      "assigned_fraction": 0.97712833545108,
+      "beta_quantiles": [
+        0.03205670416355133,
+        0.041234128177165985,
+        0.6778077125549316,
+        0.934688925743103
+      ],
+      "embedding_std": [
+        0.7982686758041382,
+        0.7357509136199951,
+        0.41835251450538635
+      ]
+    }
+  ],
+  "validation_oc_loss": 0.18384887743741274,
+  "edge_threshold_0p5": {
+    "C64": {
+      "AA": {
+        "tp": 32519,
+        "fp": 24860,
+        "fn": 4209,
+        "precision": 0.5667404451105805,
+        "recall": 0.8854007841428883
+      },
+      "AS": {
+        "tp": 83830,
+        "fp": 156642,
+        "fn": 20776,
+        "precision": 0.3486060747197179,
+        "recall": 0.8013880656941285
+      },
+      "SS": {
+        "tp": 43181,
+        "fp": 102991,
+        "fn": 14331,
+        "precision": 0.2954122540568645,
+        "recall": 0.7508172207539296
+      }
+    },
+    "D64": {
+      "AA": {
+        "tp": 31453,
+        "fp": 23631,
+        "fn": 5275,
+        "precision": 0.5710006535473096,
+        "recall": 0.8563766064038336
+      },
+      "AS": {
+        "tp": 83736,
+        "fp": 159294,
+        "fn": 20870,
+        "precision": 0.34455005554869766,
+        "recall": 0.8004894556717588
+      },
+      "SS": {
+        "tp": 42699,
+        "fp": 105586,
+        "fn": 14813,
+        "precision": 0.28795225410527026,
+        "recall": 0.7424363611072472
+      }
+    }
+  },
+  "truth_center_oracle": {
+    "truth": 491,
+    "outputs": 369,
+    "correct": 113,
+    "fakes": 255,
+    "clones": 1,
+    "efficiency": 0.23014256619144602,
+    "fake_fraction": 0.6910569105691057,
+    "clone_fraction": 0.0027100271002710027
+  },
+  "limits": [
+    "8 calibration and16 validation only",
+    "raw learned-space clusters; no geometric refinement or stereo seed evaluation",
+    "C64 OC head is untrained and is not a clustering control",
+    "no stable-baseline efficiency comparison",
+    "not formal200-epoch training"
+  ],
+  "seconds": 15.4857759475708,
+  "weight_sha256": {
+    "C64_epoch_010.pth": "8926b16f7722e8ca334dd786f350fcd45646e1d01434d90bcfe2dc9576ab8fb8",
+    "D64_epoch_010.pth": "36d9bbe7e012adf5a898f9b752f0e0d5bebc535a54e9ed4a721dba8ebbf164d8"
+  }
+}

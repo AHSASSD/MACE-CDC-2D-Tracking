@@ -1,0 +1,10 @@
+{
+  "job_id": "1859338",
+  "root": "/seu_nvme/home/zhangyongchao/213230965/ai6_t_path_20261122",
+  "source_archive_sha256": "0125d59e00f6b4053c4361d5bbca6dc3fbd9e0cd9b3fae289a62eb0467038204",
+  "time_limit": "03:00:00",
+  "max_finetune_epochs": 30,
+  "initial": "T25",
+  "frozen_backbone": true,
+  "auto_deploy": false
+}

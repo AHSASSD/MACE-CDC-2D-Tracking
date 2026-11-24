@@ -1,0 +1,187 @@
+{
+  "epoch": 10,
+  "next_epoch": 11,
+  "old_config": {
+    "profile": "AI6-joint-no-time-v1",
+    "hidden": 256,
+    "n_passes": 8,
+    "node_features": [
+      "wire_x/800",
+      "wire_y/800",
+      "wire_r/800",
+      "d/10",
+      "sin_phi",
+      "cos_phi",
+      "u",
+      "v",
+      "w",
+      "length/1600",
+      "is_stereo",
+      "signed_tilt_rad"
+    ],
+    "edge_features": [
+      "dr/800",
+      "reference_xy_distance/800",
+      "dphi",
+      "dphi/(distance+1e-6)",
+      "finite_common_z_min_xy/800",
+      "min_xy_z/800",
+      "common_half_z/800",
+      "delta_d/10",
+      "direction_dot",
+      "source_stereo",
+      "target_stereo",
+      "delta_signed_tilt"
+    ],
+    "batch_size": 8,
+    "accumulation_steps": 4,
+    "amp": true,
+    "seed": 20260823,
+    "initial_lr": 0.001,
+    "loss": "FocalLoss alpha=.5 gamma=2",
+    "weight_decay": 0.0001,
+    "scheduler": "ReduceLROnPlateau val loss patience=10 factor=.5 min_lr=1e-6",
+    "dataset_metadata_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+    "train_events": 7000,
+    "validation_events": 1500,
+    "smoke": false,
+    "chunk_size": 65536
+  },
+  "new_config": {
+    "profile": "AI6-joint-no-time-v1",
+    "hidden": 256,
+    "n_passes": 8,
+    "node_features": [
+      "wire_x/800",
+      "wire_y/800",
+      "wire_r/800",
+      "d/10",
+      "sin_phi",
+      "cos_phi",
+      "u",
+      "v",
+      "w",
+      "length/1600",
+      "is_stereo",
+      "signed_tilt_rad"
+    ],
+    "edge_features": [
+      "dr/800",
+      "reference_xy_distance/800",
+      "dphi",
+      "dphi/(distance+1e-6)",
+      "finite_common_z_min_xy/800",
+      "min_xy_z/800",
+      "common_half_z/800",
+      "delta_d/10",
+      "direction_dot",
+      "source_stereo",
+      "target_stereo",
+      "delta_signed_tilt"
+    ],
+    "batch_size": 4,
+    "accumulation_steps": 8,
+    "amp": true,
+    "seed": 20260823,
+    "initial_lr": 0.001,
+    "loss": "FocalLoss alpha=.5 gamma=2",
+    "weight_decay": 0.0001,
+    "scheduler": "ReduceLROnPlateau val loss patience=10 factor=.5 min_lr=1e-6",
+    "dataset_metadata_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+    "train_events": 7000,
+    "validation_events": 1500,
+    "smoke": false,
+    "chunk_size": 131072
+  },
+  "runtime_selection": {
+    "config": {
+      "cache": true,
+      "workers": 2,
+      "batch": 4,
+      "chunk": 131072,
+      "policy": "adaptive"
+    },
+    "measurement": {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 4,
+        "chunk": 131072,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 3.9171675094403327,
+        "events_per_second": 16.338336271236976,
+        "peak_memory_bytes": 8122474496
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 1.6664103530347347,
+        "events_per_second": 2.4003691484006424,
+        "peak_memory_bytes": 8323010560
+      }
+    },
+    "baseline": {
+      "config": {
+        "cache": false,
+        "workers": 0,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "all"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 7.547408314421773,
+        "events_per_second": 8.479732026384108,
+        "peak_memory_bytes": 4616986112
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 4.702701033093035,
+        "events_per_second": 1.7011500292499528,
+        "peak_memory_bytes": 15143368704
+      }
+    },
+    "speedup": 1.926751484646137,
+    "cache_root": "/seu_nvme/home/zhangyongchao/213230965/ai6_graph_cache_v1",
+    "effective_batch": 32,
+    "scope": "same64 training events, warmup plus two timed complete data-to-optimizer sweeps; stress uses largest edge-count graphs over entire training partition",
+    "validation_batch_size": 8,
+    "validation_benchmark": [
+      {
+        "batch": 8,
+        "events_per_second": 40.699997790592796,
+        "peak_memory_bytes": 732159488
+      },
+      {
+        "batch": 16,
+        "events_per_second": 38.36914785421779,
+        "peak_memory_bytes": 905288192
+      },
+      {
+        "batch": 32,
+        "events_per_second": 31.49336557459715,
+        "peak_memory_bytes": 1183127040
+      }
+    ]
+  },
+  "unchanged_checkpoint_fields_verified": [
+    "epoch",
+    "best_validation_loss",
+    "model",
+    "optimizer",
+    "scheduler",
+    "scaler",
+    "history",
+    "torch_rng",
+    "cuda_rng",
+    "loader_rng",
+    "python_rng",
+    "numpy_rng"
+  ],
+  "before_sha256": "9c2ab4996c088020355b98481426ca8ca4d6f250e4cba12065e852c23f8dd580",
+  "after_sha256": "abfdf9b067f8e6ce2645993fcd011b7d2e408d4072dd73bb248fad5b26b47983",
+  "updated_unix": 1793937165.6589558,
+  "pid": 1819898
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": 1753,
+  "partition": "train",
+  "focus_truth": 3816,
+  "category": "pure_connected_at_existing_relaxed_cut",
+  "image": "event_01753_T3816_baseline.png",
+  "hits": 866,
+  "axial_hits": 388,
+  "stereo_hits": 478,
+  "edge_counts": {
+    "AA": 7518,
+    "AS": 29989,
+    "SS": 18116
+  },
+  "metrics": {
+    "truth_tracks": 35,
+    "stereo_eligible_tracks": 35,
+    "truth_stereo_all": 478,
+    "output_candidates": 33,
+    "fake_candidates": 2,
+    "axial_completeness_sum": 26.569119769119773,
+    "correct_stereo_matched": 320,
+    "attached_stereo_matched": 322,
+    "truth_stereo_matched": 402,
+    "matched_tracks": 31,
+    "joint_matched_tracks": 28
+  },
+  "seed": {
+    "truth_tracks": 35,
+    "output_candidates": 31,
+    "fake_candidates": 2,
+    "matched_tracks": 29
+  },
+  "seconds": 8.143629789352417
+}

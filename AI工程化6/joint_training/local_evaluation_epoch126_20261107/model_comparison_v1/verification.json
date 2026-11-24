@@ -1,0 +1,54 @@
+{
+  "audits": {
+    "local_evaluation_epoch095_20261107": {
+      "events": 1500,
+      "methods": 3,
+      "all_scores_recomputed": true,
+      "exclusive_hit_ownership": true,
+      "all_frozen_hashes_match": true,
+      "fake_causes": {
+        "direct_components": {
+          "mixed_axial_hits": 8588,
+          "insufficient_truth_coverage": 24
+        },
+        "two_pass": {
+          "mixed_axial_hits": 447,
+          "insufficient_truth_coverage": 860
+        },
+        "conservative_joint": {
+          "mixed_axial_hits": 449,
+          "insufficient_truth_coverage": 834
+        }
+      }
+    },
+    "local_evaluation_epoch126_20261107": {
+      "events": 1500,
+      "methods": 3,
+      "all_scores_recomputed": true,
+      "exclusive_hit_ownership": true,
+      "all_frozen_hashes_match": true,
+      "fake_causes": {
+        "direct_components": {
+          "mixed_axial_hits": 8338,
+          "insufficient_truth_coverage": 28
+        },
+        "two_pass": {
+          "insufficient_truth_coverage": 835,
+          "mixed_axial_hits": 430
+        },
+        "conservative_joint": {
+          "insufficient_truth_coverage": 825,
+          "mixed_axial_hits": 434
+        }
+      }
+    }
+  },
+  "truth_free_input_fields": [
+    "cell_id",
+    "d",
+    "hit_id"
+  ],
+  "inference_event": 4779,
+  "deployment_matches_saved_test_memberships": true,
+  "inference_entry_sha256": "e1facdcc7d5bd39a5861dd07645b54a0205b3bf2f43c3f89a667275b3ef6eb35"
+}

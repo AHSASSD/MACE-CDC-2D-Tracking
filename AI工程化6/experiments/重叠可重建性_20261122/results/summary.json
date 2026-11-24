@@ -1,0 +1,185 @@
+{
+  "events": 501,
+  "eligible_tracks": 15099,
+  "matched": 14415,
+  "missed": 684,
+  "threshold_sensitivity": {
+    "2": {
+      "high_overlap_tracks": 1965,
+      "high_overlap_missed": 467,
+      "high_overlap_miss_rate": 0.2376590330788804,
+      "low_overlap_tracks": 13134,
+      "low_overlap_missed": 217,
+      "low_overlap_miss_rate": 0.016522003959189888,
+      "fraction_of_misses_high_overlap": 0.6827485380116959
+    },
+    "5": {
+      "high_overlap_tracks": 1965,
+      "high_overlap_missed": 467,
+      "high_overlap_miss_rate": 0.2376590330788804,
+      "low_overlap_tracks": 13134,
+      "low_overlap_missed": 217,
+      "low_overlap_miss_rate": 0.016522003959189888,
+      "fraction_of_misses_high_overlap": 0.6827485380116959
+    },
+    "10": {
+      "high_overlap_tracks": 3492,
+      "high_overlap_missed": 531,
+      "high_overlap_miss_rate": 0.15206185567010308,
+      "low_overlap_tracks": 11607,
+      "low_overlap_missed": 153,
+      "low_overlap_miss_rate": 0.013181700697854742,
+      "fraction_of_misses_high_overlap": 0.7763157894736842
+    },
+    "20": {
+      "high_overlap_tracks": 8415,
+      "high_overlap_missed": 636,
+      "high_overlap_miss_rate": 0.07557932263814617,
+      "low_overlap_tracks": 6684,
+      "low_overlap_missed": 48,
+      "low_overlap_miss_rate": 0.00718132854578097,
+      "fraction_of_misses_high_overlap": 0.9298245614035088
+    }
+  },
+  "missed_details": {
+    "tracks": 684,
+    "mean_shared_cell_fraction": 0.607719810312442,
+    "any_exact_equivalent_tracks": 0,
+    "graph_categories": {
+      "score_fragmented": 429,
+      "pure_connected_at_relaxed_cut": 242,
+      "candidate_graph_insufficient": 13
+    }
+  },
+  "found_details": {
+    "tracks": 14415,
+    "mean_shared_cell_fraction": 0.16440754723081194,
+    "any_exact_equivalent_tracks": 0,
+    "graph_categories": {
+      "pure_connected_at_relaxed_cut": 14361,
+      "score_fragmented": 54
+    }
+  },
+  "by_split": {
+    "train": {
+      "tracks": 10963,
+      "missed": 472,
+      "high_overlap_missed": 372
+    },
+    "validation": {
+      "tracks": 1929,
+      "missed": 93,
+      "high_overlap_missed": 69
+    },
+    "test": {
+      "tracks": 2207,
+      "missed": 119,
+      "high_overlap_missed": 90
+    }
+  },
+  "high_minus_low_miss_rate_event_bootstrap95": [
+    0.12366409556899964,
+    0.15476497279874768
+  ],
+  "requested_four_events": {
+    "missed_tracks": 16,
+    "removed_false_found": 2,
+    "denoised_nonlocking_found": 4,
+    "perfect_graph_found": 16,
+    "geometry_witness": 16,
+    "oracle_circle_assignment_found": 6,
+    "oracle_3d_assignment_found": 8,
+    "oracle_3d_cell_matching_found": 9
+  },
+  "detailed_witnesses": {
+    "detail_events": [
+      1500,
+      1501,
+      1503,
+      1504,
+      1714,
+      1532
+    ],
+    "missed_tracks": 31,
+    "restored_by_removing_false_edges": 4,
+    "restored_by_perfect_candidate_scores": 30,
+    "restored_denoised_nonlocking": 5,
+    "restored_oracle_circle_assignment": 14,
+    "restored_oracle_3d_assignment": 16,
+    "restored_oracle_3d_cell_matching": 17,
+    "axial_witness": 30,
+    "stereo_geometry_witness": 29
+  },
+  "requested_by_event": [
+    {
+      "event_id": 1500,
+      "missed": 2,
+      "remove_false": 0,
+      "remove_false_nonlocking": 0,
+      "perfect_edges": 2,
+      "oracle_circle_templates": 0,
+      "oracle_3d_templates": 0,
+      "oracle_3d_cell_matching": 0,
+      "baseline_matched": 26,
+      "conditional_matched": 26,
+      "conditional_fake": 2,
+      "conditional_clone": 0,
+      "truth_tracks": 28,
+      "cell_assumption_violations": 0
+    },
+    {
+      "event_id": 1501,
+      "missed": 6,
+      "remove_false": 0,
+      "remove_false_nonlocking": 0,
+      "perfect_edges": 6,
+      "oracle_circle_templates": 1,
+      "oracle_3d_templates": 2,
+      "oracle_3d_cell_matching": 2,
+      "baseline_matched": 27,
+      "conditional_matched": 29,
+      "conditional_fake": 4,
+      "conditional_clone": 0,
+      "truth_tracks": 33,
+      "cell_assumption_violations": 0
+    },
+    {
+      "event_id": 1503,
+      "missed": 1,
+      "remove_false": 0,
+      "remove_false_nonlocking": 1,
+      "perfect_edges": 1,
+      "oracle_circle_templates": 0,
+      "oracle_3d_templates": 0,
+      "oracle_3d_cell_matching": 0,
+      "baseline_matched": 29,
+      "conditional_matched": 28,
+      "conditional_fake": 2,
+      "conditional_clone": 0,
+      "truth_tracks": 30,
+      "cell_assumption_violations": 0
+    },
+    {
+      "event_id": 1504,
+      "missed": 7,
+      "remove_false": 2,
+      "remove_false_nonlocking": 3,
+      "perfect_edges": 7,
+      "oracle_circle_templates": 5,
+      "oracle_3d_templates": 6,
+      "oracle_3d_cell_matching": 7,
+      "baseline_matched": 24,
+      "conditional_matched": 31,
+      "conditional_fake": 0,
+      "conditional_clone": 0,
+      "truth_tracks": 31,
+      "cell_assumption_violations": 0
+    }
+  ],
+  "requested_intervention_attribution": {
+    "false_edges": 2,
+    "additional_nonlocking": 2,
+    "needs_score_change": 12,
+    "still_failed_perfect_edges": 0
+  }
+}

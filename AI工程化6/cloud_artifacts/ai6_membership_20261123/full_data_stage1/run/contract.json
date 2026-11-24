@@ -1,0 +1,26 @@
+{
+  "signature": {
+    "train_full_stage.py": "fbd8588a8cbb7a937285431ad598374ef1ddf97eede5f5185c0bf39e4f46271f",
+    "membership.py": "0b224cb2e09c98ee68c51520d599b1811c5d3d5c495a18518831f0cae69bf8b3",
+    "repair_v2.py": "802ea96e340114413d781fc3e2be1812bd854aa5fe61f3348b6540ed91f2dff9",
+    "fast_model.py": "c7d720653eadf3e93cf891bb02f24f4ccdd48cecea5fd89aa08692cc44029dd4",
+    "review_pilot.py": "a3b50aeac62a3bb68b72ea6db061b1a7178f5bd4c51e1d2bac5a98bdc0887c13",
+    "split_manifest.json": "a154520a25556e88d6f889f4ef1a0b01f7c46e6ed64baf9f2a6a565ca344b9f3",
+    "initial_control7.pth": "be28c5472f612a5000a7a134363cef9769cd13d42fb27fc40535137a489de9f7",
+    "configuration": "e718b5613337eabd837a822f5f028c39c3959a74d09390b2c06a361d4987d11d"
+  },
+  "stage": "full_data_learning_curve_stage1",
+  "warmstart": "control7",
+  "events": 7000,
+  "max_epochs": 20,
+  "effective_batch": 32,
+  "microbatch": 4,
+  "chunk": 16384,
+  "direct_steps": 2,
+  "workers": 2,
+  "measured_step_speedup": 5.501706911275463,
+  "formal_200_epoch": false,
+  "calibration_events": 32,
+  "selection_events": 200,
+  "auto_deploy": false
+}

@@ -1,0 +1,73 @@
+{
+  "event_id": 1064,
+  "model": "balanced_012",
+  "tracks": [
+    {
+      "truth_id": 4944,
+      "old_category": "pure_connected_at_existing_relaxed_cut",
+      "new_category": "pure_connected_at_existing_relaxed_cut",
+      "recovered": true,
+      "old_connected": true,
+      "new_connected": true,
+      "old_median": 0.49163818359375,
+      "new_median": 0.5438232421875,
+      "old_below": 0.68,
+      "new_below": 0.54,
+      "old_true_mean": 0.5703759789466858,
+      "new_true_mean": 0.5976025462150574,
+      "old_false_acceptance": 0.0,
+      "new_false_acceptance": 0.0,
+      "old_largest": 9,
+      "new_largest": 9,
+      "old_match_connectivity": 0.68701171875,
+      "new_match_connectivity": 0.7373046875
+    },
+    {
+      "truth_id": 6483,
+      "old_category": "broadly_low_scores",
+      "new_category": "broadly_low_scores",
+      "recovered": false,
+      "old_connected": false,
+      "new_connected": false,
+      "old_median": 0.443115234375,
+      "new_median": 0.4632568359375,
+      "old_below": 1.0,
+      "new_below": 1.0,
+      "old_true_mean": 0.4487045705318451,
+      "new_true_mean": 0.46453672647476196,
+      "old_false_acceptance": 0.003952569169960474,
+      "new_false_acceptance": 0.005270092226613966,
+      "old_largest": 1,
+      "new_largest": 1,
+      "old_match_connectivity": 0.5023193359375,
+      "new_match_connectivity": 0.51904296875
+    }
+  ],
+  "counts": {
+    "truth_tracks": 31,
+    "stereo_eligible_tracks": 31,
+    "truth_stereo_all": 432,
+    "output_candidates": 31,
+    "axial_completeness_sum": 27.044679554162315,
+    "correct_stereo_matched": 308,
+    "attached_stereo_matched": 312,
+    "truth_stereo_matched": 419,
+    "fake_candidates": 1,
+    "matched_tracks": 30,
+    "joint_matched_tracks": 25
+  },
+  "seed": {
+    "truth_tracks": 31,
+    "output_candidates": 30,
+    "fake_candidates": 1,
+    "matched_tracks": 29
+  },
+  "recovered_old": [
+    4944
+  ],
+  "lost_old": [],
+  "all_old_missed": [
+    4944,
+    6483
+  ]
+}

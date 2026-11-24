@@ -1,0 +1,137 @@
+{
+  "epoch": 2,
+  "cursor": 96,
+  "updates": 11,
+  "history": [
+    {
+      "epoch": 0,
+      "members": {
+        "control_v1": {
+          "calibration": {
+            "cut": 0.5,
+            "radius": 0.25,
+            "metrics": {
+              "truth": 243,
+              "outputs": 115,
+              "correct": 37,
+              "fakes": 78,
+              "clones": 0,
+              "efficiency": 0.1522633744855967,
+              "fake_fraction": 0.6782608695652174,
+              "clone_fraction": 0.0
+            }
+          },
+          "validation": {
+            "truth": 491,
+            "outputs": 247,
+            "correct": 49,
+            "fakes": 197,
+            "clones": 1,
+            "efficiency": 0.09979633401221996,
+            "fake_fraction": 0.7975708502024291,
+            "clone_fraction": 0.004048582995951417
+          }
+        },
+        "hard_v1": {
+          "calibration": {
+            "cut": 0.5,
+            "radius": 0.25,
+            "metrics": {
+              "truth": 243,
+              "outputs": 115,
+              "correct": 37,
+              "fakes": 78,
+              "clones": 0,
+              "efficiency": 0.1522633744855967,
+              "fake_fraction": 0.6782608695652174,
+              "clone_fraction": 0.0
+            }
+          },
+          "validation": {
+            "truth": 491,
+            "outputs": 247,
+            "correct": 49,
+            "fakes": 197,
+            "clones": 1,
+            "efficiency": 0.09979633401221996,
+            "fake_fraction": 0.7975708502024291,
+            "clone_fraction": 0.004048582995951417
+          }
+        }
+      }
+    },
+    {
+      "epoch": 1,
+      "members": {
+        "control_v1": {
+          "calibration": {
+            "cut": 0.3,
+            "radius": 0.25,
+            "metrics": {
+              "truth": 243,
+              "outputs": 93,
+              "correct": 16,
+              "fakes": 77,
+              "clones": 0,
+              "efficiency": 0.06584362139917696,
+              "fake_fraction": 0.8279569892473119,
+              "clone_fraction": 0.0
+            }
+          },
+          "validation": {
+            "truth": 491,
+            "outputs": 186,
+            "correct": 39,
+            "fakes": 147,
+            "clones": 0,
+            "efficiency": 0.07942973523421588,
+            "fake_fraction": 0.7903225806451613,
+            "clone_fraction": 0.0
+          }
+        },
+        "hard_v1": {
+          "calibration": {
+            "cut": 0.3,
+            "radius": 0.5,
+            "metrics": {
+              "truth": 243,
+              "outputs": 59,
+              "correct": 16,
+              "fakes": 43,
+              "clones": 0,
+              "efficiency": 0.06584362139917696,
+              "fake_fraction": 0.7288135593220338,
+              "clone_fraction": 0.0
+            }
+          },
+          "validation": {
+            "truth": 491,
+            "outputs": 123,
+            "correct": 20,
+            "fakes": 103,
+            "clones": 0,
+            "efficiency": 0.04073319755600815,
+            "fake_fraction": 0.8373983739837398,
+            "clone_fraction": 0.0
+          }
+        }
+      },
+      "workers": 1,
+      "train_seconds": 77.54246759414673,
+      "epoch_seconds_including_validation": 81.49632978439331,
+      "data_wait": 3.848761558532715,
+      "losses": {
+        "control_v1": [
+          0.39111011335626245,
+          0.372954563703388,
+          0.1966974069364369
+        ],
+        "hard_v1": [
+          0.392888012342155,
+          0.3771987766958773,
+          0.5859372038394213
+        ]
+      }
+    }
+  ]
+}

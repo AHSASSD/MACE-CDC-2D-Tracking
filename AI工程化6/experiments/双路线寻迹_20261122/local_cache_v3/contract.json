@@ -1,0 +1,12 @@
+{
+  "dataset_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "feature_source_sha256": "8c83ae79359c91d49b6eb31cbd0382ac1f470a05334f86c712824a736689afee",
+  "common_source_sha256": "7f033bfa54bdbb96c4604cada5d3451eb5e66364f1fd1c19448f001324d206ca",
+  "threshold": 0.4,
+  "format": 2,
+  "torch": "2.11.0+cu128",
+  "latent": "Mean bidirectional256D, fp16",
+  "labels_in_model_features": false,
+  "triplet_policy": "Degree<=64 all pairs; larger degree top24 anchors plus every other edge paired with top8; oracle audit required"
+}

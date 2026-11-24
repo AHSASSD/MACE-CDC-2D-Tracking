@@ -1,0 +1,127 @@
+{
+  "event_id": 3580,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 21,
+        "stereo_eligible_tracks": 21,
+        "truth_stereo_all": 340,
+        "output_candidates": 18,
+        "axial_completeness_sum": 16.2479797979798,
+        "correct_stereo_matched": 191,
+        "attached_stereo_matched": 195,
+        "truth_stereo_matched": 228,
+        "fake_candidates": 1,
+        "matched_tracks": 17,
+        "joint_matched_tracks": 16
+      },
+      "found": [
+        163,
+        220,
+        648,
+        1205,
+        1430,
+        1622,
+        1986,
+        2055,
+        2141,
+        2901,
+        3130,
+        3356,
+        3465,
+        3512,
+        3584,
+        3800,
+        3890
+      ],
+      "seeds": {
+        "truth_tracks": 21,
+        "output_candidates": 17,
+        "fake_candidates": 1,
+        "matched_tracks": 16
+      }
+    },
+    "E": {
+      "counts": {
+        "truth_tracks": 21,
+        "stereo_eligible_tracks": 21,
+        "truth_stereo_all": 340,
+        "output_candidates": 18,
+        "axial_completeness_sum": 16.4979797979798,
+        "correct_stereo_matched": 191,
+        "attached_stereo_matched": 195,
+        "truth_stereo_matched": 228,
+        "fake_candidates": 1,
+        "matched_tracks": 17,
+        "joint_matched_tracks": 16
+      },
+      "found": [
+        163,
+        220,
+        648,
+        1205,
+        1430,
+        1622,
+        1986,
+        2055,
+        2141,
+        2901,
+        3130,
+        3356,
+        3465,
+        3512,
+        3584,
+        3800,
+        3890
+      ],
+      "seeds": {
+        "truth_tracks": 21,
+        "output_candidates": 17,
+        "fake_candidates": 1,
+        "matched_tracks": 16
+      }
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 21,
+        "stereo_eligible_tracks": 21,
+        "truth_stereo_all": 340,
+        "output_candidates": 18,
+        "axial_completeness_sum": 16.2479797979798,
+        "correct_stereo_matched": 191,
+        "attached_stereo_matched": 195,
+        "truth_stereo_matched": 228,
+        "fake_candidates": 1,
+        "matched_tracks": 17,
+        "joint_matched_tracks": 16
+      },
+      "found": [
+        163,
+        220,
+        648,
+        1205,
+        1430,
+        1622,
+        1986,
+        2055,
+        2141,
+        2901,
+        3130,
+        3356,
+        3465,
+        3512,
+        3584,
+        3800,
+        3890
+      ],
+      "seeds": {
+        "truth_tracks": 21,
+        "output_candidates": 17,
+        "fake_candidates": 1,
+        "matched_tracks": 16
+      }
+    }
+  },
+  "scope": "Raw two-pass reference; same AS/SS attachment/coarse geometry, no old hybrid calibrator",
+  "prototype_limits": "E lane count capped3 and new geometric groups capped80 axial hits; baseline candidates remain available"
+}

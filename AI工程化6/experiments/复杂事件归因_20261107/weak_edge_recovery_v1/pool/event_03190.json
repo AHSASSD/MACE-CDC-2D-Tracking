@@ -1,0 +1,27 @@
+{
+  "event_id": 3190,
+  "candidates": [
+    {
+      "indices": [
+        219,
+        271,
+        307,
+        308,
+        314
+      ],
+      "fit": [
+        -791.0994886894897,
+        5056.661599498549,
+        5169.447128826534
+      ],
+      "rms": 0.12834586110122903,
+      "stage": "weak_triplet"
+    }
+  ],
+  "diagnostic_labels": [
+    "fake"
+  ],
+  "arrays_sha256": "766057b35517e2023cf057059c5c220cb3094262a842ab7d1b0fc3f36a458c64",
+  "positives": 0,
+  "candidates_count": 1
+}

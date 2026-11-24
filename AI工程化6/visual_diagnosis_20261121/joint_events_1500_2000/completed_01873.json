@@ -1,0 +1,35 @@
+{
+  "event_id": 1873,
+  "partition": "train",
+  "focus_truth": 5771,
+  "category": "pure_connected_at_existing_relaxed_cut",
+  "image": "event_01873_T5771_baseline.png",
+  "hits": 947,
+  "axial_hits": 402,
+  "stereo_hits": 545,
+  "edge_counts": {
+    "AA": 9496,
+    "AS": 36548,
+    "SS": 23453
+  },
+  "metrics": {
+    "truth_tracks": 38,
+    "stereo_eligible_tracks": 38,
+    "truth_stereo_all": 545,
+    "output_candidates": 39,
+    "axial_completeness_sum": 32.647319347319346,
+    "correct_stereo_matched": 403,
+    "attached_stereo_matched": 404,
+    "truth_stereo_matched": 492,
+    "fake_candidates": 3,
+    "matched_tracks": 36,
+    "joint_matched_tracks": 34
+  },
+  "seed": {
+    "truth_tracks": 38,
+    "output_candidates": 38,
+    "fake_candidates": 2,
+    "matched_tracks": 36
+  },
+  "seconds": 14.41616678237915
+}

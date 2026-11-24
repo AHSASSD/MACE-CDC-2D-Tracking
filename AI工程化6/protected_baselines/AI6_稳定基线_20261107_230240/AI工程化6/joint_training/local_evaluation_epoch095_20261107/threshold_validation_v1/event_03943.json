@@ -1,0 +1,65 @@
+{
+  "event_id": 3943,
+  "methods": {
+    "baseline": {
+      "truth_tracks": 27,
+      "stereo_eligible_tracks": 27,
+      "truth_stereo_all": 357,
+      "output_candidates": 24,
+      "axial_completeness_sum": 20.54034576534577,
+      "correct_stereo_matched": 247,
+      "attached_stereo_matched": 247,
+      "truth_stereo_matched": 318,
+      "matched_tracks": 24,
+      "joint_matched_tracks": 20
+    },
+    "threshold_065_055": {
+      "truth_tracks": 27,
+      "stereo_eligible_tracks": 27,
+      "truth_stereo_all": 357,
+      "output_candidates": 25,
+      "axial_completeness_sum": 21.567665667665672,
+      "correct_stereo_matched": 256,
+      "attached_stereo_matched": 256,
+      "truth_stereo_matched": 331,
+      "matched_tracks": 25,
+      "joint_matched_tracks": 21
+    },
+    "threshold_075_0575": {
+      "truth_tracks": 27,
+      "stereo_eligible_tracks": 27,
+      "truth_stereo_all": 357,
+      "output_candidates": 24,
+      "axial_completeness_sum": 20.64034576534577,
+      "correct_stereo_matched": 247,
+      "attached_stereo_matched": 247,
+      "truth_stereo_matched": 318,
+      "matched_tracks": 24,
+      "joint_matched_tracks": 20
+    },
+    "threshold_075_060": {
+      "truth_tracks": 27,
+      "stereo_eligible_tracks": 27,
+      "truth_stereo_all": 357,
+      "output_candidates": 24,
+      "axial_completeness_sum": 20.64034576534577,
+      "correct_stereo_matched": 247,
+      "attached_stereo_matched": 247,
+      "truth_stereo_matched": 318,
+      "matched_tracks": 24,
+      "joint_matched_tracks": 20
+    },
+    "threshold_070_055": {
+      "truth_tracks": 27,
+      "stereo_eligible_tracks": 27,
+      "truth_stereo_all": 357,
+      "output_candidates": 25,
+      "axial_completeness_sum": 21.254631479631485,
+      "correct_stereo_matched": 256,
+      "attached_stereo_matched": 256,
+      "truth_stereo_matched": 331,
+      "matched_tracks": 25,
+      "joint_matched_tracks": 21
+    }
+  }
+}

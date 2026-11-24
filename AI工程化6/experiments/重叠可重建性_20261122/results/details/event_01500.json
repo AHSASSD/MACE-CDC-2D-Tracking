@@ -1,0 +1,3697 @@
+{
+  "event_id": 1500,
+  "partition": "train",
+  "baseline_counts": {
+    "truth_tracks": 28,
+    "stereo_eligible_tracks": 28,
+    "truth_stereo_all": 380,
+    "output_candidates": 26,
+    "axial_completeness_sum": 23.67620490620491,
+    "correct_stereo_matched": 301,
+    "attached_stereo_matched": 302,
+    "truth_stereo_matched": 356,
+    "matched_tracks": 26,
+    "joint_matched_tracks": 26
+  },
+  "missed_axial": [
+    1317,
+    5026
+  ],
+  "seed_only_miss": [],
+  "focus": [
+    {
+      "event_id": 1500,
+      "truth_id": 1317,
+      "partition": "train",
+      "found": false,
+      "seed_only_miss": false,
+      "event_hits": 667,
+      "axial_hits": 9,
+      "unique_axial_cells": 9,
+      "nearest_foreign_median_mm": 0.0,
+      "primary_competitor": 5026,
+      "foreign_within_2mm_fraction": 0.8888888888888888,
+      "foreign_within_5mm_fraction": 0.8888888888888888,
+      "foreign_within_10mm_fraction": 0.8888888888888888,
+      "foreign_within_20mm_fraction": 1.0,
+      "shared_cell_fraction": 0.8888888888888888,
+      "exact_input_equivalent_fraction": 0.0,
+      "shared_cell_drift_within_0p1mm_fraction": 0.0,
+      "shared_cell_drift_within_0p5mm_fraction": 0.5555555555555556,
+      "true_AA_edges": 28,
+      "true_AA_mean": 0.5395594835281372,
+      "true_AA_recall_0575": 0.10714285714285714,
+      "false_AA_above_0575": 0,
+      "false_AA_above_070": 0,
+      "largest_true_component": {
+        "all": 9,
+        "relaxed": 3,
+        "strict": 3
+      },
+      "needed_true_hits": 5,
+      "graph_diagnosis": "score_fragmented",
+      "best_overlap_group": null,
+      "physical": {
+        "truth_id": 1317,
+        "axial_hits": 9,
+        "stereo_hits": 12,
+        "distinct_stereo_cells": 12,
+        "fit": [
+          293.906171675543,
+          1432.5795924735062,
+          1463.3401792850416
+        ],
+        "axial_rms_mm": 0.4443237025889239,
+        "axial_inlier_1p5_fraction": 1.0,
+        "arc": [
+          4.2018499622505345,
+          0.22177306790900014
+        ],
+        "status": "supported",
+        "hypotheses": [
+          {
+            "z0": -53.45764658293652,
+            "pitch": 145.2897762469521,
+            "arc": [
+              4.2018499622505345,
+              0.22177306790900014
+            ],
+            "quality": 11.769029721126312,
+            "distinct_support": 12,
+            "independent_layers": 12,
+            "stereo_orientations": 2,
+            "stereo_phase_span_rad": 0.17142238474704108
+          }
+        ],
+        "best_hypothesis": {
+          "z0": -53.45764658293652,
+          "pitch": 145.2897762469521,
+          "arc": [
+            4.2018499622505345,
+            0.22177306790900014
+          ],
+          "quality": 11.769029721126312,
+          "distinct_support": 12,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.17142238474704108
+        },
+        "stereo_inlier_1p5_fraction": 1.0,
+        "stereo_median_abs_residual_mm": 0.273731586867034,
+        "supported_distinct_stereo_cells": 12
+      },
+      "oracle_remove_false_found": false,
+      "oracle_perfect_graph_found": true,
+      "oracle_denoised_nonlocking_found": false,
+      "oracle_circle_assignment_found": false,
+      "oracle_3d_assignment_found": false,
+      "oracle_3d_cell_matching_found": false,
+      "axial_circle_template_assignment": {
+        "n": 9,
+        "finite_own": 9,
+        "own_best_fraction": 0.5555555555555556,
+        "median_competitor_minus_own_mm": 0.12283819383037553,
+        "own_better_by_0p2mm_fraction": 0.4444444444444444
+      },
+      "stereo_3d_template_assignment": {
+        "n": 12,
+        "finite_own": 12,
+        "own_best_fraction": 1.0,
+        "median_competitor_minus_own_mm": 4.777091824488728,
+        "own_better_by_0p2mm_fraction": 0.9166666666666666
+      },
+      "all_hit_3d_template_assignment": {
+        "n": 21,
+        "finite_own": 21,
+        "own_best_fraction": 0.8095238095238095,
+        "median_competitor_minus_own_mm": 1.0178441427630345,
+        "own_better_by_0p2mm_fraction": 0.7142857142857143
+      },
+      "has_axial_reconstruction_witness": true,
+      "has_3d_geometry_witness": true
+    },
+    {
+      "event_id": 1500,
+      "truth_id": 5026,
+      "partition": "train",
+      "found": false,
+      "seed_only_miss": false,
+      "event_hits": 667,
+      "axial_hits": 9,
+      "unique_axial_cells": 9,
+      "nearest_foreign_median_mm": 0.0,
+      "primary_competitor": 1317,
+      "foreign_within_2mm_fraction": 0.8888888888888888,
+      "foreign_within_5mm_fraction": 0.8888888888888888,
+      "foreign_within_10mm_fraction": 1.0,
+      "foreign_within_20mm_fraction": 1.0,
+      "shared_cell_fraction": 0.8888888888888888,
+      "exact_input_equivalent_fraction": 0.0,
+      "shared_cell_drift_within_0p1mm_fraction": 0.0,
+      "shared_cell_drift_within_0p5mm_fraction": 0.5555555555555556,
+      "true_AA_edges": 27,
+      "true_AA_mean": 0.49322736263275146,
+      "true_AA_recall_0575": 0.037037037037037035,
+      "false_AA_above_0575": 0,
+      "false_AA_above_070": 0,
+      "largest_true_component": {
+        "all": 9,
+        "relaxed": 2,
+        "strict": 2
+      },
+      "needed_true_hits": 5,
+      "graph_diagnosis": "score_fragmented",
+      "best_overlap_group": null,
+      "physical": {
+        "truth_id": 5026,
+        "axial_hits": 9,
+        "stereo_hits": 12,
+        "distinct_stereo_cells": 12,
+        "fit": [
+          405.40689480450095,
+          1733.7742140598957,
+          1784.2099299156346
+        ],
+        "axial_rms_mm": 0.34272345303175483,
+        "axial_inlier_1p5_fraction": 1.0,
+        "arc": [
+          4.230708480891129,
+          0.1857907055771143
+        ],
+        "status": "supported",
+        "hypotheses": [
+          {
+            "z0": 110.32427136887128,
+            "pitch": -411.7025648214694,
+            "arc": [
+              4.230708480891129,
+              0.1857907055771143
+            ],
+            "quality": 11.041672784655661,
+            "distinct_support": 11,
+            "independent_layers": 11,
+            "stereo_orientations": 2,
+            "stereo_phase_span_rad": 0.1407285393718567
+          }
+        ],
+        "best_hypothesis": {
+          "z0": 110.32427136887128,
+          "pitch": -411.7025648214694,
+          "arc": [
+            4.230708480891129,
+            0.1857907055771143
+          ],
+          "quality": 11.041672784655661,
+          "distinct_support": 11,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.1407285393718567
+        },
+        "stereo_inlier_1p5_fraction": 0.9166666666666666,
+        "stereo_median_abs_residual_mm": 0.3097368514859631,
+        "supported_distinct_stereo_cells": 11
+      },
+      "oracle_remove_false_found": false,
+      "oracle_perfect_graph_found": true,
+      "oracle_denoised_nonlocking_found": false,
+      "oracle_circle_assignment_found": false,
+      "oracle_3d_assignment_found": false,
+      "oracle_3d_cell_matching_found": false,
+      "axial_circle_template_assignment": {
+        "n": 9,
+        "finite_own": 9,
+        "own_best_fraction": 0.7777777777777778,
+        "median_competitor_minus_own_mm": 0.11100059962291198,
+        "own_better_by_0p2mm_fraction": 0.3333333333333333
+      },
+      "stereo_3d_template_assignment": {
+        "n": 12,
+        "finite_own": 12,
+        "own_best_fraction": 0.8333333333333334,
+        "median_competitor_minus_own_mm": 3.6178679099418742,
+        "own_better_by_0p2mm_fraction": 0.8333333333333334
+      },
+      "all_hit_3d_template_assignment": {
+        "n": 21,
+        "finite_own": 21,
+        "own_best_fraction": 0.8095238095238095,
+        "median_competitor_minus_own_mm": 0.6386941679365352,
+        "own_better_by_0p2mm_fraction": 0.6190476190476191
+      },
+      "has_axial_reconstruction_witness": true,
+      "has_3d_geometry_witness": true
+    }
+  ],
+  "models": [
+    {
+      "truth_id": 83,
+      "axial_hits": 10,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        447.2689947986944,
+        -1214.5470721021782,
+        1294.368338359206
+      ],
+      "axial_rms_mm": 0.2652898802260765,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        1.575795974441616,
+        0.2564520725518622
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -119.78928107630303,
+          "pitch": 325.45908930705957,
+          "arc": [
+            1.575795974441616,
+            0.2564520725518622
+          ],
+          "quality": 11.282733048307628,
+          "distinct_support": 12,
+          "independent_layers": 10,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.19484166565997652
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -119.78928107630303,
+        "pitch": 325.45908930705957,
+        "arc": [
+          1.575795974441616,
+          0.2564520725518622
+        ],
+        "quality": 11.282733048307628,
+        "distinct_support": 12,
+        "independent_layers": 10,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.19484166565997652
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.30659412043760176,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 370,
+      "axial_hits": 10,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        -693.1580363828377,
+        -874.3423542675841,
+        1114.8097356335588
+      ],
+      "axial_rms_mm": 0.33854246360979023,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        0.4964812317041749,
+        0.29839653119439546
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 196.45329102212636,
+          "pitch": -525.6459213481997,
+          "arc": [
+            0.4964812317041749,
+            0.29839653119439546
+          ],
+          "quality": 11.38518897105491,
+          "distinct_support": 12,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.2266137757293175
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 196.45329102212636,
+        "pitch": -525.6459213481997,
+        "arc": [
+          0.4964812317041749,
+          0.29839653119439546
+        ],
+        "quality": 11.38518897105491,
+        "distinct_support": 12,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.2266137757293175
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.4435580866696267,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 460,
+      "axial_hits": 8,
+      "stereo_hits": 13,
+      "distinct_stereo_cells": 13,
+      "fit": [
+        -325.4107888464752,
+        790.498702196407,
+        845.6058720942317
+      ],
+      "axial_rms_mm": 0.26673360183404543,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        4.585922991701517,
+        0.3784581976093887
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 91.21087215220852,
+          "pitch": -186.12695987543142,
+          "arc": [
+            4.585922991701517,
+            0.3784581976093887
+          ],
+          "quality": 12.335316167769543,
+          "distinct_support": 13,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.2978989477622944
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 91.21087215220852,
+        "pitch": -186.12695987543142,
+        "arc": [
+          4.585922991701517,
+          0.3784581976093887
+        ],
+        "quality": 12.335316167769543,
+        "distinct_support": 13,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.2978989477622944
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.5287877924205817,
+      "supported_distinct_stereo_cells": 13
+    },
+    {
+      "truth_id": 498,
+      "axial_hits": 10,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        1197.8466108684593,
+        -61.05228468632536,
+        1191.2669180375542
+      ],
+      "axial_rms_mm": 0.4395131224517035,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        2.714197941617287,
+        0.2779768508941837
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -198.14926647101808,
+          "pitch": 527.7208340451816,
+          "arc": [
+            2.714197941617287,
+            0.2779768508941837
+          ],
+          "quality": 11.721594321340744,
+          "distinct_support": 12,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.2107418647085444
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -198.14926647101808,
+        "pitch": 527.7208340451816,
+        "arc": [
+          2.714197941617287,
+          0.2779768508941837
+        ],
+        "quality": 11.721594321340744,
+        "distinct_support": 12,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.2107418647085444
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.18601068900301454,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 585,
+      "axial_hits": 11,
+      "stereo_hits": 15,
+      "distinct_stereo_cells": 15,
+      "fit": [
+        269.55239566315726,
+        434.40797365213876,
+        555.840195914843
+      ],
+      "axial_rms_mm": 0.298682077344081,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.308693828909572,
+        0.6300257203965038
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 245.77717304674985,
+          "pitch": 400.67608179473183,
+          "arc": [
+            3.308693828909572,
+            0.6300257203965038
+          ],
+          "quality": 13.87025101273778,
+          "distinct_support": 15,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.48104966674362437
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 245.77717304674985,
+        "pitch": 400.67608179473183,
+        "arc": [
+          3.308693828909572,
+          0.6300257203965038
+        ],
+        "quality": 13.87025101273778,
+        "distinct_support": 15,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.48104966674362437
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.5229764510579391,
+      "supported_distinct_stereo_cells": 15
+    },
+    {
+      "truth_id": 938,
+      "axial_hits": 10,
+      "stereo_hits": 16,
+      "distinct_stereo_cells": 16,
+      "fit": [
+        -851.5720275513587,
+        879.0652136196792,
+        1158.3832140931918
+      ],
+      "axial_rms_mm": 0.3376745464867346,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        5.106554369798333,
+        0.28796868091649397
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 100.15188319856381,
+          "pitch": 767.1327866551006,
+          "arc": [
+            5.106554369798333,
+            0.28796868091649397
+          ],
+          "quality": 14.722552139503506,
+          "distinct_support": 16,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.21761440925150755
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 100.15188319856381,
+        "pitch": 767.1327866551006,
+        "arc": [
+          5.106554369798333,
+          0.28796868091649397
+        ],
+        "quality": 14.722552139503506,
+        "distinct_support": 16,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.21761440925150755
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.5356635097031236,
+      "supported_distinct_stereo_cells": 16
+    },
+    {
+      "truth_id": 1292,
+      "axial_hits": 25,
+      "stereo_hits": 18,
+      "distinct_stereo_cells": 18,
+      "fit": [
+        -104.00189883936218,
+        -96.90914649718455,
+        137.49159885641058
+      ],
+      "axial_rms_mm": 0.40969679977818424,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        2.6095172090073673,
+        3.4256630798904406
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 665.8553185880249,
+          "pitch": -154.15912155099986,
+          "arc": [
+            2.6095172090073673,
+            3.4256630798904406
+          ],
+          "quality": 17.37594240355182,
+          "distinct_support": 18,
+          "independent_layers": 6,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 3.1627667623245106
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 665.8553185880249,
+        "pitch": -154.15912155099986,
+        "arc": [
+          2.6095172090073673,
+          3.4256630798904406
+        ],
+        "quality": 17.37594240355182,
+        "distinct_support": 18,
+        "independent_layers": 6,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 3.1627667623245106
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.24451329218291007,
+      "supported_distinct_stereo_cells": 18
+    },
+    {
+      "truth_id": 1317,
+      "axial_hits": 9,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        293.906171675543,
+        1432.5795924735062,
+        1463.3401792850416
+      ],
+      "axial_rms_mm": 0.4443237025889239,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        4.2018499622505345,
+        0.22177306790900014
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -53.45764658293652,
+          "pitch": 145.2897762469521,
+          "arc": [
+            4.2018499622505345,
+            0.22177306790900014
+          ],
+          "quality": 11.769029721126312,
+          "distinct_support": 12,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.17142238474704108
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -53.45764658293652,
+        "pitch": 145.2897762469521,
+        "arc": [
+          4.2018499622505345,
+          0.22177306790900014
+        ],
+        "quality": 11.769029721126312,
+        "distinct_support": 12,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.17142238474704108
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.273731586867034,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 1359,
+      "axial_hits": 10,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        -1270.938597039447,
+        -123.13334588813612,
+        1278.012824031424
+      ],
+      "axial_rms_mm": 0.5570363824171192,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        6.027054948227502,
+        0.26018532397268224
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -187.9851931657378,
+          "pitch": 555.992212824084,
+          "arc": [
+            6.027054948227502,
+            0.26018532397268224
+          ],
+          "quality": 10.509060238530672,
+          "distinct_support": 12,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.19720996487679354
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -187.9851931657378,
+        "pitch": 555.992212824084,
+        "arc": [
+          6.027054948227502,
+          0.26018532397268224
+        ],
+        "quality": 10.509060238530672,
+        "distinct_support": 12,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.19720996487679354
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.6781672564565706,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 1632,
+      "axial_hits": 10,
+      "stereo_hits": 13,
+      "distinct_stereo_cells": 13,
+      "fit": [
+        619.394829471556,
+        766.6951247195777,
+        988.9802835823849
+      ],
+      "axial_rms_mm": 0.3744508313675589,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.575300762723518,
+        0.3381562055561263
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -51.37989864756686,
+          "pitch": 142.79024929992772,
+          "arc": [
+            3.575300762723518,
+            0.3381562055561263
+          ],
+          "quality": 12.265047235155818,
+          "distinct_support": 13,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.25578778856226947
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -51.37989864756686,
+        "pitch": 142.79024929992772,
+        "arc": [
+          3.575300762723518,
+          0.3381562055561263
+        ],
+        "quality": 12.265047235155818,
+        "distinct_support": 13,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.25578778856226947
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.39391269628730363,
+      "supported_distinct_stereo_cells": 13
+    },
+    {
+      "truth_id": 1870,
+      "axial_hits": 9,
+      "stereo_hits": 16,
+      "distinct_stereo_cells": 16,
+      "fit": [
+        510.07224534408414,
+        -645.6335809187079,
+        891.3099598342728
+      ],
+      "axial_rms_mm": 0.5161678122645657,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        1.7229916939445236,
+        0.38846952602472595
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 151.68627134879796,
+          "pitch": 391.34146697129427,
+          "arc": [
+            1.7229916939445236,
+            0.38846952602472595
+          ],
+          "quality": 15.205726917405158,
+          "distinct_support": 16,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.30774518641613025
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 151.68627134879796,
+        "pitch": 391.34146697129427,
+        "arc": [
+          1.7229916939445236,
+          0.38846952602472595
+        ],
+        "quality": 15.205726917405158,
+        "distinct_support": 16,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.30774518641613025
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.3005586237267588,
+      "supported_distinct_stereo_cells": 16
+    },
+    {
+      "truth_id": 2009,
+      "axial_hits": 9,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        890.1390073242644,
+        -914.4421425169758,
+        1281.316935733429
+      ],
+      "axial_rms_mm": 0.40442433946957357,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        1.9905235950623283,
+        0.25954634414647326
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -350.51180950599075,
+          "pitch": 1033.6617112725805,
+          "arc": [
+            1.9905235950623283,
+            0.25954634414647326
+          ],
+          "quality": 11.511351149841605,
+          "distinct_support": 12,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.197647537232696
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -350.51180950599075,
+        "pitch": 1033.6617112725805,
+        "arc": [
+          1.9905235950623283,
+          0.25954634414647326
+        ],
+        "quality": 11.511351149841605,
+        "distinct_support": 12,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.197647537232696
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.3582100313200419,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 2133,
+      "axial_hits": 9,
+      "stereo_hits": 13,
+      "distinct_stereo_cells": 13,
+      "fit": [
+        1092.868386780855,
+        839.4818068075379,
+        1387.127041174695
+      ],
+      "axial_rms_mm": 0.3869135581099656,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.471014524581409,
+        0.23392879714768444
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -109.00832586332633,
+          "pitch": 329.08746883980297,
+          "arc": [
+            3.471014524581409,
+            0.23392879714768444
+          ],
+          "quality": 11.72180062645079,
+          "distinct_support": 12,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.18172789392036925
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -109.00832586332633,
+        "pitch": 329.08746883980297,
+        "arc": [
+          3.471014524581409,
+          0.23392879714768444
+        ],
+        "quality": 11.72180062645079,
+        "distinct_support": 12,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.18172789392036925
+      },
+      "stereo_inlier_1p5_fraction": 0.9230769230769231,
+      "stereo_median_abs_residual_mm": 0.2812860012065378,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 2226,
+      "axial_hits": 11,
+      "stereo_hits": 14,
+      "distinct_stereo_cells": 14,
+      "fit": [
+        -971.9206463098134,
+        -327.97460583086774,
+        1049.7087851033727
+      ],
+      "axial_rms_mm": 0.48277481089875557,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        6.175721122625871,
+        0.3191746063585571
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -191.714466329872,
+          "pitch": 474.65995837128304,
+          "arc": [
+            6.175721122625871,
+            0.3191746063585571
+          ],
+          "quality": 13.319549174134975,
+          "distinct_support": 14,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.24510052300207263
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -191.714466329872,
+        "pitch": 474.65995837128304,
+        "arc": [
+          6.175721122625871,
+          0.3191746063585571
+        ],
+        "quality": 13.319549174134975,
+        "distinct_support": 14,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.24510052300207263
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.39048829376941474,
+      "supported_distinct_stereo_cells": 14
+    },
+    {
+      "truth_id": 2458,
+      "axial_hits": 12,
+      "stereo_hits": 15,
+      "distinct_stereo_cells": 15,
+      "fit": [
+        -633.1870400545063,
+        -96.95023482455144,
+        670.9016547593254
+      ],
+      "axial_rms_mm": 0.3481832556101027,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        5.747956641977175,
+        0.5058273948907195
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 713.735051587058,
+          "pitch": -738.1041111202727,
+          "arc": [
+            5.747956641977175,
+            0.5058273948907195
+          ],
+          "quality": 14.171916683948357,
+          "distinct_support": 15,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.3963932735701805
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 713.735051587058,
+        "pitch": -738.1041111202727,
+        "arc": [
+          5.747956641977175,
+          0.5058273948907195
+        ],
+        "quality": 14.171916683948357,
+        "distinct_support": 15,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.3963932735701805
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.40369563079886106,
+      "supported_distinct_stereo_cells": 15
+    },
+    {
+      "truth_id": 2773,
+      "axial_hits": 11,
+      "stereo_hits": 15,
+      "distinct_stereo_cells": 15,
+      "fit": [
+        -684.0943389895602,
+        -1213.593697052721,
+        1448.3299776046438
+      ],
+      "axial_rms_mm": 0.6060200473572761,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        0.7436629886597215,
+        0.2350052252647435
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 207.13821042184725,
+          "pitch": 834.90442338347,
+          "arc": [
+            0.7436629886597215,
+            0.2350052252647435
+          ],
+          "quality": 13.643694759725287,
+          "distinct_support": 15,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.17943876128832315
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 207.13821042184725,
+        "pitch": 834.90442338347,
+        "arc": [
+          0.7436629886597215,
+          0.2350052252647435
+        ],
+        "quality": 13.643694759725287,
+        "distinct_support": 15,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.17943876128832315
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.5134918329764542,
+      "supported_distinct_stereo_cells": 15
+    },
+    {
+      "truth_id": 2980,
+      "axial_hits": 11,
+      "stereo_hits": 18,
+      "distinct_stereo_cells": 18,
+      "fit": [
+        -270.29635003393366,
+        -339.6060049981365,
+        482.02417946251325
+      ],
+      "axial_rms_mm": 0.20060900374432591,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        -0.09096680133160487,
+        0.7362373446873798
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -481.863671868284,
+          "pitch": 1063.7395231763535,
+          "arc": [
+            -0.09096680133160487,
+            0.7362373446873798
+          ],
+          "quality": 16.879985233498036,
+          "distinct_support": 18,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.5974537295283293
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -481.863671868284,
+        "pitch": 1063.7395231763535,
+        "arc": [
+          -0.09096680133160487,
+          0.7362373446873798
+        ],
+        "quality": 16.879985233498036,
+        "distinct_support": 18,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.5974537295283293
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.29186401852553256,
+      "supported_distinct_stereo_cells": 18
+    },
+    {
+      "truth_id": 3091,
+      "axial_hits": 10,
+      "stereo_hits": 14,
+      "distinct_stereo_cells": 14,
+      "fit": [
+        -455.2642982878514,
+        718.7805564000806,
+        816.8858437775966
+      ],
+      "axial_rms_mm": 0.340929420939442,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        4.734123092665663,
+        0.406626073362672
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 40.011361846343256,
+          "pitch": 633.845275022794,
+          "arc": [
+            4.734123092665663,
+            0.406626073362672
+          ],
+          "quality": 11.81726000664197,
+          "distinct_support": 13,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.3066857947852677
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 40.011361846343256,
+        "pitch": 633.845275022794,
+        "arc": [
+          4.734123092665663,
+          0.406626073362672
+        ],
+        "quality": 11.81726000664197,
+        "distinct_support": 13,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.3066857947852677
+      },
+      "stereo_inlier_1p5_fraction": 0.9285714285714286,
+      "stereo_median_abs_residual_mm": 0.6262517921019528,
+      "supported_distinct_stereo_cells": 13
+    },
+    {
+      "truth_id": 3339,
+      "axial_hits": 7,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        495.5138094948256,
+        1034.6755775075003,
+        1144.5725142624024
+      ],
+      "axial_rms_mm": 0.45912531508145105,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.872853578999367,
+        0.28993208599978276
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 193.81005441657203,
+          "pitch": -547.4955802518062,
+          "arc": [
+            3.872853578999367,
+            0.28993208599978276
+          ],
+          "quality": 11.563357177544523,
+          "distinct_support": 12,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.22032355831977846
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 193.81005441657203,
+        "pitch": -547.4955802518062,
+        "arc": [
+          3.872853578999367,
+          0.28993208599978276
+        ],
+        "quality": 11.563357177544523,
+        "distinct_support": 12,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.22032355831977846
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.30280988814328635,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 3407,
+      "axial_hits": 11,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        -2048.594664019883,
+        1009.445889959888,
+        2294.112883782583
+      ],
+      "axial_rms_mm": 0.3116146227748921,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        5.629171159744962,
+        0.14457997776047557
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": -64.04604621466116,
+          "pitch": 455.32721629443535,
+          "arc": [
+            5.629171159744962,
+            0.14457997776047557
+          ],
+          "quality": 11.538361954552665,
+          "distinct_support": 12,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.10938998556418955
+        }
+      ],
+      "best_hypothesis": {
+        "z0": -64.04604621466116,
+        "pitch": 455.32721629443535,
+        "arc": [
+          5.629171159744962,
+          0.14457997776047557
+        ],
+        "quality": 11.538361954552665,
+        "distinct_support": 12,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.10938998556418955
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.20377260592530233,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 4129,
+      "axial_hits": 10,
+      "stereo_hits": 13,
+      "distinct_stereo_cells": 13,
+      "fit": [
+        957.698709032763,
+        -579.0393364631072,
+        1115.0875876665968
+      ],
+      "axial_rms_mm": 0.4686880834891332,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        2.1933552711328352,
+        0.29870005737029437
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 84.35355291691593,
+          "pitch": -286.0393001034081,
+          "arc": [
+            2.1933552711328352,
+            0.29870005737029437
+          ],
+          "quality": 12.532428864045368,
+          "distinct_support": 13,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.22553283452164852
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 84.35355291691593,
+        "pitch": -286.0393001034081,
+        "arc": [
+          2.1933552711328352,
+          0.29870005737029437
+        ],
+        "quality": 12.532428864045368,
+        "distinct_support": 13,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.22553283452164852
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.3169396974230325,
+      "supported_distinct_stereo_cells": 13
+    },
+    {
+      "truth_id": 4192,
+      "axial_hits": 9,
+      "stereo_hits": 14,
+      "distinct_stereo_cells": 14,
+      "fit": [
+        -73.40613259481404,
+        342.45380480491053,
+        327.45436440025
+      ],
+      "axial_rms_mm": 0.49979563831037116,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.5327701883552183,
+        1.0475442167124265
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 439.59931993487726,
+          "pitch": -332.2654926936802,
+          "arc": [
+            3.5327701883552183,
+            1.0475442167124265
+          ],
+          "quality": 12.941104764369822,
+          "distinct_support": 14,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.8391313537412257
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 439.59931993487726,
+        "pitch": -332.2654926936802,
+        "arc": [
+          3.5327701883552183,
+          1.0475442167124265
+        ],
+        "quality": 12.941104764369822,
+        "distinct_support": 14,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.8391313537412257
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.27199115906574334,
+      "supported_distinct_stereo_cells": 14
+    },
+    {
+      "truth_id": 4580,
+      "axial_hits": 9,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        -793.7163788461172,
+        717.790978757796,
+        1057.6876872961952
+      ],
+      "axial_rms_mm": 0.3339156040236756,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        5.124339179012896,
+        0.313300296925725
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 327.33825331225177,
+          "pitch": 9.537144596257889,
+          "arc": [
+            5.124339179012896,
+            0.313300296925725
+          ],
+          "quality": 11.429475797154579,
+          "distinct_support": 12,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.23538556573886282
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 327.33825331225177,
+        "pitch": 9.537144596257889,
+        "arc": [
+          5.124339179012896,
+          0.313300296925725
+        ],
+        "quality": 11.429475797154579,
+        "distinct_support": 12,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.23538556573886282
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.3180577686968509,
+      "supported_distinct_stereo_cells": 12
+    },
+    {
+      "truth_id": 4741,
+      "axial_hits": 9,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        992.250850131464,
+        -248.04861595212253,
+        1029.8859513388013
+      ],
+      "axial_rms_mm": 0.3578159708667869,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        2.4696882213836306,
+        0.311717595772909
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 383.50821860376357,
+          "pitch": -919.6664634031417,
+          "arc": [
+            2.4696882213836306,
+            0.311717595772909
+          ],
+          "quality": 10.768211725282159,
+          "distinct_support": 11,
+          "independent_layers": 10,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.24713640122218905
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 383.50821860376357,
+        "pitch": -919.6664634031417,
+        "arc": [
+          2.4696882213836306,
+          0.311717595772909
+        ],
+        "quality": 10.768211725282159,
+        "distinct_support": 11,
+        "independent_layers": 10,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.24713640122218905
+      },
+      "stereo_inlier_1p5_fraction": 0.9166666666666666,
+      "stereo_median_abs_residual_mm": 0.4919726163073457,
+      "supported_distinct_stereo_cells": 11
+    },
+    {
+      "truth_id": 5026,
+      "axial_hits": 9,
+      "stereo_hits": 12,
+      "distinct_stereo_cells": 12,
+      "fit": [
+        405.40689480450095,
+        1733.7742140598957,
+        1784.2099299156346
+      ],
+      "axial_rms_mm": 0.34272345303175483,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        4.230708480891129,
+        0.1857907055771143
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 110.32427136887128,
+          "pitch": -411.7025648214694,
+          "arc": [
+            4.230708480891129,
+            0.1857907055771143
+          ],
+          "quality": 11.041672784655661,
+          "distinct_support": 11,
+          "independent_layers": 11,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.1407285393718567
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 110.32427136887128,
+        "pitch": -411.7025648214694,
+        "arc": [
+          4.230708480891129,
+          0.1857907055771143
+        ],
+        "quality": 11.041672784655661,
+        "distinct_support": 11,
+        "independent_layers": 11,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.1407285393718567
+      },
+      "stereo_inlier_1p5_fraction": 0.9166666666666666,
+      "stereo_median_abs_residual_mm": 0.3097368514859631,
+      "supported_distinct_stereo_cells": 11
+    },
+    {
+      "truth_id": 5267,
+      "axial_hits": 8,
+      "stereo_hits": 14,
+      "distinct_stereo_cells": 14,
+      "fit": [
+        -152.04797479088003,
+        -436.00276774218037,
+        506.2327920939382
+      ],
+      "axial_rms_mm": 0.26327180016875235,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        0.30238085675646864,
+        0.6913384205845288
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 719.0937128603315,
+          "pitch": -282.2911118815612,
+          "arc": [
+            0.30238085675646864,
+            0.6913384205845288
+          ],
+          "quality": 12.954458709804946,
+          "distinct_support": 14,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.5514085634598787
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 719.0937128603315,
+        "pitch": -282.2911118815612,
+        "arc": [
+          0.30238085675646864,
+          0.6913384205845288
+        ],
+        "quality": 12.954458709804946,
+        "distinct_support": 14,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.5514085634598787
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.3859950130015328,
+      "supported_distinct_stereo_cells": 14
+    },
+    {
+      "truth_id": 5326,
+      "axial_hits": 9,
+      "stereo_hits": 13,
+      "distinct_stereo_cells": 13,
+      "fit": [
+        376.6675788751703,
+        1012.7624167278377,
+        1051.8727745776864
+      ],
+      "axial_rms_mm": 0.6047239810931504,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.933372011307709,
+        0.31499823853181536
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 448.6010812177632,
+          "pitch": -699.5883295818438,
+          "arc": [
+            3.933372011307709,
+            0.31499823853181536
+          ],
+          "quality": 12.38104325011448,
+          "distinct_support": 13,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.23847722510497782
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 448.6010812177632,
+        "pitch": -699.5883295818438,
+        "arc": [
+          3.933372011307709,
+          0.31499823853181536
+        ],
+        "quality": 12.38104325011448,
+        "distinct_support": 13,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.23847722510497782
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.4376524892967719,
+      "supported_distinct_stereo_cells": 13
+    },
+    {
+      "truth_id": 5500,
+      "axial_hits": 11,
+      "stereo_hits": 14,
+      "distinct_stereo_cells": 14,
+      "fit": [
+        504.1891974114789,
+        852.047871723233,
+        1023.2481998403816
+      ],
+      "axial_rms_mm": 0.5653533192348177,
+      "axial_inlier_1p5_fraction": 1.0,
+      "arc": [
+        3.7317477953579767,
+        0.3303898107083205
+      ],
+      "status": "supported",
+      "hypotheses": [
+        {
+          "z0": 650.9388907078697,
+          "pitch": -327.23968899406196,
+          "arc": [
+            3.7317477953579767,
+            0.3303898107083205
+          ],
+          "quality": 13.373228696433705,
+          "distinct_support": 14,
+          "independent_layers": 12,
+          "stereo_orientations": 2,
+          "stereo_phase_span_rad": 0.2518167782450522
+        }
+      ],
+      "best_hypothesis": {
+        "z0": 650.9388907078697,
+        "pitch": -327.23968899406196,
+        "arc": [
+          3.7317477953579767,
+          0.3303898107083205
+        ],
+        "quality": 13.373228696433705,
+        "distinct_support": 14,
+        "independent_layers": 12,
+        "stereo_orientations": 2,
+        "stereo_phase_span_rad": 0.2518167782450522
+      },
+      "stereo_inlier_1p5_fraction": 1.0,
+      "stereo_median_abs_residual_mm": 0.44304576947393504,
+      "supported_distinct_stereo_cells": 14
+    }
+  ],
+  "oracle_trials": {
+    "remove_false_edges": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 26,
+        "axial_completeness_sum": 23.67620490620491,
+        "correct_stereo_matched": 301,
+        "attached_stereo_matched": 301,
+        "truth_stereo_matched": 356,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 26
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5267,
+        5326,
+        5500
+      ],
+      "groups": [
+        {
+          "indices": [
+            144,
+            145,
+            146,
+            147,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            139,
+            140,
+            141,
+            142,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            176,
+            177,
+            178,
+            181
+          ],
+          "fit": [
+            -103.99343708341739,
+            -96.96743141182304,
+            137.4393261191253
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            409,
+            410,
+            415,
+            416,
+            417,
+            404,
+            405,
+            406,
+            408,
+            411,
+            412,
+            413,
+            414,
+            418,
+            419,
+            420,
+            421,
+            422
+          ],
+          "fit": [
+            -270.29635003393366,
+            -339.6060049981365,
+            482.02417946251325
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            468,
+            469,
+            470,
+            474,
+            475,
+            476,
+            477,
+            481,
+            482,
+            483,
+            484,
+            466,
+            467,
+            471,
+            472,
+            473,
+            478,
+            479,
+            480,
+            485,
+            486,
+            487,
+            488
+          ],
+          "fit": [
+            -2048.594664019883,
+            1009.445889959888,
+            2294.112883782583
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            318,
+            319,
+            320,
+            321,
+            326,
+            327,
+            328,
+            333,
+            334,
+            335,
+            336,
+            316,
+            317,
+            322,
+            323,
+            324,
+            325,
+            329,
+            330,
+            331,
+            332,
+            337,
+            338,
+            339,
+            340
+          ],
+          "fit": [
+            -971.9206463098134,
+            -327.97460583086774,
+            1049.7087851033727
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            14,
+            15,
+            16,
+            17,
+            0,
+            1,
+            5,
+            6,
+            10,
+            11,
+            12,
+            13,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fit": [
+            447.2689947986944,
+            -1214.5470721021782,
+            1294.368338359206
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            427,
+            428,
+            429,
+            433,
+            434,
+            435,
+            439,
+            440,
+            441,
+            442,
+            425,
+            426,
+            430,
+            431,
+            432,
+            436,
+            437,
+            438,
+            443,
+            444,
+            445,
+            446
+          ],
+          "fit": [
+            -455.2642982878514,
+            718.7805564000806,
+            816.8858437775966
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            92,
+            93,
+            97,
+            98,
+            99,
+            103,
+            104,
+            105,
+            106,
+            107,
+            95,
+            96,
+            100,
+            101,
+            102,
+            108,
+            109,
+            110,
+            111,
+            112
+          ],
+          "fit": [
+            268.90034698116847,
+            434.2054906583085,
+            555.1595896098875
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            228,
+            229,
+            230,
+            231,
+            235,
+            236,
+            237,
+            241,
+            242,
+            243,
+            226,
+            232,
+            233,
+            234,
+            238,
+            239,
+            244,
+            245,
+            246,
+            247
+          ],
+          "fit": [
+            619.394829471556,
+            766.6951247195777,
+            988.9802835823849
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            344,
+            345,
+            346,
+            347,
+            352,
+            353,
+            354,
+            355,
+            361,
+            362,
+            341,
+            342,
+            348,
+            350,
+            351,
+            356,
+            357,
+            358,
+            359,
+            360,
+            365,
+            366,
+            367
+          ],
+          "fit": [
+            -635.625026070637,
+            -96.32338079073685,
+            673.410412307872
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            68,
+            69,
+            70,
+            74,
+            75,
+            76,
+            77,
+            81,
+            82,
+            83,
+            65,
+            66,
+            67,
+            78,
+            79,
+            80,
+            84,
+            85,
+            86
+          ],
+          "fit": [
+            1197.8466108684593,
+            -61.05228468632536,
+            1191.2669180375542
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            25,
+            26,
+            30,
+            31,
+            32,
+            33,
+            38,
+            39,
+            40,
+            41,
+            22,
+            23,
+            24,
+            27,
+            28,
+            34,
+            35,
+            36,
+            37,
+            42,
+            43
+          ],
+          "fit": [
+            -693.1580363828377,
+            -874.3423542675841,
+            1114.8097356335588
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            646,
+            647,
+            648,
+            649,
+            653,
+            654,
+            655,
+            656,
+            661,
+            662,
+            650,
+            657,
+            658,
+            663,
+            664,
+            665,
+            666
+          ],
+          "fit": [
+            505.6815302674867,
+            855.0727750616777,
+            1026.473411779037
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            119,
+            120,
+            121,
+            126,
+            127,
+            128,
+            133,
+            134,
+            135,
+            115,
+            116,
+            118,
+            124,
+            129,
+            130,
+            131,
+            132,
+            136,
+            137,
+            138
+          ],
+          "fit": [
+            -881.7459693578172,
+            929.0744919784986,
+            1216.6580714779054
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            559,
+            560,
+            561,
+            564,
+            565,
+            566,
+            571,
+            572,
+            573,
+            556,
+            557,
+            558,
+            567,
+            568,
+            569,
+            570,
+            574,
+            575,
+            576
+          ],
+          "fit": [
+            992.250850131464,
+            -248.04861595212253,
+            1029.8859513388013
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            297,
+            298,
+            302,
+            303,
+            304,
+            309,
+            310,
+            311,
+            312,
+            294,
+            295,
+            296,
+            299,
+            300,
+            301,
+            305,
+            306,
+            307,
+            308,
+            313,
+            314,
+            315
+          ],
+          "fit": [
+            1092.868386780855,
+            839.4818068075379,
+            1387.127041174695
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            493,
+            494,
+            498,
+            499,
+            500,
+            504,
+            505,
+            506,
+            507,
+            489,
+            490,
+            491,
+            495,
+            496,
+            501,
+            502,
+            503,
+            508,
+            509,
+            510,
+            511
+          ],
+          "fit": [
+            977.6804456035437,
+            -600.5434676833585,
+            1144.4134484221997
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            372,
+            373,
+            378,
+            379,
+            380,
+            384,
+            385,
+            386,
+            387,
+            368,
+            369,
+            374,
+            375,
+            376,
+            377,
+            381,
+            382,
+            383,
+            390,
+            391,
+            392,
+            393
+          ],
+          "fit": [
+            -512.585759650676,
+            -1024.3546335441201,
+            1193.4300049058536
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            47,
+            48,
+            49,
+            53,
+            54,
+            55,
+            59,
+            60,
+            44,
+            45,
+            46,
+            50,
+            51,
+            52,
+            56,
+            57,
+            58,
+            61,
+            62,
+            63,
+            64
+          ],
+          "fit": [
+            -325.4107888464752,
+            790.498702196407,
+            845.6058720942317
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            538,
+            539,
+            540,
+            544,
+            546,
+            550,
+            551,
+            552,
+            535,
+            536,
+            537,
+            541,
+            542,
+            543,
+            547,
+            548,
+            549,
+            553,
+            554,
+            555
+          ],
+          "fit": [
+            -842.6878810565827,
+            794.1896072209496,
+            1148.2091238787482
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            206,
+            207,
+            208,
+            209,
+            212,
+            213,
+            214,
+            219,
+            203,
+            204,
+            205,
+            210,
+            211,
+            215,
+            216,
+            217,
+            218,
+            222,
+            223
+          ],
+          "fit": [
+            -364.9894016571079,
+            -209.16990024037287,
+            368.9873566925617
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            276,
+            277,
+            278,
+            282,
+            283,
+            284,
+            288,
+            289,
+            274,
+            275,
+            279,
+            280,
+            281,
+            285,
+            286,
+            287,
+            291,
+            292,
+            293
+          ],
+          "fit": [
+            851.2694254902481,
+            -853.6520802430462,
+            1209.2214667764317
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            516,
+            517,
+            522,
+            523,
+            524,
+            529,
+            530,
+            531,
+            512,
+            513,
+            515,
+            518,
+            519,
+            520,
+            521,
+            526,
+            527,
+            528,
+            532
+          ],
+          "fit": [
+            -42.1034258452698,
+            396.6701935483286,
+            389.65947166573557
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            255,
+            256,
+            260,
+            261,
+            262,
+            267,
+            268,
+            248,
+            250,
+            251,
+            252,
+            253,
+            257,
+            258,
+            263,
+            264,
+            265,
+            266,
+            270,
+            271,
+            272
+          ],
+          "fit": [
+            435.1509136316522,
+            -418.1622616406126,
+            652.1284953364545
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            603,
+            607,
+            608,
+            612,
+            613,
+            614,
+            604,
+            605,
+            606,
+            609,
+            610,
+            611,
+            616,
+            617,
+            618,
+            619
+          ],
+          "fit": [
+            -146.8259716151963,
+            -432.3098712512268,
+            499.8900218422521
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            623,
+            624,
+            625,
+            630,
+            631,
+            632,
+            637,
+            626,
+            627,
+            628,
+            629,
+            633,
+            634,
+            635,
+            639,
+            640,
+            641
+          ],
+          "fit": [
+            533.6732031391663,
+            1252.5146381276504,
+            1338.336732458463
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            450,
+            451,
+            456,
+            457,
+            462,
+            447,
+            448,
+            449,
+            453,
+            454,
+            455,
+            458,
+            459,
+            460,
+            461,
+            464,
+            465
+          ],
+          "fit": [
+            976.7632053678936,
+            1617.5089590606337,
+            1900.2372369753914
+          ],
+          "stage": "strict"
+        }
+      ]
+    },
+    "perfect_candidate_edge_labels": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 28,
+        "axial_completeness_sum": 28.0,
+        "correct_stereo_matched": 380,
+        "attached_stereo_matched": 380,
+        "truth_stereo_matched": 380,
+        "matched_tracks": 28,
+        "joint_matched_tracks": 28
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1317,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5026,
+        5267,
+        5326,
+        5500
+      ],
+      "groups": [
+        {
+          "indices": [
+            144,
+            145,
+            146,
+            147,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            139,
+            140,
+            141,
+            142,
+            143,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181
+          ],
+          "fit": [
+            -104.00189883936218,
+            -96.90914649718455,
+            137.49159885641058
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            344,
+            345,
+            346,
+            347,
+            352,
+            353,
+            354,
+            355,
+            361,
+            362,
+            363,
+            364,
+            341,
+            342,
+            343,
+            348,
+            349,
+            350,
+            351,
+            356,
+            357,
+            358,
+            359,
+            360,
+            365,
+            366,
+            367
+          ],
+          "fit": [
+            -633.1870400545063,
+            -96.95023482455144,
+            670.9016547593254
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            409,
+            410,
+            415,
+            416,
+            417,
+            394,
+            395,
+            396,
+            397,
+            404,
+            405,
+            406,
+            407,
+            408,
+            411,
+            412,
+            413,
+            414,
+            418,
+            419,
+            420,
+            421,
+            422
+          ],
+          "fit": [
+            -270.29635003393366,
+            -339.6060049981365,
+            482.02417946251325
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            92,
+            93,
+            94,
+            97,
+            98,
+            99,
+            103,
+            104,
+            105,
+            106,
+            107,
+            87,
+            88,
+            89,
+            90,
+            91,
+            95,
+            96,
+            100,
+            101,
+            102,
+            108,
+            109,
+            110,
+            111,
+            112
+          ],
+          "fit": [
+            269.55239566315726,
+            434.40797365213876,
+            555.840195914843
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            468,
+            469,
+            470,
+            474,
+            475,
+            476,
+            477,
+            481,
+            482,
+            483,
+            484,
+            466,
+            467,
+            471,
+            472,
+            473,
+            478,
+            479,
+            480,
+            485,
+            486,
+            487,
+            488
+          ],
+          "fit": [
+            -2048.594664019883,
+            1009.445889959888,
+            2294.112883782583
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            318,
+            319,
+            320,
+            321,
+            326,
+            327,
+            328,
+            333,
+            334,
+            335,
+            336,
+            316,
+            317,
+            322,
+            323,
+            324,
+            325,
+            329,
+            330,
+            331,
+            332,
+            337,
+            338,
+            339,
+            340
+          ],
+          "fit": [
+            -971.9206463098134,
+            -327.97460583086774,
+            1049.7087851033727
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            646,
+            647,
+            648,
+            649,
+            653,
+            654,
+            655,
+            656,
+            660,
+            661,
+            662,
+            642,
+            643,
+            644,
+            645,
+            650,
+            651,
+            652,
+            657,
+            658,
+            659,
+            663,
+            664,
+            665,
+            666
+          ],
+          "fit": [
+            504.1891974114789,
+            852.047871723233,
+            1023.2481998403816
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            370,
+            371,
+            372,
+            373,
+            378,
+            379,
+            380,
+            384,
+            385,
+            386,
+            387,
+            368,
+            369,
+            374,
+            375,
+            376,
+            377,
+            381,
+            382,
+            383,
+            388,
+            389,
+            390,
+            391,
+            392,
+            393
+          ],
+          "fit": [
+            -684.0943389895602,
+            -1213.593697052721,
+            1448.3299776046438
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            14,
+            15,
+            16,
+            17,
+            0,
+            1,
+            5,
+            6,
+            10,
+            11,
+            12,
+            13,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fit": [
+            447.2689947986944,
+            -1214.5470721021782,
+            1294.368338359206
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            119,
+            120,
+            121,
+            125,
+            126,
+            127,
+            128,
+            133,
+            134,
+            135,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            122,
+            123,
+            124,
+            129,
+            130,
+            131,
+            132,
+            136,
+            137,
+            138
+          ],
+          "fit": [
+            -851.5720275513587,
+            879.0652136196792,
+            1158.3832140931918
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            25,
+            26,
+            30,
+            31,
+            32,
+            33,
+            38,
+            39,
+            40,
+            41,
+            22,
+            23,
+            24,
+            27,
+            28,
+            29,
+            34,
+            35,
+            36,
+            37,
+            42,
+            43
+          ],
+          "fit": [
+            -693.1580363828377,
+            -874.3423542675841,
+            1114.8097356335588
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            427,
+            428,
+            429,
+            433,
+            434,
+            435,
+            439,
+            440,
+            441,
+            442,
+            423,
+            424,
+            425,
+            426,
+            430,
+            431,
+            432,
+            436,
+            437,
+            438,
+            443,
+            444,
+            445,
+            446
+          ],
+          "fit": [
+            -455.2642982878514,
+            718.7805564000806,
+            816.8858437775966
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            228,
+            229,
+            230,
+            231,
+            235,
+            236,
+            237,
+            241,
+            242,
+            243,
+            225,
+            226,
+            227,
+            232,
+            233,
+            234,
+            238,
+            239,
+            240,
+            244,
+            245,
+            246,
+            247
+          ],
+          "fit": [
+            619.394829471556,
+            766.6951247195777,
+            988.9802835823849
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            68,
+            69,
+            70,
+            74,
+            75,
+            76,
+            77,
+            81,
+            82,
+            83,
+            65,
+            66,
+            67,
+            71,
+            72,
+            73,
+            78,
+            79,
+            80,
+            84,
+            85,
+            86
+          ],
+          "fit": [
+            1197.8466108684593,
+            -61.05228468632536,
+            1191.2669180375542
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            492,
+            493,
+            494,
+            498,
+            499,
+            500,
+            504,
+            505,
+            506,
+            507,
+            489,
+            490,
+            491,
+            495,
+            496,
+            497,
+            501,
+            502,
+            503,
+            508,
+            509,
+            510,
+            511
+          ],
+          "fit": [
+            957.698709032763,
+            -579.0393364631072,
+            1115.0875876665968
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            206,
+            207,
+            208,
+            209,
+            212,
+            213,
+            214,
+            219,
+            220,
+            221,
+            203,
+            204,
+            205,
+            210,
+            211,
+            215,
+            216,
+            217,
+            218,
+            222,
+            223,
+            224
+          ],
+          "fit": [
+            -1270.938597039447,
+            -123.13334588813612,
+            1278.012824031424
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            538,
+            539,
+            540,
+            544,
+            545,
+            546,
+            550,
+            551,
+            552,
+            535,
+            536,
+            537,
+            541,
+            542,
+            543,
+            547,
+            548,
+            549,
+            553,
+            554,
+            555
+          ],
+          "fit": [
+            -793.7163788461172,
+            717.790978757796,
+            1057.6876872961952
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            580,
+            581,
+            582,
+            586,
+            587,
+            588,
+            592,
+            593,
+            594,
+            577,
+            578,
+            579,
+            583,
+            584,
+            585,
+            589,
+            590,
+            591,
+            595,
+            596,
+            597
+          ],
+          "fit": [
+            405.40689480450095,
+            1733.7742140598957,
+            1784.2099299156346
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            559,
+            560,
+            561,
+            564,
+            565,
+            566,
+            571,
+            572,
+            573,
+            556,
+            557,
+            558,
+            562,
+            563,
+            567,
+            568,
+            569,
+            570,
+            574,
+            575,
+            576
+          ],
+          "fit": [
+            992.250850131464,
+            -248.04861595212253,
+            1029.8859513388013
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            297,
+            298,
+            302,
+            303,
+            304,
+            309,
+            310,
+            311,
+            312,
+            294,
+            295,
+            296,
+            299,
+            300,
+            301,
+            305,
+            306,
+            307,
+            308,
+            313,
+            314,
+            315
+          ],
+          "fit": [
+            1092.868386780855,
+            839.4818068075379,
+            1387.127041174695
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            276,
+            277,
+            278,
+            282,
+            283,
+            284,
+            288,
+            289,
+            290,
+            273,
+            274,
+            275,
+            279,
+            280,
+            281,
+            285,
+            286,
+            287,
+            291,
+            292,
+            293
+          ],
+          "fit": [
+            890.1390073242644,
+            -914.4421425169758,
+            1281.316935733429
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            185,
+            186,
+            190,
+            191,
+            192,
+            196,
+            197,
+            198,
+            199,
+            182,
+            183,
+            184,
+            187,
+            188,
+            189,
+            193,
+            194,
+            195,
+            200,
+            201,
+            202
+          ],
+          "fit": [
+            293.906171675543,
+            1432.5795924735062,
+            1463.3401792850416
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            516,
+            517,
+            522,
+            523,
+            524,
+            525,
+            529,
+            530,
+            531,
+            512,
+            513,
+            514,
+            515,
+            518,
+            519,
+            520,
+            521,
+            526,
+            527,
+            528,
+            532,
+            533,
+            534
+          ],
+          "fit": [
+            -73.40613259481404,
+            342.45380480491053,
+            327.45436440025
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            254,
+            255,
+            256,
+            260,
+            261,
+            262,
+            267,
+            268,
+            269,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            257,
+            258,
+            259,
+            263,
+            264,
+            265,
+            266,
+            270,
+            271,
+            272
+          ],
+          "fit": [
+            510.07224534408414,
+            -645.6335809187079,
+            891.3099598342728
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            623,
+            624,
+            625,
+            630,
+            631,
+            632,
+            636,
+            637,
+            638,
+            620,
+            621,
+            622,
+            626,
+            627,
+            628,
+            629,
+            633,
+            634,
+            635,
+            639,
+            640,
+            641
+          ],
+          "fit": [
+            376.6675788751703,
+            1012.7624167278377,
+            1051.8727745776864
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            601,
+            602,
+            603,
+            607,
+            608,
+            612,
+            613,
+            614,
+            598,
+            599,
+            600,
+            604,
+            605,
+            606,
+            609,
+            610,
+            611,
+            615,
+            616,
+            617,
+            618,
+            619
+          ],
+          "fit": [
+            -152.04797479088003,
+            -436.00276774218037,
+            506.2327920939382
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            47,
+            48,
+            49,
+            53,
+            54,
+            55,
+            59,
+            60,
+            44,
+            45,
+            46,
+            50,
+            51,
+            52,
+            56,
+            57,
+            58,
+            61,
+            62,
+            63,
+            64
+          ],
+          "fit": [
+            -325.4107888464752,
+            790.498702196407,
+            845.6058720942317
+          ],
+          "stage": "strict"
+        },
+        {
+          "indices": [
+            450,
+            451,
+            452,
+            456,
+            457,
+            462,
+            463,
+            447,
+            448,
+            449,
+            453,
+            454,
+            455,
+            458,
+            459,
+            460,
+            461,
+            464,
+            465
+          ],
+          "fit": [
+            495.5138094948256,
+            1034.6755775075003,
+            1144.5725142624024
+          ],
+          "stage": "strict"
+        }
+      ]
+    },
+    "remove_false_and_nonlocking_single_pass": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 26,
+        "axial_completeness_sum": 24.33572871572872,
+        "correct_stereo_matched": 0,
+        "attached_stereo_matched": 0,
+        "truth_stereo_matched": 356,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 0
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5267,
+        5326,
+        5500
+      ]
+    },
+    "oracle_circle_template_assignment": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 28,
+        "axial_completeness_sum": 25.272626262626265,
+        "correct_stereo_matched": 0,
+        "attached_stereo_matched": 0,
+        "truth_stereo_matched": 356,
+        "fake_candidates": 2,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 0
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5267,
+        5326,
+        5500
+      ],
+      "truth_seeded_templates": true,
+      "per_hit_truth_used_for_assignment": false
+    },
+    "oracle_3d_template_assignment": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 28,
+        "axial_completeness_sum": 25.785757575757575,
+        "correct_stereo_matched": 333,
+        "attached_stereo_matched": 353,
+        "truth_stereo_matched": 356,
+        "fake_candidates": 2,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 26
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5267,
+        5326,
+        5500
+      ],
+      "truth_seeded_templates": true,
+      "per_hit_truth_used_for_assignment": false
+    },
+    "oracle_circle_cell_matching": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 28,
+        "axial_completeness_sum": 24.3959595959596,
+        "correct_stereo_matched": 0,
+        "attached_stereo_matched": 0,
+        "truth_stereo_matched": 342,
+        "fake_candidates": 3,
+        "matched_tracks": 25,
+        "joint_matched_tracks": 0
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5326,
+        5500
+      ],
+      "truth_seeded_templates": true,
+      "per_hit_truth_used_for_assignment": false,
+      "assumption": "At most one hit of a single-arc track per cell",
+      "truth_tracks_violating_assumption": 0
+    },
+    "oracle_3d_cell_matching": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 380,
+        "output_candidates": 28,
+        "axial_completeness_sum": 25.784090909090907,
+        "correct_stereo_matched": 335,
+        "attached_stereo_matched": 353,
+        "truth_stereo_matched": 356,
+        "fake_candidates": 2,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 26
+      },
+      "found": [
+        83,
+        370,
+        460,
+        498,
+        585,
+        938,
+        1292,
+        1359,
+        1632,
+        1870,
+        2009,
+        2133,
+        2226,
+        2458,
+        2773,
+        2980,
+        3091,
+        3339,
+        3407,
+        4129,
+        4192,
+        4580,
+        4741,
+        5267,
+        5326,
+        5500
+      ],
+      "truth_seeded_templates": true,
+      "per_hit_truth_used_for_assignment": false,
+      "assumption": "At most one hit of a single-arc track per cell",
+      "truth_tracks_violating_assumption": 0
+    }
+  },
+  "seconds": 5.120773077011108,
+  "limitations": [
+    "Truth-grouped fitted templates and oracle edge labels are offline witnesses, not operational reconstruction efficiency.",
+    "No exact detector resolution/noise model was supplied; 0.1/0.2/0.5/1.5mm values are diagnostic thresholds.",
+    "Failure of the single-circle and bounded longitudinal search is not proof that a physical track is irreconstructible.",
+    "Minimum3 distinct stereo supports checks the current seed validation; two hits can give multiple left/right solutions."
+  ]
+}

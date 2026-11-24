@@ -1,0 +1,206 @@
+{
+  "event_id": 8732,
+  "methods": {
+    "baseline": {
+      "counts": {
+        "truth_tracks": 20,
+        "stereo_eligible_tracks": 20,
+        "truth_stereo_all": 265,
+        "output_candidates": 20,
+        "axial_completeness_sum": 19.605555555555558,
+        "correct_stereo_matched": 259,
+        "attached_stereo_matched": 259,
+        "truth_stereo_matched": 265,
+        "matched_tracks": 20,
+        "joint_matched_tracks": 20
+      },
+      "found": [
+        209,
+        369,
+        454,
+        1504,
+        2081,
+        2744,
+        3119,
+        3338,
+        3487,
+        3515,
+        3581,
+        3803,
+        4002,
+        4088,
+        4301,
+        4542,
+        4980,
+        5037,
+        5201,
+        5349
+      ],
+      "seeds": {
+        "truth_tracks": 20,
+        "output_candidates": 20,
+        "matched_tracks": 20
+      },
+      "seconds": 1.892302699983702
+    },
+    "T25_old": {
+      "counts": {
+        "truth_tracks": 20,
+        "stereo_eligible_tracks": 20,
+        "truth_stereo_all": 265,
+        "output_candidates": 20,
+        "axial_completeness_sum": 19.688888888888886,
+        "correct_stereo_matched": 259,
+        "attached_stereo_matched": 259,
+        "truth_stereo_matched": 265,
+        "matched_tracks": 20,
+        "joint_matched_tracks": 20
+      },
+      "found": [
+        209,
+        369,
+        454,
+        1504,
+        2081,
+        2744,
+        3119,
+        3338,
+        3487,
+        3515,
+        3581,
+        3803,
+        4002,
+        4088,
+        4301,
+        4542,
+        4980,
+        5037,
+        5201,
+        5349
+      ],
+      "seeds": {
+        "truth_tracks": 20,
+        "output_candidates": 20,
+        "matched_tracks": 20
+      },
+      "seconds": 2.444293699983973
+    },
+    "T10_cal_old": {
+      "counts": {
+        "truth_tracks": 20,
+        "stereo_eligible_tracks": 20,
+        "truth_stereo_all": 265,
+        "output_candidates": 20,
+        "axial_completeness_sum": 19.688888888888886,
+        "correct_stereo_matched": 259,
+        "attached_stereo_matched": 259,
+        "truth_stereo_matched": 265,
+        "matched_tracks": 20,
+        "joint_matched_tracks": 20
+      },
+      "found": [
+        209,
+        369,
+        454,
+        1504,
+        2081,
+        2744,
+        3119,
+        3338,
+        3487,
+        3515,
+        3581,
+        3803,
+        4002,
+        4088,
+        4301,
+        4542,
+        4980,
+        5037,
+        5201,
+        5349
+      ],
+      "seeds": {
+        "truth_tracks": 20,
+        "output_candidates": 20,
+        "matched_tracks": 20
+      },
+      "seconds": 2.4174878999911016
+    },
+    "T10_cal_path": {
+      "counts": {
+        "truth_tracks": 20,
+        "stereo_eligible_tracks": 20,
+        "truth_stereo_all": 265,
+        "output_candidates": 20,
+        "axial_completeness_sum": 19.383333333333336,
+        "correct_stereo_matched": 259,
+        "attached_stereo_matched": 259,
+        "truth_stereo_matched": 265,
+        "matched_tracks": 20,
+        "joint_matched_tracks": 20
+      },
+      "found": [
+        209,
+        369,
+        454,
+        1504,
+        2081,
+        2744,
+        3119,
+        3338,
+        3487,
+        3515,
+        3581,
+        3803,
+        4002,
+        4088,
+        4301,
+        4542,
+        4980,
+        5037,
+        5201,
+        5349
+      ],
+      "seeds": {
+        "truth_tracks": 20,
+        "output_candidates": 20,
+        "matched_tracks": 20
+      },
+      "seconds": 4.81400999998732
+    }
+  },
+  "diagnostics": {
+    "baseline": {},
+    "T25_old": {},
+    "T10_cal_old": {},
+    "T10_cal_path": {
+      "transitions": 1066,
+      "seeds": 128,
+      "expanded": 3386,
+      "paths": 48,
+      "config": {
+        "q_min": 0.2,
+        "cosine_min": 0.0,
+        "out_degree": 3,
+        "seed_limit": 128,
+        "beam_width": 4,
+        "max_hits": 32,
+        "fit_limit": 48,
+        "rms_limit": 1.0,
+        "solver_seconds": 2.0,
+        "max_fit_evaluations": 80
+      },
+      "path_search_seconds": 0.030026799999177456,
+      "unlocked_candidate_seconds": 1.02408080000896,
+      "fitted_candidates": 69,
+      "path_fit_seconds": 0.4123831000033533,
+      "preselection_3d_seconds": 1.2708965999918291,
+      "solver_status": 0,
+      "solver_fallback": false,
+      "output_candidates": 20,
+      "proposed_path_candidates": 48,
+      "selected_path_candidates": 1
+    }
+  }
+}

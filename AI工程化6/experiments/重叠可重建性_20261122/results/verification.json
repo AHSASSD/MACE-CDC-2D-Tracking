@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "survey_events": 501,
+  "tracks": 15099,
+  "representatives": [
+    {
+      "event_id": 1500,
+      "missed": 2,
+      "remove_false": 0,
+      "remove_false_nonlocking": 0,
+      "perfect_edges": 2,
+      "oracle_circle_templates": 0,
+      "oracle_3d_templates": 0,
+      "oracle_3d_cell_matching": 0,
+      "baseline_matched": 26,
+      "conditional_matched": 26,
+      "conditional_fake": 2,
+      "conditional_clone": 0,
+      "truth_tracks": 28,
+      "cell_assumption_violations": 0
+    },
+    {
+      "event_id": 1501,
+      "missed": 6,
+      "remove_false": 0,
+      "remove_false_nonlocking": 0,
+      "perfect_edges": 6,
+      "oracle_circle_templates": 1,
+      "oracle_3d_templates": 2,
+      "oracle_3d_cell_matching": 2,
+      "baseline_matched": 27,
+      "conditional_matched": 29,
+      "conditional_fake": 4,
+      "conditional_clone": 0,
+      "truth_tracks": 33,
+      "cell_assumption_violations": 0
+    },
+    {
+      "event_id": 1503,
+      "missed": 1,
+      "remove_false": 0,
+      "remove_false_nonlocking": 1,
+      "perfect_edges": 1,
+      "oracle_circle_templates": 0,
+      "oracle_3d_templates": 0,
+      "oracle_3d_cell_matching": 0,
+      "baseline_matched": 29,
+      "conditional_matched": 28,
+      "conditional_fake": 2,
+      "conditional_clone": 0,
+      "truth_tracks": 30,
+      "cell_assumption_violations": 0
+    },
+    {
+      "event_id": 1504,
+      "missed": 7,
+      "remove_false": 2,
+      "remove_false_nonlocking": 3,
+      "perfect_edges": 7,
+      "oracle_circle_templates": 5,
+      "oracle_3d_templates": 6,
+      "oracle_3d_cell_matching": 7,
+      "baseline_matched": 24,
+      "conditional_matched": 31,
+      "conditional_fake": 0,
+      "conditional_clone": 0,
+      "truth_tracks": 31,
+      "cell_assumption_violations": 0
+    }
+  ],
+  "attribution": {
+    "false_edges": 2,
+    "additional_nonlocking": 2,
+    "needs_score_change": 12,
+    "still_failed_perfect_edges": 0
+  },
+  "source_sha256": "5b89260e29dda0560f37c5c0e24b59a9f8032a18587da5c23747f3443abb67ac",
+  "analysis_contract_sha256": "7279ab32a03a423b09911f34f718aae0b509f00d0d6c43c484b19826145cedd6"
+}

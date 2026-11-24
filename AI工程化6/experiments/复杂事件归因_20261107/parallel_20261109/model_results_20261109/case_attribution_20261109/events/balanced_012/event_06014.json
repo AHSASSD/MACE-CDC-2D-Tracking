@@ -1,0 +1,25 @@
+{
+  "event_id": 6014,
+  "model": "balanced_012",
+  "tracks": [],
+  "counts": {
+    "truth_tracks": 23,
+    "stereo_eligible_tracks": 23,
+    "truth_stereo_all": 311,
+    "output_candidates": 23,
+    "axial_completeness_sum": 22.225,
+    "correct_stereo_matched": 284,
+    "attached_stereo_matched": 285,
+    "truth_stereo_matched": 311,
+    "matched_tracks": 23,
+    "joint_matched_tracks": 21
+  },
+  "seed": {
+    "truth_tracks": 23,
+    "output_candidates": 22,
+    "matched_tracks": 22
+  },
+  "recovered_old": [],
+  "lost_old": [],
+  "all_old_missed": []
+}

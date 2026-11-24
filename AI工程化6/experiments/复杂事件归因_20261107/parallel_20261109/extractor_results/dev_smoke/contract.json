@@ -1,0 +1,38 @@
+{
+  "event_ids": [
+    232,
+    9099,
+    6978,
+    7727
+  ],
+  "profiles": {
+    "protect080_new080": {
+      "protect": 0.8,
+      "cut": 0.8
+    },
+    "protect080_new095": {
+      "protect": 0.8,
+      "cut": 0.95
+    },
+    "protect095_new080": {
+      "protect": 0.95,
+      "cut": 0.8
+    },
+    "protect095_new095": {
+      "protect": 0.95,
+      "cut": 0.95
+    },
+    "protect101_new080": {
+      "protect": 1.01,
+      "cut": 0.8
+    },
+    "protect101_new095": {
+      "protect": 1.01,
+      "cut": 0.95
+    }
+  },
+  "weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "source_sha256": "01806c8ce00abe59ab84aa677aa2c5847edbf776e49f682d6c9f394a4778f9fb",
+  "all_old_axial_hits_preserved": true,
+  "test_used": false
+}

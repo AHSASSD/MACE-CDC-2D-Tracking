@@ -1,0 +1,18 @@
+{
+  "reuses": "D:\\pycharm\\root操作\\AI工程化6\\pilot_v1",
+  "manifest_sha256": "fc6bcd21b1e1f651715696efd0bbc6aef1f6ea0aae8930e225157da34007ce8c",
+  "arguments": {
+    "train": 256,
+    "validation": 64,
+    "test": 64,
+    "epochs": 24,
+    "run": "cpu_extension",
+    "close_apps": false,
+    "reuse": "pilot_v1",
+    "aggregation": "sum",
+    "skip_test": false,
+    "initialize": "extended_sum/last.pt",
+    "device": "cpu"
+  },
+  "test_status": "exploratory, previously observed pilot test"
+}

@@ -1,0 +1,15 @@
+{
+  "removed_containers": 6,
+  "archives_sha256_verified": true,
+  "archive_total_bytes": 221443227,
+  "home_write_fsync_probe": "passed",
+  "events": 10000,
+  "epoch126_weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "preserved_environments": [
+    "pyxis_ai6_training_1530118",
+    "pyxis_ai7_transformer_1540492",
+    "pyxis_1585072.4294967291"
+  ],
+  "quota_after": "\nDisk quotas for group zhangyongchao (gid 1377):\n                         Block Limits                                    |     File Limits\nFilesystem type             GB      quota      limit   in_doubt    grace |    files   quota    limit in_doubt    grace  Remarks\nddnfs2     GRP            1960       2048          0          3     none |  2250281       0        0      445     none \n",
+  "unix": 1794157002.3838046
+}

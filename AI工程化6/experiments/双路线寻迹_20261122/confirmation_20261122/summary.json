@@ -1,0 +1,301 @@
+{
+  "events": 500,
+  "scope": "500 internal confirmation validation events, disjoint from training and periodic selection; not historically pristine blind test",
+  "methods": {
+    "raw_baseline": {
+      "tracks": {
+        "truth_tracks": 15175,
+        "stereo_eligible_tracks": 15175,
+        "truth_stereo_all": 209680,
+        "output_candidates": 14912,
+        "axial_completeness_sum": 13309.51159171955,
+        "correct_stereo_matched": 161018,
+        "attached_stereo_matched": 162512,
+        "truth_stereo_matched": 192641,
+        "matched_tracks": 14434,
+        "joint_matched_tracks": 13371,
+        "fake_candidates": 472,
+        "clone_candidates": 6,
+        "track_efficiency": 0.951169686985173,
+        "fake_fraction": 0.03165236051502146,
+        "clone_fraction": 0.0004023605150214592,
+        "stereo_purity_matched": 0.9908068327261986,
+        "stereo_completeness_matched": 0.8358449135957559,
+        "stereo_recall_all_eligible_tracks": 0.7679225486455551,
+        "joint_track_efficiency": 0.8811202635914333
+      },
+      "seeds": {
+        "truth_tracks": 15175,
+        "output_candidates": 14615,
+        "matched_tracks": 14131,
+        "fake_candidates": 481,
+        "clone_candidates": 3,
+        "f1": 0.9487076200067137,
+        "efficiency": 0.9312026359143328,
+        "fake_fraction": 0.03291139240506329,
+        "clone_fraction": 0.00020526855969893944
+      },
+      "mean_decode_seconds": 3.1896565879996053,
+      "median_decode_seconds": 3.1054063999981736
+    },
+    "T": {
+      "tracks": {
+        "truth_tracks": 15175,
+        "stereo_eligible_tracks": 15175,
+        "truth_stereo_all": 209680,
+        "output_candidates": 14899,
+        "axial_completeness_sum": 13331.151386399319,
+        "correct_stereo_matched": 161680,
+        "attached_stereo_matched": 163168,
+        "truth_stereo_matched": 193228,
+        "fake_candidates": 435,
+        "matched_tracks": 14462,
+        "joint_matched_tracks": 13421,
+        "clone_candidates": 2,
+        "track_efficiency": 0.9530148270181219,
+        "fake_fraction": 0.029196590375192965,
+        "clone_fraction": 0.00013423719712732398,
+        "stereo_purity_matched": 0.9908805648166307,
+        "stereo_completeness_matched": 0.8367317366013207,
+        "stereo_recall_all_eligible_tracks": 0.7710797405570393,
+        "joint_track_efficiency": 0.8844151565074135
+      },
+      "seeds": {
+        "truth_tracks": 15175,
+        "output_candidates": 14620,
+        "fake_candidates": 452,
+        "matched_tracks": 14167,
+        "clone_candidates": 1,
+        "f1": 0.9509649270011747,
+        "efficiency": 0.9335749588138386,
+        "fake_fraction": 0.03091655266757866,
+        "clone_fraction": 6.839945280437756e-05
+      },
+      "mean_decode_seconds": 4.051558702400216,
+      "median_decode_seconds": 3.9798333500002627
+    }
+  },
+  "paired": {
+    "recovered": [
+      [
+        445,
+        1289
+      ],
+      [
+        466,
+        3334
+      ],
+      [
+        1080,
+        2966
+      ],
+      [
+        1473,
+        882
+      ],
+      [
+        1558,
+        5995
+      ],
+      [
+        1651,
+        3048
+      ],
+      [
+        1752,
+        6250
+      ],
+      [
+        1752,
+        5587
+      ],
+      [
+        2274,
+        5280
+      ],
+      [
+        2690,
+        3200
+      ],
+      [
+        3290,
+        6094
+      ],
+      [
+        3758,
+        2968
+      ],
+      [
+        3935,
+        201
+      ],
+      [
+        4102,
+        1114
+      ],
+      [
+        4630,
+        3870
+      ],
+      [
+        4992,
+        5901
+      ],
+      [
+        4992,
+        2965
+      ],
+      [
+        5077,
+        369
+      ],
+      [
+        5323,
+        2156
+      ],
+      [
+        5517,
+        1515
+      ],
+      [
+        5818,
+        1518
+      ],
+      [
+        6296,
+        3250
+      ],
+      [
+        6991,
+        89
+      ],
+      [
+        7293,
+        3689
+      ],
+      [
+        7508,
+        435
+      ],
+      [
+        7561,
+        562
+      ],
+      [
+        8257,
+        2402
+      ],
+      [
+        8448,
+        4399
+      ],
+      [
+        8511,
+        5192
+      ],
+      [
+        8710,
+        97
+      ],
+      [
+        8710,
+        325
+      ],
+      [
+        8742,
+        1611
+      ],
+      [
+        8761,
+        1392
+      ],
+      [
+        8808,
+        617
+      ],
+      [
+        8985,
+        2158
+      ],
+      [
+        9058,
+        2093
+      ],
+      [
+        9058,
+        4015
+      ],
+      [
+        9169,
+        618
+      ],
+      [
+        9397,
+        2772
+      ]
+    ],
+    "lost": [
+      [
+        1,
+        5392
+      ],
+      [
+        1,
+        4537
+      ],
+      [
+        215,
+        5354
+      ],
+      [
+        215,
+        3703
+      ],
+      [
+        2018,
+        2529
+      ],
+      [
+        5455,
+        1434
+      ],
+      [
+        6063,
+        1126
+      ],
+      [
+        6063,
+        3894
+      ],
+      [
+        6518,
+        3216
+      ],
+      [
+        6518,
+        2985
+      ],
+      [
+        9322,
+        1348
+      ]
+    ],
+    "net": 28
+  },
+  "delta_95ci_percentage_points": {
+    "track_efficiency": [
+      0.08416418893273112,
+      0.2891507675121499
+    ],
+    "fake_fraction": [
+      -0.3673386973459479,
+      -0.12573912216565333
+    ],
+    "seed_efficiency": [
+      0.14470614088666983,
+      0.33594735521544766
+    ]
+  },
+  "timing_scope": "CPU decode with concurrent single-thread workers (initial 2, then 6); baseline and T paired in same worker. Excludes cached graph/GNN feature preparation and GPU T inference. Not end-to-end throughput.",
+  "mean_T_gpu_seconds": 0.07976535920018796
+}

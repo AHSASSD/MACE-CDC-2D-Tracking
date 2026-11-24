@@ -1,0 +1,33 @@
+{
+  "event_id": 1887,
+  "partition": "train",
+  "focus_truth": 3803,
+  "category": "few_weak_connectors",
+  "image": "event_01887_T3803_baseline.png",
+  "hits": 720,
+  "axial_hits": 303,
+  "stereo_hits": 417,
+  "edge_counts": {
+    "AA": 5512,
+    "AS": 22891,
+    "SS": 14976
+  },
+  "metrics": {
+    "truth_tracks": 31,
+    "stereo_eligible_tracks": 31,
+    "truth_stereo_all": 417,
+    "output_candidates": 30,
+    "axial_completeness_sum": 27.852380952380955,
+    "correct_stereo_matched": 328,
+    "attached_stereo_matched": 329,
+    "truth_stereo_matched": 395,
+    "matched_tracks": 30,
+    "joint_matched_tracks": 28
+  },
+  "seed": {
+    "truth_tracks": 31,
+    "output_candidates": 30,
+    "matched_tracks": 30
+  },
+  "seconds": 7.05145525932312
+}

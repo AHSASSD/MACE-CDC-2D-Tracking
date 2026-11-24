@@ -1,0 +1,53 @@
+{
+  "mode": "pilot",
+  "epochs": 1,
+  "train_ids": [
+    24,
+    35,
+    50,
+    52,
+    73,
+    75,
+    81,
+    2179
+  ],
+  "validation_ids": [
+    232,
+    9099
+  ],
+  "member_count": 2,
+  "source_hashes": {
+    "coarse_3d_membership.py": "a856b25d4b436fb4862414536a1c23f656e0b3983a060d475aae8e04ad1b3853",
+    "common.py": "7f033bfa54bdbb96c4604cada5d3451eb5e66364f1fd1c19448f001324d206ca",
+    "et_data.py": "8c83ae79359c91d49b6eb31cbd0382ac1f470a05334f86c712824a736689afee",
+    "et_decode.py": "a47187b2fb6d2f5b5e84a12a5ef8f183c0430e32e20e4b95c42ce6a51d867011",
+    "et_models.py": "01a48eda7dee112ad6e02d570a1bea349f8a65634c45c5d0962012297efd7d17",
+    "graph_cache.py": "2f2e4ca3f17a15b41d995411630ff73b209cf10983899bc4685d27dc87d8dfdc",
+    "server_runtime.py": "b17e9e2c40cfe1d669fe132299d6b27e8604fa75fc6321ebf8b5bb1392001be2",
+    "STEP0_本机小批验证.py": "4094d60e833eef917fb6a2dbc203d610af398311922caf5bbecdba22e053b1fe",
+    "STEP1_准备特征.py": "c1ec1631d609c5c8f75058976fb40fb196c822db27fa8d3af39039b0abbd2491",
+    "STEP2_训练双路线.py": "ede69fe14f4f8f00082e5bd5f2b0dbe583d38a5a5dd140074360b75da77c92e1",
+    "STEP5_两级寻迹.py": "97e2036631ea9f793b6a625d75e71cbf3b1d1678f68a607417a55b1527ff4c1c",
+    "two_stage_core.py": "857b2877b1a3e55121a4adde4145f228ad8f3f10c7c9a47ee590dfbb11dc765b",
+    "三维拟合草稿_暂未启用.py": "5447fdace3d2df44da7ad2c6f4a879f86ed1cca3891e3c5e16509a86c6f0a9bc"
+  },
+  "cache_contract": "1cf8f50977e5601e9949f09475ead0e43b529931549463a23679a2c1d2df7c6f",
+  "source_split_sha256": "48da6eaa178b4859a31eb608419466fa62052112c732c929d7f31549d516da7d",
+  "independent_routes": true,
+  "shared_trainable_parameters": false,
+  "E_class_counts": [
+    8037.0,
+    72100.0,
+    791.0,
+    15.0
+  ],
+  "hyperparameters": {
+    "lr": 0.001,
+    "eta_min": 0.0001,
+    "weight_decay": 0.0001,
+    "event_accumulation": 4,
+    "seed": 20261122
+  },
+  "prototype_limits": "E max3 lanes and new geometric groups <=80 axial; preserves baseline soft candidates; original HitIDs retained",
+  "auto_deploy": false
+}

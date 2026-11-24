@@ -1,0 +1,3071 @@
+{
+  "event_id": 3628,
+  "baseline": {
+    "truth_tracks": 25,
+    "stereo_eligible_tracks": 25,
+    "truth_stereo_all": 331,
+    "output_candidates": 24,
+    "axial_completeness_sum": 21.835173160173163,
+    "correct_stereo_matched": 276,
+    "attached_stereo_matched": 278,
+    "truth_stereo_matched": 320,
+    "matched_tracks": 24,
+    "joint_matched_tracks": 24
+  },
+  "baseline_stereo": {
+    "truth_stereo_hits": 331,
+    "seed_eligible_tracks": 25,
+    "associated_stereo_hits": 278,
+    "confirmed_stereo_hits": 0,
+    "matched_associated_stereo_hits": 278,
+    "matched_confirmed_stereo_hits": 0,
+    "correct_associated_stereo_hits": 276,
+    "correct_confirmed_stereo_hits": 0,
+    "two_correct_associated_tracks": 24,
+    "two_correct_confirmed_tracks": 0
+  },
+  "methods": {
+    "guarded_loose": {
+      "truth_tracks": 25,
+      "stereo_eligible_tracks": 25,
+      "truth_stereo_all": 331,
+      "output_candidates": 24,
+      "axial_completeness_sum": 21.835173160173163,
+      "correct_stereo_matched": 273,
+      "attached_stereo_matched": 273,
+      "truth_stereo_matched": 320,
+      "matched_tracks": 24,
+      "joint_matched_tracks": 24
+    }
+  },
+  "stereo_metrics": {
+    "guarded_loose": {
+      "truth_stereo_hits": 331,
+      "seed_eligible_tracks": 25,
+      "associated_stereo_hits": 273,
+      "confirmed_stereo_hits": 258,
+      "matched_associated_stereo_hits": 273,
+      "matched_confirmed_stereo_hits": 258,
+      "correct_associated_stereo_hits": 273,
+      "correct_confirmed_stereo_hits": 258,
+      "two_correct_associated_tracks": 24,
+      "two_correct_confirmed_tracks": 24
+    }
+  },
+  "diagnostics": {
+    "guarded_loose": {
+      "supported_tracks": 22,
+      "ambiguous_tracks": 2,
+      "unresolved_tracks": 0,
+      "removed_stereo": 5,
+      "recovered_stereo": 0
+    }
+  },
+  "candidates": {
+    "guarded_loose": [
+      {
+        "indices": [
+          516,
+          517,
+          518,
+          519,
+          521,
+          528,
+          529,
+          530,
+          532,
+          533,
+          540,
+          541,
+          542,
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          534,
+          535,
+          536,
+          537,
+          538
+        ],
+        "fit": [
+          600.5857920229621,
+          -31.153559086335406,
+          406.06356543649173
+        ],
+        "hits": 13,
+        "rms": 0.5532716011921792,
+        "mean_probability": 0.8581782579421997,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 3.18154245734611,
+        "stereo_indices": [
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          534,
+          535,
+          536,
+          537,
+          538
+        ],
+        "confirmed_stereo_indices": [
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          534,
+          535,
+          536,
+          537,
+          538
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -34.57737559454404,
+              "pitch": 956.7278568505485,
+              "arc": [
+                2.279758123824642,
+                0.8986042125959165
+              ],
+              "quality": 10.291700564678864,
+              "distinct_support": 14,
+              "independent_layers": 8,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.49891480730919646
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1289,
+          1290,
+          1291,
+          1292,
+          1294,
+          1301,
+          1302,
+          1303,
+          1305,
+          1306,
+          1313,
+          1314,
+          1315,
+          1295,
+          1296,
+          1297,
+          1298,
+          1299,
+          1300,
+          1307,
+          1308,
+          1309,
+          1310,
+          1311
+        ],
+        "confirmed_stereo_hit_ids": [
+          1295,
+          1296,
+          1297,
+          1298,
+          1299,
+          1300,
+          1307,
+          1308,
+          1309,
+          1310,
+          1311
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          50,
+          51,
+          52,
+          59,
+          60,
+          61,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          47,
+          48,
+          49,
+          54,
+          55,
+          56,
+          57,
+          58,
+          62,
+          63,
+          64,
+          65,
+          72,
+          73,
+          74,
+          75
+        ],
+        "fit": [
+          361.8564734170674,
+          226.82593398963,
+          474.3403850906491
+        ],
+        "hits": 12,
+        "rms": 0.44193416416357206,
+        "mean_probability": 0.9530990123748779,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 3.1321319302930917,
+        "stereo_indices": [
+          47,
+          48,
+          49,
+          54,
+          55,
+          56,
+          57,
+          58,
+          62,
+          63,
+          64,
+          65,
+          72,
+          73,
+          74,
+          75
+        ],
+        "confirmed_stereo_indices": [
+          47,
+          48,
+          49,
+          54,
+          55,
+          58,
+          62,
+          63,
+          64,
+          65,
+          72,
+          73,
+          74,
+          75
+        ],
+        "pending_stereo_indices": [
+          56,
+          57
+        ],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -14.46608372194711,
+              "pitch": 151.31495596459104,
+              "arc": [
+                2.6901098088340922,
+                0.7504651194615093
+              ],
+              "quality": 13.800597235231905,
+              "distinct_support": 15,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.6080333293292779
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          144,
+          145,
+          146,
+          153,
+          154,
+          155,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          141,
+          142,
+          143,
+          148,
+          149,
+          150,
+          151,
+          152,
+          156,
+          157,
+          158,
+          159,
+          166,
+          167,
+          168,
+          169
+        ],
+        "confirmed_stereo_hit_ids": [
+          141,
+          142,
+          143,
+          148,
+          149,
+          152,
+          156,
+          157,
+          158,
+          159,
+          166,
+          167,
+          168,
+          169
+        ],
+        "pending_stereo_hit_ids": [
+          150,
+          151
+        ]
+      },
+      {
+        "indices": [
+          187,
+          188,
+          189,
+          194,
+          195,
+          196,
+          200,
+          201,
+          202,
+          203,
+          204,
+          184,
+          185,
+          190,
+          191,
+          192,
+          193,
+          197,
+          198,
+          199,
+          205,
+          206,
+          207,
+          208
+        ],
+        "fit": [
+          931.0035269059435,
+          -440.44521200912527,
+          1079.6607424872784
+        ],
+        "hits": 11,
+        "rms": 0.4282580274746937,
+        "mean_probability": 0.9889770746231079,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.974848060885761,
+        "stereo_indices": [
+          184,
+          185,
+          190,
+          191,
+          192,
+          193,
+          197,
+          198,
+          199,
+          205,
+          206,
+          207,
+          208
+        ],
+        "confirmed_stereo_indices": [
+          184,
+          185,
+          190,
+          191,
+          192,
+          193,
+          197,
+          198,
+          199,
+          205,
+          206,
+          207,
+          208
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 331.40341915970095,
+              "pitch": -98.60019057616213,
+              "arc": [
+                2.2779008117734594,
+                0.31515009710704456
+              ],
+              "quality": 12.243077556801682,
+              "distinct_support": 14,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.24303243633311666
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          455,
+          456,
+          457,
+          462,
+          463,
+          464,
+          468,
+          469,
+          470,
+          471,
+          472,
+          452,
+          453,
+          458,
+          459,
+          460,
+          461,
+          465,
+          466,
+          467,
+          473,
+          474,
+          475,
+          476
+        ],
+        "confirmed_stereo_hit_ids": [
+          452,
+          453,
+          458,
+          459,
+          460,
+          461,
+          465,
+          466,
+          467,
+          473,
+          474,
+          475,
+          476
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          278,
+          279,
+          280,
+          281,
+          285,
+          286,
+          288,
+          292,
+          293,
+          294,
+          295,
+          275,
+          276,
+          277,
+          282,
+          283,
+          284,
+          289,
+          290,
+          291,
+          296,
+          297,
+          298
+        ],
+        "fit": [
+          577.0927521152554,
+          -592.2411191056789,
+          833.5125318838939
+        ],
+        "hits": 11,
+        "rms": 0.41775878534570865,
+        "mean_probability": 0.9136173129081726,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.9047379202353185,
+        "stereo_indices": [
+          275,
+          276,
+          277,
+          282,
+          283,
+          284,
+          289,
+          290,
+          291,
+          296,
+          297,
+          298
+        ],
+        "confirmed_stereo_indices": [
+          275,
+          276,
+          277,
+          282,
+          283,
+          284,
+          289,
+          290,
+          291,
+          296,
+          297,
+          298
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -645.4230218601758,
+              "pitch": 1613.0327482392877,
+              "arc": [
+                1.7997264722199526,
+                0.4014015059997059
+              ],
+              "quality": 9.823379591811294,
+              "distinct_support": 12,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.31137152054474493
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          704,
+          705,
+          706,
+          707,
+          711,
+          712,
+          714,
+          718,
+          719,
+          720,
+          721,
+          701,
+          702,
+          703,
+          708,
+          709,
+          710,
+          715,
+          716,
+          717,
+          722,
+          723,
+          724
+        ],
+        "confirmed_stereo_hit_ids": [
+          701,
+          702,
+          703,
+          708,
+          709,
+          710,
+          715,
+          716,
+          717,
+          722,
+          723,
+          724
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          125,
+          126,
+          127,
+          129,
+          130,
+          131,
+          132,
+          135,
+          136,
+          137,
+          121,
+          122,
+          123,
+          124,
+          128,
+          139,
+          141
+        ],
+        "fit": [
+          852.4924930187439,
+          -1228.899964122429,
+          1500.9802732562168
+        ],
+        "hits": 10,
+        "rms": 0.2508438661338971,
+        "mean_probability": 0.9556410312652588,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.8302190981983104,
+        "stereo_indices": [
+          121,
+          122,
+          123,
+          124,
+          128,
+          139,
+          141
+        ],
+        "confirmed_stereo_indices": [
+          121,
+          122,
+          123,
+          124,
+          128,
+          139,
+          141
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 676.1841994625457,
+              "pitch": -895.5641378466829,
+              "arc": [
+                1.877374314029251,
+                0.2213024990735823
+              ],
+              "quality": 8.293697056090085,
+              "distinct_support": 11,
+              "independent_layers": 9,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.16631399528168256
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          284,
+          285,
+          286,
+          290,
+          291,
+          292,
+          293,
+          297,
+          298,
+          299,
+          280,
+          281,
+          282,
+          283,
+          288,
+          301,
+          303
+        ],
+        "confirmed_stereo_hit_ids": [
+          280,
+          281,
+          282,
+          283,
+          288,
+          301,
+          303
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          478,
+          479,
+          480,
+          484,
+          485,
+          486,
+          490,
+          491,
+          492,
+          493,
+          475,
+          476,
+          477,
+          481,
+          482,
+          483,
+          487,
+          488,
+          489,
+          494,
+          495,
+          496
+        ],
+        "fit": [
+          878.8837310061458,
+          988.9477743342156,
+          1316.6365725078288
+        ],
+        "hits": 10,
+        "rms": 0.40469044113044134,
+        "mean_probability": 0.9917805790901184,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.789435358524898,
+        "stereo_indices": [
+          475,
+          476,
+          477,
+          481,
+          482,
+          483,
+          487,
+          488,
+          489,
+          494,
+          495,
+          496
+        ],
+        "confirmed_stereo_indices": [
+          475,
+          476,
+          477,
+          481,
+          482,
+          483,
+          487,
+          488,
+          489,
+          494,
+          495,
+          496
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 169.9866266965837,
+              "pitch": -493.8617278361806,
+              "arc": [
+                3.644029293403934,
+                0.25263656269584406
+              ],
+              "quality": 11.138104038226198,
+              "distinct_support": 12,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.19053725271962207
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1199,
+          1200,
+          1201,
+          1205,
+          1206,
+          1207,
+          1211,
+          1212,
+          1213,
+          1214,
+          1196,
+          1197,
+          1198,
+          1202,
+          1203,
+          1204,
+          1208,
+          1209,
+          1210,
+          1215,
+          1216,
+          1217
+        ],
+        "confirmed_stereo_hit_ids": [
+          1196,
+          1197,
+          1198,
+          1202,
+          1203,
+          1204,
+          1208,
+          1209,
+          1210,
+          1215,
+          1216,
+          1217
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          79,
+          80,
+          84,
+          85,
+          86,
+          87,
+          91,
+          92,
+          93,
+          94,
+          76,
+          77,
+          81,
+          82,
+          83,
+          88,
+          89,
+          90,
+          95,
+          96,
+          97,
+          98
+        ],
+        "fit": [
+          918.936201107503,
+          10.701136676986994,
+          917.181485492466
+        ],
+        "hits": 10,
+        "rms": 0.41403041928686407,
+        "mean_probability": 0.9940614700317383,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.787046260388306,
+        "stereo_indices": [
+          76,
+          77,
+          81,
+          82,
+          83,
+          88,
+          89,
+          90,
+          95,
+          96,
+          97,
+          98
+        ],
+        "confirmed_stereo_indices": [
+          76,
+          77,
+          81,
+          82,
+          83,
+          88,
+          89,
+          90,
+          95,
+          96,
+          97,
+          98
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 438.44218025827706,
+              "pitch": 403.85190935566067,
+              "arc": [
+                2.659909214964378,
+                0.3554266844017449
+              ],
+              "quality": 11.460762030126544,
+              "distinct_support": 13,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.2667907025441041
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          174,
+          175,
+          179,
+          180,
+          181,
+          182,
+          186,
+          187,
+          188,
+          189,
+          170,
+          171,
+          176,
+          177,
+          178,
+          183,
+          184,
+          185,
+          190,
+          191,
+          192,
+          193
+        ],
+        "confirmed_stereo_hit_ids": [
+          170,
+          171,
+          176,
+          177,
+          178,
+          183,
+          184,
+          185,
+          190,
+          191,
+          192,
+          193
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          367,
+          368,
+          369,
+          374,
+          375,
+          376,
+          380,
+          381,
+          382,
+          383,
+          370,
+          371,
+          372,
+          373,
+          379,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "fit": [
+          569.8919951401429,
+          -179.94359355383594,
+          546.0254897707625
+        ],
+        "hits": 10,
+        "rms": 0.4363694703958435,
+        "mean_probability": 0.9877189993858337,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.769534264187912,
+        "stereo_indices": [
+          370,
+          371,
+          372,
+          373,
+          379,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "confirmed_stereo_indices": [
+          370,
+          371,
+          372,
+          373,
+          379,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [
+          335,
+          336
+        ],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 537.8326461819528,
+              "pitch": 212.8630450133941,
+              "arc": [
+                2.0373658883104278,
+                0.6092719258497195
+              ],
+              "quality": 9.782168905144761,
+              "distinct_support": 12,
+              "independent_layers": 9,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.3311198348930682
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          828,
+          829,
+          830,
+          835,
+          836,
+          837,
+          841,
+          842,
+          843,
+          844,
+          831,
+          832,
+          833,
+          834,
+          840,
+          845,
+          846,
+          847,
+          848,
+          849
+        ],
+        "confirmed_stereo_hit_ids": [
+          831,
+          832,
+          833,
+          834,
+          840,
+          845,
+          846,
+          847,
+          848,
+          849
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          102,
+          103,
+          104,
+          108,
+          109,
+          110,
+          111,
+          115,
+          117,
+          99,
+          100,
+          105,
+          106,
+          107,
+          112,
+          113,
+          114,
+          118,
+          119,
+          120
+        ],
+        "fit": [
+          -2518.7991305102664,
+          -8.625378058507984,
+          2527.209903175725
+        ],
+        "hits": 9,
+        "rms": 0.18127571157982086,
+        "mean_probability": 0.924975574016571,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.6343377182266603,
+        "stereo_indices": [
+          99,
+          100,
+          105,
+          106,
+          107,
+          112,
+          113,
+          114,
+          118,
+          119,
+          120
+        ],
+        "confirmed_stereo_indices": [
+          99,
+          100,
+          105,
+          106,
+          112,
+          113,
+          114,
+          118,
+          119,
+          120
+        ],
+        "pending_stereo_indices": [
+          107
+        ],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 24.956622499989003,
+              "pitch": -28.71678611076655,
+              "arc": [
+                6.108534214587698,
+                0.12809385977242807
+              ],
+              "quality": 9.602378469173502,
+              "distinct_support": 10,
+              "independent_layers": 10,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.09916744172329128
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          234,
+          235,
+          236,
+          240,
+          241,
+          242,
+          243,
+          247,
+          249,
+          230,
+          231,
+          237,
+          238,
+          239,
+          244,
+          245,
+          246,
+          250,
+          251,
+          252
+        ],
+        "confirmed_stereo_hit_ids": [
+          230,
+          231,
+          237,
+          238,
+          244,
+          245,
+          246,
+          250,
+          251,
+          252
+        ],
+        "pending_stereo_hit_ids": [
+          239
+        ]
+      },
+      {
+        "indices": [
+          551,
+          552,
+          553,
+          557,
+          558,
+          559,
+          564,
+          565,
+          566,
+          547,
+          548,
+          549,
+          550,
+          554,
+          555,
+          556,
+          560,
+          561,
+          562,
+          563,
+          567,
+          568,
+          569
+        ],
+        "fit": [
+          -586.7442886500602,
+          582.3384153503293,
+          779.5585551321784
+        ],
+        "hits": 9,
+        "rms": 0.3717903481804564,
+        "mean_probability": 0.9935166835784912,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.6076215094882627,
+        "stereo_indices": [
+          547,
+          548,
+          549,
+          550,
+          554,
+          555,
+          556,
+          560,
+          561,
+          562,
+          563,
+          567,
+          568,
+          569
+        ],
+        "confirmed_stereo_indices": [
+          547,
+          548,
+          549,
+          550,
+          554,
+          555,
+          556,
+          560,
+          561,
+          562,
+          563,
+          567,
+          568,
+          569
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 181.6259169534921,
+              "pitch": 723.0830052416387,
+              "arc": [
+                4.939218795323186,
+                0.4251927422623296
+              ],
+              "quality": 12.668896367855332,
+              "distinct_support": 14,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.3140622088815599
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1430,
+          1431,
+          1432,
+          1436,
+          1437,
+          1438,
+          1443,
+          1444,
+          1445,
+          1426,
+          1427,
+          1428,
+          1429,
+          1433,
+          1434,
+          1435,
+          1439,
+          1440,
+          1441,
+          1442,
+          1446,
+          1447,
+          1448
+        ],
+        "confirmed_stereo_hit_ids": [
+          1426,
+          1427,
+          1428,
+          1429,
+          1433,
+          1434,
+          1435,
+          1439,
+          1440,
+          1441,
+          1442,
+          1446,
+          1447,
+          1448
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          413,
+          414,
+          418,
+          419,
+          420,
+          421,
+          425,
+          426,
+          427,
+          410,
+          411,
+          412,
+          415,
+          416,
+          417,
+          422,
+          423,
+          424,
+          428,
+          429
+        ],
+        "fit": [
+          -2068.9924337796833,
+          -1066.1786491839844,
+          2291.9216242925218
+        ],
+        "hits": 9,
+        "rms": 0.3692558509524389,
+        "mean_probability": 0.9901285767555237,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.605500651279304,
+        "stereo_indices": [
+          410,
+          411,
+          412,
+          415,
+          416,
+          417,
+          422,
+          423,
+          424,
+          428,
+          429
+        ],
+        "confirmed_stereo_indices": [
+          410,
+          411,
+          412,
+          415,
+          416,
+          417,
+          422,
+          423,
+          424,
+          428,
+          429
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 333.5719767408681,
+              "pitch": -1041.5898568378432,
+              "arc": [
+                0.28166240099723455,
+                0.1446552311304997
+              ],
+              "quality": 9.454727854332766,
+              "distinct_support": 11,
+              "independent_layers": 11,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.11005988501675334
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1105,
+          1106,
+          1111,
+          1112,
+          1113,
+          1114,
+          1118,
+          1119,
+          1120,
+          1102,
+          1103,
+          1104,
+          1108,
+          1109,
+          1110,
+          1115,
+          1116,
+          1117,
+          1122,
+          1123
+        ],
+        "confirmed_stereo_hit_ids": [
+          1102,
+          1103,
+          1104,
+          1108,
+          1109,
+          1110,
+          1115,
+          1116,
+          1117,
+          1122,
+          1123
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          18,
+          19,
+          20,
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          13,
+          14,
+          15,
+          16,
+          17,
+          23,
+          24
+        ],
+        "fit": [
+          1082.2385062222968,
+          384.1391544156816,
+          1174.5264855109858
+        ],
+        "hits": 9,
+        "rms": 0.39845496692415866,
+        "mean_probability": 0.9173648357391357,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.5181373522770563,
+        "stereo_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          13,
+          14,
+          15,
+          16,
+          17,
+          23,
+          24
+        ],
+        "confirmed_stereo_indices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          13,
+          14,
+          15,
+          16,
+          17,
+          23,
+          24
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 389.5587394509166,
+              "pitch": -808.4948595329346,
+              "arc": [
+                3.0957357576041242,
+                0.2857310843937354
+              ],
+              "quality": 12.107732763796367,
+              "distinct_support": 16,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.21819190811907951
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          28,
+          29,
+          30,
+          34,
+          35,
+          36,
+          42,
+          43,
+          44,
+          24,
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          37,
+          38,
+          39,
+          40,
+          41,
+          47,
+          48
+        ],
+        "confirmed_stereo_hit_ids": [
+          24,
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          37,
+          38,
+          39,
+          40,
+          41,
+          47,
+          48
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          166,
+          167,
+          168,
+          173,
+          174,
+          178,
+          179,
+          180,
+          163,
+          164,
+          165,
+          169,
+          170,
+          171,
+          172,
+          175,
+          176,
+          177,
+          181,
+          182,
+          183
+        ],
+        "fit": [
+          320.6523971244675,
+          1461.7406385738511,
+          1502.545366045328
+        ],
+        "hits": 8,
+        "rms": 0.3590372345274389,
+        "mean_probability": 0.9783357381820679,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.3988171209183484,
+        "stereo_indices": [
+          163,
+          164,
+          165,
+          169,
+          170,
+          171,
+          172,
+          175,
+          176,
+          177,
+          181,
+          182,
+          183
+        ],
+        "confirmed_stereo_indices": [
+          163,
+          164,
+          165,
+          169,
+          170,
+          171,
+          172,
+          175,
+          176,
+          177,
+          181,
+          182,
+          183
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -144.57814216664107,
+              "pitch": 449.0033484869522,
+              "arc": [
+                4.196887737161333,
+                0.22066964016938845
+              ],
+              "quality": 11.8791128354583,
+              "distinct_support": 13,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.16783137225315148
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          433,
+          434,
+          435,
+          440,
+          441,
+          446,
+          447,
+          448,
+          430,
+          431,
+          432,
+          436,
+          437,
+          438,
+          439,
+          443,
+          444,
+          445,
+          449,
+          450,
+          451
+        ],
+        "confirmed_stereo_hit_ids": [
+          430,
+          431,
+          432,
+          436,
+          437,
+          438,
+          439,
+          443,
+          444,
+          445,
+          449,
+          450,
+          451
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          28,
+          29,
+          30,
+          34,
+          35,
+          39,
+          40,
+          41,
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          36,
+          37,
+          38,
+          42,
+          43,
+          44,
+          45
+        ],
+        "fit": [
+          -511.8112116783064,
+          -607.786139730486,
+          778.0859518463712
+        ],
+        "hits": 8,
+        "rms": 0.38670213890098354,
+        "mean_probability": 0.9905170798301697,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.397166010379678,
+        "stereo_indices": [
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          36,
+          37,
+          38,
+          42,
+          43,
+          44,
+          45
+        ],
+        "confirmed_stereo_indices": [
+          25,
+          26,
+          27,
+          31,
+          32,
+          33,
+          36,
+          37,
+          38,
+          42,
+          43,
+          44,
+          45
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -412.6482652420081,
+              "pitch": 621.9031459179025,
+              "arc": [
+                0.29609151437100456,
+                0.4261912212954508
+              ],
+              "quality": 12.023383163492793,
+              "distinct_support": 13,
+              "independent_layers": 11,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.32482303661610734
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          52,
+          53,
+          54,
+          58,
+          59,
+          65,
+          66,
+          67,
+          49,
+          50,
+          51,
+          55,
+          56,
+          57,
+          61,
+          62,
+          64,
+          68,
+          69,
+          70,
+          71
+        ],
+        "confirmed_stereo_hit_ids": [
+          49,
+          50,
+          51,
+          55,
+          56,
+          57,
+          61,
+          62,
+          64,
+          68,
+          69,
+          70,
+          71
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          433,
+          434,
+          438,
+          439,
+          440,
+          444,
+          445,
+          446,
+          435,
+          436,
+          437,
+          442,
+          443,
+          447,
+          448,
+          449
+        ],
+        "fit": [
+          698.9184928367115,
+          -1687.78298603221,
+          1836.3626378455078
+        ],
+        "hits": 8,
+        "rms": 0.35376392592986156,
+        "mean_probability": 0.9703924059867859,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.3935104430218552,
+        "stereo_indices": [
+          435,
+          436,
+          437,
+          442,
+          443,
+          447,
+          448,
+          449
+        ],
+        "confirmed_stereo_indices": [
+          435,
+          436,
+          437,
+          442,
+          443,
+          447,
+          448,
+          449
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 254.19109988693072,
+              "pitch": -1114.109515708477,
+              "arc": [
+                1.7178683378898298,
+                0.1764604531370855
+              ],
+              "quality": 8.64823798294421,
+              "distinct_support": 11,
+              "independent_layers": 11,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.13728746283484394
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1154,
+          1155,
+          1159,
+          1160,
+          1161,
+          1165,
+          1166,
+          1167,
+          1156,
+          1157,
+          1158,
+          1163,
+          1164,
+          1168,
+          1169,
+          1170
+        ],
+        "confirmed_stereo_hit_ids": [
+          1156,
+          1157,
+          1158,
+          1163,
+          1164,
+          1168,
+          1169,
+          1170
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          258,
+          259,
+          263,
+          264,
+          265,
+          269,
+          270,
+          271,
+          254,
+          255,
+          257,
+          260,
+          261,
+          262,
+          266,
+          267,
+          268,
+          272,
+          273,
+          274
+        ],
+        "fit": [
+          -183.80993072097405,
+          904.5476534835713,
+          876.8534353758475
+        ],
+        "hits": 8,
+        "rms": 0.45057624360387744,
+        "mean_probability": 0.9895574450492859,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.3642693232473473,
+        "stereo_indices": [
+          254,
+          255,
+          257,
+          260,
+          261,
+          262,
+          266,
+          267,
+          268,
+          272,
+          273,
+          274
+        ],
+        "confirmed_stereo_indices": [
+          254,
+          255,
+          257,
+          260,
+          261,
+          262,
+          266,
+          267,
+          268,
+          272,
+          273,
+          274
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 243.18691448503162,
+              "pitch": -75.80750648387972,
+              "arc": [
+                4.412174105319876,
+                0.3679036776566087
+              ],
+              "quality": 11.719789402216062,
+              "distinct_support": 13,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.2877457742903058
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          604,
+          605,
+          609,
+          610,
+          611,
+          615,
+          616,
+          617,
+          599,
+          600,
+          602,
+          606,
+          607,
+          608,
+          612,
+          613,
+          614,
+          618,
+          619,
+          620
+        ],
+        "confirmed_stereo_hit_ids": [
+          599,
+          600,
+          602,
+          606,
+          607,
+          608,
+          612,
+          613,
+          614,
+          618,
+          619,
+          620
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          145,
+          146,
+          147,
+          151,
+          152,
+          157,
+          158,
+          159,
+          142,
+          144,
+          148,
+          149,
+          150,
+          153,
+          154,
+          155,
+          156,
+          160,
+          161,
+          162
+        ],
+        "fit": [
+          222.80086210312103,
+          1217.8057666738694,
+          1230.0292883838079
+        ],
+        "hits": 8,
+        "rms": 0.4723973089526218,
+        "mean_probability": 0.9837582111358643,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.3475595566595535,
+        "stereo_indices": [
+          142,
+          144,
+          148,
+          149,
+          150,
+          153,
+          154,
+          155,
+          156,
+          160,
+          161,
+          162
+        ],
+        "confirmed_stereo_indices": [
+          142,
+          144,
+          148,
+          149,
+          150,
+          153,
+          154,
+          155,
+          156,
+          160,
+          161,
+          162
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 113.98778199392763,
+              "pitch": -367.4724990706682,
+              "arc": [
+                4.166577225325199,
+                0.26948694826326586
+              ],
+              "quality": 11.72011804144992,
+              "distinct_support": 13,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.2044295941790013
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          330,
+          331,
+          332,
+          336,
+          337,
+          343,
+          344,
+          345,
+          327,
+          329,
+          333,
+          334,
+          335,
+          339,
+          340,
+          341,
+          342,
+          346,
+          347,
+          348
+        ],
+        "confirmed_stereo_hit_ids": [
+          327,
+          329,
+          333,
+          334,
+          335,
+          339,
+          340,
+          341,
+          342,
+          346,
+          347,
+          348
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          392,
+          393,
+          394,
+          398,
+          399,
+          400,
+          401,
+          405,
+          406,
+          389,
+          390,
+          391,
+          395,
+          396,
+          397,
+          402,
+          403,
+          404,
+          407,
+          408,
+          409
+        ],
+        "fit": [
+          -1194.1319860183098,
+          325.9817418246121,
+          1225.6781936696061
+        ],
+        "hits": 9,
+        "rms": 0.8942379746483281,
+        "mean_probability": 0.9920979738235474,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.3449789864993833,
+        "stereo_indices": [
+          389,
+          390,
+          391,
+          395,
+          396,
+          397,
+          402,
+          403,
+          404,
+          407,
+          408,
+          409
+        ],
+        "confirmed_stereo_indices": [
+          389,
+          390,
+          391,
+          395,
+          402,
+          403,
+          404,
+          407,
+          408
+        ],
+        "pending_stereo_indices": [
+          396,
+          397,
+          409
+        ],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 609.7560634284973,
+              "pitch": -207.24132878372805,
+              "arc": [
+                5.651059530098233,
+                0.2703414720614039
+              ],
+              "quality": 9.70956204985667,
+              "distinct_support": 9,
+              "independent_layers": 9,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.19305470093902954
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1036,
+          1037,
+          1038,
+          1042,
+          1043,
+          1044,
+          1045,
+          1050,
+          1051,
+          1033,
+          1034,
+          1035,
+          1039,
+          1040,
+          1041,
+          1046,
+          1047,
+          1048,
+          1052,
+          1053,
+          1054
+        ],
+        "confirmed_stereo_hit_ids": [
+          1033,
+          1034,
+          1035,
+          1039,
+          1046,
+          1047,
+          1048,
+          1052,
+          1053
+        ],
+        "pending_stereo_hit_ids": [
+          1040,
+          1041,
+          1054
+        ]
+      },
+      {
+        "indices": [
+          325,
+          326,
+          327,
+          331,
+          334,
+          338,
+          339,
+          340,
+          341,
+          322,
+          323,
+          324,
+          328,
+          329,
+          330,
+          342,
+          343,
+          344
+        ],
+        "fit": [
+          1557.69780331031,
+          -2694.426418023457,
+          3141.735170500466
+        ],
+        "hits": 9,
+        "rms": 0.9188473487681487,
+        "mean_probability": 0.8850300908088684,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.2256064164247937,
+        "stereo_indices": [
+          322,
+          323,
+          324,
+          328,
+          329,
+          330,
+          342,
+          343,
+          344
+        ],
+        "confirmed_stereo_indices": [
+          322,
+          323,
+          324,
+          329,
+          330,
+          342,
+          343,
+          344
+        ],
+        "pending_stereo_indices": [
+          328
+        ],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -106.19708643037747,
+              "pitch": 1130.6694781998835,
+              "arc": [
+                1.9516929291929934,
+                0.10595714973757497
+              ],
+              "quality": 7.514627364673387,
+              "distinct_support": 9,
+              "independent_layers": 8,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.07696999092500434
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          781,
+          782,
+          783,
+          787,
+          790,
+          794,
+          795,
+          796,
+          797,
+          778,
+          779,
+          780,
+          784,
+          785,
+          786,
+          798,
+          799,
+          800
+        ],
+        "confirmed_stereo_hit_ids": [
+          778,
+          779,
+          780,
+          785,
+          786,
+          798,
+          799,
+          800
+        ],
+        "pending_stereo_hit_ids": [
+          784
+        ]
+      },
+      {
+        "indices": [
+          500,
+          505,
+          506,
+          510,
+          511,
+          512,
+          502,
+          503,
+          504,
+          508,
+          509,
+          513,
+          514,
+          515
+        ],
+        "fit": [
+          518.0479582728021,
+          -1093.6647315877094,
+          1199.5228018546877
+        ],
+        "hits": 6,
+        "rms": 0.07694309741502696,
+        "mean_probability": 0.9822998046875,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.1438282559799866,
+        "stereo_indices": [
+          502,
+          503,
+          504,
+          508,
+          509,
+          513,
+          514,
+          515
+        ],
+        "confirmed_stereo_indices": [
+          502,
+          503,
+          504,
+          508,
+          509,
+          513,
+          514,
+          515
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": -131.10853537302162,
+              "pitch": 399.07765901543394,
+              "arc": [
+                1.6384931503491507,
+                0.27050548658121504
+              ],
+              "quality": 9.496625832339959,
+              "distinct_support": 12,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.2091469660851193
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1272,
+          1277,
+          1278,
+          1283,
+          1284,
+          1285,
+          1274,
+          1275,
+          1276,
+          1281,
+          1282,
+          1286,
+          1287,
+          1288
+        ],
+        "confirmed_stereo_hit_ids": [
+          1274,
+          1275,
+          1276,
+          1281,
+          1282,
+          1286,
+          1287,
+          1288
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          233,
+          238,
+          239,
+          240,
+          247,
+          248,
+          249,
+          229,
+          230,
+          231,
+          235,
+          236,
+          237,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          251,
+          252,
+          253
+        ],
+        "fit": [
+          -690.4039417749693,
+          -99.41180189659715,
+          702.9303244402477
+        ],
+        "hits": 7,
+        "rms": 0.3550876210049319,
+        "mean_probability": 0.908318042755127,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 2.130774232252661,
+        "stereo_indices": [
+          229,
+          230,
+          231,
+          235,
+          236,
+          237,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          251,
+          252,
+          253
+        ],
+        "confirmed_stereo_indices": [
+          229,
+          230,
+          231,
+          235,
+          236,
+          237,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          251,
+          252,
+          253
+        ],
+        "pending_stereo_indices": [],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 627.0388767314137,
+              "pitch": -999.243138394253,
+              "arc": [
+                5.778280019065411,
+                0.46752111100172367
+              ],
+              "quality": 14.05435483586112,
+              "distinct_support": 17,
+              "independent_layers": 12,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.37559758435843893
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          504,
+          509,
+          510,
+          511,
+          518,
+          519,
+          520,
+          500,
+          501,
+          502,
+          506,
+          507,
+          508,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          522,
+          523,
+          524
+        ],
+        "confirmed_stereo_hit_ids": [
+          500,
+          501,
+          502,
+          506,
+          507,
+          508,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          522,
+          523,
+          524
+        ],
+        "pending_stereo_hit_ids": []
+      },
+      {
+        "indices": [
+          460,
+          461,
+          462,
+          463,
+          468,
+          470,
+          453,
+          457,
+          458,
+          459,
+          464,
+          465,
+          466,
+          467,
+          472,
+          473,
+          474
+        ],
+        "fit": [
+          -1875.0960439315486,
+          -80.31940103380904,
+          1886.3549677134824
+        ],
+        "hits": 6,
+        "rms": 0.41961475616355437,
+        "mean_probability": 0.9392252564430237,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 1.9294178783612468,
+        "stereo_indices": [
+          453,
+          457,
+          458,
+          459,
+          464,
+          465,
+          466,
+          467,
+          472,
+          473,
+          474
+        ],
+        "confirmed_stereo_indices": [
+          457,
+          458,
+          459,
+          464,
+          465,
+          466,
+          467,
+          472,
+          473,
+          474
+        ],
+        "pending_stereo_indices": [
+          453
+        ],
+        "rejected_stereo_indices": [
+          450,
+          452
+        ],
+        "coarse_3d": {
+          "status": "supported",
+          "hypotheses": [
+            {
+              "z0": 285.69451860892417,
+              "pitch": -1314.9952088134698,
+              "arc": [
+                6.08749965686205,
+                0.1400201897409639
+              ],
+              "quality": 8.63047211758336,
+              "distinct_support": 11,
+              "independent_layers": 9,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.09733789569570384
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          1181,
+          1182,
+          1183,
+          1184,
+          1189,
+          1191,
+          1174,
+          1178,
+          1179,
+          1180,
+          1185,
+          1186,
+          1187,
+          1188,
+          1193,
+          1194,
+          1195
+        ],
+        "confirmed_stereo_hit_ids": [
+          1178,
+          1179,
+          1180,
+          1185,
+          1186,
+          1187,
+          1188,
+          1193,
+          1194,
+          1195
+        ],
+        "pending_stereo_hit_ids": [
+          1174
+        ]
+      },
+      {
+        "indices": [
+          354,
+          359,
+          360,
+          361,
+          362,
+          352,
+          353,
+          356,
+          358,
+          363,
+          364,
+          365,
+          366
+        ],
+        "fit": [
+          -446.2266225838249,
+          -12.182415379045132,
+          286.4873909008327
+        ],
+        "hits": 5,
+        "rms": 0.0831359843173658,
+        "mean_probability": 0.9691406488418579,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 1.927572656683175,
+        "stereo_indices": [
+          352,
+          353,
+          356,
+          358,
+          363,
+          364,
+          365,
+          366
+        ],
+        "confirmed_stereo_indices": [
+          364,
+          365,
+          366
+        ],
+        "pending_stereo_indices": [
+          352,
+          353,
+          356,
+          358,
+          363
+        ],
+        "rejected_stereo_indices": [],
+        "coarse_3d": {
+          "status": "ambiguous",
+          "hypotheses": [
+            {
+              "z0": 367.7809344598932,
+              "pitch": -340.59676487545215,
+              "arc": [
+                0.3895013939833064,
+                0.8840661301383566
+              ],
+              "quality": 4.9270632286215985,
+              "distinct_support": 5,
+              "independent_layers": 4,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.371992057817215
+            },
+            {
+              "z0": 262.7978367544435,
+              "pitch": -187.1777585408161,
+              "arc": [
+                0.3895013939833064,
+                0.8840661301383566
+              ],
+              "quality": 4.792221188797671,
+              "distinct_support": 5,
+              "independent_layers": 4,
+              "stereo_orientations": 1,
+              "stereo_phase_span_rad": 0.6589286237947544
+            },
+            {
+              "z0": 198.87390451013445,
+              "pitch": -97.29017157800662,
+              "arc": [
+                0.3895013939833064,
+                0.8840661301383566
+              ],
+              "quality": 4.7535431459813715,
+              "distinct_support": 5,
+              "independent_layers": 4,
+              "stereo_orientations": 1,
+              "stereo_phase_span_rad": 0.6171610414001953
+            },
+            {
+              "z0": 236.18999322515174,
+              "pitch": -151.03833897602937,
+              "arc": [
+                0.3895013939833064,
+                0.8840661301383566
+              ],
+              "quality": 4.527844625149266,
+              "distinct_support": 4,
+              "independent_layers": 3,
+              "stereo_orientations": 1,
+              "stereo_phase_span_rad": 0.6171610414001953
+            },
+            {
+              "z0": 400.0970695213273,
+              "pitch": -393.90957657669725,
+              "arc": [
+                0.3895013939833064,
+                0.8840661301383566
+              ],
+              "quality": 4.449242897179245,
+              "distinct_support": 4,
+              "independent_layers": 3,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.3320276514803199
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          812,
+          817,
+          818,
+          819,
+          820,
+          809,
+          810,
+          814,
+          816,
+          821,
+          822,
+          823,
+          824
+        ],
+        "confirmed_stereo_hit_ids": [
+          822,
+          823,
+          824
+        ],
+        "pending_stereo_hit_ids": [
+          809,
+          810,
+          814,
+          816,
+          821
+        ]
+      },
+      {
+        "indices": [
+          302,
+          303,
+          304,
+          309,
+          310,
+          299,
+          300,
+          301,
+          305,
+          307,
+          308,
+          311,
+          312,
+          313
+        ],
+        "fit": [
+          253.74878633023994,
+          213.78542716917764,
+          348.8680894712199
+        ],
+        "hits": 5,
+        "rms": 0.1815214057854173,
+        "mean_probability": 0.9091796875,
+        "stage": "strict",
+        "accepted_geometry": true,
+        "score": 1.8184189846072913,
+        "stereo_indices": [
+          299,
+          300,
+          301,
+          305,
+          307,
+          308,
+          311,
+          312,
+          313
+        ],
+        "confirmed_stereo_indices": [
+          299,
+          300,
+          301,
+          305,
+          307,
+          308,
+          311
+        ],
+        "pending_stereo_indices": [
+          312,
+          313
+        ],
+        "rejected_stereo_indices": [
+          320
+        ],
+        "coarse_3d": {
+          "status": "ambiguous",
+          "hypotheses": [
+            {
+              "z0": 485.3904543210211,
+              "pitch": -365.05702928523493,
+              "arc": [
+                2.7468917758915325,
+                0.739313543353868
+              ],
+              "quality": 6.602026389684601,
+              "distinct_support": 8,
+              "independent_layers": 7,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.45402699897500476
+            },
+            {
+              "z0": 454.9958245046845,
+              "pitch": -309.66419863895624,
+              "arc": [
+                2.7468917758915325,
+                0.739313543353868
+              ],
+              "quality": 6.028296094173739,
+              "distinct_support": 7,
+              "independent_layers": 6,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.49094636700031336
+            },
+            {
+              "z0": 506.48802954682014,
+              "pitch": -417.1205445174304,
+              "arc": [
+                2.7468917758915325,
+                0.739313543353868
+              ],
+              "quality": 6.004126720375001,
+              "distinct_support": 8,
+              "independent_layers": 7,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.45402699897500476
+            },
+            {
+              "z0": 430.6014465300974,
+              "pitch": -269.1314800583321,
+              "arc": [
+                2.7468917758915325,
+                0.739313543353868
+              ],
+              "quality": 6.003665166089712,
+              "distinct_support": 7,
+              "independent_layers": 7,
+              "stereo_orientations": 2,
+              "stereo_phase_span_rad": 0.5297317080893071
+            }
+          ],
+          "axial_members_unchanged": true,
+          "seed_ready": true
+        },
+        "hit_ids": [
+          756,
+          757,
+          758,
+          764,
+          765,
+          753,
+          754,
+          755,
+          759,
+          761,
+          762,
+          766,
+          767,
+          768
+        ],
+        "confirmed_stereo_hit_ids": [
+          753,
+          754,
+          755,
+          759,
+          761,
+          762,
+          766
+        ],
+        "pending_stereo_hit_ids": [
+          767,
+          768
+        ]
+      }
+    ]
+  },
+  "seconds": 4.487030899999809
+}

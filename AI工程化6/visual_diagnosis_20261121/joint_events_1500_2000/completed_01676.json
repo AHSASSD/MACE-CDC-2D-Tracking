@@ -1,0 +1,33 @@
+{
+  "event_id": 1676,
+  "partition": "train",
+  "focus_truth": 4703,
+  "category": "matched",
+  "image": "event_01676_T4703_baseline.png",
+  "hits": 539,
+  "axial_hits": 229,
+  "stereo_hits": 310,
+  "edge_counts": {
+    "AA": 2655,
+    "AS": 11263,
+    "SS": 7291
+  },
+  "metrics": {
+    "truth_tracks": 22,
+    "stereo_eligible_tracks": 22,
+    "truth_stereo_all": 310,
+    "output_candidates": 22,
+    "axial_completeness_sum": 21.057264957264962,
+    "correct_stereo_matched": 288,
+    "attached_stereo_matched": 288,
+    "truth_stereo_matched": 310,
+    "matched_tracks": 22,
+    "joint_matched_tracks": 22
+  },
+  "seed": {
+    "truth_tracks": 22,
+    "output_candidates": 22,
+    "matched_tracks": 22
+  },
+  "seconds": 5.359226226806641
+}

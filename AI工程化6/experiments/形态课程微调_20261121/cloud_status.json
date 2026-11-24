@@ -1,0 +1,507 @@
+{
+  "unix": 1795282707.2945256,
+  "launch": {
+    "job_id": "1857763",
+    "submission": "sbatch: lua: GPU队列 gpu_v100: 1 GPU，CPU从 3 自动调整为 3\nsbatch: CPU核数已根据GPU数 × 3调整: 3\n1857763",
+    "archive_sha256": "81203d271a4fea2c4fb88a2532873f7508f1f2f288502bf42d15eeea4d45f1f7",
+    "root": "/seu_nvme/home/zhangyongchao/213230965/ai6_curriculum_20261121",
+    "time_limit": "06:00:00"
+  },
+  "progress": {
+    "phase": "member_reconstruction",
+    "epoch": 15,
+    "events": 200,
+    "total": 200,
+    "unix": 1795282678.0606463
+  },
+  "checkpoint": {
+    "epoch": 16,
+    "cursor": 0,
+    "phase": "train",
+    "groups": 3027,
+    "updates": 3027,
+    "unix": 1795282679.4777396
+  },
+  "supervisor": null,
+  "initial_members": {
+    "all": {
+      "events": 200,
+      "tracks": {
+        "truth_tracks": 5969,
+        "stereo_eligible_tracks": 5968,
+        "truth_stereo_all": 81388,
+        "output_candidates": 5885,
+        "axial_completeness_sum": 5290.220440588536,
+        "correct_stereo_matched": 64339,
+        "attached_stereo_matched": 64822,
+        "truth_stereo_matched": 76458,
+        "matched_tracks": 5726,
+        "joint_matched_tracks": 5337,
+        "fake_candidates": 156,
+        "clone_candidates": 3,
+        "track_efficiency": 0.9592896632601776,
+        "fake_fraction": 0.026508071367884453,
+        "clone_fraction": 0.0005097706032285472,
+        "stereo_purity_matched": 0.9925488260158588,
+        "stereo_completeness_matched": 0.8414946768160297,
+        "stereo_recall_all_eligible_tracks": 0.7905219442669681,
+        "joint_track_efficiency": 0.8942694369973191
+      },
+      "seed": {
+        "truth_tracks": 5968,
+        "output_candidates": 5768,
+        "matched_tracks": 5610,
+        "fake_candidates": 156,
+        "clone_candidates": 2,
+        "efficiency": 0.9400134048257373,
+        "fake_fraction": 0.027045769764216365,
+        "clone_fraction": 0.00034674063800277393,
+        "f1": 0.9560327198364008
+      }
+    },
+    "ordinary": {
+      "events": 172,
+      "tracks": {
+        "truth_tracks": 5071,
+        "stereo_eligible_tracks": 5070,
+        "truth_stereo_all": 68025,
+        "output_candidates": 5002,
+        "axial_completeness_sum": 4541.231543118033,
+        "correct_stereo_matched": 55337,
+        "attached_stereo_matched": 55726,
+        "truth_stereo_matched": 65126,
+        "matched_tracks": 4892,
+        "joint_matched_tracks": 4593,
+        "fake_candidates": 108,
+        "clone_candidates": 2,
+        "track_efficiency": 0.9647012423585092,
+        "fake_fraction": 0.021591363454618154,
+        "clone_fraction": 0.00039984006397441024,
+        "stereo_purity_matched": 0.9930194164303916,
+        "stereo_completeness_matched": 0.8496913675029942,
+        "stereo_recall_all_eligible_tracks": 0.8134803381109886,
+        "joint_track_efficiency": 0.9059171597633137
+      },
+      "seed": {
+        "truth_tracks": 5070,
+        "output_candidates": 4919,
+        "matched_tracks": 4804,
+        "fake_candidates": 114,
+        "clone_candidates": 1,
+        "efficiency": 0.947534516765286,
+        "fake_fraction": 0.02317544216304127,
+        "clone_fraction": 0.00020329335230737954,
+        "f1": 0.961858043848233
+      }
+    },
+    "high_hits": {
+      "events": 8,
+      "tracks": {
+        "truth_tracks": 314,
+        "stereo_eligible_tracks": 314,
+        "truth_stereo_all": 4741,
+        "output_candidates": 307,
+        "axial_completeness_sum": 257.13764563796536,
+        "correct_stereo_matched": 2941,
+        "attached_stereo_matched": 2965,
+        "truth_stereo_matched": 3850,
+        "fake_candidates": 16,
+        "matched_tracks": 291,
+        "joint_matched_tracks": 255,
+        "track_efficiency": 0.9267515923566879,
+        "fake_fraction": 0.05211726384364821,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9919055649241146,
+        "stereo_completeness_matched": 0.7638961038961039,
+        "stereo_recall_all_eligible_tracks": 0.6203332630246783,
+        "joint_track_efficiency": 0.8121019108280255
+      },
+      "seed": {
+        "truth_tracks": 314,
+        "output_candidates": 289,
+        "fake_candidates": 12,
+        "matched_tracks": 277,
+        "efficiency": 0.8821656050955414,
+        "fake_fraction": 0.04152249134948097,
+        "clone_fraction": 0.0,
+        "f1": 0.9187396351575456
+      }
+    },
+    "blob": {
+      "events": 1,
+      "tracks": {
+        "truth_tracks": 31,
+        "stereo_eligible_tracks": 31,
+        "truth_stereo_all": 423,
+        "output_candidates": 30,
+        "axial_completeness_sum": 28.137950937950936,
+        "correct_stereo_matched": 347,
+        "attached_stereo_matched": 347,
+        "truth_stereo_matched": 386,
+        "matched_tracks": 30,
+        "joint_matched_tracks": 28,
+        "track_efficiency": 0.967741935483871,
+        "fake_fraction": 0.0,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 1.0,
+        "stereo_completeness_matched": 0.8989637305699482,
+        "stereo_recall_all_eligible_tracks": 0.8203309692671394,
+        "joint_track_efficiency": 0.9032258064516129
+      },
+      "seed": {
+        "truth_tracks": 31,
+        "output_candidates": 30,
+        "matched_tracks": 30,
+        "efficiency": 0.967741935483871,
+        "fake_fraction": 0.0,
+        "clone_fraction": 0.0,
+        "f1": 0.9836065573770492
+      }
+    },
+    "loop": {
+      "events": 23,
+      "tracks": {
+        "truth_tracks": 691,
+        "stereo_eligible_tracks": 691,
+        "truth_stereo_all": 10400,
+        "output_candidates": 677,
+        "axial_completeness_sum": 573.1452039091621,
+        "correct_stereo_matched": 6982,
+        "attached_stereo_matched": 7055,
+        "truth_stereo_matched": 8730,
+        "matched_tracks": 638,
+        "joint_matched_tracks": 570,
+        "fake_candidates": 38,
+        "clone_candidates": 1,
+        "track_efficiency": 0.9232995658465991,
+        "fake_fraction": 0.056129985228951254,
+        "clone_fraction": 0.0014771048744460858,
+        "stereo_purity_matched": 0.989652728561304,
+        "stereo_completeness_matched": 0.7997709049255441,
+        "stereo_recall_all_eligible_tracks": 0.6713461538461538,
+        "joint_track_efficiency": 0.8248914616497829
+      },
+      "seed": {
+        "truth_tracks": 691,
+        "output_candidates": 654,
+        "matched_tracks": 619,
+        "fake_candidates": 34,
+        "clone_candidates": 1,
+        "efficiency": 0.8958031837916064,
+        "fake_fraction": 0.05198776758409786,
+        "clone_fraction": 0.0015290519877675841,
+        "f1": 0.9204460966542751
+      }
+    }
+  },
+  "preflight": {
+    "micro_batch": 4,
+    "edges": 1926716,
+    "event_ids": [
+      299,
+      1347,
+      6519,
+      1614
+    ],
+    "loss": 0.11981213092803955,
+    "terms": {
+      "focal": 0.03683885559439659,
+      "true_low_margin": 0.46471327543258667,
+      "false_high_margin": 2.2898108959198,
+      "positive_coefficient": 0.08
+    },
+    "peak_allocated_bytes": 8320232448,
+    "optimizer_updates": 0,
+    "gpu": "Tesla V100-SXM2-32GB",
+    "torch": "2.5.0a0+872d972e41.nv24.08",
+    "total_memory": 34072559616,
+    "oom_fallbacks": []
+  },
+  "history": [
+    {
+      "epoch": 13,
+      "training_events": 6823,
+      "validation": {
+        "loss": 0.011305631203621302,
+        "edges": 132417998,
+        "types": {
+          "AA": {
+            "tp": 3662443,
+            "fp": 458092,
+            "fn": 310605,
+            "precision": 0.8888270576514943,
+            "recall": 0.9218219865453425,
+            "f1": 0.9050238936204151
+          },
+          "AS": {
+            "tp": 9957401,
+            "fp": 1511857,
+            "fn": 1393011,
+            "precision": 0.8681817951954695,
+            "recall": 0.8772722082687395,
+            "f1": 0.8727033300656846
+          },
+          "SS": {
+            "tp": 5402756,
+            "fp": 772586,
+            "fn": 935654,
+            "precision": 0.8748917873698331,
+            "recall": 0.8523834841860971,
+            "f1": 0.8634909817615053
+          }
+        }
+      },
+      "membership": null,
+      "updates": 2592,
+      "amp_skips": 0
+    },
+    {
+      "epoch": 14,
+      "training_events": 6912,
+      "validation": {
+        "loss": 0.011293510836320861,
+        "edges": 132417998,
+        "types": {
+          "AA": {
+            "tp": 3656669,
+            "fp": 448340,
+            "fn": 316379,
+            "precision": 0.8907822126577555,
+            "recall": 0.9203686942619369,
+            "f1": 0.9053337949955045
+          },
+          "AS": {
+            "tp": 9942642,
+            "fp": 1484768,
+            "fn": 1407770,
+            "precision": 0.8700695958226755,
+            "recall": 0.8759719030463388,
+            "f1": 0.8730107733742059
+          },
+          "SS": {
+            "tp": 5396545,
+            "fp": 762571,
+            "fn": 941865,
+            "precision": 0.8761882387017877,
+            "recall": 0.8514035854417749,
+            "f1": 0.8636181272997552
+          }
+        }
+      },
+      "membership": null,
+      "updates": 2808,
+      "amp_skips": 0
+    },
+    {
+      "epoch": 15,
+      "training_events": 7000,
+      "validation": {
+        "loss": 0.011348496864507965,
+        "edges": 132417998,
+        "types": {
+          "AA": {
+            "tp": 3662019,
+            "fp": 461693,
+            "fn": 311029,
+            "precision": 0.8880394654136855,
+            "recall": 0.9217152674722279,
+            "f1": 0.9045640478413588
+          },
+          "AS": {
+            "tp": 9967808,
+            "fp": 1534062,
+            "fn": 1382604,
+            "precision": 0.8666249922838634,
+            "recall": 0.8781890912858493,
+            "f1": 0.872368720112941
+          },
+          "SS": {
+            "tp": 5409990,
+            "fp": 783871,
+            "fn": 928420,
+            "precision": 0.8734438825798642,
+            "recall": 0.8535247798738169,
+            "f1": 0.8633694563419511
+          }
+        }
+      },
+      "membership": {
+        "all": {
+          "events": 200,
+          "tracks": {
+            "truth_tracks": 5969,
+            "stereo_eligible_tracks": 5968,
+            "truth_stereo_all": 81388,
+            "output_candidates": 6006,
+            "fake_candidates": 316,
+            "axial_completeness_sum": 5285.462592918754,
+            "correct_stereo_matched": 64894,
+            "attached_stereo_matched": 65435,
+            "truth_stereo_matched": 75940,
+            "matched_tracks": 5687,
+            "joint_matched_tracks": 5377,
+            "clone_candidates": 3,
+            "track_efficiency": 0.952755905511811,
+            "fake_fraction": 0.052614052614052616,
+            "clone_fraction": 0.0004995004995004995,
+            "stereo_purity_matched": 0.991732253381218,
+            "stereo_completeness_matched": 0.8545430603107717,
+            "stereo_recall_all_eligible_tracks": 0.797341131370718,
+            "joint_track_efficiency": 0.9009718498659517
+          },
+          "seed": {
+            "truth_tracks": 5968,
+            "output_candidates": 5818,
+            "fake_candidates": 211,
+            "matched_tracks": 5605,
+            "clone_candidates": 2,
+            "efficiency": 0.9391756032171582,
+            "fake_fraction": 0.036266758336198,
+            "clone_fraction": 0.00034376074252320387,
+            "f1": 0.9511284574919396
+          }
+        },
+        "ordinary": {
+          "events": 172,
+          "tracks": {
+            "truth_tracks": 5071,
+            "stereo_eligible_tracks": 5070,
+            "truth_stereo_all": 68025,
+            "output_candidates": 5095,
+            "fake_candidates": 227,
+            "axial_completeness_sum": 4542.069872473842,
+            "correct_stereo_matched": 55820,
+            "attached_stereo_matched": 56274,
+            "truth_stereo_matched": 64819,
+            "matched_tracks": 4866,
+            "joint_matched_tracks": 4625,
+            "clone_candidates": 2,
+            "track_efficiency": 0.9595740485111418,
+            "fake_fraction": 0.044553483807654566,
+            "clone_fraction": 0.0003925417075564279,
+            "stereo_purity_matched": 0.9919323310942887,
+            "stereo_completeness_matched": 0.8611672503432636,
+            "stereo_recall_all_eligible_tracks": 0.8205806688717383,
+            "joint_track_efficiency": 0.9122287968441815
+          },
+          "seed": {
+            "truth_tracks": 5070,
+            "output_candidates": 4957,
+            "fake_candidates": 158,
+            "matched_tracks": 4798,
+            "clone_candidates": 1,
+            "efficiency": 0.9463510848126233,
+            "fake_fraction": 0.031874117409723624,
+            "clone_fraction": 0.00020173492031470649,
+            "f1": 0.9570160566470529
+          }
+        },
+        "high_hits": {
+          "events": 8,
+          "tracks": {
+            "truth_tracks": 314,
+            "stereo_eligible_tracks": 314,
+            "truth_stereo_all": 4741,
+            "output_candidates": 314,
+            "axial_completeness_sum": 256.40294243267385,
+            "correct_stereo_matched": 3011,
+            "attached_stereo_matched": 3043,
+            "truth_stereo_matched": 3795,
+            "fake_candidates": 27,
+            "matched_tracks": 287,
+            "joint_matched_tracks": 259,
+            "track_efficiency": 0.9140127388535032,
+            "fake_fraction": 0.08598726114649681,
+            "clone_fraction": 0.0,
+            "stereo_purity_matched": 0.989484061781137,
+            "stereo_completeness_matched": 0.7934123847167326,
+            "stereo_recall_all_eligible_tracks": 0.6350980805737186,
+            "joint_track_efficiency": 0.8248407643312102
+          },
+          "seed": {
+            "truth_tracks": 314,
+            "output_candidates": 291,
+            "matched_tracks": 280,
+            "fake_candidates": 11,
+            "efficiency": 0.89171974522293,
+            "fake_fraction": 0.037800687285223365,
+            "clone_fraction": 0.0,
+            "f1": 0.9256198347107438
+          }
+        },
+        "blob": {
+          "events": 1,
+          "tracks": {
+            "truth_tracks": 31,
+            "stereo_eligible_tracks": 31,
+            "truth_stereo_all": 423,
+            "output_candidates": 30,
+            "axial_completeness_sum": 28.154617604617602,
+            "correct_stereo_matched": 350,
+            "attached_stereo_matched": 350,
+            "truth_stereo_matched": 386,
+            "matched_tracks": 30,
+            "joint_matched_tracks": 30,
+            "track_efficiency": 0.967741935483871,
+            "fake_fraction": 0.0,
+            "clone_fraction": 0.0,
+            "stereo_purity_matched": 1.0,
+            "stereo_completeness_matched": 0.9067357512953368,
+            "stereo_recall_all_eligible_tracks": 0.8274231678486997,
+            "joint_track_efficiency": 0.967741935483871
+          },
+          "seed": {
+            "truth_tracks": 31,
+            "output_candidates": 30,
+            "matched_tracks": 30,
+            "efficiency": 0.967741935483871,
+            "fake_fraction": 0.0,
+            "clone_fraction": 0.0,
+            "f1": 0.9836065573770492
+          }
+        },
+        "loop": {
+          "events": 23,
+          "tracks": {
+            "truth_tracks": 691,
+            "stereo_eligible_tracks": 691,
+            "truth_stereo_all": 10400,
+            "output_candidates": 702,
+            "axial_completeness_sum": 566.7828504129851,
+            "correct_stereo_matched": 7000,
+            "attached_stereo_matched": 7063,
+            "truth_stereo_matched": 8528,
+            "matched_tracks": 626,
+            "joint_matched_tracks": 576,
+            "fake_candidates": 75,
+            "clone_candidates": 1,
+            "track_efficiency": 0.9059334298118669,
+            "fake_fraction": 0.10683760683760683,
+            "clone_fraction": 0.0014245014245014246,
+            "stereo_purity_matched": 0.9910802775024777,
+            "stereo_completeness_matched": 0.8208255159474672,
+            "stereo_recall_all_eligible_tracks": 0.6730769230769231,
+            "joint_track_efficiency": 0.8335745296671491
+          },
+          "seed": {
+            "truth_tracks": 691,
+            "output_candidates": 665,
+            "matched_tracks": 617,
+            "fake_candidates": 47,
+            "clone_candidates": 1,
+            "efficiency": 0.8929088277858177,
+            "fake_fraction": 0.07067669172932331,
+            "clone_fraction": 0.0015037593984962407,
+            "f1": 0.9100294985250738
+          }
+        }
+      },
+      "updates": 3027,
+      "amp_skips": 0
+    }
+  ],
+  "slurm": "JobId=1857763 JobName=ai6-curriculum-recall\n   UserId=213230965(4977) GroupId=zhangyongchao(1377) MCS_label=N/A\n   Priority=2288 Nice=0 Account=zhangyongchao QOS=ogsp\n   JobState=RUNNING Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=03:45:25 TimeLimit=06:00:00 TimeMin=N/A\n   SubmitTime=2026-11-21T21:53:01 EligibleTime=2026-11-21T21:53:01\n   AccrueTime=2026-11-21T21:53:01\n   StartTime=2026-11-21T21:53:02 EndTime=2026-11-22T03:53:02 Deadline=N/A\n   PreemptEligibleTime=2026-11-21T21:53:02 PreemptTime=None\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-21T21:53:02 Scheduler=Main\n   Partition=gpu_v100 AllocNode:Sid=ogmaster:3585269\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=gpu20\n   BatchHost=gpu20\n   NumNodes=1 NumCPUs=3 NumTasks=1 CPUs/Task=3 ReqB:S:C:T=0:0:*:1\n   ReqTRES=cpu=3,mem=60468M,node=1,billing=3,gres/gpu=1\n   AllocTRES=cpu=3,mem=60468M,node=1,billing=3,gres/gpu=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=3 MinMemoryCPU=20156M MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=/seu_nvme/home/zhangyongchao/213230965/ai6_curriculum_20261121/train.sbatch\n   WorkDir=/seu_share/home/zhangyongchao/213230965\n   StdErr=/seu_nvme/home/zhangyongchao/213230965/ai6_curriculum_20261121/slurm-1857763.log\n   StdIn=/dev/null\n   StdOut=/seu_nvme/home/zhangyongchao/213230965/ai6_curriculum_20261121/slurm-1857763.log\n   Power=\n   TresPerNode=gres/gpu:1\n   TresPerTask=cpu:3\n   \n\n",
+  "initial_member_events": 200,
+  "recent_initial_seconds_per_event": 8.681699011060926,
+  "latest_log_tail": "le_tracks\": 0.8205806688717383, \"joint_track_efficiency\": 0.9122287968441815}, \"seed\": {\"truth_tracks\": 5070, \"output_candidates\": 4957, \"fake_candidates\": 158, \"matched_tracks\": 4798, \"clone_candidates\": 1, \"efficiency\": 0.9463510848126233, \"fake_fraction\": 0.031874117409723624, \"clone_fraction\": 0.00020173492031470649, \"f1\": 0.9570160566470529}}, \"high_hits\": {\"events\": 8, \"tracks\": {\"truth_tracks\": 314, \"stereo_eligible_tracks\": 314, \"truth_stereo_all\": 4741, \"output_candidates\": 314, \"axial_completeness_sum\": 256.40294243267385, \"correct_stereo_matched\": 3011, \"attached_stereo_matched\": 3043, \"truth_stereo_matched\": 3795, \"fake_candidates\": 27, \"matched_tracks\": 287, \"joint_matched_tracks\": 259, \"track_efficiency\": 0.9140127388535032, \"fake_fraction\": 0.08598726114649681, \"clone_fraction\": 0.0, \"stereo_purity_matched\": 0.989484061781137, \"stereo_completeness_matched\": 0.7934123847167326, \"stereo_recall_all_eligible_tracks\": 0.6350980805737186, \"joint_track_efficiency\": 0.8248407643312102}, \"seed\": {\"truth_tracks\": 314, \"output_candidates\": 291, \"matched_tracks\": 280, \"fake_candidates\": 11, \"efficiency\": 0.89171974522293, \"fake_fraction\": 0.037800687285223365, \"clone_fraction\": 0.0, \"f1\": 0.9256198347107438}}, \"blob\": {\"events\": 1, \"tracks\": {\"truth_tracks\": 31, \"stereo_eligible_tracks\": 31, \"truth_stereo_all\": 423, \"output_candidates\": 30, \"axial_completeness_sum\": 28.154617604617602, \"correct_stereo_matched\": 350, \"attached_stereo_matched\": 350, \"truth_stereo_matched\": 386, \"matched_tracks\": 30, \"joint_matched_tracks\": 30, \"track_efficiency\": 0.967741935483871, \"fake_fraction\": 0.0, \"clone_fraction\": 0.0, \"stereo_purity_matched\": 1.0, \"stereo_completeness_matched\": 0.9067357512953368, \"stereo_recall_all_eligible_tracks\": 0.8274231678486997, \"joint_track_efficiency\": 0.967741935483871}, \"seed\": {\"truth_tracks\": 31, \"output_candidates\": 30, \"matched_tracks\": 30, \"efficiency\": 0.967741935483871, \"fake_fraction\": 0.0, \"clone_fraction\": 0.0, \"f1\": 0.9836065573770492}}, \"loop\": {\"events\": 23, \"tracks\": {\"truth_tracks\": 691, \"stereo_eligible_tracks\": 691, \"truth_stereo_all\": 10400, \"output_candidates\": 702, \"axial_completeness_sum\": 566.7828504129851, \"correct_stereo_matched\": 7000, \"attached_stereo_matched\": 7063, \"truth_stereo_matched\": 8528, \"matched_tracks\": 626, \"joint_matched_tracks\": 576, \"fake_candidates\": 75, \"clone_candidates\": 1, \"track_efficiency\": 0.9059334298118669, \"fake_fraction\": 0.10683760683760683, \"clone_fraction\": 0.0014245014245014246, \"stereo_purity_matched\": 0.9910802775024777, \"stereo_completeness_matched\": 0.8208255159474672, \"stereo_recall_all_eligible_tracks\": 0.6730769230769231, \"joint_track_efficiency\": 0.8335745296671491}, \"seed\": {\"truth_tracks\": 691, \"output_candidates\": 665, \"matched_tracks\": 617, \"fake_candidates\": 47, \"clone_candidates\": 1, \"efficiency\": 0.8929088277858177, \"fake_fraction\": 0.07067669172932331, \"clone_fraction\": 0.0015037593984962407, \"f1\": 0.9100294985250738}}}, \"updates\": 3027, \"amp_skips\": 0}\n"
+}

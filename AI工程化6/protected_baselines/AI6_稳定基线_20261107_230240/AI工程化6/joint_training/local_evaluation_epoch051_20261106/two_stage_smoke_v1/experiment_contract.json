@@ -1,0 +1,38 @@
+{
+  "strict_threshold": 0.7,
+  "relaxed_threshold": 0.575,
+  "strict_rms": 1.0,
+  "relaxed_rms": 1.5,
+  "as_threshold": 0.7,
+  "assignment_margin": 0.1,
+  "ss_threshold": 0.7,
+  "weak_as_threshold": 0.45,
+  "assisted_threshold": 0.65,
+  "geometry_tolerance_mm": 2.0,
+  "min_axial_hits": 5,
+  "scoring_purity": 0.8,
+  "scoring_completeness": 0.5,
+  "min_stereo_truth_hits": 3,
+  "stereo_scoring_purity": 0.8,
+  "stereo_scoring_completeness": 0.5,
+  "source_hashes": {
+    "STEP5_两级寻迹.py": "97e2036631ea9f793b6a625d75e71cbf3b1d1678f68a607417a55b1527ff4c1c",
+    "two_stage_core.py": "857b2877b1a3e55121a4adde4145f228ad8f3f10c7c9a47ee590dfbb11dc765b",
+    "common.py": "7f033bfa54bdbb96c4604cada5d3451eb5e66364f1fd1c19448f001324d206ca"
+  },
+  "weight_sha256": "83ff990062669a99bd20f1214d84fb2ff6411f0e8d034cf72c886e8ed6321a76",
+  "dataset_metadata_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "event_ids": [
+    232,
+    9099,
+    6978,
+    7727,
+    2009
+  ],
+  "split": "validation",
+  "selection_seed": 20261106,
+  "thresholds_tuned": false,
+  "edge_symmetrization": "mean of both directions",
+  "geometry_dtype": "float64",
+  "selected_epoch": 51
+}

@@ -1,0 +1,33 @@
+{
+  "validation_events": 32,
+  "degree_percentiles": {
+    "min": 10.0,
+    "median": 106.0,
+    "p95": 194.0,
+    "max": 279.0
+  },
+  "eligible_truth_tracks": 957,
+  "fully_connected_truth_tracks": 957,
+  "fully_connected_fraction": 1.0,
+  "edge_types": {
+    "AA": {
+      "candidates": 324622,
+      "positive_candidates": 67818,
+      "all_same_track_pairs": 91710,
+      "same_track_all_pair_coverage": 0.739483153418384
+    },
+    "AS": {
+      "candidates": 1307666,
+      "positive_candidates": 191796,
+      "all_same_track_pairs": 266920,
+      "same_track_all_pair_coverage": 0.7185523752435187
+    },
+    "SS": {
+      "candidates": 844174,
+      "positive_candidates": 103054,
+      "all_same_track_pairs": 168782,
+      "same_track_all_pair_coverage": 0.6105745873375122
+    }
+  },
+  "note": "All-pair coverage is not local-successor recall; distant hits on one track need not have a direct edge. Truth connectivity is a necessary diagnostic, not proof of reconstructability."
+}

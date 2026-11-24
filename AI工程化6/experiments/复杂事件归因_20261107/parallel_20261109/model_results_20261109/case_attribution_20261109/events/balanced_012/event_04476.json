@@ -1,0 +1,49 @@
+{
+  "event_id": 4476,
+  "model": "balanced_012",
+  "tracks": [
+    {
+      "truth_id": 2298,
+      "old_category": "pure_connected_at_existing_relaxed_cut",
+      "new_category": "pure_connected_at_existing_relaxed_cut",
+      "recovered": false,
+      "old_connected": true,
+      "new_connected": true,
+      "old_median": 0.958984375,
+      "new_median": 0.974609375,
+      "old_below": 0.05930087390761548,
+      "new_below": 0.14731585518102372,
+      "old_true_mean": 0.8828109502792358,
+      "new_true_mean": 0.8821926712989807,
+      "old_false_acceptance": 0.0,
+      "new_false_acceptance": 0.0,
+      "old_largest": 67,
+      "new_largest": 64,
+      "old_match_connectivity": 0.97412109375,
+      "new_match_connectivity": 0.9833984375
+    }
+  ],
+  "counts": {
+    "truth_tracks": 25,
+    "stereo_eligible_tracks": 25,
+    "truth_stereo_all": 388,
+    "output_candidates": 25,
+    "axial_completeness_sum": 21.593650793650802,
+    "correct_stereo_matched": 259,
+    "attached_stereo_matched": 260,
+    "truth_stereo_matched": 325,
+    "fake_candidates": 1,
+    "matched_tracks": 24,
+    "joint_matched_tracks": 23
+  },
+  "seed": {
+    "truth_tracks": 25,
+    "output_candidates": 24,
+    "matched_tracks": 24
+  },
+  "recovered_old": [],
+  "lost_old": [],
+  "all_old_missed": [
+    2298
+  ]
+}

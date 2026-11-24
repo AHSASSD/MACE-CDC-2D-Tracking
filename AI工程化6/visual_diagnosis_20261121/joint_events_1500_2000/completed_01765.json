@@ -1,0 +1,33 @@
+{
+  "event_id": 1765,
+  "partition": "validation",
+  "focus_truth": 862,
+  "category": "matched",
+  "image": "event_01765_T862_baseline.png",
+  "hits": 772,
+  "axial_hits": 331,
+  "stereo_hits": 441,
+  "edge_counts": {
+    "AA": 5534,
+    "AS": 22754,
+    "SS": 14527
+  },
+  "metrics": {
+    "truth_tracks": 33,
+    "stereo_eligible_tracks": 33,
+    "truth_stereo_all": 441,
+    "output_candidates": 33,
+    "axial_completeness_sum": 31.04529914529915,
+    "correct_stereo_matched": 401,
+    "attached_stereo_matched": 403,
+    "truth_stereo_matched": 441,
+    "matched_tracks": 33,
+    "joint_matched_tracks": 33
+  },
+  "seed": {
+    "truth_tracks": 33,
+    "output_candidates": 33,
+    "matched_tracks": 33
+  },
+  "seconds": 6.107603311538696
+}

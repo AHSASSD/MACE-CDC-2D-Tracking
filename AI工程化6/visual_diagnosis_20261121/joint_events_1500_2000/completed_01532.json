@@ -1,0 +1,35 @@
+{
+  "event_id": 1532,
+  "partition": "validation",
+  "focus_truth": 1916,
+  "category": "mixed_fragmentation",
+  "image": "event_01532_T1916_baseline.png",
+  "hits": 919,
+  "axial_hits": 389,
+  "stereo_hits": 530,
+  "edge_counts": {
+    "AA": 9487,
+    "AS": 37430,
+    "SS": 23274
+  },
+  "metrics": {
+    "truth_tracks": 39,
+    "stereo_eligible_tracks": 39,
+    "truth_stereo_all": 530,
+    "output_candidates": 37,
+    "axial_completeness_sum": 29.35723905723906,
+    "correct_stereo_matched": 341,
+    "attached_stereo_matched": 341,
+    "truth_stereo_matched": 445,
+    "fake_candidates": 4,
+    "matched_tracks": 33,
+    "joint_matched_tracks": 28
+  },
+  "seed": {
+    "truth_tracks": 39,
+    "output_candidates": 35,
+    "fake_candidates": 4,
+    "matched_tracks": 31
+  },
+  "seconds": 14.263782262802124
+}

@@ -1,0 +1,102 @@
+{
+  "event_id": 2145,
+  "n_hits": 597,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 26,
+        "stereo_eligible_tracks": 26,
+        "truth_stereo_all": 347,
+        "output_candidates": 26,
+        "axial_completeness_sum": 24.59083694083694,
+        "correct_stereo_matched": 313,
+        "attached_stereo_matched": 315,
+        "truth_stereo_matched": 347,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 26
+      },
+      "found": [
+        189,
+        376,
+        711,
+        794,
+        1009,
+        1129,
+        1274,
+        1542,
+        2031,
+        2451,
+        2605,
+        2666,
+        3226,
+        3335,
+        3406,
+        3488,
+        3790,
+        4601,
+        4889,
+        4917,
+        5063,
+        5103,
+        5465,
+        5591,
+        5703,
+        6151
+      ],
+      "seeds": {
+        "truth_tracks": 26,
+        "output_candidates": 26,
+        "matched_tracks": 26
+      },
+      "decode_seconds": 2.573695700019016
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 26,
+        "stereo_eligible_tracks": 26,
+        "truth_stereo_all": 347,
+        "output_candidates": 26,
+        "axial_completeness_sum": 24.59083694083694,
+        "correct_stereo_matched": 313,
+        "attached_stereo_matched": 315,
+        "truth_stereo_matched": 347,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 26
+      },
+      "found": [
+        189,
+        376,
+        711,
+        794,
+        1009,
+        1129,
+        1274,
+        1542,
+        2031,
+        2451,
+        2605,
+        2666,
+        3226,
+        3335,
+        3406,
+        3488,
+        3790,
+        4601,
+        4889,
+        4917,
+        5063,
+        5103,
+        5465,
+        5591,
+        5703,
+        6151
+      ],
+      "seeds": {
+        "truth_tracks": 26,
+        "output_candidates": 26,
+        "matched_tracks": 26
+      },
+      "decode_seconds": 3.2407451000181027
+    }
+  }
+}

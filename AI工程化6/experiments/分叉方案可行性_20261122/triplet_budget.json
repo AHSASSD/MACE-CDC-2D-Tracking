@@ -1,0 +1,101 @@
+{
+  "scope": "Potential undirected edge-pair triplets before orientation or geometry cuts; no classifier or training",
+  "rows": [
+    {
+      "event_id": 1500,
+      "hits": 667,
+      "edge_threshold": 0.575,
+      "retained_edges": 4421,
+      "potential_triplets": 67991,
+      "maximum_degree": 32
+    },
+    {
+      "event_id": 1500,
+      "hits": 667,
+      "edge_threshold": 0.4,
+      "retained_edges": 6489,
+      "potential_triplets": 136895,
+      "maximum_degree": 53
+    },
+    {
+      "event_id": 1500,
+      "hits": 667,
+      "edge_threshold": 0.2,
+      "retained_edges": 7742,
+      "potential_triplets": 213379,
+      "maximum_degree": 76
+    },
+    {
+      "event_id": 1501,
+      "hits": 748,
+      "edge_threshold": 0.575,
+      "retained_edges": 4544,
+      "potential_triplets": 61660,
+      "maximum_degree": 23
+    },
+    {
+      "event_id": 1501,
+      "hits": 748,
+      "edge_threshold": 0.4,
+      "retained_edges": 6910,
+      "potential_triplets": 136639,
+      "maximum_degree": 47
+    },
+    {
+      "event_id": 1501,
+      "hits": 748,
+      "edge_threshold": 0.2,
+      "retained_edges": 8254,
+      "potential_triplets": 217181,
+      "maximum_degree": 78
+    },
+    {
+      "event_id": 1503,
+      "hits": 714,
+      "edge_threshold": 0.575,
+      "retained_edges": 4605,
+      "potential_triplets": 67073,
+      "maximum_degree": 29
+    },
+    {
+      "event_id": 1503,
+      "hits": 714,
+      "edge_threshold": 0.4,
+      "retained_edges": 6796,
+      "potential_triplets": 138581,
+      "maximum_degree": 53
+    },
+    {
+      "event_id": 1503,
+      "hits": 714,
+      "edge_threshold": 0.2,
+      "retained_edges": 9272,
+      "potential_triplets": 344487,
+      "maximum_degree": 102
+    },
+    {
+      "event_id": 1504,
+      "hits": 711,
+      "edge_threshold": 0.575,
+      "retained_edges": 4255,
+      "potential_triplets": 60235,
+      "maximum_degree": 24
+    },
+    {
+      "event_id": 1504,
+      "hits": 711,
+      "edge_threshold": 0.4,
+      "retained_edges": 6756,
+      "potential_triplets": 141657,
+      "maximum_degree": 57
+    },
+    {
+      "event_id": 1504,
+      "hits": 711,
+      "edge_threshold": 0.2,
+      "retained_edges": 9739,
+      "potential_triplets": 412246,
+      "maximum_degree": 111
+    }
+  ]
+}

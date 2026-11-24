@@ -1,0 +1,358 @@
+{
+  "sample_event_ids": [
+    9350,
+    3059,
+    3708,
+    2081,
+    49,
+    2229,
+    5351,
+    8346,
+    6906,
+    7495,
+    3612,
+    9388,
+    5894,
+    591,
+    3082,
+    9100,
+    6630,
+    8353,
+    6369,
+    5408,
+    901,
+    5441,
+    477,
+    9324,
+    6304,
+    3039,
+    6003,
+    2412,
+    8216,
+    7888,
+    2731,
+    7500,
+    4696,
+    3769,
+    1302,
+    5729,
+    3707,
+    855,
+    9498,
+    7653,
+    7587,
+    3125,
+    5939,
+    1359,
+    175,
+    7276,
+    3716,
+    539,
+    2487,
+    6117,
+    2640,
+    2760,
+    8527,
+    3467,
+    8752,
+    6171,
+    468,
+    3298,
+    6815,
+    6722,
+    5149,
+    6999,
+    3891,
+    902
+  ],
+  "rows": [
+    {
+      "config": {
+        "cache": false,
+        "workers": 0,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "all"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 7.547408314421773,
+        "events_per_second": 8.479732026384108,
+        "peak_memory_bytes": 4616986112
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 4.702701033093035,
+        "events_per_second": 1.7011500292499528,
+        "peak_memory_bytes": 15143368704
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 0,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "all"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 5.29897711193189,
+        "events_per_second": 12.07780268684101,
+        "peak_memory_bytes": 4617157120
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 2.935211041942239,
+        "events_per_second": 2.7255280406366875,
+        "peak_memory_bytes": 15143368704
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 1,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "all"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.72309117205441,
+        "events_per_second": 13.550447719213055,
+        "peak_memory_bytes": 4616963584
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 3.3657613191753626,
+        "events_per_second": 2.376876801816732,
+        "peak_memory_bytes": 15143368704
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "all"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.643785883206874,
+        "events_per_second": 13.781858511487467,
+        "peak_memory_bytes": 4616963584
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 3.2377447532489896,
+        "events_per_second": 2.4708556756897577,
+        "peak_memory_bytes": 15143368704
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "one_direct"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.416651633568108,
+        "events_per_second": 14.490615359739369,
+        "peak_memory_bytes": 9111051776
+      },
+      "stress": {
+        "status": "oom"
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 8,
+        "chunk": 65536,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.3522134106606245,
+        "events_per_second": 14.705161250418879,
+        "peak_memory_bytes": 9295060992
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 3.239465296268463,
+        "events_per_second": 2.4695433561875757,
+        "peak_memory_bytes": 15143368704
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 4,
+        "chunk": 32768,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.553281745873392,
+        "events_per_second": 14.055796142639924,
+        "peak_memory_bytes": 8039986688
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 2.0092458315193653,
+        "events_per_second": 1.9907967144942402,
+        "peak_memory_bytes": 8256478208
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 4,
+        "chunk": 65536,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.116607828997076,
+        "events_per_second": 15.546780907617388,
+        "peak_memory_bytes": 8060399616
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 1.7540011387318373,
+        "events_per_second": 2.280500229829979,
+        "peak_memory_bytes": 8257551872
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 4,
+        "chunk": 131072,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 3.9171675094403327,
+        "events_per_second": 16.338336271236976,
+        "peak_memory_bytes": 8122474496
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 1.6664103530347347,
+        "events_per_second": 2.4003691484006424,
+        "peak_memory_bytes": 8323010560
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 8,
+        "chunk": 32768,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.722289952449501,
+        "events_per_second": 13.552746791162736,
+        "peak_memory_bytes": 9263685632
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 3.5141033455729485,
+        "events_per_second": 2.276540901985243,
+        "peak_memory_bytes": 15140359168
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 8,
+        "chunk": 131072,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.053832267411053,
+        "events_per_second": 15.78753036096214,
+        "peak_memory_bytes": 9304216064
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 3.041221925057471,
+        "events_per_second": 2.630521611752757,
+        "peak_memory_bytes": 15204950016
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 16,
+        "chunk": 32768,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.995240097865462,
+        "events_per_second": 12.812196960732301,
+        "peak_memory_bytes": 12066413568
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 6.7567078322172165,
+        "events_per_second": 2.3680171464139796,
+        "peak_memory_bytes": 27522297344
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 16,
+        "chunk": 65536,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.594221472274512,
+        "events_per_second": 13.930543049835778,
+        "peak_memory_bytes": 12060856832
+      },
+      "stress": {
+        "status": "passed",
+        "seconds": 6.010864015668631,
+        "events_per_second": 2.6618469421854334,
+        "peak_memory_bytes": 27513234944
+      }
+    },
+    {
+      "config": {
+        "cache": true,
+        "workers": 2,
+        "batch": 16,
+        "chunk": 131072,
+        "policy": "adaptive"
+      },
+      "end_to_end": {
+        "status": "passed",
+        "seconds": 4.337322613224387,
+        "events_per_second": 14.75564667586995,
+        "peak_memory_bytes": 12096334848
+      },
+      "stress": {
+        "status": "oom"
+      }
+    }
+  ]
+}

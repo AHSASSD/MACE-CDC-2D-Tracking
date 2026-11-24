@@ -1,0 +1,434 @@
+{
+  "scope": "Feasibility only. Original events, cache, tracker and training are unchanged.",
+  "events": [
+    {
+      "event_id": 1500,
+      "axial_hits": 287,
+      "unique_axial_cells": 256,
+      "axial_hit_ids_unique": true,
+      "multi_hit_cells": 29,
+      "multi_hit_cell_multiplicity": {
+        "1": 227,
+        "2": 27,
+        "3": 2
+      },
+      "hits_in_multi_hit_cells": 60,
+      "missed_truth_ids": [
+        1317,
+        5026
+      ],
+      "graph_thresholds": [
+        {
+          "cutoff": 0.7,
+          "edges": 858,
+          "true_edges": 858,
+          "false_edges": 0,
+          "median_degree": 6.0,
+          "max_degree": 18,
+          "degree3_or_more": 243,
+          "degree3_but_only_same_truth_neighbors": 243,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": []
+        },
+        {
+          "cutoff": 0.575,
+          "edges": 891,
+          "true_edges": 890,
+          "false_edges": 1,
+          "median_degree": 6.0,
+          "max_degree": 18,
+          "degree3_or_more": 250,
+          "degree3_but_only_same_truth_neighbors": 249,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": []
+        },
+        {
+          "cutoff": 0.4,
+          "edges": 1250,
+          "true_edges": 1057,
+          "false_edges": 193,
+          "median_degree": 7.0,
+          "max_degree": 27,
+          "degree3_or_more": 287,
+          "degree3_but_only_same_truth_neighbors": 157,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            5026,
+            1317
+          ]
+        },
+        {
+          "cutoff": 0.3,
+          "edges": 1301,
+          "true_edges": 1060,
+          "false_edges": 241,
+          "median_degree": 7.0,
+          "max_degree": 28,
+          "degree3_or_more": 287,
+          "degree3_but_only_same_truth_neighbors": 140,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            5026,
+            1317
+          ]
+        },
+        {
+          "cutoff": 0.2,
+          "edges": 1428,
+          "true_edges": 1060,
+          "false_edges": 368,
+          "median_degree": 9.0,
+          "max_degree": 29,
+          "degree3_or_more": 287,
+          "degree3_but_only_same_truth_neighbors": 108,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            5026,
+            1317
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": 1501,
+      "axial_hits": 326,
+      "unique_axial_cells": 285,
+      "axial_hit_ids_unique": true,
+      "multi_hit_cells": 38,
+      "multi_hit_cell_multiplicity": {
+        "1": 247,
+        "2": 35,
+        "3": 3
+      },
+      "hits_in_multi_hit_cells": 79,
+      "missed_truth_ids": [
+        1856,
+        2102,
+        3271,
+        3801,
+        4634,
+        5200
+      ],
+      "graph_thresholds": [
+        {
+          "cutoff": 0.7,
+          "edges": 864,
+          "true_edges": 864,
+          "false_edges": 0,
+          "median_degree": 6.0,
+          "max_degree": 11,
+          "degree3_or_more": 257,
+          "degree3_but_only_same_truth_neighbors": 257,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": []
+        },
+        {
+          "cutoff": 0.575,
+          "edges": 930,
+          "true_edges": 910,
+          "false_edges": 20,
+          "median_degree": 6.0,
+          "max_degree": 11,
+          "degree3_or_more": 269,
+          "degree3_but_only_same_truth_neighbors": 251,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": []
+        },
+        {
+          "cutoff": 0.4,
+          "edges": 1332,
+          "true_edges": 1104,
+          "false_edges": 228,
+          "median_degree": 7.0,
+          "max_degree": 20,
+          "degree3_or_more": 326,
+          "degree3_but_only_same_truth_neighbors": 228,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            1856,
+            3271,
+            5200,
+            2102,
+            3801,
+            4634
+          ]
+        },
+        {
+          "cutoff": 0.3,
+          "edges": 1392,
+          "true_edges": 1114,
+          "false_edges": 278,
+          "median_degree": 8.0,
+          "max_degree": 20,
+          "degree3_or_more": 326,
+          "degree3_but_only_same_truth_neighbors": 206,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            1856,
+            3271,
+            5200,
+            2102,
+            3801,
+            4634
+          ]
+        },
+        {
+          "cutoff": 0.2,
+          "edges": 1470,
+          "true_edges": 1114,
+          "false_edges": 356,
+          "median_degree": 8.0,
+          "max_degree": 23,
+          "degree3_or_more": 326,
+          "degree3_but_only_same_truth_neighbors": 196,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            1856,
+            3271,
+            5200,
+            2102,
+            3801,
+            4634
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": 1503,
+      "axial_hits": 317,
+      "unique_axial_cells": 294,
+      "axial_hit_ids_unique": true,
+      "multi_hit_cells": 22,
+      "multi_hit_cell_multiplicity": {
+        "1": 272,
+        "2": 21,
+        "3": 1
+      },
+      "hits_in_multi_hit_cells": 45,
+      "missed_truth_ids": [
+        2160
+      ],
+      "graph_thresholds": [
+        {
+          "cutoff": 0.7,
+          "edges": 1000,
+          "true_edges": 1000,
+          "false_edges": 0,
+          "median_degree": 6.0,
+          "max_degree": 14,
+          "degree3_or_more": 288,
+          "degree3_but_only_same_truth_neighbors": 288,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": []
+        },
+        {
+          "cutoff": 0.575,
+          "edges": 1047,
+          "true_edges": 1046,
+          "false_edges": 1,
+          "median_degree": 6.0,
+          "max_degree": 14,
+          "degree3_or_more": 297,
+          "degree3_but_only_same_truth_neighbors": 296,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            2160
+          ]
+        },
+        {
+          "cutoff": 0.4,
+          "edges": 1289,
+          "true_edges": 1164,
+          "false_edges": 125,
+          "median_degree": 8.0,
+          "max_degree": 20,
+          "degree3_or_more": 317,
+          "degree3_but_only_same_truth_neighbors": 238,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            2160
+          ]
+        },
+        {
+          "cutoff": 0.3,
+          "edges": 1400,
+          "true_edges": 1171,
+          "false_edges": 229,
+          "median_degree": 8.0,
+          "max_degree": 33,
+          "degree3_or_more": 317,
+          "degree3_but_only_same_truth_neighbors": 214,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            2160
+          ]
+        },
+        {
+          "cutoff": 0.2,
+          "edges": 1484,
+          "true_edges": 1171,
+          "false_edges": 313,
+          "median_degree": 8.0,
+          "max_degree": 37,
+          "degree3_or_more": 317,
+          "degree3_but_only_same_truth_neighbors": 206,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": 1504,
+      "axial_hits": 303,
+      "unique_axial_cells": 262,
+      "axial_hit_ids_unique": true,
+      "multi_hit_cells": 34,
+      "multi_hit_cell_multiplicity": {
+        "1": 228,
+        "2": 27,
+        "3": 7
+      },
+      "hits_in_multi_hit_cells": 75,
+      "missed_truth_ids": [
+        183,
+        1052,
+        1238,
+        2439,
+        3223,
+        3615,
+        4007
+      ],
+      "graph_thresholds": [
+        {
+          "cutoff": 0.7,
+          "edges": 805,
+          "true_edges": 762,
+          "false_edges": 43,
+          "median_degree": 6.0,
+          "max_degree": 11,
+          "degree3_or_more": 245,
+          "degree3_but_only_same_truth_neighbors": 212,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            3223,
+            3615
+          ]
+        },
+        {
+          "cutoff": 0.575,
+          "edges": 836,
+          "true_edges": 787,
+          "false_edges": 49,
+          "median_degree": 6.0,
+          "max_degree": 11,
+          "degree3_or_more": 252,
+          "degree3_but_only_same_truth_neighbors": 215,
+          "bridge_between_branch_nodes": 1,
+          "such_bridges_cross_truth": 1,
+          "missed_with_sufficient_pure_connectivity": [
+            3223,
+            183,
+            3615
+          ]
+        },
+        {
+          "cutoff": 0.4,
+          "edges": 1232,
+          "true_edges": 930,
+          "false_edges": 302,
+          "median_degree": 7.0,
+          "max_degree": 20,
+          "degree3_or_more": 303,
+          "degree3_but_only_same_truth_neighbors": 179,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            2439,
+            4007,
+            1238,
+            3223,
+            183,
+            1052,
+            3615
+          ]
+        },
+        {
+          "cutoff": 0.3,
+          "edges": 1471,
+          "true_edges": 969,
+          "false_edges": 502,
+          "median_degree": 8.0,
+          "max_degree": 37,
+          "degree3_or_more": 303,
+          "degree3_but_only_same_truth_neighbors": 171,
+          "bridge_between_branch_nodes": 1,
+          "such_bridges_cross_truth": 1,
+          "missed_with_sufficient_pure_connectivity": [
+            2439,
+            4007,
+            1238,
+            3223,
+            183,
+            1052,
+            3615
+          ]
+        },
+        {
+          "cutoff": 0.2,
+          "edges": 1715,
+          "true_edges": 988,
+          "false_edges": 727,
+          "median_degree": 8.0,
+          "max_degree": 46,
+          "degree3_or_more": 303,
+          "degree3_but_only_same_truth_neighbors": 166,
+          "bridge_between_branch_nodes": 0,
+          "such_bridges_cross_truth": 0,
+          "missed_with_sufficient_pure_connectivity": [
+            2439,
+            4007,
+            1238,
+            3223,
+            183,
+            1052,
+            3615
+          ]
+        }
+      ]
+    }
+  ],
+  "color_interpretation": {
+    "page1": "Blue/yellow branch states are copied before red path pairing; green outer nodes remain.",
+    "page2": "Green ordinary edges remain, yellow potentially shared segment gets multiple route states, red paths are the output."
+  },
+  "structural_limits": [
+    "Raw candidate/high-score graphs contain dense within-track edges; degree3 is not a branch label.",
+    "Candidate scores are averaged over two directions; II versus III needs a local path orientation.",
+    "Parallel copies of an undirected edge do not specify which outer branches should be paired.",
+    "State splitting alone cannot repair a true path already disconnected by the score threshold.",
+    "A virtual copy must retain original HitID and final ownership; existing independent hits sharing CellID already exist."
+  ],
+  "source_sha256": "7dcae339f94e2a1da20783432be895d90eb950b011e6b3a50a3a256997c7a61f",
+  "dataset_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "deployment_changed": false,
+  "training_changed": false
+}

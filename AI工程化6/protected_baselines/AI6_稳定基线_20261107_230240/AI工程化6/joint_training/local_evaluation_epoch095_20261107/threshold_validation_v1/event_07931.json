@@ -1,0 +1,70 @@
+{
+  "event_id": 7931,
+  "methods": {
+    "baseline": {
+      "truth_tracks": 38,
+      "stereo_eligible_tracks": 38,
+      "truth_stereo_all": 494,
+      "output_candidates": 30,
+      "axial_completeness_sum": 26.29217171717172,
+      "correct_stereo_matched": 323,
+      "attached_stereo_matched": 326,
+      "truth_stereo_matched": 375,
+      "fake_candidates": 1,
+      "matched_tracks": 29,
+      "joint_matched_tracks": 29
+    },
+    "threshold_065_055": {
+      "truth_tracks": 38,
+      "stereo_eligible_tracks": 38,
+      "truth_stereo_all": 494,
+      "output_candidates": 32,
+      "axial_completeness_sum": 27.28308080808081,
+      "correct_stereo_matched": 330,
+      "attached_stereo_matched": 333,
+      "truth_stereo_matched": 386,
+      "fake_candidates": 2,
+      "matched_tracks": 30,
+      "joint_matched_tracks": 30
+    },
+    "threshold_075_0575": {
+      "truth_tracks": 38,
+      "stereo_eligible_tracks": 38,
+      "truth_stereo_all": 494,
+      "output_candidates": 30,
+      "axial_completeness_sum": 26.192171717171718,
+      "correct_stereo_matched": 323,
+      "attached_stereo_matched": 326,
+      "truth_stereo_matched": 375,
+      "fake_candidates": 1,
+      "matched_tracks": 29,
+      "joint_matched_tracks": 29
+    },
+    "threshold_075_060": {
+      "truth_tracks": 38,
+      "stereo_eligible_tracks": 38,
+      "truth_stereo_all": 494,
+      "output_candidates": 30,
+      "axial_completeness_sum": 26.192171717171718,
+      "correct_stereo_matched": 323,
+      "attached_stereo_matched": 326,
+      "truth_stereo_matched": 375,
+      "fake_candidates": 1,
+      "matched_tracks": 29,
+      "joint_matched_tracks": 29
+    },
+    "threshold_070_055": {
+      "truth_tracks": 38,
+      "stereo_eligible_tracks": 38,
+      "truth_stereo_all": 494,
+      "output_candidates": 32,
+      "axial_completeness_sum": 27.09217171717172,
+      "correct_stereo_matched": 330,
+      "attached_stereo_matched": 333,
+      "truth_stereo_matched": 386,
+      "fake_candidates": 2,
+      "matched_tracks": 30,
+      "joint_matched_tracks": 30
+    }
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "batch_size": 1,
+    "random": {
+      "seconds_per_batch": 0.06860418431460857,
+      "events_per_second": 14.576370377266624,
+      "peak_memory_bytes": 367905792
+    },
+    "high_occupancy": {
+      "seconds_per_batch": 0.41081306897103786,
+      "events_per_second": 2.4341971459298914,
+      "peak_memory_bytes": 2309832704
+    },
+    "status": "passed",
+    "same_32_events": {
+      "seconds": 2.270865465514362,
+      "events_per_second": 14.091543724608911
+    }
+  },
+  {
+    "batch_size": 4,
+    "random": {
+      "seconds_per_batch": 0.2610467174090445,
+      "events_per_second": 15.322927787413011,
+      "peak_memory_bytes": 1433249792
+    },
+    "high_occupancy": {
+      "seconds_per_batch": 1.5022547473199666,
+      "events_per_second": 2.662664243288982,
+      "peak_memory_bytes": 8259915264
+    },
+    "status": "passed",
+    "same_32_events": {
+      "seconds": 2.0926610017195344,
+      "events_per_second": 15.291535501309424
+    }
+  },
+  {
+    "batch_size": 8,
+    "random": {
+      "seconds_per_batch": 0.5761034851893783,
+      "events_per_second": 13.886394034520064,
+      "peak_memory_bytes": 2952639488
+    },
+    "high_occupancy": {
+      "seconds_per_batch": 2.8312837476842105,
+      "events_per_second": 2.8255733839970767,
+      "peak_memory_bytes": 15142939648
+    },
+    "status": "passed",
+    "same_32_events": {
+      "seconds": 2.070796351879835,
+      "events_per_second": 15.452992261141913
+    }
+  },
+  {
+    "batch_size": 16,
+    "random": {
+      "seconds_per_batch": 1.1391347623430192,
+      "events_per_second": 14.045748166872322,
+      "peak_memory_bytes": 6272418816
+    },
+    "high_occupancy": {
+      "seconds_per_batch": 5.011108502745628,
+      "events_per_second": 3.192906318279372,
+      "peak_memory_bytes": 27000456192
+    },
+    "status": "passed",
+    "same_32_events": {
+      "seconds": 2.085036760661751,
+      "events_per_second": 15.347451231432395
+    }
+  },
+  {
+    "batch_size": 32,
+    "random": {
+      "seconds_per_batch": 2.1254428974352777,
+      "events_per_second": 15.055685588454836,
+      "peak_memory_bytes": 11587871744
+    },
+    "status": "out_of_memory"
+  }
+]

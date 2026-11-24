@@ -1,0 +1,6593 @@
+{
+  "protocol": "32 calibration,200 development events; same log-radius grid for all4 checkpoints; not blind",
+  "radius_grid": [
+    0.015625,
+    0.022097086912079615,
+    0.031250000000000014,
+    0.04419417382415924,
+    0.06250000000000003,
+    0.08838834764831849,
+    0.125,
+    0.17677669529663692,
+    0.25000000000000006,
+    0.3535533905932739,
+    0.5000000000000002,
+    0.7071067811865478,
+    1.0
+  ],
+  "arms": {
+    "initial": {
+      "calibration": {
+        "cut": 0.3,
+        "radius": 0.17677669529663692,
+        "metrics": {
+          "truth": 962,
+          "outputs": 565,
+          "correct": 211,
+          "fakes": 354,
+          "clones": 0,
+          "efficiency": 0.21933471933471935,
+          "fake_fraction": 0.6265486725663717,
+          "clone_fraction": 0.0
+        }
+      },
+      "validation": {
+        "truth": 5969,
+        "outputs": 3539,
+        "correct": 1321,
+        "fakes": 2214,
+        "clones": 4,
+        "efficiency": 0.22131010219467248,
+        "fake_fraction": 0.6256004521051144,
+        "clone_fraction": 0.0011302627860977678
+      },
+      "events": [
+        {
+          "event_id": 232,
+          "truth": 22,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9099,
+          "truth": 28,
+          "outputs": 21,
+          "correct": 11,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 6978,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7727,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2009,
+          "truth": 30,
+          "outputs": 14,
+          "correct": 3,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 3426,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7235,
+          "truth": 38,
+          "outputs": 22,
+          "correct": 4,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 7964,
+          "truth": 27,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4414,
+          "truth": 32,
+          "outputs": 23,
+          "correct": 9,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7931,
+          "truth": 38,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 4901,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4880,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 999,
+          "truth": 36,
+          "outputs": 20,
+          "correct": 6,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 9367,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5747,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 6,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 9045,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 6,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 6081,
+          "truth": 27,
+          "outputs": 19,
+          "correct": 12,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 817,
+          "truth": 31,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9555,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 5,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7870,
+          "truth": 26,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5868,
+          "truth": 31,
+          "outputs": 20,
+          "correct": 13,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9636,
+          "truth": 29,
+          "outputs": 20,
+          "correct": 10,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5689,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6248,
+          "truth": 34,
+          "outputs": 21,
+          "correct": 4,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 8736,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 6723,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 2011,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9193,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 6,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 1459,
+          "truth": 27,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4740,
+          "truth": 29,
+          "outputs": 20,
+          "correct": 12,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3820,
+          "truth": 27,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 1031,
+          "truth": 18,
+          "outputs": 9,
+          "correct": 5,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 4905,
+          "truth": 41,
+          "outputs": 24,
+          "correct": 7,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 1064,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7733,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7360,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 9,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 308,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 1
+        },
+        {
+          "event_id": 4476,
+          "truth": 25,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5721,
+          "truth": 35,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7552,
+          "truth": 22,
+          "outputs": 8,
+          "correct": 5,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 3361,
+          "truth": 29,
+          "outputs": 21,
+          "correct": 10,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6688,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9497,
+          "truth": 35,
+          "outputs": 23,
+          "correct": 6,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 7057,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5477,
+          "truth": 25,
+          "outputs": 12,
+          "correct": 3,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9130,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 775,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1582,
+          "truth": 24,
+          "outputs": 12,
+          "correct": 6,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 1889,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 809,
+          "truth": 28,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1557,
+          "truth": 27,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 414,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5466,
+          "truth": 35,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4408,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9293,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7944,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8038,
+          "truth": 31,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 3097,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8335,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 3733,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 4309,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 6257,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9175,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7380,
+          "truth": 33,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 1
+        },
+        {
+          "event_id": 415,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 4857,
+          "truth": 22,
+          "outputs": 19,
+          "correct": 15,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 6954,
+          "truth": 26,
+          "outputs": 10,
+          "correct": 2,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7063,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9519,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 2,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 9950,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7723,
+          "truth": 37,
+          "outputs": 23,
+          "correct": 3,
+          "fakes": 20,
+          "clones": 0
+        },
+        {
+          "event_id": 1361,
+          "truth": 21,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 5048,
+          "truth": 38,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 8978,
+          "truth": 37,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 198,
+          "truth": 34,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 1724,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2362,
+          "truth": 33,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 6692,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7992,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8619,
+          "truth": 31,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3196,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 668,
+          "truth": 26,
+          "outputs": 20,
+          "correct": 12,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 423,
+          "truth": 44,
+          "outputs": 26,
+          "correct": 4,
+          "fakes": 22,
+          "clones": 0
+        },
+        {
+          "event_id": 8031,
+          "truth": 23,
+          "outputs": 10,
+          "correct": 4,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 5204,
+          "truth": 23,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 1798,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 3,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 6711,
+          "truth": 25,
+          "outputs": 21,
+          "correct": 9,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 8214,
+          "truth": 25,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6050,
+          "truth": 36,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 202,
+          "truth": 36,
+          "outputs": 22,
+          "correct": 7,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 2338,
+          "truth": 45,
+          "outputs": 28,
+          "correct": 7,
+          "fakes": 21,
+          "clones": 0
+        },
+        {
+          "event_id": 7786,
+          "truth": 35,
+          "outputs": 22,
+          "correct": 9,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8227,
+          "truth": 24,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7729,
+          "truth": 34,
+          "outputs": 21,
+          "correct": 4,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 7890,
+          "truth": 31,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 650,
+          "truth": 26,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 377,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7307,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 6755,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9233,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9408,
+          "truth": 21,
+          "outputs": 9,
+          "correct": 3,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 1919,
+          "truth": 41,
+          "outputs": 25,
+          "correct": 8,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 8691,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 11,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 6155,
+          "truth": 40,
+          "outputs": 23,
+          "correct": 10,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9270,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 10,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 8878,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 4,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 7732,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7224,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3844,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3930,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 8,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 2891,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9235,
+          "truth": 23,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 1
+        },
+        {
+          "event_id": 8552,
+          "truth": 21,
+          "outputs": 12,
+          "correct": 9,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 9481,
+          "truth": 39,
+          "outputs": 25,
+          "correct": 6,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 1721,
+          "truth": 28,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 2624,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 8937,
+          "truth": 37,
+          "outputs": 26,
+          "correct": 11,
+          "fakes": 14,
+          "clones": 1
+        },
+        {
+          "event_id": 5309,
+          "truth": 19,
+          "outputs": 7,
+          "correct": 4,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 3544,
+          "truth": 23,
+          "outputs": 11,
+          "correct": 8,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 3021,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4043,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 2,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 293,
+          "truth": 31,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 4357,
+          "truth": 27,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9629,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5184,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 9877,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8115,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 373,
+          "truth": 36,
+          "outputs": 24,
+          "correct": 5,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 6554,
+          "truth": 34,
+          "outputs": 22,
+          "correct": 4,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 7783,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7911,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3449,
+          "truth": 34,
+          "outputs": 22,
+          "correct": 9,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2294,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6507,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7230,
+          "truth": 29,
+          "outputs": 20,
+          "correct": 12,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3885,
+          "truth": 37,
+          "outputs": 18,
+          "correct": 2,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 1202,
+          "truth": 41,
+          "outputs": 22,
+          "correct": 6,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 8796,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9886,
+          "truth": 29,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1722,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6415,
+          "truth": 22,
+          "outputs": 12,
+          "correct": 8,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 4448,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9490,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1407,
+          "truth": 31,
+          "outputs": 14,
+          "correct": 1,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 5448,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9711,
+          "truth": 33,
+          "outputs": 18,
+          "correct": 3,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 4990,
+          "truth": 26,
+          "outputs": 12,
+          "correct": 3,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9669,
+          "truth": 23,
+          "outputs": 16,
+          "correct": 10,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3582,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 5687,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 801,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 3,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2930,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8147,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7745,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7708,
+          "truth": 30,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7085,
+          "truth": 30,
+          "outputs": 21,
+          "correct": 1,
+          "fakes": 20,
+          "clones": 0
+        },
+        {
+          "event_id": 6686,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7742,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 2314,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 8,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 4266,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 3078,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 12,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 7522,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5857,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 661,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 567,
+          "truth": 32,
+          "outputs": 22,
+          "correct": 11,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7117,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3190,
+          "truth": 22,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 8076,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1562,
+          "truth": 35,
+          "outputs": 23,
+          "correct": 9,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 5056,
+          "truth": 24,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3131,
+          "truth": 25,
+          "outputs": 13,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3943,
+          "truth": 27,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3843,
+          "truth": 36,
+          "outputs": 20,
+          "correct": 10,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3737,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7015,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 9016,
+          "truth": 37,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 3580,
+          "truth": 21,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 8117,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1903,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 3,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 1406,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2525,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5732,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 9,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 1448,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 2204,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9892,
+          "truth": 39,
+          "outputs": 21,
+          "correct": 3,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 6849,
+          "truth": 43,
+          "outputs": 25,
+          "correct": 8,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 309,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 6500,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3353,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3303,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2260,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9434,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3609,
+          "truth": 27,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 4636,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6014,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 9,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 4577,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 384,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5155,
+          "truth": 24,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9922,
+          "truth": 41,
+          "outputs": 24,
+          "correct": 6,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 2031,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 13,
+          "fakes": 7,
+          "clones": 0
+        }
+      ],
+      "truth_center_diagnostic": {
+        "truth": 5969,
+        "outputs": 4560,
+        "correct": 1745,
+        "fakes": 2807,
+        "clones": 8,
+        "efficiency": 0.29234377617691404,
+        "fake_fraction": 0.6155701754385965,
+        "clone_fraction": 0.0017543859649122807
+      },
+      "mean_embedding_std": [
+        0.7575553524494171,
+        0.7506883057951927,
+        0.4903595244884491
+      ]
+    },
+    "epoch5": {
+      "calibration": {
+        "cut": 0.3,
+        "radius": 0.17677669529663692,
+        "metrics": {
+          "truth": 962,
+          "outputs": 543,
+          "correct": 207,
+          "fakes": 336,
+          "clones": 0,
+          "efficiency": 0.2151767151767152,
+          "fake_fraction": 0.6187845303867403,
+          "clone_fraction": 0.0
+        }
+      },
+      "validation": {
+        "truth": 5969,
+        "outputs": 3375,
+        "correct": 1302,
+        "fakes": 2073,
+        "clones": 0,
+        "efficiency": 0.21812698944546824,
+        "fake_fraction": 0.6142222222222222,
+        "clone_fraction": 0.0
+      },
+      "events": [
+        {
+          "event_id": 232,
+          "truth": 22,
+          "outputs": 11,
+          "correct": 6,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 9099,
+          "truth": 28,
+          "outputs": 20,
+          "correct": 12,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6978,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7727,
+          "truth": 25,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 2009,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3426,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7235,
+          "truth": 38,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7964,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 9,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 4414,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7931,
+          "truth": 38,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 4901,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4880,
+          "truth": 28,
+          "outputs": 15,
+          "correct": 3,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 999,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 6,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 9367,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5747,
+          "truth": 39,
+          "outputs": 16,
+          "correct": 3,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9045,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 10,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 6081,
+          "truth": 27,
+          "outputs": 14,
+          "correct": 9,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 817,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9555,
+          "truth": 23,
+          "outputs": 11,
+          "correct": 1,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7870,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 8,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 5868,
+          "truth": 31,
+          "outputs": 13,
+          "correct": 5,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9636,
+          "truth": 29,
+          "outputs": 21,
+          "correct": 9,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5689,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 10,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6248,
+          "truth": 34,
+          "outputs": 21,
+          "correct": 6,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 8736,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 5,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6723,
+          "truth": 28,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 2011,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9193,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1459,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 4740,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 3820,
+          "truth": 27,
+          "outputs": 20,
+          "correct": 10,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1031,
+          "truth": 18,
+          "outputs": 10,
+          "correct": 7,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 4905,
+          "truth": 41,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 1064,
+          "truth": 31,
+          "outputs": 14,
+          "correct": 2,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7733,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7360,
+          "truth": 24,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 308,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 4476,
+          "truth": 25,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5721,
+          "truth": 35,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7552,
+          "truth": 22,
+          "outputs": 11,
+          "correct": 2,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3361,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 6688,
+          "truth": 26,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9497,
+          "truth": 35,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7057,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5477,
+          "truth": 25,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9130,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 775,
+          "truth": 34,
+          "outputs": 21,
+          "correct": 11,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1582,
+          "truth": 24,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 1889,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 809,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1557,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 414,
+          "truth": 27,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 5466,
+          "truth": 35,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 4408,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9293,
+          "truth": 34,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7944,
+          "truth": 32,
+          "outputs": 22,
+          "correct": 11,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8038,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 2,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 3097,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8335,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3733,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4309,
+          "truth": 24,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 6257,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9175,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7380,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 415,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4857,
+          "truth": 22,
+          "outputs": 14,
+          "correct": 10,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 6954,
+          "truth": 26,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7063,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9519,
+          "truth": 35,
+          "outputs": 19,
+          "correct": 2,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 9950,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7723,
+          "truth": 37,
+          "outputs": 23,
+          "correct": 5,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 1361,
+          "truth": 21,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 5048,
+          "truth": 38,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8978,
+          "truth": 37,
+          "outputs": 21,
+          "correct": 7,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 198,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 10,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1724,
+          "truth": 34,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2362,
+          "truth": 33,
+          "outputs": 14,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 6692,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7992,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8619,
+          "truth": 31,
+          "outputs": 12,
+          "correct": 4,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3196,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 668,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 12,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 423,
+          "truth": 44,
+          "outputs": 25,
+          "correct": 4,
+          "fakes": 21,
+          "clones": 0
+        },
+        {
+          "event_id": 8031,
+          "truth": 23,
+          "outputs": 12,
+          "correct": 8,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 5204,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 1798,
+          "truth": 39,
+          "outputs": 21,
+          "correct": 3,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 6711,
+          "truth": 25,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 8214,
+          "truth": 25,
+          "outputs": 7,
+          "correct": 3,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 6050,
+          "truth": 36,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 202,
+          "truth": 36,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2338,
+          "truth": 45,
+          "outputs": 26,
+          "correct": 5,
+          "fakes": 21,
+          "clones": 0
+        },
+        {
+          "event_id": 7786,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 8227,
+          "truth": 24,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7729,
+          "truth": 34,
+          "outputs": 25,
+          "correct": 11,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7890,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 9,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 650,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 10,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 377,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7307,
+          "truth": 30,
+          "outputs": 22,
+          "correct": 10,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6755,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9233,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9408,
+          "truth": 21,
+          "outputs": 11,
+          "correct": 5,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 1919,
+          "truth": 41,
+          "outputs": 24,
+          "correct": 6,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 8691,
+          "truth": 26,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6155,
+          "truth": 40,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9270,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8878,
+          "truth": 36,
+          "outputs": 22,
+          "correct": 8,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7732,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7224,
+          "truth": 27,
+          "outputs": 11,
+          "correct": 6,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 3844,
+          "truth": 29,
+          "outputs": 11,
+          "correct": 5,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3930,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 2891,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 9235,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 8552,
+          "truth": 21,
+          "outputs": 12,
+          "correct": 9,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 9481,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 1721,
+          "truth": 28,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2624,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8937,
+          "truth": 37,
+          "outputs": 23,
+          "correct": 7,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 5309,
+          "truth": 19,
+          "outputs": 10,
+          "correct": 4,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3544,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 8,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 3021,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 2,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4043,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 4,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 293,
+          "truth": 31,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 4357,
+          "truth": 27,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9629,
+          "truth": 23,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5184,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9877,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 8115,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 4,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 373,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 4,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 6554,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 4,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 7783,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 12,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 7911,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3449,
+          "truth": 34,
+          "outputs": 22,
+          "correct": 8,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 2294,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6507,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7230,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 11,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 3885,
+          "truth": 37,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1202,
+          "truth": 41,
+          "outputs": 25,
+          "correct": 4,
+          "fakes": 21,
+          "clones": 0
+        },
+        {
+          "event_id": 8796,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9886,
+          "truth": 29,
+          "outputs": 13,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1722,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6415,
+          "truth": 22,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 4448,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9490,
+          "truth": 34,
+          "outputs": 23,
+          "correct": 13,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1407,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 5448,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 9711,
+          "truth": 33,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 4990,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 9,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 9669,
+          "truth": 23,
+          "outputs": 11,
+          "correct": 5,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3582,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 5687,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 3,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 801,
+          "truth": 28,
+          "outputs": 15,
+          "correct": 1,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 2930,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8147,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7745,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7708,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7085,
+          "truth": 30,
+          "outputs": 22,
+          "correct": 3,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 6686,
+          "truth": 28,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7742,
+          "truth": 27,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 2314,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 7,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 4266,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3078,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7522,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 5857,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 661,
+          "truth": 28,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 567,
+          "truth": 32,
+          "outputs": 22,
+          "correct": 12,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7117,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3190,
+          "truth": 22,
+          "outputs": 12,
+          "correct": 4,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8076,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1562,
+          "truth": 35,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 5056,
+          "truth": 24,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3131,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 3,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 3943,
+          "truth": 27,
+          "outputs": 12,
+          "correct": 3,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3843,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 7,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 3737,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7015,
+          "truth": 28,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9016,
+          "truth": 37,
+          "outputs": 20,
+          "correct": 6,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 3580,
+          "truth": 21,
+          "outputs": 9,
+          "correct": 6,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 8117,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 9,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 1903,
+          "truth": 33,
+          "outputs": 21,
+          "correct": 6,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 1406,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 2525,
+          "truth": 32,
+          "outputs": 14,
+          "correct": 2,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5732,
+          "truth": 35,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1448,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2204,
+          "truth": 32,
+          "outputs": 15,
+          "correct": 2,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9892,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 6849,
+          "truth": 43,
+          "outputs": 23,
+          "correct": 6,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 309,
+          "truth": 35,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6500,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 3353,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3303,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 2260,
+          "truth": 26,
+          "outputs": 10,
+          "correct": 2,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9434,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3609,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 3,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4636,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 6014,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 10,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 4577,
+          "truth": 34,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 384,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 5155,
+          "truth": 24,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9922,
+          "truth": 41,
+          "outputs": 24,
+          "correct": 6,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 2031,
+          "truth": 32,
+          "outputs": 23,
+          "correct": 15,
+          "fakes": 8,
+          "clones": 0
+        }
+      ],
+      "truth_center_diagnostic": {
+        "truth": 5969,
+        "outputs": 4591,
+        "correct": 1719,
+        "fakes": 2868,
+        "clones": 4,
+        "efficiency": 0.287987937678003,
+        "fake_fraction": 0.6247005009801786,
+        "clone_fraction": 0.0008712698758440427
+      },
+      "mean_embedding_std": [
+        0.7741372081637382,
+        0.7077510339021683,
+        0.5021375046670437
+      ]
+    },
+    "epoch9": {
+      "calibration": {
+        "cut": 0.3,
+        "radius": 0.17677669529663692,
+        "metrics": {
+          "truth": 962,
+          "outputs": 549,
+          "correct": 199,
+          "fakes": 350,
+          "clones": 0,
+          "efficiency": 0.20686070686070687,
+          "fake_fraction": 0.6375227686703097,
+          "clone_fraction": 0.0
+        }
+      },
+      "validation": {
+        "truth": 5969,
+        "outputs": 3431,
+        "correct": 1196,
+        "fakes": 2234,
+        "clones": 1,
+        "efficiency": 0.20036857094990787,
+        "fake_fraction": 0.6511221218303701,
+        "clone_fraction": 0.0002914602156805596
+      },
+      "events": [
+        {
+          "event_id": 232,
+          "truth": 22,
+          "outputs": 14,
+          "correct": 10,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 9099,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 6978,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7727,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 2009,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 3426,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7235,
+          "truth": 38,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 7964,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4414,
+          "truth": 32,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7931,
+          "truth": 38,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 4901,
+          "truth": 29,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4880,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 999,
+          "truth": 36,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 9367,
+          "truth": 25,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5747,
+          "truth": 39,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 9045,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 6081,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 817,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9555,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7870,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 9,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 5868,
+          "truth": 31,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9636,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 5689,
+          "truth": 32,
+          "outputs": 22,
+          "correct": 13,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6248,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8736,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6723,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 2011,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9193,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1459,
+          "truth": 27,
+          "outputs": 11,
+          "correct": 3,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 4740,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 12,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3820,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1031,
+          "truth": 18,
+          "outputs": 8,
+          "correct": 5,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 4905,
+          "truth": 41,
+          "outputs": 20,
+          "correct": 2,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 1064,
+          "truth": 31,
+          "outputs": 20,
+          "correct": 3,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 7733,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7360,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 308,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 11,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 4476,
+          "truth": 25,
+          "outputs": 14,
+          "correct": 2,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5721,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 7552,
+          "truth": 22,
+          "outputs": 9,
+          "correct": 1,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3361,
+          "truth": 29,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6688,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9497,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 7057,
+          "truth": 28,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 5477,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9130,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 7,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 775,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1582,
+          "truth": 24,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1889,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 809,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1557,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 414,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5466,
+          "truth": 35,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4408,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9293,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7944,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8038,
+          "truth": 31,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 3097,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8335,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3733,
+          "truth": 26,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4309,
+          "truth": 24,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 6257,
+          "truth": 30,
+          "outputs": 22,
+          "correct": 10,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9175,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7380,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 415,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 4857,
+          "truth": 22,
+          "outputs": 14,
+          "correct": 9,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 6954,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7063,
+          "truth": 32,
+          "outputs": 22,
+          "correct": 7,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 9519,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 3,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 9950,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7723,
+          "truth": 37,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 1361,
+          "truth": 21,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 5048,
+          "truth": 38,
+          "outputs": 23,
+          "correct": 9,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 8978,
+          "truth": 37,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 198,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 1724,
+          "truth": 34,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2362,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6692,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7992,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8619,
+          "truth": 31,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3196,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 668,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 423,
+          "truth": 44,
+          "outputs": 25,
+          "correct": 2,
+          "fakes": 23,
+          "clones": 0
+        },
+        {
+          "event_id": 8031,
+          "truth": 23,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5204,
+          "truth": 23,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1798,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 4,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 6711,
+          "truth": 25,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8214,
+          "truth": 25,
+          "outputs": 13,
+          "correct": 5,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6050,
+          "truth": 36,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 202,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 2338,
+          "truth": 45,
+          "outputs": 28,
+          "correct": 5,
+          "fakes": 23,
+          "clones": 0
+        },
+        {
+          "event_id": 7786,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8227,
+          "truth": 24,
+          "outputs": 11,
+          "correct": 5,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 7729,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 6,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7890,
+          "truth": 31,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 650,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 377,
+          "truth": 27,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7307,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6755,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9233,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9408,
+          "truth": 21,
+          "outputs": 10,
+          "correct": 4,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 1919,
+          "truth": 41,
+          "outputs": 19,
+          "correct": 3,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 8691,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 6155,
+          "truth": 40,
+          "outputs": 21,
+          "correct": 10,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9270,
+          "truth": 25,
+          "outputs": 14,
+          "correct": 9,
+          "fakes": 4,
+          "clones": 1
+        },
+        {
+          "event_id": 8878,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 6,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 7732,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7224,
+          "truth": 27,
+          "outputs": 8,
+          "correct": 3,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 3844,
+          "truth": 29,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3930,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 9,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 2891,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9235,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 9,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 8552,
+          "truth": 21,
+          "outputs": 14,
+          "correct": 10,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 9481,
+          "truth": 39,
+          "outputs": 24,
+          "correct": 6,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 1721,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2624,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8937,
+          "truth": 37,
+          "outputs": 22,
+          "correct": 6,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 5309,
+          "truth": 19,
+          "outputs": 10,
+          "correct": 4,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3544,
+          "truth": 23,
+          "outputs": 10,
+          "correct": 5,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 3021,
+          "truth": 28,
+          "outputs": 12,
+          "correct": 1,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4043,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 293,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 4357,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9629,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 5184,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9877,
+          "truth": 28,
+          "outputs": 21,
+          "correct": 12,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8115,
+          "truth": 26,
+          "outputs": 12,
+          "correct": 4,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 373,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 2,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 6554,
+          "truth": 34,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 7783,
+          "truth": 25,
+          "outputs": 16,
+          "correct": 9,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7911,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3449,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 2294,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 6507,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 8,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7230,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3885,
+          "truth": 37,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 1202,
+          "truth": 41,
+          "outputs": 23,
+          "correct": 7,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 8796,
+          "truth": 24,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9886,
+          "truth": 29,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 1722,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6415,
+          "truth": 22,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 4448,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9490,
+          "truth": 34,
+          "outputs": 23,
+          "correct": 13,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1407,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5448,
+          "truth": 26,
+          "outputs": 11,
+          "correct": 5,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 9711,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4990,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9669,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 9,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 3582,
+          "truth": 33,
+          "outputs": 22,
+          "correct": 4,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 5687,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 3,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 801,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 2,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 2930,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8147,
+          "truth": 30,
+          "outputs": 13,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7745,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7708,
+          "truth": 30,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7085,
+          "truth": 30,
+          "outputs": 21,
+          "correct": 3,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 6686,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7742,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2314,
+          "truth": 35,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 4266,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 3078,
+          "truth": 25,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7522,
+          "truth": 26,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5857,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 661,
+          "truth": 28,
+          "outputs": 21,
+          "correct": 7,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 567,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 10,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7117,
+          "truth": 26,
+          "outputs": 11,
+          "correct": 3,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3190,
+          "truth": 22,
+          "outputs": 11,
+          "correct": 5,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 8076,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 1562,
+          "truth": 35,
+          "outputs": 19,
+          "correct": 4,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 5056,
+          "truth": 24,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3131,
+          "truth": 25,
+          "outputs": 13,
+          "correct": 0,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 3943,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3843,
+          "truth": 36,
+          "outputs": 22,
+          "correct": 6,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 3737,
+          "truth": 30,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7015,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9016,
+          "truth": 37,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 3580,
+          "truth": 21,
+          "outputs": 12,
+          "correct": 6,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 8117,
+          "truth": 26,
+          "outputs": 19,
+          "correct": 11,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1903,
+          "truth": 33,
+          "outputs": 21,
+          "correct": 2,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 1406,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 4,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 2525,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 5732,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 8,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 1448,
+          "truth": 28,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 2204,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 9892,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 6,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 6849,
+          "truth": 43,
+          "outputs": 23,
+          "correct": 6,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 309,
+          "truth": 35,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6500,
+          "truth": 27,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3353,
+          "truth": 23,
+          "outputs": 12,
+          "correct": 4,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3303,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 2260,
+          "truth": 26,
+          "outputs": 11,
+          "correct": 3,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9434,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 3609,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 4636,
+          "truth": 27,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6014,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 4577,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 384,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 5155,
+          "truth": 24,
+          "outputs": 19,
+          "correct": 12,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9922,
+          "truth": 41,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 2031,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        }
+      ],
+      "truth_center_diagnostic": {
+        "truth": 5969,
+        "outputs": 4576,
+        "correct": 1660,
+        "fakes": 2910,
+        "clones": 6,
+        "efficiency": 0.27810353493047413,
+        "fake_fraction": 0.6359265734265734,
+        "clone_fraction": 0.0013111888111888112
+      },
+      "mean_embedding_std": [
+        0.7908437386155128,
+        0.7140388855338097,
+        0.49380475357174874
+      ]
+    },
+    "epoch10_partial": {
+      "calibration": {
+        "cut": 0.3,
+        "radius": 0.17677669529663692,
+        "metrics": {
+          "truth": 962,
+          "outputs": 529,
+          "correct": 203,
+          "fakes": 326,
+          "clones": 0,
+          "efficiency": 0.21101871101871103,
+          "fake_fraction": 0.6162570888468809,
+          "clone_fraction": 0.0
+        }
+      },
+      "validation": {
+        "truth": 5969,
+        "outputs": 3318,
+        "correct": 1245,
+        "fakes": 2069,
+        "clones": 4,
+        "efficiency": 0.2085776511978556,
+        "fake_fraction": 0.6235684147076552,
+        "clone_fraction": 0.0012055455093429777
+      },
+      "events": [
+        {
+          "event_id": 232,
+          "truth": 22,
+          "outputs": 9,
+          "correct": 6,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 9099,
+          "truth": 28,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6978,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7727,
+          "truth": 25,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 2009,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3426,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7235,
+          "truth": 38,
+          "outputs": 20,
+          "correct": 5,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 7964,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4414,
+          "truth": 32,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7931,
+          "truth": 38,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 4901,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4880,
+          "truth": 28,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 999,
+          "truth": 36,
+          "outputs": 20,
+          "correct": 3,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 9367,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5747,
+          "truth": 39,
+          "outputs": 20,
+          "correct": 6,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 9045,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6081,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 817,
+          "truth": 31,
+          "outputs": 22,
+          "correct": 12,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9555,
+          "truth": 23,
+          "outputs": 8,
+          "correct": 2,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 7870,
+          "truth": 26,
+          "outputs": 11,
+          "correct": 6,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 5868,
+          "truth": 31,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9636,
+          "truth": 29,
+          "outputs": 20,
+          "correct": 11,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 5689,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 11,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6248,
+          "truth": 34,
+          "outputs": 21,
+          "correct": 8,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8736,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 6723,
+          "truth": 28,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 2011,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9193,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 1
+        },
+        {
+          "event_id": 1459,
+          "truth": 27,
+          "outputs": 11,
+          "correct": 6,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 4740,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3820,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 1031,
+          "truth": 18,
+          "outputs": 10,
+          "correct": 7,
+          "fakes": 3,
+          "clones": 0
+        },
+        {
+          "event_id": 4905,
+          "truth": 41,
+          "outputs": 19,
+          "correct": 1,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 1064,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 3,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7733,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7360,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 9,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 308,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 4476,
+          "truth": 25,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5721,
+          "truth": 35,
+          "outputs": 17,
+          "correct": 4,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7552,
+          "truth": 22,
+          "outputs": 10,
+          "correct": 3,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3361,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6688,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9497,
+          "truth": 35,
+          "outputs": 16,
+          "correct": 6,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7057,
+          "truth": 28,
+          "outputs": 19,
+          "correct": 5,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 5477,
+          "truth": 25,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9130,
+          "truth": 32,
+          "outputs": 19,
+          "correct": 9,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 775,
+          "truth": 34,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1582,
+          "truth": 24,
+          "outputs": 13,
+          "correct": 5,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1889,
+          "truth": 29,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 809,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 1557,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 9,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 414,
+          "truth": 27,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 5466,
+          "truth": 35,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4408,
+          "truth": 34,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9293,
+          "truth": 34,
+          "outputs": 23,
+          "correct": 9,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 7944,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 9,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 8038,
+          "truth": 31,
+          "outputs": 19,
+          "correct": 2,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 3097,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 8335,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 9,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3733,
+          "truth": 26,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 4309,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6257,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9175,
+          "truth": 31,
+          "outputs": 15,
+          "correct": 3,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7380,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 415,
+          "truth": 34,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4857,
+          "truth": 22,
+          "outputs": 14,
+          "correct": 10,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 6954,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 3,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 7063,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9519,
+          "truth": 35,
+          "outputs": 22,
+          "correct": 4,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 9950,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 6,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7723,
+          "truth": 37,
+          "outputs": 23,
+          "correct": 5,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 1361,
+          "truth": 21,
+          "outputs": 14,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 5048,
+          "truth": 38,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8978,
+          "truth": 37,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 198,
+          "truth": 34,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1724,
+          "truth": 34,
+          "outputs": 16,
+          "correct": 1,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 2362,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6692,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 8,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7992,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 8619,
+          "truth": 31,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3196,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 668,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 423,
+          "truth": 44,
+          "outputs": 27,
+          "correct": 4,
+          "fakes": 23,
+          "clones": 0
+        },
+        {
+          "event_id": 8031,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 7,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 5204,
+          "truth": 23,
+          "outputs": 16,
+          "correct": 9,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 1798,
+          "truth": 39,
+          "outputs": 20,
+          "correct": 4,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 6711,
+          "truth": 25,
+          "outputs": 13,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 8214,
+          "truth": 25,
+          "outputs": 10,
+          "correct": 5,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 6050,
+          "truth": 36,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 202,
+          "truth": 36,
+          "outputs": 20,
+          "correct": 2,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 2338,
+          "truth": 45,
+          "outputs": 28,
+          "correct": 6,
+          "fakes": 21,
+          "clones": 1
+        },
+        {
+          "event_id": 7786,
+          "truth": 35,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 8227,
+          "truth": 24,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7729,
+          "truth": 34,
+          "outputs": 23,
+          "correct": 11,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7890,
+          "truth": 31,
+          "outputs": 11,
+          "correct": 4,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 650,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 377,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7307,
+          "truth": 30,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 6755,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 9233,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 5,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 9408,
+          "truth": 21,
+          "outputs": 10,
+          "correct": 3,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 1919,
+          "truth": 41,
+          "outputs": 25,
+          "correct": 5,
+          "fakes": 20,
+          "clones": 0
+        },
+        {
+          "event_id": 8691,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6155,
+          "truth": 40,
+          "outputs": 19,
+          "correct": 10,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9270,
+          "truth": 25,
+          "outputs": 12,
+          "correct": 7,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 8878,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 1
+        },
+        {
+          "event_id": 7732,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 7224,
+          "truth": 27,
+          "outputs": 10,
+          "correct": 4,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 3844,
+          "truth": 29,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3930,
+          "truth": 27,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 2891,
+          "truth": 31,
+          "outputs": 21,
+          "correct": 5,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 9235,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8552,
+          "truth": 21,
+          "outputs": 12,
+          "correct": 7,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 9481,
+          "truth": 39,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 1721,
+          "truth": 28,
+          "outputs": 16,
+          "correct": 9,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 2624,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 8,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 8937,
+          "truth": 37,
+          "outputs": 22,
+          "correct": 7,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 5309,
+          "truth": 19,
+          "outputs": 9,
+          "correct": 4,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 3544,
+          "truth": 23,
+          "outputs": 10,
+          "correct": 6,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 3021,
+          "truth": 28,
+          "outputs": 13,
+          "correct": 1,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4043,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 4,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 293,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 4357,
+          "truth": 27,
+          "outputs": 20,
+          "correct": 9,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9629,
+          "truth": 23,
+          "outputs": 13,
+          "correct": 6,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 5184,
+          "truth": 32,
+          "outputs": 18,
+          "correct": 8,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9877,
+          "truth": 28,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 8115,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 373,
+          "truth": 36,
+          "outputs": 22,
+          "correct": 5,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 6554,
+          "truth": 34,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7783,
+          "truth": 25,
+          "outputs": 14,
+          "correct": 10,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 7911,
+          "truth": 26,
+          "outputs": 16,
+          "correct": 7,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3449,
+          "truth": 34,
+          "outputs": 22,
+          "correct": 8,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 2294,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 6507,
+          "truth": 32,
+          "outputs": 20,
+          "correct": 7,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 7230,
+          "truth": 29,
+          "outputs": 18,
+          "correct": 11,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3885,
+          "truth": 37,
+          "outputs": 18,
+          "correct": 6,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 1202,
+          "truth": 41,
+          "outputs": 24,
+          "correct": 8,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 8796,
+          "truth": 24,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9886,
+          "truth": 29,
+          "outputs": 13,
+          "correct": 9,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 1722,
+          "truth": 29,
+          "outputs": 17,
+          "correct": 5,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 6415,
+          "truth": 22,
+          "outputs": 13,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 4448,
+          "truth": 29,
+          "outputs": 15,
+          "correct": 4,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 9490,
+          "truth": 34,
+          "outputs": 22,
+          "correct": 11,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1407,
+          "truth": 31,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 5448,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 9711,
+          "truth": 33,
+          "outputs": 18,
+          "correct": 5,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 4990,
+          "truth": 26,
+          "outputs": 13,
+          "correct": 8,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 9669,
+          "truth": 23,
+          "outputs": 10,
+          "correct": 6,
+          "fakes": 4,
+          "clones": 0
+        },
+        {
+          "event_id": 3582,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 6,
+          "fakes": 14,
+          "clones": 0
+        },
+        {
+          "event_id": 5687,
+          "truth": 35,
+          "outputs": 18,
+          "correct": 2,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 801,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 2,
+          "fakes": 15,
+          "clones": 0
+        },
+        {
+          "event_id": 2930,
+          "truth": 30,
+          "outputs": 16,
+          "correct": 9,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 8147,
+          "truth": 30,
+          "outputs": 15,
+          "correct": 4,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 7745,
+          "truth": 29,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7708,
+          "truth": 30,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 7085,
+          "truth": 30,
+          "outputs": 22,
+          "correct": 4,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 6686,
+          "truth": 28,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7742,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 2314,
+          "truth": 35,
+          "outputs": 21,
+          "correct": 8,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 4266,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3078,
+          "truth": 25,
+          "outputs": 12,
+          "correct": 6,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 7522,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 8,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 5857,
+          "truth": 33,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 661,
+          "truth": 28,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 567,
+          "truth": 32,
+          "outputs": 21,
+          "correct": 12,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 7117,
+          "truth": 26,
+          "outputs": 14,
+          "correct": 6,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 3190,
+          "truth": 22,
+          "outputs": 8,
+          "correct": 2,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 8076,
+          "truth": 26,
+          "outputs": 15,
+          "correct": 7,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1562,
+          "truth": 35,
+          "outputs": 19,
+          "correct": 3,
+          "fakes": 16,
+          "clones": 0
+        },
+        {
+          "event_id": 5056,
+          "truth": 24,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 3131,
+          "truth": 25,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 3943,
+          "truth": 27,
+          "outputs": 14,
+          "correct": 5,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3843,
+          "truth": 36,
+          "outputs": 21,
+          "correct": 8,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 3737,
+          "truth": 30,
+          "outputs": 14,
+          "correct": 7,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 7015,
+          "truth": 28,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 9016,
+          "truth": 37,
+          "outputs": 19,
+          "correct": 7,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 3580,
+          "truth": 21,
+          "outputs": 10,
+          "correct": 5,
+          "fakes": 5,
+          "clones": 0
+        },
+        {
+          "event_id": 8117,
+          "truth": 26,
+          "outputs": 18,
+          "correct": 10,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 1903,
+          "truth": 33,
+          "outputs": 20,
+          "correct": 2,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 1406,
+          "truth": 31,
+          "outputs": 17,
+          "correct": 6,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 2525,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 4,
+          "fakes": 12,
+          "clones": 0
+        },
+        {
+          "event_id": 5732,
+          "truth": 35,
+          "outputs": 18,
+          "correct": 7,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 1448,
+          "truth": 28,
+          "outputs": 12,
+          "correct": 4,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 2204,
+          "truth": 32,
+          "outputs": 16,
+          "correct": 3,
+          "fakes": 13,
+          "clones": 0
+        },
+        {
+          "event_id": 9892,
+          "truth": 39,
+          "outputs": 20,
+          "correct": 2,
+          "fakes": 18,
+          "clones": 0
+        },
+        {
+          "event_id": 6849,
+          "truth": 43,
+          "outputs": 24,
+          "correct": 7,
+          "fakes": 17,
+          "clones": 0
+        },
+        {
+          "event_id": 309,
+          "truth": 35,
+          "outputs": 15,
+          "correct": 5,
+          "fakes": 10,
+          "clones": 0
+        },
+        {
+          "event_id": 6500,
+          "truth": 27,
+          "outputs": 16,
+          "correct": 5,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 3353,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 4,
+          "fakes": 9,
+          "clones": 1
+        },
+        {
+          "event_id": 3303,
+          "truth": 34,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 2260,
+          "truth": 26,
+          "outputs": 12,
+          "correct": 5,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9434,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 3609,
+          "truth": 27,
+          "outputs": 12,
+          "correct": 1,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 4636,
+          "truth": 27,
+          "outputs": 15,
+          "correct": 6,
+          "fakes": 9,
+          "clones": 0
+        },
+        {
+          "event_id": 6014,
+          "truth": 23,
+          "outputs": 14,
+          "correct": 8,
+          "fakes": 6,
+          "clones": 0
+        },
+        {
+          "event_id": 4577,
+          "truth": 34,
+          "outputs": 19,
+          "correct": 8,
+          "fakes": 11,
+          "clones": 0
+        },
+        {
+          "event_id": 384,
+          "truth": 29,
+          "outputs": 16,
+          "correct": 8,
+          "fakes": 8,
+          "clones": 0
+        },
+        {
+          "event_id": 5155,
+          "truth": 24,
+          "outputs": 17,
+          "correct": 10,
+          "fakes": 7,
+          "clones": 0
+        },
+        {
+          "event_id": 9922,
+          "truth": 41,
+          "outputs": 23,
+          "correct": 4,
+          "fakes": 19,
+          "clones": 0
+        },
+        {
+          "event_id": 2031,
+          "truth": 32,
+          "outputs": 17,
+          "correct": 7,
+          "fakes": 10,
+          "clones": 0
+        }
+      ],
+      "truth_center_diagnostic": {
+        "truth": 5969,
+        "outputs": 4567,
+        "correct": 1706,
+        "fakes": 2858,
+        "clones": 3,
+        "efficiency": 0.2858100184285475,
+        "fake_fraction": 0.6257937376833808,
+        "clone_fraction": 0.0006568863586599519
+      },
+      "mean_embedding_std": [
+        0.7864340057969094,
+        0.7284967756271362,
+        0.4988510650396347
+      ]
+    }
+  },
+  "seconds": 55.99078679084778
+}

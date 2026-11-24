@@ -1,0 +1,87 @@
+{
+  "joint": {
+    "AA": {
+      "precision": 0.6420325771536295,
+      "recall": 0.9002108639482047,
+      "f1": 0.7495116342325857,
+      "edges": 338654
+    },
+    "AS": {
+      "precision": 0.46682567791500607,
+      "recall": 0.6491189218260622,
+      "f1": 0.543083197497833,
+      "edges": 1317982
+    },
+    "SS": {
+      "precision": 0.509164229371621,
+      "recall": 0.5578981102025754,
+      "f1": 0.5324183054994347,
+      "edges": 842670
+    },
+    "candidates": {
+      "truth_tracks": 954,
+      "matched_tracks": 344,
+      "axial_efficiency": 0.36058700209643607,
+      "fake_candidates": 179,
+      "fake_fraction": 0.3422562141491396,
+      "clone_candidates": 0,
+      "clone_fraction": 0.0,
+      "output_candidates": 523,
+      "axial_completeness_matched": 0.9688586123179146,
+      "stereo_purity": 0.9292929292929293,
+      "stereo_completeness_matched": 0.36947791164658633,
+      "shared_output_hits": 0
+    },
+    "threshold": 0.3,
+    "candidate_threshold": 0.85
+  },
+  "axial_baseline": {
+    "AA": {
+      "precision": 0.9372695399867014,
+      "recall": 0.9213137645206334,
+      "f1": 0.9292231627837292,
+      "edges": 336894
+    },
+    "AS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "edges": 0
+    },
+    "SS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "edges": 0
+    },
+    "candidates": {
+      "truth_tracks": 954,
+      "matched_tracks": 846,
+      "axial_efficiency": 0.8867924528301887,
+      "fake_candidates": 62,
+      "fake_fraction": 0.06828193832599119,
+      "clone_candidates": 0,
+      "clone_fraction": 0.0,
+      "output_candidates": 908,
+      "axial_completeness_matched": 0.954543738602687,
+      "stereo_purity": 0.0,
+      "stereo_completeness_matched": 0.0,
+      "shared_output_hits": 0
+    },
+    "threshold": 0.5,
+    "candidate_threshold": 0.7
+  },
+  "events": 32,
+  "weight_sha256": "46fda96f36b60221e2f2bcf2d716f86af014411d0d5d74a1d7b499cba86fb4bb",
+  "baseline_sha256": "635f6faae7192f004a1758b2165b38944c0c91ffc309eb3e710823cc2d395844",
+  "limitations": [
+    "Training uses only 128 complete events.",
+    "Candidate results use the same connected-component decoder on both models, not the official two-pass geometry fitter.",
+    "Candidate matching uses >=5 axial hits, >=70% axial purity and completeness.",
+    "No 3D reconstruction or momentum evaluated.",
+    "This run timed prediction plus part of candidate scoring; scopes differ and cannot establish relative forward speed. Later evaluator code moves timer before scoring."
+  ],
+  "joint_processing_seconds": 3.48131420000027,
+  "baseline_processing_seconds": 5.484492899999168,
+  "timing_correction": "Renamed incorrectly labelled forward timing fields; model metrics unchanged."
+}

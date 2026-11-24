@@ -1,0 +1,58 @@
+{
+  "protocol": "32 calibration +200 development selection; historical16 are included; no blind confirmation",
+  "seconds": 47.803120136260986,
+  "arms": {
+    "D10": {
+      "calibration": {
+        "cut": 0.3,
+        "radius": 0.25,
+        "metrics": {
+          "truth": 962,
+          "outputs": 469,
+          "correct": 150,
+          "fakes": 318,
+          "clones": 1,
+          "efficiency": 0.15592515592515593,
+          "fake_fraction": 0.6780383795309168,
+          "clone_fraction": 0.0021321961620469083
+        }
+      },
+      "validation": {
+        "truth": 5969,
+        "outputs": 2961,
+        "correct": 819,
+        "fakes": 2141,
+        "clones": 1,
+        "efficiency": 0.13720891271569777,
+        "fake_fraction": 0.7230665315771698,
+        "clone_fraction": 0.00033772374197906115
+      }
+    },
+    "control7": {
+      "calibration": {
+        "cut": 0.3,
+        "radius": 0.125,
+        "metrics": {
+          "truth": 962,
+          "outputs": 494,
+          "correct": 186,
+          "fakes": 306,
+          "clones": 2,
+          "efficiency": 0.19334719334719336,
+          "fake_fraction": 0.6194331983805668,
+          "clone_fraction": 0.004048582995951417
+        }
+      },
+      "validation": {
+        "truth": 5969,
+        "outputs": 3047,
+        "correct": 1206,
+        "fakes": 1839,
+        "clones": 2,
+        "efficiency": 0.20204389344948903,
+        "fake_fraction": 0.6035444699704627,
+        "clone_fraction": 0.0006563833278634722
+      }
+    }
+  }
+}

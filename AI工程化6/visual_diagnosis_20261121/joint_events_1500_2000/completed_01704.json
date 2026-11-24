@@ -1,0 +1,33 @@
+{
+  "event_id": 1704,
+  "partition": "train",
+  "focus_truth": 89,
+  "category": "broadly_low_scores",
+  "image": "event_01704_T89_baseline.png",
+  "hits": 675,
+  "axial_hits": 280,
+  "stereo_hits": 395,
+  "edge_counts": {
+    "AA": 4694,
+    "AS": 18828,
+    "SS": 12464
+  },
+  "metrics": {
+    "truth_tracks": 29,
+    "stereo_eligible_tracks": 29,
+    "truth_stereo_all": 395,
+    "output_candidates": 28,
+    "axial_completeness_sum": 26.148484848484852,
+    "correct_stereo_matched": 345,
+    "attached_stereo_matched": 346,
+    "truth_stereo_matched": 382,
+    "matched_tracks": 28,
+    "joint_matched_tracks": 26
+  },
+  "seed": {
+    "truth_tracks": 29,
+    "output_candidates": 28,
+    "matched_tracks": 28
+  },
+  "seconds": 6.334858655929565
+}

@@ -1,0 +1,90 @@
+{
+  "status": "proposed",
+  "date": "2026-11-22",
+  "primary_backbone": "stable epoch126",
+  "backbone_weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "dataset_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "split_manifest_sha256": "14285f925557222cb363f3a8e968b76bf90b0ea5fc3fd9e798707192b16bc79d",
+  "model_budget_sha256": "e59f718776e874d0b17ce7a397e4b0f40d0a64c8e9e7d17feac69a7aa5009835",
+  "document_sha256": "4ee4c8a0c06d5343af2ad47e606fa7fb6d3d1a2ba161b465204242f0a79e3485",
+  "source_sha256": "614919544ed12297dc2cc0c33c7b6489846dc2591bdad72a3591e7c6c012fb2a",
+  "data_scope": "Complete event graph for frozen backbone; centered edge-pair chunks for head; event-wide final assignment.",
+  "models": [
+    {
+      "name": "T-small",
+      "backbone_parameters": 181519,
+      "additional_parameters": 59233,
+      "combined_parameters": 240752,
+      "input_dimension": 262,
+      "hidden": [
+        128,
+        64
+      ],
+      "trained": false
+    },
+    {
+      "name": "T-wide",
+      "backbone_parameters": 181519,
+      "additional_parameters": 117985,
+      "combined_parameters": 299504,
+      "input_dimension": 262,
+      "hidden": [
+        256,
+        128
+      ],
+      "trained": false
+    }
+  ],
+  "candidate_edge_threshold": 0.4,
+  "candidate_threshold_sensitivity": [
+    0.3,
+    0.4,
+    0.575
+  ],
+  "training": {
+    "pilot_train_events": 1000,
+    "pilot_max_epochs": 5,
+    "full_train_events": 7000,
+    "full_max_epochs": 20,
+    "min_epochs_before_early_stop": 8,
+    "member_check_every_epochs": 2,
+    "early_stop_patience_checks": 4,
+    "max_triplets_per_event": 8192,
+    "positive_negative_ratio": "1:1 when available",
+    "hard_negative_fraction_among_negatives": 0.5,
+    "loss": "Mean BCEWithLogits over both endpoint orders, event-balanced; positive means same-track compatibility",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "minimum_learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "full_training_seeds": [
+      20261122,
+      20261123
+    ],
+    "backbone_frozen": true
+  },
+  "runtime": {
+    "triplet_evaluation_chunk": 8192,
+    "cache": "Bounded disk shards with frozen-backbone source/weight/data hashes",
+    "trainer_location": "GPU server",
+    "member_evaluation_location": "Local CPU parallelism where useful",
+    "speed_comparison": "Same hardware and full pipeline, including I/O and coarse3D"
+  },
+  "controls": [
+    "B0 stable pipeline",
+    "B1 lower edge threshold with old extraction",
+    "B2 geometry/rules with new decoder",
+    "S small learned head with same new decoder",
+    "W wide head with same new decoder"
+  ],
+  "gates": [
+    "No truth-dependent candidate grouping or input features.",
+    "Candidate pruning target: at most0.2 percentage-point loss of pure-connectivity upper bound versus unpruned0.4 graph.",
+    "Evaluate track efficiency, fake/clone, gained/lost tracks and coarse3D seed quality at matched conditions.",
+    "Use paired event-level uncertainty; do not choose size by sampled triplet accuracy alone.",
+    "Keep current independent HitID ownership; no synthetic observation duplication."
+  ],
+  "current_training_changed": false,
+  "new_gpu_job_submitted": false,
+  "new_model_training_started": false
+}

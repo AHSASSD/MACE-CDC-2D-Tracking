@@ -1,0 +1,195 @@
+[
+  {
+    "event_id": 4309,
+    "truth_id": 1828,
+    "baseline_candidates": [
+      {
+        "indices": [
+          230,
+          232,
+          236,
+          237,
+          238
+        ],
+        "size": 5,
+        "target_hits": 5,
+        "target_purity": 1.0,
+        "target_completeness": 0.5555555555555556,
+        "dominant_truth": 1828,
+        "origin": "baseline",
+        "fit_rms": 0.2786066614940673,
+        "selection_utility": null
+      }
+    ],
+    "selected_overlaps": [
+      {
+        "indices": [
+          230,
+          232,
+          236,
+          237,
+          333,
+          335,
+          338,
+          339,
+          340
+        ],
+        "size": 9,
+        "target_hits": 4,
+        "target_purity": 0.4444444444444444,
+        "target_completeness": 0.4444444444444444,
+        "dominant_truth": 3653,
+        "origin": "new_candidate",
+        "fit_rms": 0.8167423004578054,
+        "selection_utility": 2.9447189810539034,
+        "overlap_original": 4
+      }
+    ],
+    "original_candidate_survives": false,
+    "cause": "Original baseline candidate replaced in greedy overlap competition"
+  },
+  {
+    "event_id": 4309,
+    "truth_id": 3653,
+    "baseline_candidates": [
+      {
+        "indices": [
+          333,
+          335,
+          338,
+          339,
+          340,
+          341
+        ],
+        "size": 6,
+        "target_hits": 6,
+        "target_purity": 1.0,
+        "target_completeness": 0.6,
+        "dominant_truth": 3653,
+        "origin": "baseline",
+        "fit_rms": 1.070432096370777,
+        "selection_utility": null
+      }
+    ],
+    "selected_overlaps": [
+      {
+        "indices": [
+          230,
+          232,
+          236,
+          237,
+          333,
+          335,
+          338,
+          339,
+          340
+        ],
+        "size": 9,
+        "target_hits": 5,
+        "target_purity": 0.5555555555555556,
+        "target_completeness": 0.5,
+        "dominant_truth": 3653,
+        "origin": "new_candidate",
+        "fit_rms": 0.8167423004578054,
+        "selection_utility": 2.9447189810539034,
+        "overlap_original": 5
+      }
+    ],
+    "original_candidate_survives": false,
+    "cause": "Original baseline candidate replaced in greedy overlap competition"
+  },
+  {
+    "event_id": 5477,
+    "truth_id": 1680,
+    "baseline_candidates": [
+      {
+        "indices": [
+          170,
+          172,
+          176,
+          177,
+          178,
+          182
+        ],
+        "size": 6,
+        "target_hits": 6,
+        "target_purity": 1.0,
+        "target_completeness": 0.8571428571428571,
+        "dominant_truth": 1680,
+        "origin": "baseline",
+        "fit_rms": 0.49581811637036444,
+        "selection_utility": null
+      }
+    ],
+    "selected_overlaps": [
+      {
+        "indices": [
+          131,
+          132,
+          133,
+          137,
+          138,
+          139,
+          176
+        ],
+        "size": 7,
+        "target_hits": 1,
+        "target_purity": 0.14285714285714285,
+        "target_completeness": 0.14285714285714285,
+        "dominant_truth": 1338,
+        "origin": "new_candidate",
+        "fit_rms": 0.5269300267591247,
+        "selection_utility": 2.4339959479622957,
+        "overlap_original": 1
+      }
+    ],
+    "original_candidate_survives": false,
+    "cause": "Original baseline candidate replaced in greedy overlap competition"
+  },
+  {
+    "event_id": 9555,
+    "truth_id": 889,
+    "baseline_candidates": [
+      {
+        "indices": [
+          73,
+          74,
+          75,
+          79,
+          80
+        ],
+        "size": 5,
+        "target_hits": 5,
+        "target_purity": 1.0,
+        "target_completeness": 0.5555555555555556,
+        "dominant_truth": 889,
+        "origin": "baseline",
+        "fit_rms": 0.4865260889117118,
+        "selection_utility": null
+      }
+    ],
+    "selected_overlaps": [
+      {
+        "indices": [
+          73,
+          74,
+          75,
+          433,
+          434,
+          436
+        ],
+        "size": 6,
+        "target_hits": 3,
+        "target_purity": 0.5,
+        "target_completeness": 0.3333333333333333,
+        "dominant_truth": 889,
+        "origin": "new_candidate",
+        "fit_rms": 0.21411640972674753,
+        "selection_utility": 2.3180394513866265,
+        "overlap_original": 3
+      }
+    ],
+    "original_candidate_survives": false,
+    "cause": "Original baseline candidate replaced in greedy overlap competition"
+  }
+]

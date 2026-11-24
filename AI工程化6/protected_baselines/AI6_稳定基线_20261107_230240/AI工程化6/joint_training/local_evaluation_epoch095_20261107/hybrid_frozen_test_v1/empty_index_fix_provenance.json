@@ -1,0 +1,7 @@
+{
+  "old_source_sha256": "7eb44f21918681f2e63b0cfad7e508f9e125b1864bfabf2d3c537a1cb4a22504",
+  "new_source_sha256": "e5ea7a720690eb07c5fba99a2461163fea7945271fc4d53b40609ca6d8d8961f",
+  "change": "Explicit int64 residual index dtype; nonempty index values and all weights/thresholds unchanged; empty arrays now safe",
+  "completed_event_results_preserved": true,
+  "unix": 1794018924.4605105
+}

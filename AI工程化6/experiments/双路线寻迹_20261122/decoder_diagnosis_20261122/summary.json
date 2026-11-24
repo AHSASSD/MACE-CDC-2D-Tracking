@@ -1,0 +1,102 @@
+{
+  "events": 16,
+  "scope": "Development diagnostic subset, not confirmation; oracle_pair uses true edge labels and is not deployable",
+  "methods": {
+    "E_additive": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 477,
+        "axial_completeness_sum": 426.8893995316155,
+        "correct_stereo_matched": 5376,
+        "attached_stereo_matched": 5423,
+        "truth_stereo_matched": 6240,
+        "matched_tracks": 457,
+        "joint_matched_tracks": 431,
+        "fake_candidates": 20,
+        "track_efficiency": 0.9307535641547862,
+        "fake_fraction": 0.041928721174004195,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913332104001475,
+        "stereo_completeness_matched": 0.8615384615384616,
+        "stereo_recall_all_eligible_tracks": 0.7924528301886793,
+        "joint_track_efficiency": 0.8778004073319755
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 468,
+        "matched_tracks": 454,
+        "fake_candidates": 14,
+        "f1": 0.9468196037539103,
+        "efficiency": 0.924643584521385,
+        "fake_fraction": 0.029914529914529916,
+        "clone_fraction": 0.0
+      }
+    },
+    "T_additive": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 479,
+        "axial_completeness_sum": 428.6813187235347,
+        "correct_stereo_matched": 5407,
+        "attached_stereo_matched": 5454,
+        "truth_stereo_matched": 6277,
+        "matched_tracks": 460,
+        "joint_matched_tracks": 434,
+        "fake_candidates": 19,
+        "track_efficiency": 0.9368635437881874,
+        "fake_fraction": 0.03966597077244259,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913824715804914,
+        "stereo_completeness_matched": 0.8613987573681695,
+        "stereo_recall_all_eligible_tracks": 0.7970224056603774,
+        "joint_track_efficiency": 0.8839103869653768
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 470,
+        "matched_tracks": 457,
+        "fake_candidates": 13,
+        "f1": 0.951092611862643,
+        "efficiency": 0.9307535641547862,
+        "fake_fraction": 0.027659574468085105,
+        "clone_fraction": 0.0
+      }
+    },
+    "oracle_pair": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 491,
+        "axial_completeness_sum": 482.5681396190017,
+        "correct_stereo_matched": 5557,
+        "attached_stereo_matched": 5604,
+        "truth_stereo_matched": 6632,
+        "matched_tracks": 486,
+        "joint_matched_tracks": 445,
+        "fake_candidates": 5,
+        "track_efficiency": 0.9898167006109979,
+        "fake_fraction": 0.010183299389002037,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9916131334760885,
+        "stereo_completeness_matched": 0.8379071170084439,
+        "stereo_recall_all_eligible_tracks": 0.8191332547169812,
+        "joint_track_efficiency": 0.9063136456211812
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 475,
+        "matched_tracks": 469,
+        "fake_candidates": 6,
+        "f1": 0.9710144927536232,
+        "efficiency": 0.955193482688391,
+        "fake_fraction": 0.01263157894736842,
+        "clone_fraction": 0.0
+      }
+    }
+  }
+}

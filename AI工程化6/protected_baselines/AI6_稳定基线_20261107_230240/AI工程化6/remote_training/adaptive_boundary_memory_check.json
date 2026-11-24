@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "target_edges": 500000,
+      "actual_edges": 500000,
+      "direct_passes": 3,
+      "peak_memory_bytes": 8558893568,
+      "event_ids": [
+        5924,
+        4645,
+        2865,
+        5995
+      ]
+    },
+    {
+      "target_edges": 750000,
+      "actual_edges": 749770,
+      "direct_passes": 2,
+      "peak_memory_bytes": 9602146816,
+      "event_ids": [
+        5780,
+        8035,
+        8393,
+        8369
+      ]
+    },
+    {
+      "target_edges": 1500000,
+      "actual_edges": 1498962,
+      "direct_passes": 1,
+      "peak_memory_bytes": 12739940352,
+      "event_ids": [
+        6949,
+        9805,
+        4195,
+        1822
+      ]
+    }
+  ],
+  "checkpoint_epoch": 10
+}

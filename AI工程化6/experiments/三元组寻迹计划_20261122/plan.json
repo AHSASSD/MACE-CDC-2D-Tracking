@@ -1,0 +1,169 @@
+{
+  "status": "proposed",
+  "version": 2,
+  "date": "2026-11-22",
+  "primary_backbone": "stable epoch126",
+  "backbone_weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "dataset_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "split_manifest_sha256": "14285f925557222cb363f3a8e968b76bf90b0ea5fc3fd9e798707192b16bc79d",
+  "model_budget_sha256": "f108f7e51e1fda16f4c5a2ca27339f5e5407920430df002a5153325d99210360",
+  "document_sha256": "7ed6f860aed1e35b512875775260c53e134228cc2c4f4ff2674489f49a021084",
+  "E_document_sha256": "cbd095f65b9e9ba4751b634285c635f0c57cc7c1858f1b3d33e0842a1fa02d0d",
+  "source_sha256": "13dfb71decc763cd944aff40944372d4fc49162667a7884c5073c77de6f9f566",
+  "data_scope": "Complete event graph for frozen backbone; independent E bundle-region and T triplet heads; event-wide assignment.",
+  "models": [
+    {
+      "name": "T-small",
+      "route": "T",
+      "backbone_parameters": 181519,
+      "additional_parameters": 59233,
+      "combined_parameters": 240752,
+      "input_dimension": 262,
+      "output_dimension": 1,
+      "hidden": [
+        128,
+        64
+      ],
+      "trained": false
+    },
+    {
+      "name": "T-wide",
+      "route": "T",
+      "backbone_parameters": 181519,
+      "additional_parameters": 117985,
+      "combined_parameters": 299504,
+      "input_dimension": 262,
+      "output_dimension": 1,
+      "hidden": [
+        256,
+        128
+      ],
+      "trained": false
+    },
+    {
+      "name": "E-small",
+      "route": "E",
+      "backbone_parameters": 181519,
+      "additional_parameters": 93316,
+      "combined_parameters": 274835,
+      "input_dimension": 515,
+      "output_dimension": 4,
+      "hidden": [
+        128,
+        64
+      ],
+      "trained": false
+    },
+    {
+      "name": "E-wide",
+      "route": "E",
+      "backbone_parameters": 181519,
+      "additional_parameters": 184644,
+      "combined_parameters": 366163,
+      "input_dimension": 515,
+      "output_dimension": 4,
+      "hidden": [
+        256,
+        128
+      ],
+      "trained": false
+    }
+  ],
+  "candidate_edge_threshold": 0.4,
+  "candidate_threshold_sensitivity": [
+    0.3,
+    0.4,
+    0.575
+  ],
+  "routes": {
+    "E": {
+      "origin": "User second sketch: green ordinary edges, yellow shared segments, copied channels and red output paths",
+      "requires_triplet_head": false,
+      "grouping": "CellID families retaining every original HitID",
+      "targets": [
+        "reject0",
+        "ordinary1",
+        "shared2",
+        "shared3plus"
+      ],
+      "labels": "Distinct non-noise truth tracks supported by retained underlying candidate hit edges",
+      "training_sample": "At most4096 bundles per event, class stratified",
+      "loss": "Mean cross entropy over endpoint orders, event balanced",
+      "inference": "E class/multiplicity followed by independent expansion and geometric endpoint pairing"
+    },
+    "T": {
+      "origin": "Triplet compatibility inspired by ETX4VELO",
+      "requires_E_head": false,
+      "targets": [
+        "different_track",
+        "same_track"
+      ],
+      "training_sample": "At most8192 triplets per event, balanced positives/hard and random negatives",
+      "loss": "Mean BCEWithLogits over endpoint orders, event balanced"
+    }
+  },
+  "E_label_feasibility_sha256": "4578c0f2d110318434dfb99e9b41b822296f00b465a5642d211e5e63fd53f6d6",
+  "training": {
+    "pilot_train_events": 1000,
+    "pilot_max_epochs": 10,
+    "full_train_events": 7000,
+    "full_max_epochs": 60,
+    "min_epochs_before_early_stop": 20,
+    "member_check_every_epochs": 5,
+    "early_stop_patience_checks": 4,
+    "optional_max_epochs": 80,
+    "extension_condition": "Continue only if validation members still improve and fake/clone remain controlled; record LR and continuation.",
+    "milestone_epochs": [
+      20,
+      40,
+      60
+    ],
+    "max_T_triplets_per_event": 8192,
+    "max_E_bundles_per_event": 4096,
+    "positive_negative_ratio_T": "1:1 when available",
+    "hard_negative_fraction_among_T_negatives": 0.5,
+    "first_models": [
+      "E-small",
+      "T-small"
+    ],
+    "wide_models_condition": "Only after evidence of insufficient small-head capacity",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "minimum_learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "first_seed": 20261122,
+    "replication_seed_if_passed": 20261123,
+    "backbone_frozen": true,
+    "epoch_definition": "All7000 training events visited once; sampled example counts differ by route, report steps and actual time."
+  },
+  "runtime": {
+    "triplet_evaluation_chunk": 8192,
+    "cache": "Bounded disk shards with frozen-backbone source/weight/data hashes",
+    "trainer_location": "GPU server",
+    "member_evaluation_location": "Local CPU parallelism where useful",
+    "speed_comparison": "Same hardware and full pipeline, including I/O and coarse3D"
+  },
+  "controls": [
+    "B0 stable pipeline",
+    "B1 lower edge threshold with old extraction",
+    "E0 rule colors with E expansion",
+    "E1 E-small with expansion",
+    "E1-no-copy same E-small without expansion",
+    "E2 E-wide",
+    "T0 rule compatibility with T decoder",
+    "T1 T-small",
+    "T2 T-wide",
+    "ET optional combination, separately credited"
+  ],
+  "gates": [
+    "No truth-dependent candidate grouping or input features.",
+    "Candidate pruning target: at most0.2 percentage-point loss of pure-connectivity upper bound versus unpruned0.4 graph.",
+    "Evaluate track efficiency, fake/clone, gained/lost tracks and coarse3D seed quality at matched conditions.",
+    "Use paired event-level uncertainty; do not choose size by sampled triplet accuracy alone.",
+    "Keep current independent HitID ownership; no synthetic observation duplication."
+  ],
+  "prior_plan_archive": "archive_v1",
+  "current_training_changed": false,
+  "new_gpu_job_submitted": false,
+  "new_model_training_started": false
+}

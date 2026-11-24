@@ -1,0 +1,22 @@
+{
+  "status": "step_running",
+  "job": "1527110",
+  "srun_pid": 2289627,
+  "completed_epoch": 33,
+  "progress": {
+    "status": "training",
+    "epoch": 34,
+    "target_epochs": 200,
+    "event": 100,
+    "train_events": 7000,
+    "batch_size": 4,
+    "accumulation_steps": 8,
+    "train_loss": 0.012317677201915183,
+    "elapsed_seconds": 6.038399208337069,
+    "updated_unix": 1793953200.7009828
+  },
+  "progress_from_current_step": true,
+  "restarts": 0,
+  "no_progress_failures": 0,
+  "unix": 1793953204.2551956
+}

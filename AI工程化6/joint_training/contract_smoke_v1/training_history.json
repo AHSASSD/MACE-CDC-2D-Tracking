@@ -1,0 +1,58 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.08924372035601097,
+    "validation": {
+      "loss": 0.07613771921467619,
+      "edges": 157356,
+      "types": {
+        "AA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "AS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "SS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0
+    },
+    "lr": 0.001,
+    "seconds": 1.961970600001223
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.07759232536013617,
+    "validation": {
+      "loss": 0.06670052287596098,
+      "edges": 157356,
+      "types": {
+        "AA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "AS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "SS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0
+    },
+    "lr": 0.001,
+    "seconds": 1.6086025000004156
+  }
+]

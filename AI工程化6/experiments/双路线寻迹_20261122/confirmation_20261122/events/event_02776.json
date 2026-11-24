@@ -1,0 +1,100 @@
+{
+  "event_id": 2776,
+  "n_hits": 621,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 348,
+        "output_candidates": 25,
+        "axial_completeness_sum": 24.434343434343436,
+        "correct_stereo_matched": 283,
+        "attached_stereo_matched": 286,
+        "truth_stereo_matched": 325,
+        "matched_tracks": 25,
+        "joint_matched_tracks": 25
+      },
+      "found": [
+        218,
+        385,
+        459,
+        611,
+        707,
+        857,
+        1381,
+        1448,
+        1989,
+        2294,
+        2349,
+        2556,
+        2763,
+        3137,
+        3215,
+        3408,
+        3617,
+        3646,
+        4366,
+        4677,
+        4805,
+        4907,
+        5232,
+        5316,
+        5436
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 25,
+        "matched_tracks": 25
+      },
+      "decode_seconds": 2.8979456999950344
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 348,
+        "output_candidates": 25,
+        "axial_completeness_sum": 24.525252525252526,
+        "correct_stereo_matched": 283,
+        "attached_stereo_matched": 286,
+        "truth_stereo_matched": 325,
+        "matched_tracks": 25,
+        "joint_matched_tracks": 25
+      },
+      "found": [
+        218,
+        385,
+        459,
+        611,
+        707,
+        857,
+        1381,
+        1448,
+        1989,
+        2294,
+        2349,
+        2556,
+        2763,
+        3137,
+        3215,
+        3408,
+        3617,
+        3646,
+        4366,
+        4677,
+        4805,
+        4907,
+        5232,
+        5316,
+        5436
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 25,
+        "matched_tracks": 25
+      },
+      "decode_seconds": 3.8954419999936363
+    }
+  }
+}

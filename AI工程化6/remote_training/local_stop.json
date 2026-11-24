@@ -1,0 +1,15 @@
+{
+  "last_complete_checkpoint_epoch": 8,
+  "discarded_unsaved_local_epoch_progress": {
+    "status": "training",
+    "epoch": 9,
+    "target_epochs": 200,
+    "event": 2500,
+    "train_events": 7000,
+    "train_loss": 0.02554287757168421,
+    "elapsed_seconds": 1199.7583811000004,
+    "updated_unix": 1793933557.9751832
+  },
+  "stopped_unix": 1793933640.0228202,
+  "reason": "remote epoch9 training confirmed active; local checkpoint retained"
+}

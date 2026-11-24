@@ -1,0 +1,113 @@
+{
+  "event_id": 8448,
+  "n_hits": 788,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 31,
+        "stereo_eligible_tracks": 31,
+        "truth_stereo_all": 436,
+        "output_candidates": 34,
+        "axial_completeness_sum": 26.633044733044734,
+        "correct_stereo_matched": 326,
+        "attached_stereo_matched": 332,
+        "truth_stereo_matched": 385,
+        "fake_candidates": 5,
+        "matched_tracks": 29,
+        "joint_matched_tracks": 28
+      },
+      "found": [
+        483,
+        556,
+        761,
+        842,
+        1072,
+        1442,
+        1513,
+        1901,
+        1941,
+        1980,
+        2300,
+        2379,
+        2536,
+        2681,
+        2910,
+        3431,
+        3492,
+        3629,
+        3778,
+        4064,
+        4224,
+        4479,
+        4582,
+        4667,
+        4811,
+        5062,
+        5143,
+        5212,
+        5405
+      ],
+      "seeds": {
+        "truth_tracks": 31,
+        "output_candidates": 32,
+        "fake_candidates": 3,
+        "matched_tracks": 29
+      },
+      "decode_seconds": 3.523915500016301
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 31,
+        "stereo_eligible_tracks": 31,
+        "truth_stereo_all": 436,
+        "output_candidates": 32,
+        "axial_completeness_sum": 27.179341029341032,
+        "correct_stereo_matched": 345,
+        "attached_stereo_matched": 351,
+        "truth_stereo_matched": 407,
+        "fake_candidates": 2,
+        "matched_tracks": 30,
+        "joint_matched_tracks": 29
+      },
+      "found": [
+        483,
+        556,
+        761,
+        842,
+        1072,
+        1442,
+        1513,
+        1901,
+        1941,
+        1980,
+        2300,
+        2379,
+        2536,
+        2681,
+        2910,
+        3431,
+        3492,
+        3629,
+        3778,
+        4064,
+        4224,
+        4399,
+        4479,
+        4582,
+        4667,
+        4811,
+        5062,
+        5143,
+        5212,
+        5405
+      ],
+      "seeds": {
+        "truth_tracks": 31,
+        "output_candidates": 32,
+        "fake_candidates": 2,
+        "matched_tracks": 30
+      },
+      "decode_seconds": 4.59325320001517
+    }
+  }
+}

@@ -35,3 +35,9 @@ AI4.1's newer whole-event results and data contracts are documented separately i
 Python 3.10+, PyTorch 2.x, PyTorch Geometric, NumPy, pandas, SciPy, scikit-learn, joblib, and tqdm.
 
 Set `MACE_CDC_CELL_MAP` and `MACE_CDC_HITS` to the local input Excel files before running STEP1.
+
+## AI6 joint axial/stereo research handoff (2026-11-24)
+
+[交接总览 / Handoff](AI工程化6/docs/HANDOFF.md) · [效果与口径 / Results](AI工程化6/docs/RESULTS.md) · [模型清单 / Model catalog](AI工程化6/docs/MODEL_CATALOG.json) · [代理与同学入口 / Agent entry](AGENT.md)
+
+Includes mature and experimental AI6 code, all located model/resume checkpoints, figures, metadata, measurement NPZ and geometry. Experimental OC is not promoted. Raw OC cluster metrics are not directly comparable with the complete two-stage tracker. Large regenerable graph/latent caches and duplicate archives are listed separately. Existing versions remain intact.

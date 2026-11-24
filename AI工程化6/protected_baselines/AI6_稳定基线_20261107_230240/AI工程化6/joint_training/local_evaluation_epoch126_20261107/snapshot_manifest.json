@@ -1,0 +1,66 @@
+{
+  "epoch": 126,
+  "remote_snapshot": "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/joint_training/evaluation_snapshot_epoch126_1794052868",
+  "sha256": {
+    "best_interaction_network_joint_no_time.pth": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+    "best_model_selection.json": "dde58acdaeb3457156f4d58e3602f798ac58f003da8f03e823249d98c0b9b241",
+    "model_metadata_joint_no_time.json": "8f45c10c23b5f1c1d353e679e980db360d7afb0ab18a8e7b99b2114e6479a7ac"
+  },
+  "selected_history": {
+    "epoch": 126,
+    "train_loss": 0.007465008401898793,
+    "validation": {
+      "loss": 0.011109434299062297,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "precision": 0.9148699412722483,
+          "recall": 0.9144457857040741,
+          "f1": 0.9146578143145977
+        },
+        "AS": {
+          "precision": 0.8911053731395263,
+          "recall": 0.8701637438359066,
+          "f1": 0.8805100596721568
+        },
+        "SS": {
+          "precision": 0.8849999119051964,
+          "recall": 0.8637918657833747,
+          "f1": 0.8742672911387028
+        }
+      },
+      "macro_f1": 0.8898117217084858
+    },
+    "lr": 0.0005,
+    "seconds": 431.4594448590651
+  },
+  "capture_unix": 1794052868.8192086,
+  "training_history_last": {
+    "epoch": 161,
+    "train_loss": 0.0061658211262142545,
+    "validation": {
+      "loss": 0.013033694044357594,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "precision": 0.9219173733524794,
+          "recall": 0.9078430464469596,
+          "f1": 0.9148260807701077
+        },
+        "AS": {
+          "precision": 0.8972975242518173,
+          "recall": 0.8661081201281504,
+          "f1": 0.8814269982657807
+        },
+        "SS": {
+          "precision": 0.8904647944173819,
+          "recall": 0.8586530375914464,
+          "f1": 0.8742696307847928
+        }
+      },
+      "macro_f1": 0.8901742366068938
+    },
+    "lr": 6.25e-05,
+    "seconds": 435.1312790196389
+  }
+}

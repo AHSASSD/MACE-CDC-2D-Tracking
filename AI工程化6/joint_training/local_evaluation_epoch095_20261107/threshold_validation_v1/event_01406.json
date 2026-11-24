@@ -1,0 +1,67 @@
+{
+  "event_id": 1406,
+  "methods": {
+    "baseline": {
+      "truth_tracks": 31,
+      "stereo_eligible_tracks": 31,
+      "truth_stereo_all": 410,
+      "output_candidates": 31,
+      "axial_completeness_sum": 27.61792929292929,
+      "correct_stereo_matched": 333,
+      "attached_stereo_matched": 334,
+      "truth_stereo_matched": 410,
+      "matched_tracks": 31,
+      "joint_matched_tracks": 30
+    },
+    "threshold_065_055": {
+      "truth_tracks": 31,
+      "stereo_eligible_tracks": 31,
+      "truth_stereo_all": 410,
+      "output_candidates": 31,
+      "axial_completeness_sum": 27.361616161616162,
+      "correct_stereo_matched": 323,
+      "attached_stereo_matched": 324,
+      "truth_stereo_matched": 399,
+      "fake_candidates": 1,
+      "matched_tracks": 30,
+      "joint_matched_tracks": 29
+    },
+    "threshold_075_0575": {
+      "truth_tracks": 31,
+      "stereo_eligible_tracks": 31,
+      "truth_stereo_all": 410,
+      "output_candidates": 31,
+      "axial_completeness_sum": 27.367929292929293,
+      "correct_stereo_matched": 332,
+      "attached_stereo_matched": 333,
+      "truth_stereo_matched": 410,
+      "matched_tracks": 31,
+      "joint_matched_tracks": 30
+    },
+    "threshold_075_060": {
+      "truth_tracks": 31,
+      "stereo_eligible_tracks": 31,
+      "truth_stereo_all": 410,
+      "output_candidates": 30,
+      "axial_completeness_sum": 26.742929292929293,
+      "correct_stereo_matched": 321,
+      "attached_stereo_matched": 322,
+      "truth_stereo_matched": 396,
+      "matched_tracks": 30,
+      "joint_matched_tracks": 29
+    },
+    "threshold_070_055": {
+      "truth_tracks": 31,
+      "stereo_eligible_tracks": 31,
+      "truth_stereo_all": 410,
+      "output_candidates": 30,
+      "axial_completeness_sum": 26.562373737373733,
+      "correct_stereo_matched": 312,
+      "attached_stereo_matched": 313,
+      "truth_stereo_matched": 385,
+      "fake_candidates": 1,
+      "matched_tracks": 29,
+      "joint_matched_tracks": 28
+    }
+  }
+}

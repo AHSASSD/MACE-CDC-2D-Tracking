@@ -1,0 +1,399 @@
+{
+  "event_id": 8335,
+  "observable": {
+    "hits": 705,
+    "axial_hits": 306,
+    "stereo_hits": 399,
+    "mean_graph_degree": 105.95460992907802,
+    "duplicate_cell_fraction": 0.10212765957446812,
+    "longitudinal_ambiguity_fraction": 0.0
+  },
+  "baseline": {
+    "truth_tracks": 32,
+    "stereo_eligible_tracks": 32,
+    "truth_stereo_all": 399,
+    "output_candidates": 31,
+    "axial_completeness_sum": 28.788131313131316,
+    "correct_stereo_matched": 305,
+    "attached_stereo_matched": 308,
+    "truth_stereo_matched": 388,
+    "matched_tracks": 31,
+    "joint_matched_tracks": 28
+  },
+  "baseline_matched": [
+    82,
+    180,
+    237,
+    449,
+    846,
+    927,
+    1057,
+    1307,
+    1387,
+    1476,
+    1542,
+    1832,
+    1966,
+    2150,
+    2349,
+    2481,
+    2614,
+    2747,
+    2963,
+    3016,
+    3703,
+    3910,
+    4025,
+    4290,
+    4493,
+    4590,
+    4689,
+    4977,
+    5249,
+    5490,
+    5638
+  ],
+  "oracle_methods": {
+    "actual_axial_stage": {
+      "truth_tracks": 32,
+      "stereo_eligible_tracks": 32,
+      "truth_stereo_all": 399,
+      "output_candidates": 31,
+      "axial_completeness_sum": 28.788131313131316,
+      "correct_stereo_matched": 0,
+      "attached_stereo_matched": 0,
+      "truth_stereo_matched": 388,
+      "matched_tracks": 31,
+      "joint_matched_tracks": 0
+    },
+    "oracle_remove_false_edges": {
+      "truth_tracks": 32,
+      "stereo_eligible_tracks": 32,
+      "truth_stereo_all": 399,
+      "output_candidates": 31,
+      "axial_completeness_sum": 28.788131313131316,
+      "correct_stereo_matched": 0,
+      "attached_stereo_matched": 0,
+      "truth_stereo_matched": 388,
+      "matched_tracks": 31,
+      "joint_matched_tracks": 0
+    },
+    "oracle_boost_true_edges": {
+      "truth_tracks": 32,
+      "stereo_eligible_tracks": 32,
+      "truth_stereo_all": 399,
+      "output_candidates": 32,
+      "axial_completeness_sum": 32.0,
+      "correct_stereo_matched": 0,
+      "attached_stereo_matched": 0,
+      "truth_stereo_matched": 399,
+      "matched_tracks": 32,
+      "joint_matched_tracks": 0
+    },
+    "oracle_perfect_edges": {
+      "truth_tracks": 32,
+      "stereo_eligible_tracks": 32,
+      "truth_stereo_all": 399,
+      "output_candidates": 32,
+      "axial_completeness_sum": 32.0,
+      "correct_stereo_matched": 0,
+      "attached_stereo_matched": 0,
+      "truth_stereo_matched": 399,
+      "matched_tracks": 32,
+      "joint_matched_tracks": 0
+    }
+  },
+  "oracle_matched": {
+    "actual_axial_stage": [
+      82,
+      180,
+      237,
+      449,
+      846,
+      927,
+      1057,
+      1307,
+      1387,
+      1476,
+      1542,
+      1832,
+      1966,
+      2150,
+      2349,
+      2481,
+      2614,
+      2747,
+      2963,
+      3016,
+      3703,
+      3910,
+      4025,
+      4290,
+      4493,
+      4590,
+      4689,
+      4977,
+      5249,
+      5490,
+      5638
+    ],
+    "oracle_remove_false_edges": [
+      82,
+      180,
+      237,
+      449,
+      846,
+      927,
+      1057,
+      1307,
+      1387,
+      1476,
+      1542,
+      1832,
+      1966,
+      2150,
+      2349,
+      2481,
+      2614,
+      2747,
+      2963,
+      3016,
+      3703,
+      3910,
+      4025,
+      4290,
+      4493,
+      4590,
+      4689,
+      4977,
+      5249,
+      5490,
+      5638
+    ],
+    "oracle_boost_true_edges": [
+      82,
+      180,
+      237,
+      356,
+      449,
+      846,
+      927,
+      1057,
+      1307,
+      1387,
+      1476,
+      1542,
+      1832,
+      1966,
+      2150,
+      2349,
+      2481,
+      2614,
+      2747,
+      2963,
+      3016,
+      3703,
+      3910,
+      4025,
+      4290,
+      4493,
+      4590,
+      4689,
+      4977,
+      5249,
+      5490,
+      5638
+    ],
+    "oracle_perfect_edges": [
+      82,
+      180,
+      237,
+      356,
+      449,
+      846,
+      927,
+      1057,
+      1307,
+      1387,
+      1476,
+      1542,
+      1832,
+      1966,
+      2150,
+      2349,
+      2481,
+      2614,
+      2747,
+      2963,
+      3016,
+      3703,
+      3910,
+      4025,
+      4290,
+      4493,
+      4590,
+      4689,
+      4977,
+      5249,
+      5490,
+      5638
+    ]
+  },
+  "axial_stage_diagnostics": {
+    "actual_axial_stage": {
+      "strict_components": 31,
+      "candidate_count": 31,
+      "accepted_count": 31,
+      "split_candidates": 0,
+      "hierarchy_candidates": 0,
+      "trimmed_candidates": 0,
+      "rejected": {}
+    },
+    "oracle_remove_false_edges": {
+      "strict_components": 31,
+      "candidate_count": 31,
+      "accepted_count": 31,
+      "split_candidates": 0,
+      "hierarchy_candidates": 0,
+      "trimmed_candidates": 0,
+      "rejected": {}
+    },
+    "oracle_boost_true_edges": {
+      "strict_components": 31,
+      "candidate_count": 32,
+      "accepted_count": 32,
+      "split_candidates": 0,
+      "hierarchy_candidates": 2,
+      "trimmed_candidates": 0,
+      "rejected": {}
+    },
+    "oracle_perfect_edges": {
+      "strict_components": 32,
+      "candidate_count": 32,
+      "accepted_count": 32,
+      "split_candidates": 0,
+      "hierarchy_candidates": 0,
+      "trimmed_candidates": 0,
+      "rejected": {}
+    }
+  },
+  "missed_tracks": [
+    {
+      "truth_id": 356,
+      "axial_hits": 8,
+      "geometry": {
+        "rms": 0.3333182289444247,
+        "rms_after_up_to_two_trims": 0.3333182289444247,
+        "trimmed": 0,
+        "fitted_circle": [
+          -699.9624008851707,
+          -1640.0887945888715,
+          1757.51002602644
+        ],
+        "retained_indices": [
+          71,
+          72,
+          73,
+          77,
+          78,
+          82,
+          83,
+          84
+        ]
+      },
+      "bucket": "weak_true_edge_scores",
+      "restored_by_remove_FP": false,
+      "restored_by_boost_FN": true,
+      "restored_by_perfect_edges": true,
+      "largest_AA_component": {
+        "all_candidate_edges": 8,
+        "p050": 5,
+        "p0575": 3,
+        "p070": 3
+      },
+      "largest_joint_component": {
+        "all_candidate_edges": 8,
+        "p050": 6,
+        "p0575": 5,
+        "p070": 3
+      },
+      "unused_true_axial_hits": 8,
+      "existing_candidate_coverage": []
+    }
+  ],
+  "fake_candidates": [],
+  "correct_stereo_not_confirmed": {
+    "longitudinal_consensus_residual": 9,
+    "no_branch_inside_finite_arc": 2
+  },
+  "stereo_loss_examples": [
+    {
+      "candidate": 7,
+      "hit_index": 88,
+      "truth_id": 449,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 20,
+      "hit_index": 256,
+      "truth_id": 1542,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 20,
+      "hit_index": 240,
+      "truth_id": 1542,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 20,
+      "hit_index": 237,
+      "truth_id": 1542,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 21,
+      "hit_index": 320,
+      "truth_id": 2150,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 24,
+      "hit_index": 60,
+      "truth_id": 237,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 27,
+      "hit_index": 169,
+      "truth_id": 1307,
+      "reason": "no_branch_inside_finite_arc"
+    },
+    {
+      "candidate": 27,
+      "hit_index": 170,
+      "truth_id": 1307,
+      "reason": "no_branch_inside_finite_arc"
+    },
+    {
+      "candidate": 27,
+      "hit_index": 174,
+      "truth_id": 1307,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 27,
+      "hit_index": 175,
+      "truth_id": 1307,
+      "reason": "longitudinal_consensus_residual"
+    },
+    {
+      "candidate": 28,
+      "hit_index": 335,
+      "truth_id": 2349,
+      "reason": "longitudinal_consensus_residual"
+    }
+  ],
+  "seconds": 10.986235799999122,
+  "truth_assisted_diagnostic_only": true
+}

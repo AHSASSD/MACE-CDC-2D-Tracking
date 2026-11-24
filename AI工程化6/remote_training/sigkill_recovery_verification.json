@@ -1,0 +1,49 @@
+{
+  "verified_unix": 1793946927.4563892,
+  "progress": {
+    "status": "training",
+    "epoch": 24,
+    "target_epochs": 200,
+    "event": 1800,
+    "train_events": 7000,
+    "batch_size": 4,
+    "accumulation_steps": 8,
+    "train_loss": 0.014857514057135214,
+    "elapsed_seconds": 104.95991129241884,
+    "updated_unix": 1793946923.6733444
+  },
+  "last_complete_epoch": 23,
+  "latest_complete_metrics": {
+    "epoch": 23,
+    "train_loss": 0.015038693195060212,
+    "validation": {
+      "loss": 0.0167090171757806,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "precision": 0.8898021206952654,
+          "recall": 0.8486340965425034,
+          "f1": 0.8687306572543082
+        },
+        "AS": {
+          "precision": 0.8445677586546858,
+          "recall": 0.7581329206375945,
+          "f1": 0.7990195921398934
+        },
+        "SS": {
+          "precision": 0.8334961341245212,
+          "recall": 0.7665367181990436,
+          "f1": 0.7986153413732513
+        }
+      },
+      "macro_f1": 0.822121863589151
+    },
+    "lr": 0.001,
+    "seconds": 445.670291881077
+  },
+  "current_memory_bytes": 6640631808,
+  "peak_monitored_memory_bytes": 6491086848,
+  "max_mappings_in_one_process": 25,
+  "full_epoch_transition_passed": true,
+  "sigkill_root_cause_confirmed": false
+}

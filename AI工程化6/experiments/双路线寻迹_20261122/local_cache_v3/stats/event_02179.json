@@ -1,0 +1,20 @@
+{
+  "event_id": 2179,
+  "split": "train",
+  "nodes": 1652,
+  "edges": 74756,
+  "triplets": 1369373,
+  "bundles": 44645,
+  "E_class_counts": [
+    6477,
+    37753,
+    405,
+    10
+  ],
+  "T_positive": 877817,
+  "triplet_pruning": {
+    "reference_reconstructible": 40,
+    "lost_by_bounded_triplets": 0,
+    "lost_truth_ids": []
+  }
+}

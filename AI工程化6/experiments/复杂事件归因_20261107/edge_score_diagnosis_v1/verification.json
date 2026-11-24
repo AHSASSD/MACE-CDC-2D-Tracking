@@ -1,0 +1,11 @@
+{
+  "validation_events": 200,
+  "validation_eligible_tracks": 5969,
+  "training_probe_events": 200,
+  "histograms_cover_each_cached_edge_once": true,
+  "original_missed_identity_matches": true,
+  "counterfactual_count_verified": true,
+  "train_validation_disjoint": true,
+  "original_and_backup_deployment_pins_unchanged": true,
+  "gnn_optimization_steps": 0
+}

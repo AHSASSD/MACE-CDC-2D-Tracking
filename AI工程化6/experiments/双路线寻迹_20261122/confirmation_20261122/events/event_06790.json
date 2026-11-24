@@ -1,0 +1,108 @@
+{
+  "event_id": 6790,
+  "n_hits": 694,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 29,
+        "stereo_eligible_tracks": 29,
+        "truth_stereo_all": 388,
+        "output_candidates": 29,
+        "axial_completeness_sum": 28.53216783216783,
+        "correct_stereo_matched": 349,
+        "attached_stereo_matched": 353,
+        "truth_stereo_matched": 388,
+        "matched_tracks": 29,
+        "joint_matched_tracks": 28
+      },
+      "found": [
+        83,
+        195,
+        298,
+        424,
+        713,
+        1174,
+        1513,
+        1694,
+        1769,
+        1989,
+        2193,
+        2242,
+        2368,
+        2465,
+        2503,
+        2573,
+        2599,
+        2672,
+        3841,
+        3880,
+        4112,
+        4180,
+        4235,
+        4317,
+        4918,
+        5076,
+        5236,
+        5257,
+        5511
+      ],
+      "seeds": {
+        "truth_tracks": 29,
+        "output_candidates": 29,
+        "matched_tracks": 29
+      },
+      "decode_seconds": 3.0834316999971634
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 29,
+        "stereo_eligible_tracks": 29,
+        "truth_stereo_all": 388,
+        "output_candidates": 29,
+        "axial_completeness_sum": 28.53216783216783,
+        "correct_stereo_matched": 349,
+        "attached_stereo_matched": 353,
+        "truth_stereo_matched": 388,
+        "matched_tracks": 29,
+        "joint_matched_tracks": 28
+      },
+      "found": [
+        83,
+        195,
+        298,
+        424,
+        713,
+        1174,
+        1513,
+        1694,
+        1769,
+        1989,
+        2193,
+        2242,
+        2368,
+        2465,
+        2503,
+        2573,
+        2599,
+        2672,
+        3841,
+        3880,
+        4112,
+        4180,
+        4235,
+        4317,
+        4918,
+        5076,
+        5236,
+        5257,
+        5511
+      ],
+      "seeds": {
+        "truth_tracks": 29,
+        "output_candidates": 29,
+        "matched_tracks": 29
+      },
+      "decode_seconds": 3.934500899995328
+    }
+  }
+}

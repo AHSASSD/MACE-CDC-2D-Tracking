@@ -1,0 +1,79 @@
+"""Paired event uncertainty and an auditable continuation decision."""
+import json
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+root=Path(__file__).parent;r=root/'review_20261124'
+s=json.loads((r/'summary.json').read_text());v=json.loads((r/'radius_review.json').read_text());arms=v['arms']
+rng=np.random.default_rng(20261124);base=arms['initial']['events'];keys=['truth','outputs','correct','fakes','clones']
+a=np.array([[row[k] for k in keys] for row in base],float);boot=rng.integers(0,len(base),(5000,len(base)))
+def measures(x):
+    t,o,c,f,cl=x.T
+    return np.stack([c/np.maximum(t,1),f/np.maximum(o,1),2*c/np.maximum(t+o,1)],1)
+results={}
+for name,arm in arms.items():
+    rows=arm['events'];assert [x['event_id'] for x in rows]==[x['event_id'] for x in base]
+    b=np.array([[row[k] for k in keys] for row in rows],float)
+    delta=100*(measures(b[boot].sum(1))-measures(a[boot].sum(1)))
+    results[name]=dict(delta_percentage_points=(100*(measures(b.sum(0)[None,:])-measures(a.sum(0)[None,:])))[0].tolist(),ci95=np.quantile(delta,[.025,.975],axis=0).T.tolist())
+(r/'paired_uncertainty.json').write_text(json.dumps(dict(order=['efficiency','fake_fraction','member_f1'],bootstrap='paired by event,5000',arms=results),indent=2))
+fig,axes=plt.subplots(1,3,figsize=(14,3.5),layout='constrained');h=s['history']
+for col,label in enumerate(['Edge','Triplet','OC']):axes[0].plot([x['epoch'] for x in h if x['loss']],[x['loss']['OC_v1_full'][col] for x in h if x['loss']],label=label,marker='o')
+axes[0].set(title='Training loss decreases',xlabel='Full-data epoch');axes[0].legend()
+axes[1].plot([x['epoch'] for x in h],[100*x['counts']['efficiency'] for x in h],marker='o');axes[1].set(title='Original decoder grid: member efficiency',xlabel='Full-data epoch',ylabel='%')
+names=list(arms)
+axes[2].bar(names,[100*arms[n]['validation']['efficiency'] for n in names]);axes[2].set(title='Same finer grid:200 development events',ylabel='Raw cluster efficiency (%)');axes[2].tick_params(axis='x',rotation=20)
+for ax in axes:ax.grid(alpha=.2)
+fig.savefig(r/'stage_review.png',dpi=160);plt.close(fig)
+table=[]
+for name,arm in arms.items():
+    m=arm['validation'];oracle=arm['truth_center_diagnostic']
+    table.append(f'|{name}|{m["correct"]}/{m["truth"]}|{100*m["efficiency"]:.2f}%|{100*m["fake_fraction"]:.2f}%|{100*oracle["efficiency"]:.2f}%|')
+stats=[]
+for name in ['epoch5','epoch9','epoch10_partial']:
+    d=results[name];ci=d['ci95'][0];stats.append(f'- {name}：效率变化{d["delta_percentage_points"][0]:+.2f}个百分点，配对95%区间[{ci[0]:+.2f}, {ci[1]:+.2f}]；成员F1变化{d["delta_percentage_points"][2]:+.2f}个百分点。')
+text=f'''# 全量OC阶段复核：暂不续训原配置
+
+2026-11-24现场核查。结论：保留检查点，暂不新增GPU训练作业；当前配置没有表现出值得长续的成员改善趋势。不能以损失下降替代整轨分组效果，也不能由本阶段直接宣称OC架构已被否定。
+
+## 作业与断点
+
+1862832主作业COMPLETED，退出0:0，gpu18上运行5小时56分21秒。完成9个完整7000例训练轮，停在第10轮事件2304/7000，阶段优化更新2043次、事件曝光65304次。
+
+日志先写入deadline_checkpoint，再在DataLoader退出清理时报告一个worker Aborted；监督器记录主训练进程退出0。这不是在训练中无断点崩溃，也未见OOM。前期一次exit -15是上次已记录的加载进程调整；sacct中另外几个失败子步来自当时的诊断命令，不能当作主训练失败。最新模型、AdamW、AMP、随机数和事件游标均可读取。
+
+现有粗网格下最佳成员权重仍为扩量前的initial_control7。该网格初始效率20.20%，第9轮15.33%。训练边/T/OC损失从第1轮0.3772/0.3267/0.1745降至第9轮0.3387/0.2305/0.1551，成员指标并未相应改善。
+
+## 排除半径网格过粗
+
+对initial、epoch5、epoch9和最新第10轮部分权重统一重评：β阈值0.3/0.5/0.7，半径从0.015625到1按13点几何间隔排列。只在固定32例选择解码配置，在相同200例开发集合报告结果。四份权重均选β=0.3、半径约0.17678，最优值不再落在网格下界。新旧网格的绝对值不能混用。
+
+|权重|匹配真轨|原始聚类匹配比例|假候选率|真值中心离线诊断匹配比例|
+|---|---:|---:|---:|---:|
+{chr(10).join(table)}
+
+真值中心诊断使用真值指定中心后再最近邻关联，不能部署，也不是数学效率上限。它也没有显示训练后的改善，因此单纯调半径或改中心阈值不够解释当前瓶颈。
+
+这些仍是未经几何/粗三维修正的直丝成员诊断，输入同时包含A/S命中。未评估粗三维种子和GenFit，不能与旧完整流程约95%的数字直接比较；200例已反复用于开发，不是新的盲测。
+
+## 配对不确定性
+
+以事件为单位5000次配对bootstrap，均相对同网格initial：
+
+{chr(10).join(stats)}
+
+第5轮与起点基本持平，后续没有持续上升趋势。部分假候选率下降存在效率取舍，不能单取loss或某个假轨率宣布成功。
+
+![训练与成员表现](stage_review.png)
+
+## 续训决定与下一步
+
+用户授权“需要就直接续训”。本次判断旧配置暂不需要追加长训，故未申请新GPU配额。并非断点丢失，也不是简单认定轮数已经足够；预定最低10轮是常规早停设置，当前第10轮因配额结束未完成，应如实记录。9个完整轮和多个检查点目前没有成员收益证据，不为凑轮数重新消耗配额。
+
+建议下一步针对训练目标和成员提取的脱节做诊断：分解正吸引/负排斥/β梯度，检查按径迹平均和大量容易负例稀释、低置信度规避损失的可能性，并在同一输入和提取协议下做小规模可证伪对照。不能把这些假设当成已经证明的根因，之前增强近邻排斥的负结果也保留。边/T评分支路的实际寻迹价值仍需同提取器评价，当前结论主要针对OC归属路线。
+
+服务器断点：ai6_membership_20261123/full_data_stage1/run/state.pth。本机state.pth、summary.json、radius_review.json、paired_uncertainty.json和原始Slurm日志保存在本目录。所有原始/最佳/第5/第9/当前部分权重保留，稳定基线不替换。
+'''
+(r/'全量阶段复核与续训判断.md').write_text(text,encoding='utf-8');print(json.dumps(results));print(r/'全量阶段复核与续训判断.md')

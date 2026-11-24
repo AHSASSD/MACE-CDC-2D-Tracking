@@ -1,0 +1,191 @@
+{
+  "protocol": "frozen_D10_encoder_head_only_400_updates_not_end_to_end",
+  "train_event_ids": [
+    24,
+    35,
+    50,
+    52,
+    73,
+    75,
+    81,
+    91,
+    102,
+    107,
+    122,
+    147,
+    168,
+    176,
+    179,
+    199,
+    201,
+    203,
+    221,
+    222,
+    229,
+    257,
+    259,
+    263,
+    267,
+    273,
+    274,
+    277,
+    285,
+    289,
+    298,
+    310
+  ],
+  "arms": {
+    "v1": {
+      "best_calibration": {
+        "cut": 0.5,
+        "radius": 0.25,
+        "metrics": {
+          "truth": 243,
+          "outputs": 129,
+          "correct": 39,
+          "fakes": 90,
+          "clones": 0,
+          "efficiency": 0.16049382716049382,
+          "fake_fraction": 0.6976744186046512,
+          "clone_fraction": 0.0
+        }
+      },
+      "metrics": {
+        "train": {
+          "truth": 924,
+          "outputs": 480,
+          "correct": 142,
+          "fakes": 338,
+          "clones": 0,
+          "efficiency": 0.15367965367965367,
+          "fake_fraction": 0.7041666666666667,
+          "clone_fraction": 0.0
+        },
+        "validation": {
+          "truth": 491,
+          "outputs": 248,
+          "correct": 62,
+          "fakes": 186,
+          "clones": 0,
+          "efficiency": 0.12627291242362526,
+          "fake_fraction": 0.75,
+          "clone_fraction": 0.0
+        }
+      }
+    },
+    "v2": {
+      "best_calibration": {
+        "cut": 0.7,
+        "radius": 0.5,
+        "metrics": {
+          "truth": 243,
+          "outputs": 43,
+          "correct": 12,
+          "fakes": 31,
+          "clones": 0,
+          "efficiency": 0.04938271604938271,
+          "fake_fraction": 0.7209302325581395,
+          "clone_fraction": 0.0
+        }
+      },
+      "metrics": {
+        "train": {
+          "truth": 924,
+          "outputs": 189,
+          "correct": 67,
+          "fakes": 122,
+          "clones": 0,
+          "efficiency": 0.07251082251082251,
+          "fake_fraction": 0.6455026455026455,
+          "clone_fraction": 0.0
+        },
+        "validation": {
+          "truth": 491,
+          "outputs": 90,
+          "correct": 31,
+          "fakes": 59,
+          "clones": 0,
+          "efficiency": 0.06313645621181263,
+          "fake_fraction": 0.6555555555555556,
+          "clone_fraction": 0.0
+        }
+      }
+    },
+    "hard_v1": {
+      "best_calibration": {
+        "cut": 0.3,
+        "radius": 0.5,
+        "metrics": {
+          "truth": 243,
+          "outputs": 79,
+          "correct": 21,
+          "fakes": 58,
+          "clones": 0,
+          "efficiency": 0.08641975308641975,
+          "fake_fraction": 0.7341772151898734,
+          "clone_fraction": 0.0
+        }
+      },
+      "metrics": {
+        "train": {
+          "truth": 924,
+          "outputs": 336,
+          "correct": 103,
+          "fakes": 233,
+          "clones": 0,
+          "efficiency": 0.11147186147186147,
+          "fake_fraction": 0.6934523809523809,
+          "clone_fraction": 0.0
+        },
+        "validation": {
+          "truth": 491,
+          "outputs": 158,
+          "correct": 33,
+          "fakes": 125,
+          "clones": 0,
+          "efficiency": 0.06720977596741344,
+          "fake_fraction": 0.7911392405063291,
+          "clone_fraction": 0.0
+        }
+      }
+    },
+    "initial": {
+      "best_calibration": {
+        "cut": 0.5,
+        "radius": 0.25,
+        "metrics": {
+          "truth": 243,
+          "outputs": 115,
+          "correct": 37,
+          "fakes": 78,
+          "clones": 0,
+          "efficiency": 0.1522633744855967,
+          "fake_fraction": 0.6782608695652174,
+          "clone_fraction": 0.0
+        }
+      },
+      "metrics": {
+        "train": {
+          "truth": 924,
+          "outputs": 447,
+          "correct": 125,
+          "fakes": 322,
+          "clones": 0,
+          "efficiency": 0.13528138528138528,
+          "fake_fraction": 0.7203579418344519,
+          "clone_fraction": 0.0
+        },
+        "validation": {
+          "truth": 491,
+          "outputs": 247,
+          "correct": 49,
+          "fakes": 197,
+          "clones": 1,
+          "efficiency": 0.09979633401221996,
+          "fake_fraction": 0.7975708502024291,
+          "clone_fraction": 0.004048582995951417
+        }
+      }
+    }
+  }
+}

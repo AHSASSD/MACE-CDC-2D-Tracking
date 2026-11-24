@@ -1,0 +1,12 @@
+{
+  "epoch": 22,
+  "cause": "SIGKILL; sender/root cause unconfirmed",
+  "monitor_enabled": true,
+  "reader_mitigation": "owned per-event buffers; explicit unmap and file-page advice on LRU eviction",
+  "cgroup_memory_before": 44708466688,
+  "cgroup_memory_after": 524926976,
+  "advised_cache_files": 2817,
+  "settings_changed": false,
+  "unix": 1793946363.8747036,
+  "pid": 1928861
+}

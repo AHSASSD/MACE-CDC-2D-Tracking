@@ -1,0 +1,672 @@
+[
+  {
+    "epoch": 1,
+    "objective": 0.010815061910610114,
+    "validation": {
+      "loss": 0.010992069401129364,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3604388,
+          "fp": 312030,
+          "fn": 368660,
+          "recall": 0.9072097794942321,
+          "precision": 0.9203277076144579,
+          "f1": 0.9137216637982849
+        },
+        "AS": {
+          "tp": 9837352,
+          "fp": 1155152,
+          "fn": 1513060,
+          "recall": 0.8666955877901172,
+          "precision": 0.8949145708748434,
+          "f1": 0.8805790613901964
+        },
+        "SS": {
+          "tp": 5446080,
+          "fp": 674156,
+          "fn": 892330,
+          "recall": 0.8592186368505667,
+          "precision": 0.8898480385396903,
+          "f1": 0.8742651488773339
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 521.8435535430908,
+    "updates": 219,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 2,
+    "objective": 0.01068714523475085,
+    "validation": {
+      "loss": 0.011102772411795043,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3608898,
+          "fp": 317376,
+          "fn": 364150,
+          "recall": 0.908344928125711,
+          "precision": 0.9191661101594031,
+          "f1": 0.9137234815848753
+        },
+        "AS": {
+          "tp": 9816285,
+          "fp": 1135570,
+          "fn": 1534127,
+          "recall": 0.8648395318161138,
+          "precision": 0.8963125424870947,
+          "f1": 0.8802948148724073
+        },
+        "SS": {
+          "tp": 5416428,
+          "fp": 644087,
+          "fn": 921982,
+          "recall": 0.8545404920161366,
+          "precision": 0.8937240482038242,
+          "f1": 0.8736931629153334
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 435.74301409721375,
+    "updates": 438,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 3,
+    "objective": 0.01062406007253698,
+    "validation": {
+      "loss": 0.01108226069031629,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3606153,
+          "fp": 313793,
+          "fn": 366895,
+          "recall": 0.9076540228056645,
+          "precision": 0.9199496625718824,
+          "f1": 0.9137604817639542
+        },
+        "AS": {
+          "tp": 9806815,
+          "fp": 1132011,
+          "fn": 1543597,
+          "recall": 0.8640052008684795,
+          "precision": 0.8965143974316805,
+          "f1": 0.8799596468932676
+        },
+        "SS": {
+          "tp": 5407055,
+          "fp": 641018,
+          "fn": 931355,
+          "recall": 0.8530617299922221,
+          "precision": 0.8940128533501497,
+          "f1": 0.8730573480785466
+        }
+      }
+    },
+    "membership": {
+      "truth_tracks": 5969,
+      "stereo_eligible_tracks": 5968,
+      "truth_stereo_all": 81388,
+      "output_candidates": 5911,
+      "axial_completeness_sum": 5315.625809707277,
+      "correct_stereo_matched": 65466,
+      "attached_stereo_matched": 66073,
+      "truth_stereo_matched": 76570,
+      "matched_tracks": 5737,
+      "joint_matched_tracks": 5406,
+      "fake_candidates": 171,
+      "clone_candidates": 3,
+      "track_efficiency": 0.9611325180097169,
+      "fake_fraction": 0.028929115208932498,
+      "clone_fraction": 0.0005075283369988157,
+      "stereo_purity_matched": 0.9908131914700408,
+      "stereo_completeness_matched": 0.8549823690740499,
+      "stereo_recall_all_eligible_tracks": 0.8043691944758441,
+      "joint_track_efficiency": 0.9058310991957105
+    },
+    "seconds": 854.1529529094696,
+    "updates": 657,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 4,
+    "objective": 0.01056937581620046,
+    "validation": {
+      "loss": 0.011107336682594263,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3589650,
+          "fp": 298883,
+          "fn": 383398,
+          "recall": 0.9035002849197895,
+          "precision": 0.9231373373969052,
+          "f1": 0.9132132582491995
+        },
+        "AS": {
+          "tp": 9744114,
+          "fp": 1064189,
+          "fn": 1606298,
+          "recall": 0.8584810842108639,
+          "precision": 0.9015396774128186,
+          "f1": 0.8794836704204192
+        },
+        "SS": {
+          "tp": 5378766,
+          "fp": 609932,
+          "fn": 959644,
+          "recall": 0.8485986233140488,
+          "precision": 0.8981528205296042,
+          "f1": 0.8726728118225296
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 431.67690873146057,
+    "updates": 876,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 5,
+    "objective": 0.010531872085960847,
+    "validation": {
+      "loss": 0.011267469634183527,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3615092,
+          "fp": 320548,
+          "fn": 357956,
+          "recall": 0.9099039326985227,
+          "precision": 0.9185525098840341,
+          "f1": 0.9142077674577629
+        },
+        "AS": {
+          "tp": 9827728,
+          "fp": 1135510,
+          "fn": 1522684,
+          "recall": 0.8658476890530493,
+          "precision": 0.8964256727802498,
+          "f1": 0.880871394863682
+        },
+        "SS": {
+          "tp": 5420219,
+          "fp": 645130,
+          "fn": 918191,
+          "recall": 0.8551385915395185,
+          "precision": 0.8936367882540642,
+          "f1": 0.8739639330303015
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 430.62410616874695,
+    "updates": 1095,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 6,
+    "objective": 0.010492686221376061,
+    "validation": {
+      "loss": 0.011268760846397203,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3598603,
+          "fp": 313052,
+          "fn": 374445,
+          "recall": 0.9057537185556278,
+          "precision": 0.9199694247064222,
+          "f1": 0.9128062274507993
+        },
+        "AS": {
+          "tp": 9784638,
+          "fp": 1118049,
+          "fn": 1565774,
+          "recall": 0.86205135108752,
+          "precision": 0.8974519767466497,
+          "f1": 0.8793955394707047
+        },
+        "SS": {
+          "tp": 5390760,
+          "fp": 630267,
+          "fn": 947650,
+          "recall": 0.8504908959817998,
+          "precision": 0.895322342849484,
+          "f1": 0.8723309969539874
+        }
+      }
+    },
+    "membership": {
+      "truth_tracks": 5969,
+      "stereo_eligible_tracks": 5968,
+      "truth_stereo_all": 81388,
+      "output_candidates": 5917,
+      "axial_completeness_sum": 5327.496024269482,
+      "correct_stereo_matched": 65770,
+      "attached_stereo_matched": 66421,
+      "truth_stereo_matched": 76722,
+      "matched_tracks": 5748,
+      "joint_matched_tracks": 5428,
+      "fake_candidates": 166,
+      "clone_candidates": 3,
+      "track_efficiency": 0.9629753727592562,
+      "fake_fraction": 0.028054757478451917,
+      "clone_fraction": 0.000507013689369613,
+      "stereo_purity_matched": 0.9901988828834254,
+      "stereo_completeness_matched": 0.8572508537316545,
+      "stereo_recall_all_eligible_tracks": 0.8081043888533936,
+      "joint_track_efficiency": 0.9095174262734584
+    },
+    "seconds": 903.7912683486938,
+    "updates": 1314,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 7,
+    "objective": 0.01045800825022161,
+    "validation": {
+      "loss": 0.011262001398865263,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3603806,
+          "fp": 311265,
+          "fn": 369242,
+          "recall": 0.9070632924646267,
+          "precision": 0.9204956947140933,
+          "f1": 0.9137301300855122
+        },
+        "AS": {
+          "tp": 9813879,
+          "fp": 1125676,
+          "fn": 1536533,
+          "recall": 0.8646275571318468,
+          "precision": 0.8971003847962737,
+          "f1": 0.8805646953178531
+        },
+        "SS": {
+          "tp": 5419322,
+          "fp": 646733,
+          "fn": 919088,
+          "recall": 0.8549970733985337,
+          "precision": 0.8933849099620759,
+          "f1": 0.8737695660393253
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 511.76582956314087,
+    "updates": 1533,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 8,
+    "objective": 0.010417065845536333,
+    "validation": {
+      "loss": 0.01128592395766841,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3607936,
+          "fp": 319640,
+          "fn": 365112,
+          "recall": 0.9081027966437858,
+          "precision": 0.9186164698022393,
+          "f1": 0.9133293775276484
+        },
+        "AS": {
+          "tp": 9821183,
+          "fp": 1146361,
+          "fn": 1529229,
+          "recall": 0.8652710580021237,
+          "precision": 0.8954769636666149,
+          "f1": 0.8801149173338275
+        },
+        "SS": {
+          "tp": 5418446,
+          "fp": 653215,
+          "fn": 919964,
+          "recall": 0.8548588683912842,
+          "precision": 0.8924157656364543,
+          "f1": 0.8732336825470217
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 648.0498747825623,
+    "updates": 1752,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 9,
+    "objective": 0.010388298175164632,
+    "validation": {
+      "loss": 0.011252152638909142,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3600306,
+          "fp": 307608,
+          "fn": 372742,
+          "recall": 0.9061823567195765,
+          "precision": 0.9212858829544356,
+          "f1": 0.9136717065759231
+        },
+        "AS": {
+          "tp": 9787177,
+          "fp": 1101395,
+          "fn": 1563235,
+          "recall": 0.8622750434081159,
+          "precision": 0.8988485358777992,
+          "f1": 0.8801820263012016
+        },
+        "SS": {
+          "tp": 5402729,
+          "fp": 631875,
+          "fn": 935681,
+          "recall": 0.8523792244427231,
+          "precision": 0.8952913894598552,
+          "f1": 0.8733084760107763
+        }
+      }
+    },
+    "membership": {
+      "truth_tracks": 5969,
+      "stereo_eligible_tracks": 5968,
+      "truth_stereo_all": 81388,
+      "output_candidates": 5906,
+      "axial_completeness_sum": 5318.198239907015,
+      "correct_stereo_matched": 65606,
+      "attached_stereo_matched": 66228,
+      "truth_stereo_matched": 76588,
+      "matched_tracks": 5740,
+      "joint_matched_tracks": 5420,
+      "fake_candidates": 164,
+      "clone_candidates": 2,
+      "track_efficiency": 0.9616351147595912,
+      "fake_fraction": 0.0277683711479851,
+      "clone_fraction": 0.0003386386725364037,
+      "stereo_purity_matched": 0.9906082019689557,
+      "stereo_completeness_matched": 0.8566093905050399,
+      "stereo_recall_all_eligible_tracks": 0.8060893497812945,
+      "joint_track_efficiency": 0.9081769436997319
+    },
+    "seconds": 865.4139330387115,
+    "updates": 1971,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 10,
+    "objective": 0.01036432294920087,
+    "validation": {
+      "loss": 0.011218926870783078,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3593210,
+          "fp": 304212,
+          "fn": 379838,
+          "recall": 0.9043963224204691,
+          "precision": 0.9219453269366263,
+          "f1": 0.9130865119872129
+        },
+        "AS": {
+          "tp": 9759988,
+          "fp": 1089712,
+          "fn": 1590424,
+          "recall": 0.8598796237528646,
+          "precision": 0.8995629372240707,
+          "f1": 0.8792737622224609
+        },
+        "SS": {
+          "tp": 5377802,
+          "fp": 618967,
+          "fn": 960608,
+          "recall": 0.8484465346987652,
+          "precision": 0.8967832511140582,
+          "f1": 0.871945514532055
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 460.9847946166992,
+    "updates": 2190,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 11,
+    "objective": 0.010320785733738116,
+    "validation": {
+      "loss": 0.011430140949175627,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3608182,
+          "fp": 319653,
+          "fn": 364866,
+          "recall": 0.9081647138418665,
+          "precision": 0.9186185264910568,
+          "f1": 0.9133617090646704
+        },
+        "AS": {
+          "tp": 9822197,
+          "fp": 1148940,
+          "fn": 1528215,
+          "recall": 0.8653603939663159,
+          "precision": 0.8952761231584293,
+          "f1": 0.8800641030781511
+        },
+        "SS": {
+          "tp": 5418629,
+          "fp": 653353,
+          "fn": 919781,
+          "recall": 0.8548877399852645,
+          "precision": 0.8923987258196747,
+          "f1": 0.8732405874044913
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 548.0620980262756,
+    "updates": 2409,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 12,
+    "objective": 0.010304469154349395,
+    "validation": {
+      "loss": 0.011433825240302564,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3594970,
+          "fp": 302676,
+          "fn": 378078,
+          "recall": 0.9048393072522658,
+          "precision": 0.9223438968033526,
+          "f1": 0.9135077542082057
+        },
+        "AS": {
+          "tp": 9767604,
+          "fp": 1093877,
+          "fn": 1582808,
+          "recall": 0.8605506126121237,
+          "precision": 0.8992884119578168,
+          "f1": 0.8794931616139156
+        },
+        "SS": {
+          "tp": 5385989,
+          "fp": 628458,
+          "fn": 952421,
+          "recall": 0.8497381835507644,
+          "precision": 0.8955085978810687,
+          "f1": 0.8720232088819615
+        }
+      }
+    },
+    "membership": {
+      "truth_tracks": 5969,
+      "stereo_eligible_tracks": 5968,
+      "truth_stereo_all": 81388,
+      "output_candidates": 5895,
+      "axial_completeness_sum": 5322.956718081747,
+      "correct_stereo_matched": 65746,
+      "attached_stereo_matched": 66389,
+      "truth_stereo_matched": 76637,
+      "matched_tracks": 5742,
+      "joint_matched_tracks": 5426,
+      "fake_candidates": 152,
+      "clone_candidates": 1,
+      "track_efficiency": 0.9619701792595075,
+      "fake_fraction": 0.025784563189143343,
+      "clone_fraction": 0.00016963528413910093,
+      "stereo_purity_matched": 0.9903146605612375,
+      "stereo_completeness_matched": 0.85788848728421,
+      "stereo_recall_all_eligible_tracks": 0.807809505086745,
+      "joint_track_efficiency": 0.9091823056300268
+    },
+    "seconds": 829.5588715076447,
+    "updates": 2628,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 13,
+    "objective": 0.010270011877108897,
+    "validation": {
+      "loss": 0.011596225951870558,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3605150,
+          "fp": 315058,
+          "fn": 367898,
+          "recall": 0.9074015717907259,
+          "precision": 0.9196323256317012,
+          "f1": 0.9134760104068587
+        },
+        "AS": {
+          "tp": 9798686,
+          "fp": 1128572,
+          "fn": 1551726,
+          "recall": 0.8632890154119516,
+          "precision": 0.8967195613025701,
+          "f1": 0.8796867895071612
+        },
+        "SS": {
+          "tp": 5397442,
+          "fp": 639568,
+          "fn": 940968,
+          "recall": 0.8515451035827597,
+          "precision": 0.8940588138830315,
+          "f1": 0.8722842537869422
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 444.30951857566833,
+    "updates": 2847,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 14,
+    "objective": 0.010249600348461951,
+    "validation": {
+      "loss": 0.011549195017393661,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3595687,
+          "fp": 301837,
+          "fn": 377361,
+          "recall": 0.9050197732320374,
+          "precision": 0.922556730888636,
+          "f1": 0.9137041119755972
+        },
+        "AS": {
+          "tp": 9761051,
+          "fp": 1079364,
+          "fn": 1589361,
+          "recall": 0.8599732767409677,
+          "precision": 0.9004314871709247,
+          "f1": 0.8797374699014147
+        },
+        "SS": {
+          "tp": 5376017,
+          "fp": 613768,
+          "fn": 962393,
+          "recall": 0.8481649183312534,
+          "precision": 0.8975308796559476,
+          "f1": 0.8721498970449445
+        }
+      }
+    },
+    "membership": null,
+    "seconds": 480.7817566394806,
+    "updates": 3066,
+    "amp_skips": 0
+  },
+  {
+    "epoch": 15,
+    "objective": 0.010227734768497093,
+    "validation": {
+      "loss": 0.011461908888852953,
+      "edges": 132417998,
+      "types": {
+        "AA": {
+          "tp": 3599247,
+          "fp": 308862,
+          "fn": 373801,
+          "recall": 0.9059158107327171,
+          "precision": 0.92096893919796,
+          "f1": 0.9133803577317391
+        },
+        "AS": {
+          "tp": 9800198,
+          "fp": 1121518,
+          "fn": 1550214,
+          "recall": 0.8634222264354809,
+          "precision": 0.897313022971848,
+          "f1": 0.8800414580950684
+        },
+        "SS": {
+          "tp": 5406814,
+          "fp": 640085,
+          "fn": 931596,
+          "recall": 0.8530237078384011,
+          "precision": 0.8941465700022442,
+          "f1": 0.8731011878670124
+        }
+      }
+    },
+    "membership": {
+      "truth_tracks": 5969,
+      "stereo_eligible_tracks": 5968,
+      "truth_stereo_all": 81388,
+      "output_candidates": 5903,
+      "axial_completeness_sum": 5321.185782919559,
+      "correct_stereo_matched": 65716,
+      "attached_stereo_matched": 66384,
+      "truth_stereo_matched": 76646,
+      "matched_tracks": 5742,
+      "joint_matched_tracks": 5420,
+      "fake_candidates": 157,
+      "clone_candidates": 4,
+      "track_efficiency": 0.9619701792595075,
+      "fake_fraction": 0.026596645773335592,
+      "clone_fraction": 0.000677621548365238,
+      "stereo_purity_matched": 0.989937334297421,
+      "stereo_completeness_matched": 0.8573963416225243,
+      "stereo_recall_all_eligible_tracks": 0.8074409003784342,
+      "joint_track_efficiency": 0.9081769436997319
+    },
+    "seconds": 798.4187426567078,
+    "updates": 3285,
+    "amp_skips": 0
+  }
+]

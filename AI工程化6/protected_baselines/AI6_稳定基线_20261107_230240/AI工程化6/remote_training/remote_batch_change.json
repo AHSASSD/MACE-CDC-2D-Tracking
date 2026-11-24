@@ -1,0 +1,27 @@
+{
+  "previous_batch_size": 1,
+  "batch_size": 8,
+  "accumulation_steps": 4,
+  "effective_batch": 32,
+  "validation_batch_size": 8,
+  "checkpoint_epoch": 8,
+  "incomplete_epoch_replayed_from_checkpoint": {
+    "status": "training",
+    "epoch": 9,
+    "target_epochs": 200,
+    "event": 1900,
+    "train_events": 7000,
+    "train_loss": 0.025404873494690318,
+    "elapsed_seconds": 256.016009115614,
+    "updated_unix": 1793933904.0436182
+  },
+  "optimizer_steps": [
+    1752
+  ],
+  "model_optimizer_scheduler_scaler_values_unchanged": true,
+  "loss": "equal event weighting preserved, including final partial accumulation group",
+  "before_sha256": "01f652659611d7167742e8040e22e7c30bee3b3f02d22e8e342db718e2e626f5",
+  "after_sha256": "ac590747ef09ea00dbf8f4632def2ad97df3017c12f128317e09b95611a9a3f3",
+  "updated_unix": 1793934188.812238,
+  "pid": 1778073
+}

@@ -1,0 +1,15 @@
+{
+  "job_id": 1526487,
+  "node": "gpu05",
+  "resume_epoch": 8,
+  "next_epoch": 9,
+  "chunk_size_before": 4096,
+  "chunk_size_after": 65536,
+  "effective_batch": 32,
+  "model_optimizer_scheduler_scaler_unchanged": true,
+  "source_portable_sha256": "9c0ac507e7aedf10cad519d77443d37f225fb975e326d64130ccf3b60e561bfe",
+  "remote_checkpoint_sha256": "01f652659611d7167742e8040e22e7c30bee3b3f02d22e8e342db718e2e626f5",
+  "slurm_end": "2026-11-06T14:41:44+08:00",
+  "pid": 1770839,
+  "launched_unix": 1793933641.9811606
+}

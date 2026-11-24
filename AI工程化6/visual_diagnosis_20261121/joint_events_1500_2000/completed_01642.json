@@ -1,0 +1,33 @@
+{
+  "event_id": 1642,
+  "partition": "train",
+  "focus_truth": 211,
+  "category": "matched",
+  "image": "event_01642_T211_baseline.png",
+  "hits": 597,
+  "axial_hits": 248,
+  "stereo_hits": 349,
+  "edge_counts": {
+    "AA": 3674,
+    "AS": 14500,
+    "SS": 9575
+  },
+  "metrics": {
+    "truth_tracks": 27,
+    "stereo_eligible_tracks": 27,
+    "truth_stereo_all": 349,
+    "output_candidates": 27,
+    "axial_completeness_sum": 26.130555555555556,
+    "correct_stereo_matched": 306,
+    "attached_stereo_matched": 306,
+    "truth_stereo_matched": 349,
+    "matched_tracks": 27,
+    "joint_matched_tracks": 25
+  },
+  "seed": {
+    "truth_tracks": 27,
+    "output_candidates": 27,
+    "matched_tracks": 27
+  },
+  "seconds": 4.455504417419434
+}

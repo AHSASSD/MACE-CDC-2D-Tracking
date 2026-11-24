@@ -1,0 +1,31 @@
+{
+  "initial_weight_sha256": "5f3f02409399cd62efce5f254be02fa004237fb61a5b4717681cad1ad90cdcac",
+  "selection_sha256": "4c778093774f914856742e9d8d0a1221136277ecb8e4a4172c5ea2f7238f6ac8",
+  "source_hashes": {
+    "三维拟合草稿_暂未启用.py": "5447fdace3d2df44da7ad2c6f4a879f86ed1cca3891e3c5e16509a86c6f0a9bc",
+    "server_runtime.py": "b17e9e2c40cfe1d669fe132299d6b27e8604fa75fc6321ebf8b5bb1392001be2",
+    "STEP2_课程召回微调.py": "931ac5c1f3cc8f3f73a4c07be00c6bc54b051ba91da87a7dbad126f0f37eb240",
+    "STEP5_两级寻迹.py": "97e2036631ea9f793b6a625d75e71cbf3b1d1678f68a607417a55b1527ff4c1c",
+    "preflight_remote.py": "d6ab1bb6d9e414811a8ff3a58cd326a77f418b80550b84132f58a89ce9749895",
+    "graph_cache.py": "2f2e4ca3f17a15b41d995411630ff73b209cf10983899bc4685d27dc87d8dfdc",
+    "morphology.py": "e813fa7a49b0e0c4a83d852c7c9db81c14794ace0e7895deb56ca23d26db44c0",
+    "recall_loss.py": "8001b44c607b6f4461669b513090c0d5da5128a1d7806315a76161d81e5d4a7f",
+    "common.py": "7f033bfa54bdbb96c4604cada5d3451eb5e66364f1fd1c19448f001324d206ca",
+    "curriculum.py": "63b544454a67bfd146e97979905c688cb541f766bb48be9063290b37a8ad6b57",
+    "coarse_3d_membership.py": "a856b25d4b436fb4862414536a1c23f656e0b3983a060d475aae8e04ad1b3853",
+    "two_stage_core.py": "857b2877b1a3e55121a4adde4145f228ad8f3f10c7c9a47ee590dfbb11dc765b"
+  },
+  "epochs": 30,
+  "min_epochs": 20,
+  "lr": 5e-05,
+  "effective_batch": 32,
+  "micro_batch": 4,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "model": "joint A/S hidden256 passes8",
+  "pipeline": "Original two-pass + AS/SS attachment + guarded_loose coarse3D, no legacy learned candidate calibrator",
+  "loss": "Event focal + track x edge-type true p<0.7 margin (lambda .02 to .08) + type-balanced hard false p>0.3 margin .02",
+  "curriculum": "epochs1-5 ordinary +25% hard;6-15 linearly return hard;16-30 original valid train",
+  "early_stop": "after20, 3 consecutive member checks without coarse seed F1 improvement",
+  "optimizer": "Fresh AdamW, cosine LR 5e-5 to1e-5",
+  "auto_deploy": false
+}

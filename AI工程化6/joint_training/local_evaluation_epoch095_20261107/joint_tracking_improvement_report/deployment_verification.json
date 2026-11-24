@@ -1,0 +1,24 @@
+{
+  "hybrid_fresh_validation_v1": {
+    "events": 300,
+    "unique_hit_ownership": true,
+    "counts_match": true,
+    "source_and_weight_hashes_verified": true
+  },
+  "hybrid_frozen_test_v1": {
+    "events": 1500,
+    "unique_hit_ownership": true,
+    "counts_match": true,
+    "source_and_weight_hashes_verified": true
+  },
+  "runtime": {
+    "python": "3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "sklearn": "1.6.1",
+    "networkx": "3.2.1",
+    "torch": "2.11.0+cu128"
+  },
+  "inference_cli": "STEP4_联合寻迹推理.py",
+  "inference_replay_event": 4779
+}

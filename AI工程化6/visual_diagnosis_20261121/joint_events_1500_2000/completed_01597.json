@@ -1,0 +1,33 @@
+{
+  "event_id": 1597,
+  "partition": "train",
+  "focus_truth": 5376,
+  "category": "matched",
+  "image": "event_01597_T5376_baseline.png",
+  "hits": 559,
+  "axial_hits": 240,
+  "stereo_hits": 319,
+  "edge_counts": {
+    "AA": 3303,
+    "AS": 12923,
+    "SS": 7894
+  },
+  "metrics": {
+    "truth_tracks": 25,
+    "stereo_eligible_tracks": 25,
+    "truth_stereo_all": 319,
+    "output_candidates": 25,
+    "axial_completeness_sum": 22.930555555555557,
+    "correct_stereo_matched": 284,
+    "attached_stereo_matched": 285,
+    "truth_stereo_matched": 319,
+    "matched_tracks": 25,
+    "joint_matched_tracks": 24
+  },
+  "seed": {
+    "truth_tracks": 25,
+    "output_candidates": 25,
+    "matched_tracks": 25
+  },
+  "seconds": 4.747829437255859
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": 1932,
+  "partition": "validation",
+  "focus_truth": 3650,
+  "category": "matched",
+  "image": "event_01932_T3650_baseline.png",
+  "hits": 701,
+  "axial_hits": 290,
+  "stereo_hits": 411,
+  "edge_counts": {
+    "AA": 4845,
+    "AS": 19994,
+    "SS": 13778
+  },
+  "metrics": {
+    "truth_tracks": 30,
+    "stereo_eligible_tracks": 30,
+    "truth_stereo_all": 411,
+    "output_candidates": 30,
+    "axial_completeness_sum": 25.985714285714295,
+    "correct_stereo_matched": 385,
+    "attached_stereo_matched": 385,
+    "truth_stereo_matched": 411,
+    "matched_tracks": 30,
+    "joint_matched_tracks": 30
+  },
+  "seed": {
+    "truth_tracks": 30,
+    "output_candidates": 30,
+    "matched_tracks": 30
+  },
+  "seconds": 11.405935764312744
+}

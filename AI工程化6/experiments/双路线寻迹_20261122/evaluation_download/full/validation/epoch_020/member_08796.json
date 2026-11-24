@@ -1,0 +1,144 @@
+{
+  "event_id": 8796,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 317,
+        "output_candidates": 24,
+        "axial_completeness_sum": 22.17216394716395,
+        "correct_stereo_matched": 276,
+        "attached_stereo_matched": 285,
+        "truth_stereo_matched": 317,
+        "matched_tracks": 24,
+        "joint_matched_tracks": 21
+      },
+      "found": [
+        222,
+        243,
+        370,
+        474,
+        534,
+        928,
+        1208,
+        1551,
+        1934,
+        2007,
+        2147,
+        2438,
+        2618,
+        2895,
+        3109,
+        3205,
+        3425,
+        3462,
+        3668,
+        3977,
+        4186,
+        4392,
+        4726,
+        4789
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 24,
+        "fake_candidates": 2,
+        "matched_tracks": 22
+      }
+    },
+    "E": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 317,
+        "output_candidates": 23,
+        "fake_candidates": 1,
+        "axial_completeness_sum": 21.611965811965813,
+        "correct_stereo_matched": 256,
+        "attached_stereo_matched": 265,
+        "truth_stereo_matched": 293,
+        "matched_tracks": 22,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        222,
+        243,
+        370,
+        474,
+        534,
+        928,
+        1208,
+        1551,
+        2007,
+        2147,
+        2618,
+        2895,
+        3109,
+        3205,
+        3425,
+        3462,
+        3668,
+        3977,
+        4186,
+        4392,
+        4726,
+        4789
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 23,
+        "fake_candidates": 3,
+        "matched_tracks": 20
+      }
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 317,
+        "output_candidates": 24,
+        "axial_completeness_sum": 22.17216394716395,
+        "correct_stereo_matched": 276,
+        "attached_stereo_matched": 285,
+        "truth_stereo_matched": 317,
+        "matched_tracks": 24,
+        "joint_matched_tracks": 21
+      },
+      "found": [
+        222,
+        243,
+        370,
+        474,
+        534,
+        928,
+        1208,
+        1551,
+        1934,
+        2007,
+        2147,
+        2438,
+        2618,
+        2895,
+        3109,
+        3205,
+        3425,
+        3462,
+        3668,
+        3977,
+        4186,
+        4392,
+        4726,
+        4789
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 24,
+        "fake_candidates": 2,
+        "matched_tracks": 22
+      }
+    }
+  },
+  "scope": "Raw two-pass reference; same AS/SS attachment/coarse geometry, no old hybrid calibrator",
+  "prototype_limits": "E lane count capped3 and new geometric groups capped80 axial hits; baseline candidates remain available"
+}

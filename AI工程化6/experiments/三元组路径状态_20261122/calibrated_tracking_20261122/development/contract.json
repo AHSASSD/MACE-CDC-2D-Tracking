@@ -1,0 +1,32 @@
+{
+  "ids": [
+    232,
+    9099,
+    6978,
+    7727,
+    2009,
+    3426,
+    7235,
+    7964,
+    4414,
+    7931,
+    4901,
+    4880,
+    999,
+    9367,
+    5747,
+    9045
+  ],
+  "initial_sha256": "46a9d457a19e3e81112534f52e5a76e0437baa26b06c84f98fcd29f0e3b3eed2",
+  "focused_sha256": "7e35deaf9da3b9996e982d006e66b892ec19d7dc314f355e6f31a41c4ba05c0a",
+  "alignment_sha256": "932101447f3030b8a3dd594619edcda4f8ebc09fddc4d014effb2c0ad650b8bd",
+  "decoder_sha256": "0d8edb7794053a34d0ff340bb3700e7c9177b7eb683f97b4339411a05f77acb1",
+  "runner_sha256": "a88191365cc9d6241bde5de3db21c27d95de768974cbf1325a20d3847bc4752a",
+  "preselection_budget": {
+    "pair_seeds": 64,
+    "retained_seeds": 3,
+    "max_pool": 32
+  },
+  "final_coarse_pair_seeds": 512,
+  "no_training": true
+}

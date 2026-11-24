@@ -1,0 +1,44 @@
+{
+  "control_012": {
+    "recovered_by_group": {
+      "mixed_fragmentation": 19,
+      "pure_connected_at_existing_relaxed_cut": 25,
+      "broadly_low_scores": 8
+    },
+    "pure_connected_by_group": {
+      "pure_connected_at_existing_relaxed_cut": 84,
+      "mixed_fragmentation": 12,
+      "broadly_low_scores": 7
+    },
+    "increased_mean_score": {
+      "broadly_low_scores": 23,
+      "mixed_fragmentation": 20,
+      "pure_connected_at_existing_relaxed_cut": 52,
+      "few_weak_connectors": 2,
+      "candidate_graph_insufficient": 2
+    },
+    "recovered": 52,
+    "lost": 44
+  },
+  "balanced_012": {
+    "recovered_by_group": {
+      "mixed_fragmentation": 19,
+      "pure_connected_at_existing_relaxed_cut": 26,
+      "broadly_low_scores": 8
+    },
+    "pure_connected_by_group": {
+      "pure_connected_at_existing_relaxed_cut": 85,
+      "mixed_fragmentation": 18,
+      "broadly_low_scores": 8
+    },
+    "increased_mean_score": {
+      "broadly_low_scores": 71,
+      "pure_connected_at_existing_relaxed_cut": 58,
+      "mixed_fragmentation": 32,
+      "few_weak_connectors": 2,
+      "candidate_graph_insufficient": 2
+    },
+    "recovered": 53,
+    "lost": 41
+  }
+}

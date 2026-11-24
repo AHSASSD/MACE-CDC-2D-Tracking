@@ -1,0 +1,171 @@
+{
+  "events": 16,
+  "scope": "Diagnostic validation subset, oracle uses truth only for upper-bound diagnosis; CPU decoding with 2 workers, excludes neural inference and feature preparation",
+  "methods": {
+    "raw_baseline": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 476,
+        "axial_completeness_sum": 426.8893995316155,
+        "correct_stereo_matched": 5376,
+        "attached_stereo_matched": 5423,
+        "truth_stereo_matched": 6240,
+        "matched_tracks": 457,
+        "joint_matched_tracks": 431,
+        "fake_candidates": 19,
+        "track_efficiency": 0.9307535641547862,
+        "fake_fraction": 0.03991596638655462,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913332104001475,
+        "stereo_completeness_matched": 0.8615384615384616,
+        "stereo_recall_all_eligible_tracks": 0.7924528301886793,
+        "joint_track_efficiency": 0.8778004073319755
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 454,
+        "fake_candidates": 13,
+        "f1": 0.9478079331941545,
+        "efficiency": 0.924643584521385,
+        "fake_fraction": 0.027837259100642397,
+        "clone_fraction": 0.0
+      },
+      "mean_decode_seconds": 3.3315935625005295
+    },
+    "E": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 475,
+        "axial_completeness_sum": 427.6917692432652,
+        "correct_stereo_matched": 5267,
+        "attached_stereo_matched": 5313,
+        "truth_stereo_matched": 6083,
+        "matched_tracks": 446,
+        "joint_matched_tracks": 422,
+        "fake_candidates": 29,
+        "track_efficiency": 0.9083503054989817,
+        "fake_fraction": 0.061052631578947365,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913419913419913,
+        "stereo_completeness_matched": 0.8658556633240178,
+        "stereo_recall_all_eligible_tracks": 0.7763856132075472,
+        "joint_track_efficiency": 0.8594704684317719
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 465,
+        "matched_tracks": 443,
+        "fake_candidates": 22,
+        "f1": 0.9267782426778243,
+        "efficiency": 0.9022403258655805,
+        "fake_fraction": 0.047311827956989246,
+        "clone_fraction": 0.0
+      },
+      "mean_decode_seconds": 4.992413518751164
+    },
+    "E_no_copy": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 477,
+        "axial_completeness_sum": 426.0006437021396,
+        "correct_stereo_matched": 5240,
+        "attached_stereo_matched": 5280,
+        "truth_stereo_matched": 6024,
+        "matched_tracks": 442,
+        "joint_matched_tracks": 420,
+        "fake_candidates": 35,
+        "track_efficiency": 0.90020366598778,
+        "fake_fraction": 0.07337526205450734,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9924242424242424,
+        "stereo_completeness_matched": 0.8698539176626826,
+        "stereo_recall_all_eligible_tracks": 0.7724056603773585,
+        "joint_track_efficiency": 0.8553971486761711
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 465,
+        "matched_tracks": 440,
+        "fake_candidates": 25,
+        "f1": 0.9205020920502092,
+        "efficiency": 0.8961303462321792,
+        "fake_fraction": 0.053763440860215055,
+        "clone_fraction": 0.0
+      },
+      "mean_decode_seconds": 4.632833106245926
+    },
+    "E_oracle_color": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 474,
+        "axial_completeness_sum": 428.0761387277362,
+        "correct_stereo_matched": 5288,
+        "attached_stereo_matched": 5334,
+        "truth_stereo_matched": 6093,
+        "matched_tracks": 447,
+        "joint_matched_tracks": 424,
+        "fake_candidates": 27,
+        "track_efficiency": 0.9103869653767821,
+        "fake_fraction": 0.056962025316455694,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9913760779902512,
+        "stereo_completeness_matched": 0.867881175118989,
+        "stereo_recall_all_eligible_tracks": 0.7794811320754716,
+        "joint_track_efficiency": 0.8635437881873728
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 464,
+        "matched_tracks": 445,
+        "fake_candidates": 19,
+        "f1": 0.9319371727748691,
+        "efficiency": 0.9063136456211812,
+        "fake_fraction": 0.040948275862068964,
+        "clone_fraction": 0.0
+      },
+      "mean_decode_seconds": 4.856930237498091
+    },
+    "T": {
+      "tracks": {
+        "truth_tracks": 491,
+        "stereo_eligible_tracks": 491,
+        "truth_stereo_all": 6784,
+        "output_candidates": 475,
+        "axial_completeness_sum": 430.53616024216933,
+        "correct_stereo_matched": 5467,
+        "attached_stereo_matched": 5514,
+        "truth_stereo_matched": 6308,
+        "matched_tracks": 462,
+        "joint_matched_tracks": 437,
+        "fake_candidates": 13,
+        "track_efficiency": 0.9409368635437881,
+        "fake_fraction": 0.02736842105263158,
+        "clone_fraction": 0.0,
+        "stereo_purity_matched": 0.9914762422923468,
+        "stereo_completeness_matched": 0.8666772352568167,
+        "stereo_recall_all_eligible_tracks": 0.8058667452830188,
+        "joint_track_efficiency": 0.890020366598778
+      },
+      "seeds": {
+        "truth_tracks": 491,
+        "output_candidates": 467,
+        "matched_tracks": 459,
+        "fake_candidates": 8,
+        "f1": 0.9582463465553236,
+        "efficiency": 0.9348268839103869,
+        "fake_fraction": 0.017130620985010708,
+        "clone_fraction": 0.0
+      },
+      "mean_decode_seconds": 4.2822163499986345
+    }
+  }
+}

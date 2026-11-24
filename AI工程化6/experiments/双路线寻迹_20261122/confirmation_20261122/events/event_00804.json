@@ -1,0 +1,98 @@
+{
+  "event_id": 804,
+  "n_hits": 1168,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 30,
+        "stereo_eligible_tracks": 30,
+        "truth_stereo_all": 644,
+        "output_candidates": 24,
+        "axial_completeness_sum": 18.56794316794317,
+        "correct_stereo_matched": 216,
+        "attached_stereo_matched": 220,
+        "truth_stereo_matched": 280,
+        "fake_candidates": 2,
+        "matched_tracks": 22,
+        "joint_matched_tracks": 18
+      },
+      "found": [
+        89,
+        215,
+        472,
+        536,
+        651,
+        992,
+        1306,
+        1355,
+        1440,
+        2029,
+        3060,
+        3628,
+        3843,
+        3917,
+        4249,
+        4699,
+        4782,
+        5452,
+        5607,
+        5699,
+        5773,
+        6143
+      ],
+      "seeds": {
+        "truth_tracks": 30,
+        "output_candidates": 23,
+        "fake_candidates": 2,
+        "matched_tracks": 21
+      },
+      "decode_seconds": 2.0886873999988893
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 30,
+        "stereo_eligible_tracks": 30,
+        "truth_stereo_all": 644,
+        "output_candidates": 25,
+        "axial_completeness_sum": 18.442943167943174,
+        "correct_stereo_matched": 216,
+        "attached_stereo_matched": 220,
+        "truth_stereo_matched": 280,
+        "fake_candidates": 3,
+        "matched_tracks": 22,
+        "joint_matched_tracks": 18
+      },
+      "found": [
+        89,
+        215,
+        472,
+        536,
+        651,
+        992,
+        1306,
+        1355,
+        1440,
+        2029,
+        3060,
+        3628,
+        3843,
+        3917,
+        4249,
+        4699,
+        4782,
+        5452,
+        5607,
+        5699,
+        5773,
+        6143
+      ],
+      "seeds": {
+        "truth_tracks": 30,
+        "output_candidates": 24,
+        "fake_candidates": 3,
+        "matched_tracks": 21
+      },
+      "decode_seconds": 2.963655800005654
+    }
+  }
+}

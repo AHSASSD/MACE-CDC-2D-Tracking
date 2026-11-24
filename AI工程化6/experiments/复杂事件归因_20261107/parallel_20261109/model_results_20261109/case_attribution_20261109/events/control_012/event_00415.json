@@ -1,0 +1,72 @@
+{
+  "event_id": 415,
+  "model": "control_012",
+  "tracks": [
+    {
+      "truth_id": 3359,
+      "old_category": "mixed_fragmentation",
+      "new_category": "pure_connected_at_existing_relaxed_cut",
+      "recovered": true,
+      "old_connected": false,
+      "new_connected": true,
+      "old_median": 0.5068359375,
+      "new_median": 0.5452880859375,
+      "old_below": 0.75,
+      "new_below": 0.6071428571428571,
+      "old_true_mean": 0.6131940484046936,
+      "new_true_mean": 0.6406293511390686,
+      "old_false_acceptance": 0.0,
+      "new_false_acceptance": 0.0,
+      "old_largest": 4,
+      "new_largest": 5,
+      "old_match_connectivity": 0.55126953125,
+      "new_match_connectivity": 0.60986328125
+    },
+    {
+      "truth_id": 4956,
+      "old_category": "pure_connected_at_existing_relaxed_cut",
+      "new_category": "pure_connected_at_existing_relaxed_cut",
+      "recovered": true,
+      "old_connected": true,
+      "new_connected": true,
+      "old_median": 0.650634765625,
+      "new_median": 0.717529296875,
+      "old_below": 0.48717948717948717,
+      "new_below": 0.41025641025641024,
+      "old_true_mean": 0.6800631284713745,
+      "new_true_mean": 0.6921668648719788,
+      "old_false_acceptance": 0.0,
+      "new_false_acceptance": 0.0,
+      "old_largest": 9,
+      "new_largest": 10,
+      "old_match_connectivity": 0.698486328125,
+      "new_match_connectivity": 0.767578125
+    }
+  ],
+  "counts": {
+    "truth_tracks": 34,
+    "stereo_eligible_tracks": 34,
+    "truth_stereo_all": 434,
+    "output_candidates": 34,
+    "axial_completeness_sum": 32.03325008325008,
+    "correct_stereo_matched": 373,
+    "attached_stereo_matched": 376,
+    "truth_stereo_matched": 434,
+    "matched_tracks": 34,
+    "joint_matched_tracks": 33
+  },
+  "seed": {
+    "truth_tracks": 34,
+    "output_candidates": 34,
+    "matched_tracks": 34
+  },
+  "recovered_old": [
+    3359,
+    4956
+  ],
+  "lost_old": [],
+  "all_old_missed": [
+    3359,
+    4956
+  ]
+}

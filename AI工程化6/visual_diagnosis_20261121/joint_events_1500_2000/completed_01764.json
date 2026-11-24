@@ -1,0 +1,33 @@
+{
+  "event_id": 1764,
+  "partition": "test",
+  "focus_truth": 620,
+  "category": "matched",
+  "image": "event_01764_T620_baseline.png",
+  "hits": 678,
+  "axial_hits": 295,
+  "stereo_hits": 383,
+  "edge_counts": {
+    "AA": 5312,
+    "AS": 18663,
+    "SS": 11681
+  },
+  "metrics": {
+    "truth_tracks": 29,
+    "stereo_eligible_tracks": 29,
+    "truth_stereo_all": 383,
+    "output_candidates": 29,
+    "axial_completeness_sum": 27.635858585858582,
+    "correct_stereo_matched": 313,
+    "attached_stereo_matched": 315,
+    "truth_stereo_matched": 383,
+    "matched_tracks": 29,
+    "joint_matched_tracks": 28
+  },
+  "seed": {
+    "truth_tracks": 29,
+    "output_candidates": 29,
+    "matched_tracks": 29
+  },
+  "seconds": 5.384423494338989
+}

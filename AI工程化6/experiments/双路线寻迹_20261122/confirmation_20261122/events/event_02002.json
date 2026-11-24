@@ -1,0 +1,94 @@
+{
+  "event_id": 2002,
+  "n_hits": 621,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 23,
+        "stereo_eligible_tracks": 23,
+        "truth_stereo_all": 363,
+        "output_candidates": 22,
+        "axial_completeness_sum": 21.174159174159175,
+        "correct_stereo_matched": 280,
+        "attached_stereo_matched": 280,
+        "truth_stereo_matched": 301,
+        "matched_tracks": 22,
+        "joint_matched_tracks": 22
+      },
+      "found": [
+        84,
+        398,
+        506,
+        882,
+        1241,
+        1486,
+        1925,
+        2375,
+        2601,
+        2711,
+        2748,
+        3032,
+        3186,
+        3945,
+        4585,
+        4637,
+        4777,
+        4840,
+        4917,
+        4971,
+        5257,
+        5477
+      ],
+      "seeds": {
+        "truth_tracks": 23,
+        "output_candidates": 22,
+        "matched_tracks": 22
+      },
+      "decode_seconds": 1.843704400002025
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 23,
+        "stereo_eligible_tracks": 23,
+        "truth_stereo_all": 363,
+        "output_candidates": 22,
+        "axial_completeness_sum": 21.04915917415918,
+        "correct_stereo_matched": 280,
+        "attached_stereo_matched": 280,
+        "truth_stereo_matched": 301,
+        "matched_tracks": 22,
+        "joint_matched_tracks": 22
+      },
+      "found": [
+        84,
+        398,
+        506,
+        882,
+        1241,
+        1486,
+        1925,
+        2375,
+        2601,
+        2711,
+        2748,
+        3032,
+        3186,
+        3945,
+        4585,
+        4637,
+        4777,
+        4840,
+        4917,
+        4971,
+        5257,
+        5477
+      ],
+      "seeds": {
+        "truth_tracks": 23,
+        "output_candidates": 22,
+        "matched_tracks": 22
+      },
+      "decode_seconds": 2.424878299992997
+    }
+  }
+}

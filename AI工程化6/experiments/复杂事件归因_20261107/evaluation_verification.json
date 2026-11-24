@@ -1,0 +1,25 @@
+{
+  "phases": {
+    "validation": {
+      "events": 300,
+      "all_scores_recomputed": true,
+      "old_candidate_identities_unchanged": true,
+      "exclusive_hit_ownership": true,
+      "protected_axial_hits": 82022,
+      "lost_axial_hits": 0,
+      "no_calibration_event_overlap": true,
+      "source_and_scorer_hashes_match": true
+    },
+    "test": {
+      "events": 300,
+      "all_scores_recomputed": true,
+      "old_candidate_identities_unchanged": true,
+      "exclusive_hit_ownership": true,
+      "protected_axial_hits": 79876,
+      "lost_axial_hits": 0,
+      "no_calibration_event_overlap": true,
+      "source_and_scorer_hashes_match": true
+    }
+  },
+  "baseline_pins_unchanged": true
+}

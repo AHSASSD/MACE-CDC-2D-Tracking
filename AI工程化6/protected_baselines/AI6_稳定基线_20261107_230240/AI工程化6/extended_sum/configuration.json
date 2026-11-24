@@ -1,0 +1,22 @@
+{
+  "arguments": {
+    "train": 256,
+    "validation": 64,
+    "test": 64,
+    "epochs": 48,
+    "run": "extended_sum",
+    "close_apps": false,
+    "reuse": "pilot_v1",
+    "aggregation": "sum",
+    "skip_test": false,
+    "initialize": "pilot_v1/best.pt"
+  },
+  "seed": 20261105,
+  "architecture": {
+    "hidden": 64,
+    "passes": 3,
+    "aggregation": "sum"
+  },
+  "initialization_sha256": "d535966f2621514c2acd8a4912b8ad0a2e62a265900f57fecb5770fdc8c5ec27",
+  "source_script_sha256": "e3d3cf6d2625b72b1b50f51fba2d3ce883758684873b0ec06233065e5298f774"
+}

@@ -1,0 +1,24 @@
+{
+  "event_id": 198,
+  "counts": {
+    "truth_tracks": 34,
+    "stereo_eligible_tracks": 34,
+    "truth_stereo_all": 452,
+    "output_candidates": 32,
+    "axial_completeness_sum": 29.778174603174612,
+    "correct_stereo_matched": 368,
+    "attached_stereo_matched": 372,
+    "truth_stereo_matched": 422,
+    "matched_tracks": 32,
+    "joint_matched_tracks": 31
+  },
+  "seed": {
+    "truth_tracks": 34,
+    "output_candidates": 32,
+    "matched_tracks": 32
+  },
+  "strata": [
+    "all",
+    "ordinary"
+  ]
+}

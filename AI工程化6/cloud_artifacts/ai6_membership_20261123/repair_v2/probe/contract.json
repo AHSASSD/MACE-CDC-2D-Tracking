@@ -1,0 +1,21 @@
+{
+  "signature": {
+    "train_repair_probe.py": "e6504f1df810490c1635b0356fa9aa2e1aaf5796d18058c4bd7131c430506936",
+    "membership.py": "0b224cb2e09c98ee68c51520d599b1811c5d3d5c495a18518831f0cae69bf8b3",
+    "repair_v2.py": "802ea96e340114413d781fc3e2be1812bd854aa5fe61f3348b6540ed91f2dff9",
+    "fast_model.py": "c7d720653eadf3e93cf891bb02f24f4ccdd48cecea5fd89aa08692cc44029dd4",
+    "review_pilot.py": "a3b50aeac62a3bb68b72ea6db061b1a7178f5bd4c51e1d2bac5a98bdc0887c13",
+    "split_manifest.json": "a154520a25556e88d6f889f4ef1a0b01f7c46e6ed64baf9f2a6a565ca344b9f3",
+    "initial_D10.pth": "36d9bbe7e012adf5a898f9b752f0e0d5bebc535a54e9ed4a721dba8ebbf164d8"
+  },
+  "stage": "end_to_end_mechanism_probe",
+  "warmstart": "D10",
+  "events": 256,
+  "effective_batch": 32,
+  "microbatch": 4,
+  "chunk": 16384,
+  "direct_steps": 2,
+  "workers": 2,
+  "measured_step_speedup": 5.501706911275463,
+  "formal_200_epoch": false
+}

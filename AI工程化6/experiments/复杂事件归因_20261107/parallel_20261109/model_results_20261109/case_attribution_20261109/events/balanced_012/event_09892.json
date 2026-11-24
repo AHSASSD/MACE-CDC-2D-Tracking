@@ -1,0 +1,69 @@
+{
+  "event_id": 9892,
+  "model": "balanced_012",
+  "tracks": [
+    {
+      "truth_id": 449,
+      "old_category": "broadly_low_scores",
+      "new_category": "broadly_low_scores",
+      "recovered": false,
+      "old_connected": false,
+      "new_connected": false,
+      "old_median": 0.4949951171875,
+      "new_median": 0.50537109375,
+      "old_below": 0.9767441860465116,
+      "new_below": 0.9767441860465116,
+      "old_true_mean": 0.5082383155822754,
+      "new_true_mean": 0.5100268125534058,
+      "old_false_acceptance": 0.015432098765432098,
+      "new_false_acceptance": 0.021604938271604937,
+      "old_largest": 2,
+      "new_largest": 2,
+      "old_match_connectivity": 0.53369140625,
+      "new_match_connectivity": 0.529296875
+    },
+    {
+      "truth_id": 5230,
+      "old_category": "broadly_low_scores",
+      "new_category": "broadly_low_scores",
+      "recovered": false,
+      "old_connected": false,
+      "new_connected": false,
+      "old_median": 0.49981689453125,
+      "new_median": 0.508056640625,
+      "old_below": 0.9642857142857143,
+      "new_below": 0.9285714285714286,
+      "old_true_mean": 0.5067487359046936,
+      "new_true_mean": 0.5167672038078308,
+      "old_false_acceptance": 0.01845018450184502,
+      "new_false_acceptance": 0.025830258302583026,
+      "old_largest": 2,
+      "new_largest": 2,
+      "old_match_connectivity": 0.518310546875,
+      "new_match_connectivity": 0.522216796875
+    }
+  ],
+  "counts": {
+    "truth_tracks": 39,
+    "stereo_eligible_tracks": 39,
+    "truth_stereo_all": 530,
+    "output_candidates": 37,
+    "axial_completeness_sum": 33.52920967920968,
+    "correct_stereo_matched": 399,
+    "attached_stereo_matched": 405,
+    "truth_stereo_matched": 502,
+    "matched_tracks": 37,
+    "joint_matched_tracks": 33
+  },
+  "seed": {
+    "truth_tracks": 39,
+    "output_candidates": 37,
+    "matched_tracks": 37
+  },
+  "recovered_old": [],
+  "lost_old": [],
+  "all_old_missed": [
+    449,
+    5230
+  ]
+}

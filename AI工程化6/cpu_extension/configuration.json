@@ -1,0 +1,23 @@
+{
+  "arguments": {
+    "train": 256,
+    "validation": 64,
+    "test": 64,
+    "epochs": 24,
+    "run": "cpu_extension",
+    "close_apps": false,
+    "reuse": "pilot_v1",
+    "aggregation": "sum",
+    "skip_test": false,
+    "initialize": "extended_sum/last.pt",
+    "device": "cpu"
+  },
+  "seed": 20261105,
+  "architecture": {
+    "hidden": 64,
+    "passes": 3,
+    "aggregation": "sum"
+  },
+  "initialization_sha256": "dc5fa6171dc07bd5ba668372d528b42bd0db8de4ddbb5d775445efa975516700",
+  "source_script_sha256": "e461ec5097891a0863fd44be7de488e89d1644ca2a12383a90f41947d8e0730e"
+}

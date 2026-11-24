@@ -1,0 +1,98 @@
+{
+  "event_id": 177,
+  "n_hits": 696,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 388,
+        "output_candidates": 24,
+        "axial_completeness_sum": 21.101651126651124,
+        "correct_stereo_matched": 249,
+        "attached_stereo_matched": 249,
+        "truth_stereo_matched": 297,
+        "fake_candidates": 1,
+        "matched_tracks": 23,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        446,
+        800,
+        864,
+        1512,
+        1630,
+        1695,
+        2026,
+        2104,
+        2140,
+        2511,
+        3026,
+        3147,
+        3232,
+        4108,
+        4382,
+        4453,
+        4588,
+        4755,
+        5232,
+        5521,
+        5596,
+        5768,
+        6013
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 23,
+        "matched_tracks": 23
+      },
+      "decode_seconds": 2.024275999996462
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 388,
+        "output_candidates": 24,
+        "axial_completeness_sum": 21.001651126651126,
+        "correct_stereo_matched": 249,
+        "attached_stereo_matched": 249,
+        "truth_stereo_matched": 297,
+        "fake_candidates": 1,
+        "matched_tracks": 23,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        446,
+        800,
+        864,
+        1512,
+        1630,
+        1695,
+        2026,
+        2104,
+        2140,
+        2511,
+        3026,
+        3147,
+        3232,
+        4108,
+        4382,
+        4453,
+        4588,
+        4755,
+        5232,
+        5521,
+        5596,
+        5768,
+        6013
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 23,
+        "matched_tracks": 23
+      },
+      "decode_seconds": 2.565174699993804
+    }
+  }
+}

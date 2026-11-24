@@ -1,0 +1,10 @@
+{
+  "cache": "/seu_nvme/home/zhangyongchao/213230965/ai6_graph_cache_v1",
+  "workers": 2,
+  "prefetch_factor": 2,
+  "pin_memory": "1",
+  "async_transfer": "1",
+  "recompute_policy": "adaptive",
+  "slurm_job": "1530118",
+  "slurm_step": "2"
+}

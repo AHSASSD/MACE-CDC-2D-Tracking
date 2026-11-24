@@ -1,0 +1,96 @@
+{
+  "event_id": 5614,
+  "n_hits": 585,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 339,
+        "output_candidates": 23,
+        "axial_completeness_sum": 19.18246753246753,
+        "correct_stereo_matched": 230,
+        "attached_stereo_matched": 234,
+        "truth_stereo_matched": 295,
+        "fake_candidates": 2,
+        "matched_tracks": 21,
+        "joint_matched_tracks": 18
+      },
+      "found": [
+        221,
+        391,
+        716,
+        975,
+        1329,
+        1439,
+        1756,
+        2120,
+        2422,
+        2509,
+        2570,
+        2688,
+        2758,
+        3042,
+        3067,
+        3177,
+        3329,
+        3394,
+        3413,
+        3518,
+        3622
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 22,
+        "fake_candidates": 2,
+        "matched_tracks": 20
+      },
+      "decode_seconds": 2.3142704000056256
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 24,
+        "stereo_eligible_tracks": 24,
+        "truth_stereo_all": 339,
+        "output_candidates": 23,
+        "axial_completeness_sum": 19.18246753246753,
+        "correct_stereo_matched": 230,
+        "attached_stereo_matched": 234,
+        "truth_stereo_matched": 295,
+        "fake_candidates": 2,
+        "matched_tracks": 21,
+        "joint_matched_tracks": 18
+      },
+      "found": [
+        221,
+        391,
+        716,
+        975,
+        1329,
+        1439,
+        1756,
+        2120,
+        2422,
+        2509,
+        2570,
+        2688,
+        2758,
+        3042,
+        3067,
+        3177,
+        3329,
+        3394,
+        3413,
+        3518,
+        3622
+      ],
+      "seeds": {
+        "truth_tracks": 24,
+        "output_candidates": 22,
+        "fake_candidates": 2,
+        "matched_tracks": 20
+      },
+      "decode_seconds": 2.9289643000083743
+    }
+  }
+}

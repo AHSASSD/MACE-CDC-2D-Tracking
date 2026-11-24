@@ -1,0 +1,158 @@
+{
+  "unix": 1795349877.235879,
+  "launch": {
+    "job_id": "1859338",
+    "root": "/seu_nvme/home/zhangyongchao/213230965/ai6_t_path_20261122",
+    "source_archive_sha256": "0125d59e00f6b4053c4361d5bbca6dc3fbd9e0cd9b3fae289a62eb0467038204",
+    "time_limit": "03:00:00",
+    "max_finetune_epochs": 30,
+    "initial": "T25",
+    "frozen_backbone": true,
+    "auto_deploy": false
+  },
+  "status": {
+    "status": "completed",
+    "unix": 1795329220.7917316
+  },
+  "training_status": {
+    "status": "early_stopped",
+    "completed_epoch": 10,
+    "reason": "No precision-guarded weak-positive recall gain for8 epochs"
+  },
+  "progress": {
+    "phase": "validation",
+    "epoch": 10,
+    "events": 191,
+    "total": 200,
+    "unix": 1795329216.8432612
+  },
+  "checkpoint": {
+    "epoch": 11,
+    "cursor": 0,
+    "updates": 17500,
+    "phase": "train",
+    "unix": 1795329217.8858376
+  },
+  "best": {
+    "epoch": 0,
+    "validation": {
+      "all05": {
+        "tp": 15893090,
+        "fp": 405679,
+        "fn": 4723115,
+        "precision": 0.9751098380497325,
+        "recall": 0.7709027922452265,
+        "f1": 0.8610646725634968
+      },
+      "all09": {
+        "tp": 13837469,
+        "fp": 74722,
+        "fn": 6778736,
+        "precision": 0.9946290271604236,
+        "recall": 0.6711938011869789,
+        "f1": 0.8015124131454007
+      },
+      "weak05": {
+        "tp": 839856,
+        "fp": 0,
+        "fn": 4635529,
+        "precision": 1.0,
+        "recall": 0.1533875700064927,
+        "f1": 0.265977497929216
+      },
+      "weak09": {
+        "tp": 13107,
+        "fp": 0,
+        "fn": 5462278,
+        "precision": 1.0,
+        "recall": 0.0023938042712978174,
+        "f1": 0.004776175313729163
+      },
+      "seconds": 14.960675716400146
+    },
+    "selection": "InitialT25 retained until precision-guarded weak-positive recall improves"
+  },
+  "history_tail": [
+    {
+      "epoch": 9,
+      "validation": {
+        "all05": {
+          "tp": 19355321,
+          "fp": 3361278,
+          "fn": 1260884,
+          "precision": 0.8520342767858868,
+          "recall": 0.9388401502604383,
+          "f1": 0.893333420103624
+        },
+        "all09": {
+          "tp": 15296251,
+          "fp": 234166,
+          "fn": 5319954,
+          "precision": 0.984922104796027,
+          "recall": 0.741952798781347,
+          "f1": 0.8463447013112317
+        },
+        "weak05": {
+          "tp": 4214725,
+          "fp": 0,
+          "fn": 1260660,
+          "precision": 1.0,
+          "recall": 0.7697586562406113,
+          "f1": 0.8699024056486458
+        },
+        "weak09": {
+          "tp": 369113,
+          "fp": 0,
+          "fn": 5106272,
+          "precision": 1.0,
+          "recall": 0.06741315907465868,
+          "f1": 0.12631127600693848
+        },
+        "seconds": 14.579719066619873
+      },
+      "updates": 15750
+    },
+    {
+      "epoch": 10,
+      "validation": {
+        "all05": {
+          "tp": 19420259,
+          "fp": 3452849,
+          "fn": 1195946,
+          "precision": 0.8490432957340122,
+          "recall": 0.941990002524713,
+          "f1": 0.8931048876306692
+        },
+        "all09": {
+          "tp": 15333860,
+          "fp": 239334,
+          "fn": 5282345,
+          "precision": 0.9846316690076551,
+          "recall": 0.743777043350122,
+          "f1": 0.8474227494079136
+        },
+        "weak05": {
+          "tp": 4279622,
+          "fp": 0,
+          "fn": 1195763,
+          "precision": 1.0,
+          "recall": 0.7816111561104836,
+          "f1": 0.8774205902671315
+        },
+        "weak09": {
+          "tp": 378756,
+          "fp": 0,
+          "fn": 5096629,
+          "precision": 1.0,
+          "recall": 0.06917431376971665,
+          "f1": 0.12939763493909695
+        },
+        "seconds": 14.904212713241577
+      },
+      "updates": 17500
+    }
+  ],
+  "incidents": "",
+  "job": "slurm_load_jobs error: Invalid job id specified\n",
+  "accounting": "1859338       COMPLETED   00:27:01      0:0 \n1859338.bat+  COMPLETED   00:27:01      0:0 \n1859338.ext+  COMPLETED   00:27:01      0:0 \n1859338.0     COMPLETED   00:26:59      0:0 \n"
+}

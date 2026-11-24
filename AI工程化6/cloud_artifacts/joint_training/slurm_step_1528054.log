@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/运行完整流程.py", line 57, in <module>
+    if __name__=='__main__':main()
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/运行完整流程.py", line 48, in main
+    supervised_training(cmd,log,ROOT)
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/运行完整流程.py", line 12, in supervised_training
+    try:return runner(cmd,log,root)
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/training_health.py", line 43, in run_monitored
+    if code:raise subprocess.CalledProcessError(code,cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python', '-u', '/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/STEP2_训练模型.py', '--run-tag', 'joint_no_time_scratch_v1', '--epochs', '200', '--resume', '/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/joint_training/joint_no_time_scratch_v1/training_state_joint_no_time.pth', '--chunk-size', '131072']' died with <Signals.SIGKILL: 9>.
+srun: error: gpu14: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/运行完整流程.py", line 57, in <module>
+    if __name__=='__main__':main()
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/运行完整流程.py", line 48, in main
+    supervised_training(cmd,log,ROOT)
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/运行完整流程.py", line 12, in supervised_training
+    try:return runner(cmd,log,root)
+  File "/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/training_health.py", line 43, in run_monitored
+    if code:raise subprocess.CalledProcessError(code,cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python', '-u', '/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/STEP2_训练模型.py', '--run-tag', 'joint_no_time_scratch_v1', '--epochs', '200', '--resume', '/seu_share/home/zhangyongchao/213230965/network_datasets/ai6/joint_training/joint_no_time_scratch_v1/training_state_joint_no_time.pth', '--chunk-size', '131072']' died with <Signals.SIGKILL: 9>.
+srun: error: gpu14: task 0: Exited with exit code 1
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1528054.3 ON gpu14 CANCELLED AT 2026-11-07T02:30:55 DUE TO TIME LIMIT ***
+srun: error: gpu14: task 0: Terminated

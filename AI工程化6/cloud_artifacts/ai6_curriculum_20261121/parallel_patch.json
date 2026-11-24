@@ -1,0 +1,15 @@
+{
+  "unix": 1795269872.1789033,
+  "reason": "parallel CPU reconstruction and overlap initial baseline with GPU training",
+  "before_checkpoint": {
+    "epoch": 1,
+    "cursor": 0,
+    "phase": "train",
+    "groups": 0,
+    "updates": 0,
+    "unix": 1795269291.652044
+  },
+  "archive_sha256": "3af8a9bdda2c66e6d17e00a1219c18e6633e3c31bdbdf553f245aca67038937c",
+  "original_job_retained": true,
+  "training_step_to_restart": "1857763.1"
+}

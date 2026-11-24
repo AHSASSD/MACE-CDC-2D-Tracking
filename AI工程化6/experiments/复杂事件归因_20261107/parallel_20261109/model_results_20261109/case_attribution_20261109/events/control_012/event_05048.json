@@ -1,0 +1,71 @@
+{
+  "event_id": 5048,
+  "model": "control_012",
+  "tracks": [
+    {
+      "truth_id": 401,
+      "old_category": "mixed_fragmentation",
+      "new_category": "mixed_fragmentation",
+      "recovered": false,
+      "old_connected": false,
+      "new_connected": false,
+      "old_median": 0.4918212890625,
+      "new_median": 0.495849609375,
+      "old_below": 0.7435897435897436,
+      "new_below": 0.7692307692307693,
+      "old_true_mean": 0.5071958899497986,
+      "new_true_mean": 0.49153801798820496,
+      "old_false_acceptance": 0.022770398481973434,
+      "new_false_acceptance": 0.011385199240986717,
+      "old_largest": 4,
+      "new_largest": 4,
+      "old_match_connectivity": 0.516357421875,
+      "new_match_connectivity": 0.514404296875
+    },
+    {
+      "truth_id": 4081,
+      "old_category": "broadly_low_scores",
+      "new_category": "broadly_low_scores",
+      "recovered": false,
+      "old_connected": false,
+      "new_connected": false,
+      "old_median": 0.46112060546875,
+      "new_median": 0.44744873046875,
+      "old_below": 1.0,
+      "new_below": 1.0,
+      "old_true_mean": 0.45994263887405396,
+      "new_true_mean": 0.446441650390625,
+      "old_false_acceptance": 0.0196078431372549,
+      "new_false_acceptance": 0.007352941176470588,
+      "old_largest": 1,
+      "new_largest": 1,
+      "old_match_connectivity": 0.491943359375,
+      "new_match_connectivity": 0.483642578125
+    }
+  ],
+  "counts": {
+    "truth_tracks": 38,
+    "stereo_eligible_tracks": 38,
+    "truth_stereo_all": 475,
+    "output_candidates": 37,
+    "axial_completeness_sum": 34.545923520923516,
+    "correct_stereo_matched": 375,
+    "attached_stereo_matched": 381,
+    "truth_stereo_matched": 449,
+    "fake_candidates": 1,
+    "matched_tracks": 36,
+    "joint_matched_tracks": 32
+  },
+  "seed": {
+    "truth_tracks": 38,
+    "output_candidates": 34,
+    "fake_candidates": 2,
+    "matched_tracks": 32
+  },
+  "recovered_old": [],
+  "lost_old": [],
+  "all_old_missed": [
+    401,
+    4081
+  ]
+}

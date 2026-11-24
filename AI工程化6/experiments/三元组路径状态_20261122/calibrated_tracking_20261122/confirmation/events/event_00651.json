@@ -1,0 +1,202 @@
+{
+  "event_id": 651,
+  "methods": {
+    "baseline": {
+      "counts": {
+        "truth_tracks": 19,
+        "stereo_eligible_tracks": 19,
+        "truth_stereo_all": 254,
+        "output_candidates": 19,
+        "axial_completeness_sum": 18.257070707070707,
+        "correct_stereo_matched": 213,
+        "attached_stereo_matched": 213,
+        "truth_stereo_matched": 254,
+        "matched_tracks": 19,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        62,
+        357,
+        418,
+        459,
+        852,
+        953,
+        1192,
+        1519,
+        1720,
+        1813,
+        1902,
+        2126,
+        2489,
+        2882,
+        3084,
+        3291,
+        3524,
+        3784,
+        3828
+      ],
+      "seeds": {
+        "truth_tracks": 19,
+        "output_candidates": 19,
+        "matched_tracks": 19
+      },
+      "seconds": 2.019388999979128
+    },
+    "T25_old": {
+      "counts": {
+        "truth_tracks": 19,
+        "stereo_eligible_tracks": 19,
+        "truth_stereo_all": 254,
+        "output_candidates": 19,
+        "axial_completeness_sum": 18.257070707070707,
+        "correct_stereo_matched": 213,
+        "attached_stereo_matched": 213,
+        "truth_stereo_matched": 254,
+        "matched_tracks": 19,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        62,
+        357,
+        418,
+        459,
+        852,
+        953,
+        1192,
+        1519,
+        1720,
+        1813,
+        1902,
+        2126,
+        2489,
+        2882,
+        3084,
+        3291,
+        3524,
+        3784,
+        3828
+      ],
+      "seeds": {
+        "truth_tracks": 19,
+        "output_candidates": 19,
+        "matched_tracks": 19
+      },
+      "seconds": 2.480715500001679
+    },
+    "T10_cal_old": {
+      "counts": {
+        "truth_tracks": 19,
+        "stereo_eligible_tracks": 19,
+        "truth_stereo_all": 254,
+        "output_candidates": 19,
+        "axial_completeness_sum": 18.257070707070707,
+        "correct_stereo_matched": 213,
+        "attached_stereo_matched": 213,
+        "truth_stereo_matched": 254,
+        "matched_tracks": 19,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        62,
+        357,
+        418,
+        459,
+        852,
+        953,
+        1192,
+        1519,
+        1720,
+        1813,
+        1902,
+        2126,
+        2489,
+        2882,
+        3084,
+        3291,
+        3524,
+        3784,
+        3828
+      ],
+      "seeds": {
+        "truth_tracks": 19,
+        "output_candidates": 19,
+        "matched_tracks": 19
+      },
+      "seconds": 2.5069028999860166
+    },
+    "T10_cal_path": {
+      "counts": {
+        "truth_tracks": 19,
+        "stereo_eligible_tracks": 19,
+        "truth_stereo_all": 254,
+        "output_candidates": 19,
+        "axial_completeness_sum": 18.368181818181817,
+        "correct_stereo_matched": 213,
+        "attached_stereo_matched": 213,
+        "truth_stereo_matched": 254,
+        "matched_tracks": 19,
+        "joint_matched_tracks": 19
+      },
+      "found": [
+        62,
+        357,
+        418,
+        459,
+        852,
+        953,
+        1192,
+        1519,
+        1720,
+        1813,
+        1902,
+        2126,
+        2489,
+        2882,
+        3084,
+        3291,
+        3524,
+        3784,
+        3828
+      ],
+      "seeds": {
+        "truth_tracks": 19,
+        "output_candidates": 19,
+        "matched_tracks": 19
+      },
+      "seconds": 4.915132199996151
+    }
+  },
+  "diagnostics": {
+    "baseline": {},
+    "T25_old": {},
+    "T10_cal_old": {},
+    "T10_cal_path": {
+      "transitions": 1083,
+      "seeds": 128,
+      "expanded": 3675,
+      "paths": 48,
+      "config": {
+        "q_min": 0.2,
+        "cosine_min": 0.0,
+        "out_degree": 3,
+        "seed_limit": 128,
+        "beam_width": 4,
+        "max_hits": 32,
+        "fit_limit": 48,
+        "rms_limit": 1.0,
+        "solver_seconds": 2.0,
+        "max_fit_evaluations": 80
+      },
+      "path_search_seconds": 0.03552499999932479,
+      "unlocked_candidate_seconds": 0.9909324999898672,
+      "fitted_candidates": 68,
+      "path_fit_seconds": 0.44754559999273624,
+      "preselection_3d_seconds": 1.3262650999968173,
+      "solver_status": 0,
+      "solver_fallback": false,
+      "output_candidates": 19,
+      "proposed_path_candidates": 48,
+      "selected_path_candidates": 1
+    }
+  }
+}

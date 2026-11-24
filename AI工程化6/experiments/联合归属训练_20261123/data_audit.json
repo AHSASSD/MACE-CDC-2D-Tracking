@@ -1,0 +1,55 @@
+{
+  "schema": "ai6-joint-membership-data-audit-v1",
+  "source_metadata_sha256": "126015a11d8bed0f953b040af29dc512759308e308c685de893da04f914f7db2",
+  "inventory_sha256": "705b91d4813cd5753ae28abb3022d8170e1ac5e695e95073cb04e48bf85dabc7",
+  "event_size_statistics": {
+    "train": {
+      "events": 7000,
+      "hits_total": 5070236,
+      "hits_quantiles_0_50_95_99_100": [
+        266.0,
+        711.0,
+        990.0499999999993,
+        1142.0100000000002,
+        1652.0
+      ],
+      "stereo_fraction": 0.5727926668502216
+    },
+    "validation": {
+      "events": 1500,
+      "hits_total": 1089077,
+      "hits_quantiles_0_50_95_99_100": [
+        317.0,
+        713.0,
+        980.05,
+        1140.01,
+        1905.0
+      ],
+      "stereo_fraction": 0.5730090709839617
+    },
+    "test": {
+      "events": 1500,
+      "hits_total": 1078904,
+      "hits_quantiles_0_50_95_99_100": [
+        341.0,
+        708.0,
+        969.05,
+        1153.2099999999998,
+        1422.0
+      ],
+      "stereo_fraction": 0.5723280291851731
+    }
+  },
+  "pilot_observability": {
+    "events": 1000,
+    "negative_truth_hits": 0,
+    "repeated_cell_hits": 70496,
+    "cross_truth_hits_identical_cell_and_d": 0,
+    "cross_truth_hits_same_cell_and_d_rounded_0p001mm": 24,
+    "rounding_is_not_detector_resolution": true,
+    "coverage": "pilot_train_only; full_train_audit_required_before_formal_training"
+  },
+  "splits_disjoint": true,
+  "selection_calibration_disjoint": true,
+  "baseline_unchanged": true
+}

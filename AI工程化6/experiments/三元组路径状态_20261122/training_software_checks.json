@@ -1,0 +1,34 @@
+{
+  "sample_counts": [
+    {
+      "event_id": 0,
+      "old_weak_positive": 1726,
+      "new_weak_positive": 2048,
+      "new_positive": 4096,
+      "new_negative": 4096
+    },
+    {
+      "event_id": 2,
+      "old_weak_positive": 2162,
+      "new_weak_positive": 2048,
+      "new_positive": 4096,
+      "new_negative": 4096
+    },
+    {
+      "event_id": 3,
+      "old_weak_positive": 1057,
+      "new_weak_positive": 2048,
+      "new_positive": 4096,
+      "new_negative": 4096
+    },
+    {
+      "event_id": 4,
+      "old_weak_positive": 1176,
+      "new_weak_positive": 2048,
+      "new_positive": 4096,
+      "new_negative": 4096
+    }
+  ],
+  "checkpoint_resume_passed": true,
+  "software_weights_discarded": true
+}

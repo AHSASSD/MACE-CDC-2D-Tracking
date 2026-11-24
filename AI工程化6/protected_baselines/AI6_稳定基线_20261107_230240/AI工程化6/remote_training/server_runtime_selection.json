@@ -1,0 +1,73 @@
+{
+  "config": {
+    "cache": true,
+    "workers": 2,
+    "batch": 4,
+    "chunk": 131072,
+    "policy": "adaptive"
+  },
+  "measurement": {
+    "config": {
+      "cache": true,
+      "workers": 2,
+      "batch": 4,
+      "chunk": 131072,
+      "policy": "adaptive"
+    },
+    "end_to_end": {
+      "status": "passed",
+      "seconds": 3.9171675094403327,
+      "events_per_second": 16.338336271236976,
+      "peak_memory_bytes": 8122474496
+    },
+    "stress": {
+      "status": "passed",
+      "seconds": 1.6664103530347347,
+      "events_per_second": 2.4003691484006424,
+      "peak_memory_bytes": 8323010560
+    }
+  },
+  "baseline": {
+    "config": {
+      "cache": false,
+      "workers": 0,
+      "batch": 8,
+      "chunk": 65536,
+      "policy": "all"
+    },
+    "end_to_end": {
+      "status": "passed",
+      "seconds": 7.547408314421773,
+      "events_per_second": 8.479732026384108,
+      "peak_memory_bytes": 4616986112
+    },
+    "stress": {
+      "status": "passed",
+      "seconds": 4.702701033093035,
+      "events_per_second": 1.7011500292499528,
+      "peak_memory_bytes": 15143368704
+    }
+  },
+  "speedup": 1.926751484646137,
+  "cache_root": "/seu_nvme/home/zhangyongchao/213230965/ai6_graph_cache_v1",
+  "effective_batch": 32,
+  "scope": "same64 training events, warmup plus two timed complete data-to-optimizer sweeps; stress uses largest edge-count graphs over entire training partition",
+  "validation_batch_size": 8,
+  "validation_benchmark": [
+    {
+      "batch": 8,
+      "events_per_second": 40.699997790592796,
+      "peak_memory_bytes": 732159488
+    },
+    {
+      "batch": 16,
+      "events_per_second": 38.36914785421779,
+      "peak_memory_bytes": 905288192
+    },
+    {
+      "batch": 32,
+      "events_per_second": 31.49336557459715,
+      "peak_memory_bytes": 1183127040
+    }
+  ]
+}

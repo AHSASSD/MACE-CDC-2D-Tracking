@@ -1,0 +1,33 @@
+{
+  "event_id": 1857,
+  "partition": "validation",
+  "focus_truth": 3500,
+  "category": "broadly_low_scores",
+  "image": "event_01857_T3500_baseline.png",
+  "hits": 626,
+  "axial_hits": 261,
+  "stereo_hits": 365,
+  "edge_counts": {
+    "AA": 3763,
+    "AS": 15710,
+    "SS": 10395
+  },
+  "metrics": {
+    "truth_tracks": 27,
+    "stereo_eligible_tracks": 27,
+    "truth_stereo_all": 365,
+    "output_candidates": 24,
+    "axial_completeness_sum": 22.357503607503606,
+    "correct_stereo_matched": 298,
+    "attached_stereo_matched": 301,
+    "truth_stereo_matched": 318,
+    "matched_tracks": 24,
+    "joint_matched_tracks": 24
+  },
+  "seed": {
+    "truth_tracks": 27,
+    "output_candidates": 24,
+    "matched_tracks": 24
+  },
+  "seconds": 5.281839847564697
+}

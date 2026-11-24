@@ -1,0 +1,33 @@
+{
+  "event_id": 1843,
+  "partition": "test",
+  "focus_truth": 4715,
+  "category": "matched",
+  "image": "event_01843_T4715_baseline.png",
+  "hits": 605,
+  "axial_hits": 257,
+  "stereo_hits": 348,
+  "edge_counts": {
+    "AA": 3962,
+    "AS": 15795,
+    "SS": 9845
+  },
+  "metrics": {
+    "truth_tracks": 26,
+    "stereo_eligible_tracks": 26,
+    "truth_stereo_all": 348,
+    "output_candidates": 26,
+    "axial_completeness_sum": 24.458974358974356,
+    "correct_stereo_matched": 312,
+    "attached_stereo_matched": 313,
+    "truth_stereo_matched": 348,
+    "matched_tracks": 26,
+    "joint_matched_tracks": 26
+  },
+  "seed": {
+    "truth_tracks": 26,
+    "output_candidates": 26,
+    "matched_tracks": 26
+  },
+  "seconds": 5.815496921539307
+}

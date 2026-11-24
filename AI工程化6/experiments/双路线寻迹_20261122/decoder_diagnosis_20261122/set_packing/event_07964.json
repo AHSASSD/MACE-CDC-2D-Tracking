@@ -1,0 +1,154 @@
+{
+  "event_id": 7964,
+  "methods": {
+    "baseline": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 402,
+        "output_candidates": 25,
+        "axial_completeness_sum": 22.341035353535354,
+        "correct_stereo_matched": 270,
+        "attached_stereo_matched": 278,
+        "truth_stereo_matched": 335,
+        "fake_candidates": 1,
+        "matched_tracks": 24,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        462,
+        529,
+        1102,
+        1480,
+        1591,
+        1763,
+        2310,
+        2376,
+        2722,
+        3282,
+        3436,
+        3640,
+        3785,
+        3847,
+        3935,
+        4170,
+        4267,
+        4327,
+        4592,
+        4896,
+        4960,
+        5067,
+        5403,
+        5742
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 25,
+        "fake_candidates": 2,
+        "matched_tracks": 23
+      }
+    },
+    "T_greedy": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 402,
+        "output_candidates": 25,
+        "axial_completeness_sum": 22.341035353535354,
+        "correct_stereo_matched": 270,
+        "attached_stereo_matched": 278,
+        "truth_stereo_matched": 335,
+        "fake_candidates": 1,
+        "matched_tracks": 24,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        462,
+        529,
+        1102,
+        1480,
+        1591,
+        1763,
+        2310,
+        2376,
+        2722,
+        3282,
+        3436,
+        3640,
+        3785,
+        3847,
+        3935,
+        4170,
+        4267,
+        4327,
+        4592,
+        4896,
+        4960,
+        5067,
+        5403,
+        5742
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 25,
+        "fake_candidates": 2,
+        "matched_tracks": 23
+      }
+    },
+    "T_packing": {
+      "counts": {
+        "truth_tracks": 27,
+        "stereo_eligible_tracks": 27,
+        "truth_stereo_all": 402,
+        "output_candidates": 25,
+        "axial_completeness_sum": 22.341035353535354,
+        "correct_stereo_matched": 270,
+        "attached_stereo_matched": 278,
+        "truth_stereo_matched": 335,
+        "fake_candidates": 1,
+        "matched_tracks": 24,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        462,
+        529,
+        1102,
+        1480,
+        1591,
+        1763,
+        2310,
+        2376,
+        2722,
+        3282,
+        3436,
+        3640,
+        3785,
+        3847,
+        3935,
+        4170,
+        4267,
+        4327,
+        4592,
+        4896,
+        4960,
+        5067,
+        5403,
+        5742
+      ],
+      "seeds": {
+        "truth_tracks": 27,
+        "output_candidates": 25,
+        "fake_candidates": 2,
+        "matched_tracks": 23
+      }
+    }
+  },
+  "solver": {
+    "status": 0,
+    "fallback": false,
+    "candidates": 25,
+    "selected": 25,
+    "utility": 80.15515183330317,
+    "seconds": 0.005285599996568635
+  }
+}

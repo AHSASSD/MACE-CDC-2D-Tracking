@@ -1,0 +1,33 @@
+{
+  "event_id": 1800,
+  "partition": "validation",
+  "focus_truth": 3608,
+  "category": "broadly_low_scores",
+  "image": "event_01800_T3608_baseline.png",
+  "hits": 643,
+  "axial_hits": 266,
+  "stereo_hits": 377,
+  "edge_counts": {
+    "AA": 3867,
+    "AS": 17285,
+    "SS": 11837
+  },
+  "metrics": {
+    "truth_tracks": 28,
+    "stereo_eligible_tracks": 28,
+    "truth_stereo_all": 377,
+    "output_candidates": 27,
+    "axial_completeness_sum": 23.725000000000005,
+    "correct_stereo_matched": 315,
+    "attached_stereo_matched": 318,
+    "truth_stereo_matched": 363,
+    "matched_tracks": 27,
+    "joint_matched_tracks": 27
+  },
+  "seed": {
+    "truth_tracks": 28,
+    "output_candidates": 27,
+    "matched_tracks": 27
+  },
+  "seconds": 6.234935998916626
+}

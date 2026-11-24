@@ -1,0 +1,226 @@
+{
+  "events": 20,
+  "representative_missed": 16,
+  "total_missed": 50,
+  "scope": "Feasibility only: proposal precision and oracle-pure connectivity; NOT tracking efficiency; no training/deployment change",
+  "source_sha256": "a10c0e1d2c4e19128f8ed6c2bdfd4be9e57727eef408abb6926dc448b9c7f194",
+  "max_aux_edges": 128,
+  "aggregate": {
+    "kmeans": {
+      "proposals": {
+        "edges": 2560,
+        "true_edges": 332,
+        "false_edges": 2228,
+        "restored_representative": 1,
+        "restored_total": 6
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 373,
+        "true_edges": 111,
+        "false_edges": 262,
+        "restored_representative": 0,
+        "restored_total": 3
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 624,
+        "below_T_cache04": 1936,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 6968
+    },
+    "radius": {
+      "proposals": {
+        "edges": 2560,
+        "true_edges": 336,
+        "false_edges": 2224,
+        "restored_representative": 1,
+        "restored_total": 6
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 377,
+        "true_edges": 113,
+        "false_edges": 264,
+        "restored_representative": 0,
+        "restored_total": 3
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 628,
+        "below_T_cache04": 1932,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 6973
+    },
+    "geometry": {
+      "proposals": {
+        "edges": 845,
+        "true_edges": 387,
+        "false_edges": 458,
+        "restored_representative": 0,
+        "restored_total": 1
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 396,
+        "true_edges": 194,
+        "false_edges": 202,
+        "restored_representative": 0,
+        "restored_total": 1
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 710,
+        "below_T_cache04": 135,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 1259
+    },
+    "geometry_interior": {
+      "proposals": {
+        "edges": 894,
+        "true_edges": 407,
+        "false_edges": 487,
+        "restored_representative": 0,
+        "restored_total": 1
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 489,
+        "true_edges": 243,
+        "false_edges": 246,
+        "restored_representative": 0,
+        "restored_total": 1
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 747,
+        "below_T_cache04": 147,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 1700
+    },
+    "geometry_joint": {
+      "proposals": {
+        "edges": 8,
+        "true_edges": 2,
+        "false_edges": 6,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 4,
+        "true_edges": 2,
+        "false_edges": 2,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 0,
+        "below_T_cache04": 8,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 24
+    },
+    "weak_retained_reference": {
+      "proposals": {
+        "edges": 5995,
+        "true_edges": 2690,
+        "false_edges": 3305,
+        "restored_representative": 12,
+        "restored_total": 36
+      },
+      "T09": {
+        "edges": 0,
+        "true_edges": 0,
+        "false_edges": 0,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T05": {
+        "edges": 31,
+        "true_edges": 28,
+        "false_edges": 3,
+        "restored_representative": 0,
+        "restored_total": 0
+      },
+      "T02": {
+        "edges": 2670,
+        "true_edges": 1275,
+        "false_edges": 1395,
+        "restored_representative": 8,
+        "restored_total": 23
+      },
+      "edge_provenance": {
+        "in_existing_T_cache": 5995,
+        "below_T_cache04": 0,
+        "absent_from_original_graph": 0
+      },
+      "new_triplets": 7351
+    }
+  }
+}

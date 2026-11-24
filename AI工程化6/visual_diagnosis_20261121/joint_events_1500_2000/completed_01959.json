@@ -1,0 +1,33 @@
+{
+  "event_id": 1959,
+  "partition": "test",
+  "focus_truth": 66,
+  "category": "matched",
+  "image": "event_01959_T66_baseline.png",
+  "hits": 500,
+  "axial_hits": 206,
+  "stereo_hits": 294,
+  "edge_counts": {
+    "AA": 2769,
+    "AS": 10928,
+    "SS": 7453
+  },
+  "metrics": {
+    "truth_tracks": 22,
+    "stereo_eligible_tracks": 22,
+    "truth_stereo_all": 294,
+    "output_candidates": 22,
+    "axial_completeness_sum": 19.682323232323235,
+    "correct_stereo_matched": 243,
+    "attached_stereo_matched": 243,
+    "truth_stereo_matched": 294,
+    "matched_tracks": 22,
+    "joint_matched_tracks": 20
+  },
+  "seed": {
+    "truth_tracks": 22,
+    "output_candidates": 22,
+    "matched_tracks": 22
+  },
+  "seconds": 7.325692415237427
+}

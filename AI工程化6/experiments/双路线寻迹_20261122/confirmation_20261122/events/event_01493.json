@@ -1,0 +1,106 @@
+{
+  "event_id": 1493,
+  "n_hits": 668,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 382,
+        "output_candidates": 29,
+        "axial_completeness_sum": 23.890404040404043,
+        "correct_stereo_matched": 283,
+        "attached_stereo_matched": 286,
+        "truth_stereo_matched": 352,
+        "fake_candidates": 3,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 22
+      },
+      "found": [
+        84,
+        587,
+        736,
+        943,
+        975,
+        1234,
+        1637,
+        2110,
+        2295,
+        2498,
+        2683,
+        2789,
+        3076,
+        3147,
+        3527,
+        3749,
+        3823,
+        4276,
+        4643,
+        4797,
+        5399,
+        5605,
+        5778,
+        5888,
+        5988,
+        6072
+      ],
+      "seeds": {
+        "truth_tracks": 28,
+        "output_candidates": 26,
+        "fake_candidates": 2,
+        "matched_tracks": 24
+      },
+      "decode_seconds": 1.9937757000152487
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 28,
+        "stereo_eligible_tracks": 28,
+        "truth_stereo_all": 382,
+        "output_candidates": 29,
+        "axial_completeness_sum": 23.890404040404043,
+        "correct_stereo_matched": 283,
+        "attached_stereo_matched": 286,
+        "truth_stereo_matched": 352,
+        "fake_candidates": 3,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 22
+      },
+      "found": [
+        84,
+        587,
+        736,
+        943,
+        975,
+        1234,
+        1637,
+        2110,
+        2295,
+        2498,
+        2683,
+        2789,
+        3076,
+        3147,
+        3527,
+        3749,
+        3823,
+        4276,
+        4643,
+        4797,
+        5399,
+        5605,
+        5778,
+        5888,
+        5988,
+        6072
+      ],
+      "seeds": {
+        "truth_tracks": 28,
+        "output_candidates": 26,
+        "fake_candidates": 2,
+        "matched_tracks": 24
+      },
+      "decode_seconds": 2.4898358000064036
+    }
+  }
+}

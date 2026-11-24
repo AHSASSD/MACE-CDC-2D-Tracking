@@ -1,0 +1,305 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "rows": [
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "legacy",
+      "io_seconds": 0.03432700000121258,
+      "sample_seconds": 0.5099928000126965,
+      "gpu_step_seconds": 0.45116875000530854,
+      "total_step_including_io_sample": 0.9954885500192177,
+      "peak_allocated_GiB": 0.376859188079834,
+      "stage_seconds": [
+        {
+          "transfer": 0.0003006000188179314,
+          "forward": 0.09389819999341853,
+          "objective": 0.06090250000124797,
+          "backward_update": 0.30093709999346174
+        },
+        {
+          "transfer": 0.0003212000010535121,
+          "forward": 0.07993930001975968,
+          "objective": 0.05879290000302717,
+          "backward_update": 0.30724569997983053
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "vectorized",
+      "io_seconds": 0.03432700000121258,
+      "sample_seconds": 0.11334479998913594,
+      "gpu_step_seconds": 0.3216080999991391,
+      "total_step_including_io_sample": 0.4692798999894876,
+      "peak_allocated_GiB": 0.37848901748657227,
+      "stage_seconds": [
+        {
+          "transfer": 0.00021979998564347625,
+          "forward": 0.08617500000400469,
+          "objective": 0.006467800005339086,
+          "backward_update": 0.22996470000362024
+        },
+        {
+          "transfer": 0.00021989998640492558,
+          "forward": 0.08486020000418648,
+          "objective": 0.0062689000042155385,
+          "backward_update": 0.22903990000486374
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "chunk16384",
+      "io_seconds": 0.03432700000121258,
+      "sample_seconds": 0.0889069999975618,
+      "gpu_step_seconds": 0.17973265000910033,
+      "total_step_including_io_sample": 0.3029666500078747,
+      "peak_allocated_GiB": 0.37094688415527344,
+      "stage_seconds": [
+        {
+          "transfer": 0.00020799998310394585,
+          "forward": 0.04138750000856817,
+          "objective": 0.006980600010138005,
+          "backward_update": 0.13058450000244193
+        },
+        {
+          "transfer": 0.00022409998928196728,
+          "forward": 0.04114610000397079,
+          "objective": 0.007093000021995977,
+          "backward_update": 0.13184149999869987
+        }
+      ]
+    },
+    {
+      "event_id": 3115,
+      "nodes": 711,
+      "edges": 88494,
+      "profile": "partial16384",
+      "io_seconds": 0.03432700000121258,
+      "sample_seconds": 0.08939080001437105,
+      "gpu_step_seconds": 0.16910310000821482,
+      "total_step_including_io_sample": 0.29282090002379846,
+      "peak_allocated_GiB": 1.0157861709594727,
+      "stage_seconds": [
+        {
+          "transfer": 0.0002130000211764127,
+          "forward": 0.039140099979704246,
+          "objective": 0.005974100000457838,
+          "backward_update": 0.12538430001586676
+        },
+        {
+          "transfer": 0.00021470000501722097,
+          "forward": 0.03931899997405708,
+          "objective": 0.006096600001910701,
+          "backward_update": 0.1218644000182394
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "legacy",
+      "io_seconds": 0.05887629999779165,
+      "sample_seconds": 0.7408740000100806,
+      "gpu_step_seconds": 0.7292617000057362,
+      "total_step_including_io_sample": 1.5290120000136085,
+      "peak_allocated_GiB": 0.5740046501159668,
+      "stage_seconds": [
+        {
+          "transfer": 0.0002198000147473067,
+          "forward": 0.1313947000016924,
+          "objective": 0.10665339999832213,
+          "backward_update": 0.4751047999889124
+        },
+        {
+          "transfer": 0.0003541999903973192,
+          "forward": 0.12787860000389628,
+          "objective": 0.11509750000550412,
+          "backward_update": 0.5018204000080004
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "vectorized",
+      "io_seconds": 0.05887629999779165,
+      "sample_seconds": 0.12263629998778924,
+      "gpu_step_seconds": 0.46794970000337344,
+      "total_step_including_io_sample": 0.6494622999889543,
+      "peak_allocated_GiB": 0.5740046501159668,
+      "stage_seconds": [
+        {
+          "transfer": 0.0003313000197522342,
+          "forward": 0.11932849997538142,
+          "objective": 0.006136600015452132,
+          "backward_update": 0.336586499994155
+        },
+        {
+          "transfer": 0.00028989999555051327,
+          "forward": 0.133470100001432,
+          "objective": 0.008093600015854463,
+          "backward_update": 0.3316628999891691
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "chunk16384",
+      "io_seconds": 0.05887629999779165,
+      "sample_seconds": 0.1284418999857735,
+      "gpu_step_seconds": 0.25618409999879077,
+      "total_step_including_io_sample": 0.4435022999823559,
+      "peak_allocated_GiB": 0.5543184280395508,
+      "stage_seconds": [
+        {
+          "transfer": 0.0001996999781113118,
+          "forward": 0.06013880000682548,
+          "objective": 0.006940999999642372,
+          "backward_update": 0.18798280000919476
+        },
+        {
+          "transfer": 0.00046209999709390104,
+          "forward": 0.05792340001789853,
+          "objective": 0.007534100004704669,
+          "backward_update": 0.19118629998411052
+        }
+      ]
+    },
+    {
+      "event_id": 2773,
+      "nodes": 991,
+      "edges": 137584,
+      "profile": "partial16384",
+      "io_seconds": 0.05887629999779165,
+      "sample_seconds": 0.12870770000154153,
+      "gpu_step_seconds": 0.24347060000582132,
+      "total_step_including_io_sample": 0.4310546000051545,
+      "peak_allocated_GiB": 1.5576305389404297,
+      "stage_seconds": [
+        {
+          "transfer": 0.0002099999983329326,
+          "forward": 0.061900799977593124,
+          "objective": 0.006600799999432638,
+          "backward_update": 0.17997710002237
+        },
+        {
+          "transfer": 0.00028670000028796494,
+          "forward": 0.05812940001487732,
+          "objective": 0.005709799996111542,
+          "backward_update": 0.17412660000263713
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "legacy",
+      "io_seconds": 0.17618280000169761,
+      "sample_seconds": 1.3646879000007175,
+      "gpu_step_seconds": 1.5805947500048205,
+      "total_step_including_io_sample": 3.1214654500072356,
+      "peak_allocated_GiB": 1.6718454360961914,
+      "stage_seconds": [
+        {
+          "transfer": 0.00033060001442208886,
+          "forward": 0.40573440000298433,
+          "objective": 0.09059579999302514,
+          "backward_update": 1.1005106999946292
+        },
+        {
+          "transfer": 0.0002480999974068254,
+          "forward": 0.4149330999935046,
+          "objective": 0.08506559999659657,
+          "backward_update": 1.0637712000170723
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "vectorized",
+      "io_seconds": 0.17618280000169761,
+      "sample_seconds": 0.2212365999876056,
+      "gpu_step_seconds": 1.3789047500031302,
+      "total_step_including_io_sample": 1.7763241499924334,
+      "peak_allocated_GiB": 1.6718454360961914,
+      "stage_seconds": [
+        {
+          "transfer": 0.0002212999970652163,
+          "forward": 0.4037614999979269,
+          "objective": 0.006800400005886331,
+          "backward_update": 0.9460995999979787
+        },
+        {
+          "transfer": 0.00021999998716637492,
+          "forward": 0.4301615000003949,
+          "objective": 0.0058256000047549605,
+          "backward_update": 0.964719600015087
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "chunk16384",
+      "io_seconds": 0.17618280000169761,
+      "sample_seconds": 0.2314397000009194,
+      "gpu_step_seconds": 0.7214612000097986,
+      "total_step_including_io_sample": 1.1290837000124156,
+      "peak_allocated_GiB": 1.5895028114318848,
+      "stage_seconds": [
+        {
+          "transfer": 0.00026050000451505184,
+          "forward": 0.181372699997155,
+          "objective": 0.009122699993895367,
+          "backward_update": 0.5432081000180915
+        },
+        {
+          "transfer": 0.0002398999931756407,
+          "forward": 0.17215020000003278,
+          "objective": 0.006790599989471957,
+          "backward_update": 0.52977770002326
+        }
+      ]
+    },
+    {
+      "event_id": 2179,
+      "nodes": 1652,
+      "edges": 414690,
+      "profile": "partial16384",
+      "io_seconds": 0.17618280000169761,
+      "sample_seconds": 0.22894520001136698,
+      "gpu_step_seconds": 0.6665283000038471,
+      "total_step_including_io_sample": 1.0716563000169117,
+      "peak_allocated_GiB": 4.593796730041504,
+      "stage_seconds": [
+        {
+          "transfer": 0.000222100003156811,
+          "forward": 0.16890059999423102,
+          "objective": 0.01006599998800084,
+          "backward_update": 0.48504050000337884
+        },
+        {
+          "transfer": 0.00031560001662001014,
+          "forward": 0.162064999982249,
+          "objective": 0.00680800000554882,
+          "backward_update": 0.4996388000145089
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "event_id": 2562,
+  "n_hits": 596,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 25,
+        "stereo_eligible_tracks": 25,
+        "truth_stereo_all": 357,
+        "output_candidates": 25,
+        "axial_completeness_sum": 23.5525641025641,
+        "correct_stereo_matched": 292,
+        "attached_stereo_matched": 293,
+        "truth_stereo_matched": 357,
+        "matched_tracks": 25,
+        "joint_matched_tracks": 24
+      },
+      "found": [
+        320,
+        433,
+        649,
+        695,
+        885,
+        1013,
+        1760,
+        1861,
+        1957,
+        2378,
+        2561,
+        2600,
+        3145,
+        3393,
+        3604,
+        3860,
+        4039,
+        4222,
+        4454,
+        4840,
+        5126,
+        5244,
+        5306,
+        5413,
+        5471
+      ],
+      "seeds": {
+        "truth_tracks": 25,
+        "output_candidates": 24,
+        "matched_tracks": 24
+      },
+      "decode_seconds": 3.0296832000021823
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 25,
+        "stereo_eligible_tracks": 25,
+        "truth_stereo_all": 357,
+        "output_candidates": 25,
+        "axial_completeness_sum": 23.5525641025641,
+        "correct_stereo_matched": 292,
+        "attached_stereo_matched": 293,
+        "truth_stereo_matched": 357,
+        "matched_tracks": 25,
+        "joint_matched_tracks": 24
+      },
+      "found": [
+        320,
+        433,
+        649,
+        695,
+        885,
+        1013,
+        1760,
+        1861,
+        1957,
+        2378,
+        2561,
+        2600,
+        3145,
+        3393,
+        3604,
+        3860,
+        4039,
+        4222,
+        4454,
+        4840,
+        5126,
+        5244,
+        5306,
+        5413,
+        5471
+      ],
+      "seeds": {
+        "truth_tracks": 25,
+        "output_candidates": 24,
+        "matched_tracks": 24
+      },
+      "decode_seconds": 3.6838932000100613
+    }
+  }
+}

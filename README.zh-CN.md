@@ -35,3 +35,9 @@ AI4.1的新完整事件结果及口径单独记录于[训练与表现](AI4.1/doc
 Python 3.10+、PyTorch 2.x、PyTorch Geometric、NumPy、pandas、SciPy、scikit-learn、joblib 和 tqdm。
 
 运行 STEP1 前，请将环境变量 `MACE_CDC_CELL_MAP` 和 `MACE_CDC_HITS` 分别指向本地输入 Excel 文件。
+
+## AI6直丝—斜丝联合研究交接（2026-11-24）
+
+[交接总览 / Handoff](AI工程化6/docs/HANDOFF.md) · [效果与口径 / Results](AI工程化6/docs/RESULTS.md) · [模型清单 / Model catalog](AI工程化6/docs/MODEL_CATALOG.json) · [代理与同学入口 / Agent entry](AGENT.md)
+
+本次交接包括成熟及实验中的AI6代码、全部找到的模型/恢复断点、图片、元数据、事件NPZ及几何。实验OC未升级为稳定版本；原始聚类指标不能直接与完整两级寻迹比较。大型可再生成图/中间表示缓存和重复压缩包单独列明，已有版本保留。

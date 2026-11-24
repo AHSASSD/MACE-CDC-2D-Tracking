@@ -1,0 +1,102 @@
+{
+  "event_id": 9851,
+  "n_hits": 619,
+  "methods": {
+    "raw_baseline": {
+      "counts": {
+        "truth_tracks": 26,
+        "stereo_eligible_tracks": 26,
+        "truth_stereo_all": 357,
+        "output_candidates": 26,
+        "axial_completeness_sum": 24.560897435897438,
+        "correct_stereo_matched": 289,
+        "attached_stereo_matched": 291,
+        "truth_stereo_matched": 357,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        141,
+        272,
+        352,
+        466,
+        507,
+        581,
+        702,
+        849,
+        1003,
+        1108,
+        1158,
+        1417,
+        1872,
+        1938,
+        2033,
+        2201,
+        2452,
+        2714,
+        3266,
+        3724,
+        3744,
+        3895,
+        3977,
+        4635,
+        4849,
+        4942
+      ],
+      "seeds": {
+        "truth_tracks": 26,
+        "output_candidates": 26,
+        "matched_tracks": 26
+      },
+      "decode_seconds": 3.1331828000111273
+    },
+    "T": {
+      "counts": {
+        "truth_tracks": 26,
+        "stereo_eligible_tracks": 26,
+        "truth_stereo_all": 357,
+        "output_candidates": 26,
+        "axial_completeness_sum": 24.560897435897438,
+        "correct_stereo_matched": 289,
+        "attached_stereo_matched": 291,
+        "truth_stereo_matched": 357,
+        "matched_tracks": 26,
+        "joint_matched_tracks": 23
+      },
+      "found": [
+        141,
+        272,
+        352,
+        466,
+        507,
+        581,
+        702,
+        849,
+        1003,
+        1108,
+        1158,
+        1417,
+        1872,
+        1938,
+        2033,
+        2201,
+        2452,
+        2714,
+        3266,
+        3724,
+        3744,
+        3895,
+        3977,
+        4635,
+        4849,
+        4942
+      ],
+      "seeds": {
+        "truth_tracks": 26,
+        "output_candidates": 26,
+        "matched_tracks": 26
+      },
+      "decode_seconds": 4.019844700000249
+    }
+  }
+}
