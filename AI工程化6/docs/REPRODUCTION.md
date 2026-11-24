@@ -31,6 +31,8 @@ python tools/verify_handoff.py
 
 大型旧train.pt/test.pt/validation.pt是预展开图数据集，不是模型权重，未当作网络权重上传。数十GB图分片与冻结latent缓存需要再生成或取得原服务器副本；EXCLUDED_REGENERABLE_FILES.json列出本机排除项。需要训练可先不启用MACE_GRAPH_CACHE，以原始事件惰性构图（较慢），或运行graph_cache.py生成校验过的分片。
 
+若要修改Good/CreatProc等原始输入筛选，应另外取得原CSV或模拟输出；事件NPZ是既定筛选后的测量记录，不能恢复已过滤观测。GUI诊断还需Tk/Pillow；无显示环境先使用命令行。
+
 ## 权重入口
 
 按MODEL_CATALOG中的路径和SHA256选择，不按最新修改日期选择：

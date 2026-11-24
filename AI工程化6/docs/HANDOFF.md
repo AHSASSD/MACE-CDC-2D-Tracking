@@ -7,7 +7,7 @@
 - [RESULTS.md](RESULTS.md)：各路线效果、分母和可比性。
 - [REPRODUCTION.md](REPRODUCTION.md)：数据、权重、入口、路径与运行限制。
 - [REFERENCES.md](REFERENCES.md)：原始文献与本项目适配边界。
-- [MODEL_CATALOG.json](MODEL_CATALOG.json)：本次完整权重路径、大小与SHA256。
+- [MODELS.md](MODELS.md)：可直接浏览的全部权重位置；[MODEL_CATALOG.json](MODEL_CATALOG.json)提供完整SHA256和机器可读清单。
 - [LOCAL_FILE_INVENTORY.json](LOCAL_FILE_INVENTORY.json)、[CLOUD_FILE_INVENTORY.json](CLOUD_FILE_INVENTORY.json)：来源清单；[EXCLUDED_REGENERABLE_FILES.json](EXCLUDED_REGENERABLE_FILES.json)列出未打包的非代码/非模型派生数据。
 
 ## 基本原理
@@ -80,6 +80,8 @@ T判断共享中心的两条候选边能否同轨解释。T25头59,233参数；�
 ## 可视化入口与现有图片
 
 六面板漏轨诊断入口为 `STEP19_六联图可视化诊断.py`（以实际文件清单为准）；`visual_diagnosis_20261121/`保存既有输出。真值颜色仅用于离线诊断；紫红圈/箭头表示漏轨，黑叉表示未分配命中，不能把两者混为一谈。
+
+六联图主要展示AA投影，联合网络输入仍含直丝与斜丝。斜丝的有限线段、圆柱交点等通过同目录`*_geometry.png`补图检查，不将斜丝中点画作真实命中。
 
 重点阅读：
 
